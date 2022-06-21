@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,11 +8,24 @@ body {
 /* ====== FONTS ====== */
 
 h1 {
-  font-family: myriad-pro,sans-serif;
-  font-weight: 400;
+  font-family: myriad-pro-semiextended,sans-serif;
+  font-weight: 900;
   font-style: normal;
 }
 
+/* You may need this non-extended font later in development */
+
+/* h1 {
+  font-family: myriad-pro,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+p {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .coporate {
   font-family: corporate-s, sans-serif;
   font-weight: 400;
@@ -31,4 +42,64 @@ h1 {
   font-family: neuzeit-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* ====== HEIGHT & WIDTH ====== */
+
+/* ====== SPACING ====== */
+
+.al-center {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+/* ====== TRANSCRIPTION ====== */
+
+.transcription-width {
+  width: 60vW;
+}
+
+/* ====== COLORS ====== */
+
+:root {
+  --mint-green: #d7f0dd;
+  --preserved-lemon: #CCCC21;
+}
+
+.mint-green {
+  background-color: var(--mint-green);
+}
+
+/* ====== HOMEPAGE ====== */
+
+.home-border {
+  border-bottom: 5px solid var(--preserved-lemon);
+}
+
+.home-height {
+  height: 90vH;
+}
+
+.home-section-padding {
+  padding-top: 10vH;
+  padding-bottom: 5vH;
+}
+
+.home-text {
+  font-size: 18em;
+}
+
+.top-black-border {
+  border-top: 2px solid black;
 }
