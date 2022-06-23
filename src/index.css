@@ -82,7 +82,11 @@ p {
   justify-content: space-between;
 }
 
-/* ====== Z-INDEX ====== */
+/* ====== POSITION ====== */
+
+.relative {
+  position: relative;
+}
 
 .z-index {
   z-index: 999 !important;
@@ -133,10 +137,10 @@ p {
 
 .menu-bttn {
   margin-bottom: 5px;
-  padding: 0vH 1vW;
+  padding: 0vH 3vW;
   text-align: center;
   text-transform: uppercase;
-  width: 10vW;
+ 
 }
 
 .themes-menu {
@@ -144,6 +148,21 @@ p {
   left: 0%;
   opacity: 100%;
   width: 20vW;
+}
+
+.triangle {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+}
+
+#triangle-theme-close {
+  right: 0%;
+}
+
+#triangle-theme-open {
+  display: none;
+  transform: rotate(180deg);
 }
 
 .vault-border {
