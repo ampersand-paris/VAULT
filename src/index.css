@@ -46,6 +46,14 @@ p {
 
 /* ====== HEIGHT & WIDTH ====== */
 
+.h-one-hundred {
+  height: 100%;
+}
+
+.ninety-vh {
+  height: 90vH;
+}
+
 /* ====== SPACING ====== */
 
 .al-center {
@@ -62,6 +70,12 @@ p {
 
 .jc-center {
   justify-content: center;
+}
+
+/* ====== Z-INDEX ====== */
+
+.z-index {
+  z-index: 999 !important;
 }
 
 /* ====== TRANSCRIPTION ====== */
@@ -81,6 +95,22 @@ p {
   background-color: var(--mint-green);
 }
 
+/* ====== MENUS ====== */
+
+.themes-menu {
+  position: fixed;
+  left: 0%;
+  opacity: 100%;
+  width: 20vW;
+}
+
+.vault-border {
+  border-right: 5px solid black;
+}
+
+.vault-padding {
+  padding: 0vH 2vW;
+}
 /* ====== HOMEPAGE ====== */
 
 .home-border {
