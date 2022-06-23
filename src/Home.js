@@ -1,10 +1,12 @@
 // ====== COMPONENTS ======
 import ThemesMenu from './Menus/ThemesMenu';
+import Index from './Menus/Index';
 
 function Home() {
   return (
     <>
       <ThemesMenu />
+      <Index />
       <div className="home-height flex jc-center al-center mint-green home-border">
         <h1 className="home-text">VAULT</h1>
       </div>

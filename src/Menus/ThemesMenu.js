@@ -12,10 +12,10 @@ const ThemesMenu = (props) => {
     return (
         <>        
             <div style={contentStyles} className="themes-menu z-index h-one-hundred flex just-center mint-green">
-                <div className="flex al-center mint-green vault-border vault-padding">
+                <div className="flex al-center mint-green menu-right-border vault-padding">
                     <img className="ninety-vh" src="/Images/VAULT.svg" />
                 </div>
-                <div className="relative flex column space-btwn mint-green vault-border">
+                <div className="relative flex column space-btwn mint-green menu-right-border">
                     <div className="flex column">
                         <div className="menu-bttn flex jc-center pumpkin sand-txt">
                             <h3>archival thinking</h3>
@@ -33,7 +33,6 @@ const ThemesMenu = (props) => {
                     <img src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-close"/>
                     <h3 className="vault-padding">MENU&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                 </div>
-                <img src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-open"/>
             </div>
         </>
 
