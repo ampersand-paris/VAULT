@@ -14,11 +14,22 @@ const ThemesMenu = (props) => {
             <div className="flex al-center vault-border vault-padding">
                 <img className="ninety-vh" src="/Images/VAULT.svg" />
             </div>
-            <div className="flex column">
-                <h3 className="white menu">about</h3>
-                <h3 className="white menu">skills</h3>
-                <h3 className="white menu">portfolio</h3>
-                <h3 className="white menu">experience</h3>
+            <div className="flex column space-btwn mint-green vault-border">
+                <div className="flex column">
+                    <div className="menu-bttn flex jc-center pumpkin sand-txt">
+                        <h3>archival thinking</h3>
+                    </div>
+                    <div className="menu-bttn flex jc-center evergreen sand-txt">
+                        <h3>context</h3>
+                    </div>
+                    <div className="menu-bttn flex jc-center preserved-lemon sand-txt">
+                        <h3>methods</h3>
+                    </div>
+                    <div className="menu-bttn flex jc-center cobalt sand-txt">
+                        <h3>why it matters</h3>
+                    </div>
+                </div>  
+                <h3 className="vault-padding">MENU&#x2f;&#x2f;&#x2f;&#x2f;</h3>
             </div>
         </div>
     )

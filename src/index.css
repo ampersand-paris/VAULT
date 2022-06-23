@@ -13,6 +13,12 @@ h1 {
   font-style: normal;
 }
 
+h3 {
+  font-family: myriad-pro-semiextended,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 /* You may need this non-extended font later in development */
 
 /* h1 {
@@ -72,6 +78,10 @@ p {
   justify-content: center;
 }
 
+.space-btwn {
+  justify-content: space-between;
+}
+
 /* ====== Z-INDEX ====== */
 
 .z-index {
@@ -87,15 +97,47 @@ p {
 /* ====== COLORS ====== */
 
 :root {
+  --cobalt: #0b0b84;
+  --sand: #e4dcd1;
+  --evergreen: #317C41;
   --mint-green: #d7f0dd;
   --preserved-lemon: #CCCC21;
+  --pumpkin: #E26E40;
+}
+
+.cobalt {
+  background-color: var(--cobalt);
+}
+
+.evergreen {
+  background-color: var(--evergreen);
 }
 
 .mint-green {
   background-color: var(--mint-green);
 }
 
+.preserved-lemon {
+  background-color: var(--preserved-lemon);
+}
+
+.pumpkin {
+  background-color: var(--pumpkin);
+}
+
+.sand-txt {
+  color: var(--sand)
+}
+
 /* ====== MENUS ====== */
+
+.menu-bttn {
+  margin-bottom: 5px;
+  padding: 0vH 1vW;
+  text-align: center;
+  text-transform: uppercase;
+  width: 10vW;
+}
 
 .themes-menu {
   position: fixed;
@@ -109,8 +151,9 @@ p {
 }
 
 .vault-padding {
-  padding: 0vH 2vW;
+  padding: 0vH 1vW;
 }
+
 /* ====== HOMEPAGE ====== */
 
 .home-border {
