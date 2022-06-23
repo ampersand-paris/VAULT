@@ -13,6 +13,12 @@ h1 {
   font-style: normal;
 }
 
+h3 {
+  font-family: myriad-pro-semiextended,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 /* You may need this non-extended font later in development */
 
 /* h1 {
@@ -26,6 +32,27 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+
+ul { 
+  padding: 0 0 0 2vW;
+  margin: 0;
+}
+
+li {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+  padding-bottom: 2px;
+}
+
+li:hover {
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+
+}
+
+
 .coporate {
   font-family: corporate-s, sans-serif;
   font-weight: 400;
@@ -46,6 +73,14 @@ p {
 
 /* ====== HEIGHT & WIDTH ====== */
 
+.h-one-hundred {
+  height: 100%;
+}
+
+.ninety-vh {
+  height: 90vH;
+}
+
 /* ====== SPACING ====== */
 
 .al-center {
@@ -60,8 +95,26 @@ p {
   display: flex;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 .jc-center {
   justify-content: center;
+}
+
+.space-btwn {
+  justify-content: space-between;
+}
+
+/* ====== POSITION ====== */
+
+.relative {
+  position: relative;
+}
+
+.z-index {
+  z-index: 999 !important;
 }
 
 /* ====== TRANSCRIPTION ====== */
@@ -73,12 +126,120 @@ p {
 /* ====== COLORS ====== */
 
 :root {
+  --cobalt: #0b0b84;
+  --sand: #e4dcd1;
+  --evergreen: #317C41;
   --mint-green: #d7f0dd;
   --preserved-lemon: #CCCC21;
+  --pumpkin: #E26E40;
+}
+
+.cobalt {
+  background-color: var(--cobalt);
+}
+
+.evergreen {
+  background-color: var(--evergreen);
 }
 
 .mint-green {
   background-color: var(--mint-green);
+}
+
+.preserved-lemon {
+  background-color: var(--preserved-lemon);
+}
+
+.pumpkin {
+  background-color: var(--pumpkin);
+}
+
+.sand-txt {
+  color: var(--sand)
+}
+
+/* ====== MENUS ====== */
+
+.menu-bttn {
+  margin-bottom: 5px;
+  padding: 0vH 3vW;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.triangle {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+}
+
+.menu-left-border {
+  border-left: 5px solid black;
+}
+
+.menu-right-border {
+  border-right: 5px solid black;
+}
+
+.vault-padding {
+  padding: 0vH 1vW;
+}
+
+/* === INDEX MENU === */
+
+.index-menu {
+  position: fixed;
+  right: 0%;
+  width: 25vW;
+}
+
+.index-entries {
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  height: 60vH;
+  overflow: scroll;
+  margin: 0vH 1vW 0vH 50px;
+}
+
+.index-location {
+  border-top: 5px solid black;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.index-location-first {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.index-sub-title {
+  font-family: myriad-pro-semiextended,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding-left: 1vW;
+  text-transform: uppercase;
+}
+
+#triangle-index-close {
+  left: 0%;
+  transform: rotate(180deg);
+}
+
+/* === THEMES MENU === */
+.themes-menu {
+  position: fixed;
+  left: 0%;
+  width: 25vW;
+}
+
+#triangle-theme-close {
+  right: 0%;
+}
+
+#triangle-theme-open {
+  display: none;
+  transform: rotate(180deg);
 }
 
 /* ====== HOMEPAGE ====== */
