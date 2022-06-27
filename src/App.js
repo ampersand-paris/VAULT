@@ -19,6 +19,9 @@ import MeetingOne from "./Transcripts/MeetingOne";
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
 
+// === VIDEOS ===
+import MeetingThree from "./Videos/MeetingThree"
+
 function App() {
 
     const [index, setIndex] = useState('none')
@@ -55,6 +58,7 @@ return (
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
             <Route path="/meeting-one" element={<MeetingOne />} />
+            <Route path="/meeting-three" element={<MeetingThree />} />
         </Routes>
     </Router>
   );
