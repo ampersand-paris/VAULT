@@ -182,7 +182,33 @@ li:hover {
   color: var(--sand);
 }
 
+/* ====== AUDIO ====== */
 
+audio::-webkit-media-controls-panel {
+  background-color: var(--sand);
+  color: var(--evergreen)
+}
+
+audio::-webkit-media-controls-play-button {
+  color: var(--evergreen);
+}
+
+audio::-webkit-media-controls-current-time-display {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--evergreen);
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--evergreen);
+}
+
+audio::-webkit-media-controls-timeline {
+}
 
 /* ====== MENUS ====== */
 

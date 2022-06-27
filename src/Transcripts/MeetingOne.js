@@ -9,6 +9,9 @@ const MeetingOne = (props) => {
                 <div className="column">
                     <h2 className="transcription">Transcription</h2>
                     <p className="transcription"><b>Vault Meeting #1</b></p>
+                    <audio controls
+                        src="">
+                        Your browser does not support the<code>audio</code> element.</audio>
                     <p className="transcription-details">March 10, 2017
                     <br></br>
                     Cafe Orlin, NYC</p>
