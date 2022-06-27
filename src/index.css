@@ -40,6 +40,10 @@ p {
   font-size: 20px;
 }
 
+a {
+  color: var(--cobalt);
+}
+
 ul { 
   padding: 0 0 0 2vW;
   margin: 0;
@@ -51,6 +55,7 @@ li {
   font-style: normal;
   list-style: none;
   padding-bottom: 2px;
+
 }
 
 li:hover {
@@ -58,7 +63,6 @@ li:hover {
   padding-bottom: 1px;
 
 }
-
 
 .coporate {
   font-family: corporate-s, sans-serif;
@@ -87,6 +91,10 @@ li:hover {
 
 .h-one-hundred {
   height: 100%;
+}
+
+.one-hundred-vh {
+  height: 100vH;
 }
 
 .ninety-vh {
@@ -133,11 +141,18 @@ li:hover {
   z-index: 999 !important;
 }
 
-/* ====== POSITION ====== */
+
+/* ====== PADDING ====== */
+
+.no-top-padding {
+  padding-top: 0;
+  margin-top: 0;
+}
 
 .top-padding {
   padding-top: 15vH;
 }
+
 
 /* ====== COLORS ====== */
 
@@ -230,10 +245,12 @@ audio::-webkit-media-controls-timeline {
   width: 40px;
   position: absolute;
   top: 47%;
+  cursor: pointer;
 }
 
 .triangle-size {
   width: 40px;
+  cursor: pointer;
 }
 
 .menu-left-border {
@@ -259,6 +276,7 @@ audio::-webkit-media-controls-timeline {
   position: fixed;
   right: 0%;
   width: 25vW;
+  overflow: hidden;
 }
 
 .index-entries {
@@ -267,6 +285,12 @@ audio::-webkit-media-controls-timeline {
   height: 60vH;
   overflow: scroll;
   margin: 0vH 1vW 0vH 50px;
+}
+
+.index-entries a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 .index-location {
@@ -345,6 +369,8 @@ audio::-webkit-media-controls-timeline {
 .top-black-border {
   border-top: 2px solid black;
 }
+
+/* ====== BIORGRAPHY ====== */
 
 /* ====== ESSAY ====== */
 

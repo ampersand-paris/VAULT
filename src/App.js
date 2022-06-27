@@ -13,8 +13,11 @@ import ThemesMenu from "./Menus/ThemesMenu";
 // === ESSAYS ===
 import MarjiColeEssay from "./Essays/MarjiCole";
 
-// === ESSAYS ===
+// === TRANSCRIPTS ===
 import MeetingOne from "./Transcripts/MeetingOne";
+
+// === BIOGRAPHIES ===
+import MarjiColeBio from "./Biographies/MarjiCole";
 
 function App() {
 
@@ -50,6 +53,7 @@ return (
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
+            <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
             <Route path="/meeting-one" element={<MeetingOne />} />
         </Routes>
     </Router>
