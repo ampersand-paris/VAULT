@@ -1,6 +1,14 @@
 // ====== REACT ELEMENTS ======
 import React from "react";
 import { useState } from "react";
+import { BrowserRouter as Router,
+    Routes,
+    Route,
+    Link } from "react-router-dom";
+
+ // ====== REACT COMPONENTS ======
+import Home from "../Home";
+import MarjiColeEssay from "../Essays/MarjiCole";
 
 const Index = (props) => {
 
@@ -11,6 +19,7 @@ const Index = (props) => {
 
     return (
         <>        
+            <Router>
             <div style={contentStyles} className="index-menu z-index h-one-hundred flex column space-btwn mint-green menu-left-border">
                 <div className="flex flex-end vault-padding">
                     <h1>VAULT</h1>
@@ -19,7 +28,7 @@ const Index = (props) => {
                     <h3 className="index-location-first">Chicago 2019:</h3>
                     <p className="index-sub-title">Chicago Attendees:</p>
                     <ul>
-                        <li>Cole, Margi: Bio</li>
+                        <Link to="/marji-cole-essay"><li>Cole, Margi: Bio</li></Link>
                         <li>Cole, Margi: Writing</li>
                         <li>Houston-Jones, Ishmael: Bio</li>
                         <li>Houston-Jones, Ishmael: Writing</li>
@@ -60,6 +69,11 @@ const Index = (props) => {
                     <h3 className="vault-padding">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;INDEX</h3>
                 </div>
             </div>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
+                </Routes>
+            </Router>
         </>
 
     )
