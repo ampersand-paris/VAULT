@@ -1,6 +1,8 @@
 // ====== REACT ELEMENTS ======
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react"
+
  // ====== REACT COMPONENTS ======
 import Home from "../Home";
 import MarjiColeEssay from "../Essays/MarjiCole";
@@ -8,14 +10,17 @@ import MeetingOne from "../Transcripts/MeetingOne";
 
 const Index = (props) => {
 
-    const contentStyles = {
-        display: (props.display),
-        opacity: (props.opacity)
+    const openStyles = {
+        display: (props.openDisplay),
+    }
+
+     const closedStyles = {
+        display: (props.closedDisplay),
     }
 
     return (
         <>        
-            <div style={contentStyles} className="index-menu z-index h-one-hundred flex column space-btwn mint-green menu-left-border">
+            <div style={openStyles} className="index-menu z-index h-one-hundred flex column space-btwn mint-green menu-left-border">
                 <div className="flex flex-end vault-padding">
                     <h1>VAULT</h1>
                 </div>
@@ -59,11 +64,18 @@ const Index = (props) => {
                     </ul>
                     <p className="index-sub-title">New York City Meeting Notes</p>
                 </div>  
-                <img src="/Images/MenuTriangle.svg" className="triangle" id="triangle-index-close"/>
+                <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-index-close"/>
                 <div className="flex flex-end">
                     <h3 className="vault-padding">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;INDEX</h3>
                 </div>
-            </div>       
+                <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-index-close"/>
+            </div> 
+            <div style={closedStyles} className="index-condensed-menu z-index h-one-hundred flex">
+                <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-index-open"/>
+                <div className="condensed-menu-width flex jc-center al-center menu-left-border mint-green">
+                    <h3>INDEX</h3>        
+                </div>
+            </div>
         </>
     )
 }

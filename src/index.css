@@ -182,6 +182,9 @@ li:hover {
   color: var(--sand);
 }
 
+.txt-al-center {
+  text-align: center;
+}
 /* ====== AUDIO ====== */
 
 audio::-webkit-media-controls-panel {
@@ -212,6 +215,10 @@ audio::-webkit-media-controls-timeline {
 
 /* ====== MENUS ====== */
 
+.condensed-menu-width {
+  width: 10vW;
+}
+
 .menu-bttn {
   margin-bottom: 5px;
   padding: 0vH 3vW;
@@ -223,6 +230,10 @@ audio::-webkit-media-controls-timeline {
   width: 40px;
   position: absolute;
   top: 50%;
+}
+
+.triangle-size {
+  width: 40px;
 }
 
 .menu-left-border {
@@ -239,8 +250,12 @@ audio::-webkit-media-controls-timeline {
 
 /* === INDEX MENU === */
 
+.index-condensed-menu {
+  position: fixed;
+  right: 0%;
+}
+
 .index-menu {
-  display: none;
   position: fixed;
   right: 0%;
   width: 25vW;
@@ -277,6 +292,10 @@ audio::-webkit-media-controls-timeline {
 #triangle-index-close {
   left: 0%;
   transform: rotate(180deg);
+}
+
+#triangle-index-open {
+  left: 0%;
 }
 
 /* === THEMES MENU === */

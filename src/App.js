@@ -20,6 +20,8 @@ function App() {
 
     const [index, setIndex] = useState('none')
     const [themes, setThemes] = useState('flex')
+    const [indexClosed, showIndexClosed] = useState('flex');
+    const [themesClosed, showThemesClosed] = useState('none');
 
     const toggleLeftMenu = () => {
         if (themes === 'none') {
@@ -39,8 +41,8 @@ function App() {
     
 return (
     <Router>
-        <ThemesMenu active={toggleLeftMenu} display={themes}/>
-        <Index active={toggleRightMenu} display={index}/>
+        <ThemesMenu active={toggleLeftMenu} openDisplay={themes} closedDisplay={themesClosed}/>
+        <Index active={toggleRightMenu} openDisplay={index} closedDisplay={indexClosed}/>
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
