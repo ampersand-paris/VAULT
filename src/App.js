@@ -9,6 +9,7 @@ import { BrowserRouter as Router,
 import Home from "./Home";
 import Index from "./Menus/Index";
 import ThemesMenu from "./Menus/ThemesMenu";
+import ResourcesMentioned from "./ResourcesMentioned";
 
 // === ESSAYS ===
 import MarjiColeEssay from "./Essays/MarjiCole";
@@ -59,6 +60,7 @@ return (
             <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
             <Route path="/meeting-one" element={<MeetingOne />} />
             <Route path="/meeting-three" element={<MeetingThree />} />
+            <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
         </Routes>
     </Router>
   );

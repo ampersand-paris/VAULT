@@ -49,19 +49,12 @@ ul {
   margin: 0;
 }
 
+
 li {
   font-family: myriad-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
   list-style: none;
-  padding-bottom: 2px;
-
-}
-
-li:hover {
-  border-bottom: 1px solid black;
-  padding-bottom: 1px;
-
 }
 
 .coporate {
@@ -150,7 +143,7 @@ li:hover {
 }
 
 .top-padding {
-  padding-top: 15vH;
+  padding: 15vH 0 5vH 0;
 }
 
 
@@ -281,6 +274,14 @@ audio::-webkit-media-controls-timeline {
   right: 0%;
 }
 
+.index-list li {
+  padding-bottom: 2px;
+}
+
+.index-list li:hover {
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+}
 .index-menu {
   position: fixed;
   right: 0%;
@@ -429,4 +430,29 @@ audio::-webkit-media-controls-timeline {
 iframe {
   width: 53vW;
   height: 30vW;
+}
+
+/* ====== RESOURCES MENTIONED ====== */
+
+.resources-list li {
+  font-weight: 900;
+  border-bottom: 5px solid black;
+  padding: 3px 0;
+}
+
+.resources-list {
+  padding-left: 0;
+}
+
+.resources-subtitle {
+  text-transform: uppercase;
+  margin: 4vH 0 0 0;
+}
+
+.resources-title-padding {
+  padding-left: 20vW;
+}
+
+.resources-width {
+  width: 35vW;
 }
