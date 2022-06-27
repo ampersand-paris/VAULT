@@ -20,22 +20,26 @@ function App() {
 
     const [index, setIndex] = useState('none')
     const [themes, setThemes] = useState('flex')
-    const [indexClosed, showIndexClosed] = useState('none');
-    const [themesClosed, showThemesClosed] = useState('flex');
+    const [indexClosed, setIndexClosed] = useState('flex');
+    const [themesClosed, setThemesClosed] = useState('none');
 
     const toggleLeftMenu = () => {
         if (themes === 'none') {
             setThemes('flex')
+            setThemesClosed('none')
         } else {
             setThemes('none')
+            setThemesClosed('flex')
         }
     }
 
     const toggleRightMenu = () => {
         if (index === 'none') {
             setIndex('flex')
+            setIndexClosed('none')
         } else {
             setIndex('none')
+            setIndexClosed('flex')
         }
     }
     
