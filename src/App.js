@@ -20,8 +20,8 @@ function App() {
 
     const [index, setIndex] = useState('none')
     const [themes, setThemes] = useState('flex')
-    const [indexClosed, showIndexClosed] = useState('flex');
-    const [themesClosed, showThemesClosed] = useState('none');
+    const [indexClosed, showIndexClosed] = useState('none');
+    const [themesClosed, showThemesClosed] = useState('flex');
 
     const toggleLeftMenu = () => {
         if (themes === 'none') {

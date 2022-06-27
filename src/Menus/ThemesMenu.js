@@ -4,14 +4,17 @@ import { useState } from "react";
 
 const ThemesMenu = (props) => {
 
-    const contentStyles = {
-        display: (props.display),
-        opacity: (props.opacity)
+    const openStyles = {
+        display: (props.openDisplay),
+    }
+
+     const closedStyles = {
+        display: (props.closedDisplay),
     }
 
     return (
         <>        
-            <div style={contentStyles} className="themes-menu z-index h-one-hundred flex just-center mint-green">
+            <div style={openStyles} className="themes-menu z-index h-one-hundred flex just-center mint-green">
                 <div className="flex al-center mint-green menu-right-border vault-padding">
                     <img className="ninety-vh" src="/Images/VAULT.svg" />
                 </div>
@@ -33,6 +36,12 @@ const ThemesMenu = (props) => {
                     <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-close"/>
                     <h3 className="vault-padding">MENU&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                 </div>
+            </div>
+            <div style={closedStyles} className="theme-condensed-menu z-index h-one-hundred flex">
+                <div className="condensed-menu-width flex jc-center al-center menu-right-border mint-green">
+                    <h3>MENU</h3>        
+                </div>
+                <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-theme-open"/>
             </div>
         </>
 

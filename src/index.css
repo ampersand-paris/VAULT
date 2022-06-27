@@ -299,8 +299,13 @@ audio::-webkit-media-controls-timeline {
 }
 
 /* === THEMES MENU === */
+
+.theme-condensed-menu {
+  position: fixed;
+  left: 0%;
+}
+
 .themes-menu {
-  display: none;
   position: fixed;
   left: 0%;
   width: 25vW;
@@ -311,7 +316,6 @@ audio::-webkit-media-controls-timeline {
 }
 
 #triangle-theme-open {
-  display: none;
   transform: rotate(180deg);
 }
 
