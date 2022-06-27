@@ -18,7 +18,7 @@ const MarjiColeEssay = (props) => {
             </div>
             <section className="flex column al-center preserved-lemon">
                 <div className="essay-width">
-                <p><b>What matters, and what matters to whom? Could the question of what matters be a guiding principle in creating an archive?</b></p>
+                <p className="no-top-padding"><b>What matters, and what matters to whom? Could the question of what matters be a guiding principle in creating an archive?</b></p>
                 <p>The collective stuff and memory of it all matters to me. The evidence of my lifetime of work matters to me. It is tangible evidence of my curiosity, exploration and growth as an artist.</p>
                 <p>Having the archive allows me to reflect, to reconstruct, and to use the sources as a springboard for something new. To reimagine something in a new way.</p>
                 <p><b>How do we contend with the third-person archive alongside the artist-driven archive?</b></p>

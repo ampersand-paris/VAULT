@@ -4,14 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 // ====== COMPONENTS ======
-import ThemesMenu from './Menus/ThemesMenu';
-import Index from './Menus/Index';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemesMenu />
-    <Index />
+    <App />
   </React.StrictMode>
 );
 
