@@ -30,7 +30,7 @@ const ThemesMenu = (props) => {
                             <h3>why it matters</h3>
                         </div>
                     </div>  
-                    <img src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-close"/>
+                    <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-close"/>
                     <h3 className="vault-padding">MENU&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                 </div>
             </div>
