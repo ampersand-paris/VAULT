@@ -13,6 +13,12 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  font-family: myriad-pro-semiextended,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 h3 {
   font-family: myriad-pro-semiextended,sans-serif;
   font-weight: 900;
@@ -31,6 +37,7 @@ p {
   font-family: neuzeit-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 20px;
 }
 
 ul { 
@@ -71,6 +78,11 @@ li:hover {
   font-style: normal;
 }
 
+.subtitle {
+  text-transform: uppercase;
+  margin: 0;
+}
+
 /* ====== HEIGHT & WIDTH ====== */
 
 .h-one-hundred {
@@ -85,6 +97,10 @@ li:hover {
 
 .al-center {
   align-items: center;
+}
+
+.baseline {
+  align-items: baseline;
 }
 
 .column {
@@ -117,10 +133,10 @@ li:hover {
   z-index: 999 !important;
 }
 
-/* ====== TRANSCRIPTION ====== */
+/* ====== POSITION ====== */
 
-.transcription-width {
-  width: 60vW;
+.top-padding {
+  padding-top: 15vH;
 }
 
 /* ====== COLORS ====== */
@@ -142,6 +158,10 @@ li:hover {
   background-color: var(--evergreen);
 }
 
+.evergreen-txt {
+  color: var(--evergreen);
+}
+
 .mint-green {
   background-color: var(--mint-green);
 }
@@ -154,8 +174,40 @@ li:hover {
   background-color: var(--pumpkin);
 }
 
+.sand {
+  background-color: var(--sand);
+}
+
 .sand-txt {
-  color: var(--sand)
+  color: var(--sand);
+}
+
+/* ====== AUDIO ====== */
+
+audio::-webkit-media-controls-panel {
+  background-color: var(--sand);
+  color: var(--evergreen)
+}
+
+audio::-webkit-media-controls-play-button {
+  color: var(--evergreen);
+}
+
+audio::-webkit-media-controls-current-time-display {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--evergreen);
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--evergreen);
+}
+
+audio::-webkit-media-controls-timeline {
 }
 
 /* ====== MENUS ====== */
@@ -188,6 +240,7 @@ li:hover {
 /* === INDEX MENU === */
 
 .index-menu {
+  display: none;
   position: fixed;
   right: 0%;
   width: 25vW;
@@ -228,6 +281,7 @@ li:hover {
 
 /* === THEMES MENU === */
 .themes-menu {
+  display: none;
   position: fixed;
   left: 0%;
   width: 25vW;
@@ -261,6 +315,44 @@ li:hover {
   font-size: 18em;
 }
 
+.home-text-width {
+  width: 60vW;
+}
+
 .top-black-border {
   border-top: 2px solid black;
+}
+
+/* ====== ESSAY ====== */
+
+.essay-heading {
+  margin-left: 20px;
+}
+
+.essay-title-height {
+  height: 300px;
+}
+
+.essay-width {
+  width: 40vW;
+}
+
+.essay-slash {
+  position: absolute;
+  left: 15%;
+  height: 300px;
+}
+
+/* ====== TRANSCRIPTION ====== */
+
+.transcription-details {
+  font-size: 15px;
+}
+
+.transcript-slash {
+  height: 300px;
+}
+
+.transcription {
+  margin: 0;
 }
