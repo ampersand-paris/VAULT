@@ -191,6 +191,9 @@ li {
   background-color: var(--pumpkin);
 }
 
+.pumpkin-txt {
+  color: var(--pumpkin);
+}
 .sand {
   background-color: var(--sand);
 }
@@ -456,3 +459,57 @@ iframe {
 .resources-width {
   width: 35vW;
 }
+
+/* ====== GATHERED MATERIALS ====== */
+
+.container {
+  overflow-x: scroll;
+  width: 100vW;
+}
+
+.container-length {
+  width: 200vW;
+}
+
+.intro-panel-width {
+  width: 40vW;
+}
+
+.intro-title {
+  font-size: 50px;
+  margin: 0;
+  padding: 0vH 2vW;
+}
+
+.intro-width {
+  width: 12vW;
+}
+
+/* === ARCHIVAL THINKING === */
+
+.ar-panel-1 {
+  background-image: url('/public/Images/Pictures/ArchivalThinking1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100vW;
+}
+
+.ar-slash {
+  position: absolute;
+  height: 80vH;
+  left: 20%;
+}
+
+.practice {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 100px;
+  width: 20vW;
+  overflow-x: scroll;
+  }
+
+.practice-txt {
+  width: 40vW;
+  margin: 0;
+  }
