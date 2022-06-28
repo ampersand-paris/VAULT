@@ -82,6 +82,10 @@ li {
 
 /* ====== HEIGHT & WIDTH ====== */
 
+.h-fifty {
+  height: 50%;
+}
+
 .h-one-hundred {
   height: 100%;
 }
@@ -146,7 +150,14 @@ li {
   padding: 15vH 0 5vH 0;
 }
 
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
 
+.stnd-padding {
+  padding: 1vH 1vW;
+}
 /* ====== COLORS ====== */
 
 :root {
@@ -205,6 +216,36 @@ li {
 .txt-al-center {
   text-align: center;
 }
+
+/* ====== BUTTONS ====== */
+
+.small-bttn {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 30px;
+  justify-content: center;
+  padding: 0vH 2vW;
+  margin: 0 2vW;
+  width: 100px;
+}
+
+
+.button-div-height {
+  height: 60px;
+}
+
+.sand-border-right {
+  border-right: 5px solid var(--sand);
+}
+
+.sand-border-bottom {
+  border-bottom: 5px solid var(--sand);
+}
+
 /* ====== AUDIO ====== */
 
 audio::-webkit-media-controls-panel {
@@ -286,6 +327,7 @@ audio::-webkit-media-controls-timeline {
   padding-bottom: 1px;
 }
 .index-menu {
+  min-width: 300px;
   position: fixed;
   right: 0%;
   width: 25vW;
@@ -468,11 +510,11 @@ iframe {
 }
 
 .container-length {
-  width: 200vW;
+  width: 5000px;
 }
 
 .intro-panel-width {
-  width: 40vW;
+  width: 600px;
 }
 
 .intro-title {
@@ -482,7 +524,15 @@ iframe {
 }
 
 .intro-width {
-  width: 12vW;
+  width: 200px;
+}
+
+.panel-1400 {
+  width: 1400px;
+}
+
+.panel-700 {
+  width: 700px;
 }
 
 /* === ARCHIVAL THINKING === */
@@ -492,13 +542,13 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 100vW;
 }
 
 .ar-slash {
   position: absolute;
   height: 80vH;
   left: 20%;
+  top: 70px;
 }
 
 .practice {
