@@ -698,6 +698,10 @@ iframe {
   height: 100%;
 }
 
+.mobile-one-hundred-vh {
+  height: 100vH;
+}
+
 .mobile-width {
   width: 70vW;
 }
@@ -731,10 +735,29 @@ iframe {
 .essay-width {
   width: 70vW;
 }
+
+/* ====== VIDEO ====== */
+
+iframe {
+  height: 42vW;
+  width: 75vW;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 2vH 0vW;
+  width: 100vW;
+}
+
+.video-title-width {
+  width: 0vW;
+}
+
 /* ====== HOMEPAGE ====== */
 
 .home-text-width {
-  width: 70vW;
+  width: 75vW;
 }
 
 }
