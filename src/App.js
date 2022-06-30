@@ -11,6 +11,9 @@ import Index from "./Menus/Index";
 import ThemesMenu from "./Menus/ThemesMenu";
 import ResourcesMentioned from "./ResourcesMentioned";
 
+// === THEMES ===
+import ArchivalThinking from "./Gathered Materials/ArchivalThinking";
+
 // === ESSAYS ===
 import MarjiColeEssay from "./Essays/MarjiCole";
 
@@ -56,6 +59,7 @@ return (
         <Index active={toggleRightMenu} openDisplay={index} closedDisplay={indexClosed}/>
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/archival-thinking" element={<ArchivalThinking />} />
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
             <Route path="/meeting-one" element={<MeetingOne />} />

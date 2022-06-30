@@ -82,6 +82,10 @@ li {
 
 /* ====== HEIGHT & WIDTH ====== */
 
+.h-fifty {
+  height: 50%;
+}
+
 .h-one-hundred {
   height: 100%;
 }
@@ -92,6 +96,42 @@ li {
 
 .ninety-vh {
   height: 90vH;
+}
+
+.h-sixty {
+  height: 60%;
+}
+
+.w-one-hundred {
+  width: 100%;
+}
+
+.w-seventy {
+  width: 70%;
+}
+
+.w-sixty {
+  width: 60%;
+}
+
+.w-fifty {
+  width: 50%;
+}
+
+.w-forty-seven {
+  width: 47%;
+}
+
+.w-forty {
+  width: 40%;
+}
+
+.w-thirty {
+  width: 30%;
+}
+
+.w-twenty-five {
+  width: 25%;
 }
 
 /* ====== SPACING ====== */
@@ -116,6 +156,10 @@ li {
   justify-content: flex-end;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .jc-center {
   justify-content: center;
 }
@@ -126,6 +170,15 @@ li {
 
 /* ====== POSITION ====== */
 
+.absolute {
+  position: absolute;
+}
+
+.fifty-fifty {
+  top: 65%;
+  left: 25%;
+}
+
 .relative {
   position: relative;
 }
@@ -134,6 +187,19 @@ li {
   z-index: 999 !important;
 }
 
+.z-index-10 {
+  z-index: 10;
+}
+
+/* ====== MARGIN ====== */
+
+.bottom-100px {
+  margin-bottom: 100px;
+}
+
+.top-100px {
+  margin-top: 100px;
+}
 
 /* ====== PADDING ====== */
 
@@ -146,6 +212,30 @@ li {
   padding: 15vH 0 5vH 0;
 }
 
+.only-top-padding {
+  padding-top: 1vH;
+}
+
+.only-top-margin {
+  margin-top: 1vH;
+}
+
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
+.side-padding {
+  padding: 0vH 1vW;
+}
+
+.stnd-padding {
+  padding: 1vH 1vW;
+}
+
+.double-padding {
+  padding: 2vH 2vW;
+}
 
 /* ====== COLORS ====== */
 
@@ -191,6 +281,10 @@ li {
   background-color: var(--pumpkin);
 }
 
+.pumpkin-txt {
+  color: var(--pumpkin);
+}
+
 .sand {
   background-color: var(--sand);
 }
@@ -199,9 +293,57 @@ li {
   color: var(--sand);
 }
 
+.sand-gradient-50 {
+  background-image: linear-gradient(0deg, var(--sand) 0%, var(--sand) 50%, transparent 50%);
+}
+
+.sand-gradient-50-down {
+  background-image: linear-gradient(180deg, var(--sand) 0%, var(--sand) 50%, transparent 50%);
+}
+
 .txt-al-center {
   text-align: center;
 }
+
+/* ====== BUTTONS ====== */
+
+.small-bttn {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  height: 30px;
+  justify-content: center;
+  padding: 0vH 2vW;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+
+.button-div-height {
+  height: 60px;
+}
+
+.sand-border {
+  border: 2px solid var(--sand)
+}
+
+.sand-border-right {
+  border-right: 5px solid var(--sand);
+}
+
+.sand-border-bottom {
+  border-bottom: 5px solid var(--sand);
+}
+
+/* ====== BORDER ====== */
+
+.border-radius {
+  border-radius: 10px;
+}
+
 /* ====== AUDIO ====== */
 
 audio::-webkit-media-controls-panel {
@@ -267,6 +409,7 @@ audio::-webkit-media-controls-timeline {
   padding: 0vH 1vW;
 }
 
+
 /* === INDEX MENU === */
 
 .index-condensed-menu {
@@ -283,6 +426,7 @@ audio::-webkit-media-controls-timeline {
   padding-bottom: 1px;
 }
 .index-menu {
+  min-width: 300px;
   position: fixed;
   right: 0%;
   width: 25vW;
@@ -455,4 +599,92 @@ iframe {
 
 .resources-width {
   width: 35vW;
+}
+
+/* ====== GATHERED MATERIALS ====== */
+
+.container {
+  overflow-x: scroll;
+  width: 100vW;
+}
+
+.container-length {
+  width: 6000px;
+}
+
+.intro-panel-width {
+  width: 600px;
+}
+
+.intro-title {
+  font-size: 50px;
+  margin: 0;
+  padding: 0vH 2vW;
+}
+
+.intro-width {
+  width: 200px;
+}
+
+.panel-1400 {
+  width: 1400px;
+}
+
+.panel-700 {
+  width: 700px;
+}
+
+.panel-900 {
+  width: 900px;
+}
+
+/* === ARCHIVAL THINKING === */
+
+.ar-panel-1 {
+  background-image: url('/public/Images/Pictures/ArchivalThinking1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ar-slash {
+  position: absolute;
+  height: 80vH;
+  left: 20%;
+  top: 70px;
+}
+
+.bebe-seattle {
+  background-image: url('/public/Images/Pictures/BebeSeattle.svg');
+}
+
+.ishmael{
+  position: absolute;
+  width: 75%;
+  right: 0%;
+  top: 10%;
+  z-index: 0;
+}
+
+.practice {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 100px;
+  width: 20vW;
+  overflow-x: scroll;
+  }
+
+.practice-txt {
+  width: 40vW;
+  margin: 0;
+  }
+
+/* ============ MOBILE ============ */
+
+@media screen and (max-width: 600px) {
+
+/* ====== SPACING ====== */
+.mobile-column{
+  flex-direction: column ;
+}
 }
