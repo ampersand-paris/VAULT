@@ -690,7 +690,7 @@ iframe {
 
 /* ============ MOBILE ============ */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
 /* ====== HEIGHT & WIDTH ====== */
 
@@ -730,6 +730,15 @@ iframe {
   padding-top: 4vH ;
 }
 
+/* ====== TRANSCRIPTION ====== */
+
+.mobile-transcript-width{
+  width: 56vW;
+}
+
+.transcript-slash {
+  height: 250px;
+}
 /* ====== WRITING ====== */
 
 .essay-width {
