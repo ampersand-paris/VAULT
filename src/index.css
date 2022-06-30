@@ -156,6 +156,10 @@ li {
   justify-content: flex-end;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .jc-center {
   justify-content: center;
 }
@@ -675,3 +679,12 @@ iframe {
   margin: 0;
   }
 
+/* ============ MOBILE ============ */
+
+@media screen and (max-width: 600px) {
+
+/* ====== SPACING ====== */
+.mobile-column{
+  flex-direction: column ;
+}
+}

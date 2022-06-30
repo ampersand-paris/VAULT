@@ -72,8 +72,8 @@ const Index = (props) => {
             </div> 
             <div style={closedStyles} className="index-condensed-menu z-index h-one-hundred flex">
                 <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-index-open"/>
-                <div className="condensed-menu-width flex jc-center al-center menu-left-border mint-green">
-                    <h3>INDEX</h3>        
+                <div className="condensed-menu-width flex mobile-column jc-center al-center menu-left-border mint-green">
+                    <h3>I</h3><h3>N</h3><h3>D</h3><h3>E</h3><h3>X</h3>        
                 </div>
             </div>
         </>

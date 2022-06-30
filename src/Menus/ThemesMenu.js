@@ -38,8 +38,8 @@ const ThemesMenu = (props) => {
                 </div>
             </div>
             <div style={closedStyles} className="theme-condensed-menu z-index h-one-hundred flex">
-                <div className="condensed-menu-width flex jc-center al-center menu-right-border mint-green">
-                    <h3>MENU</h3>        
+                <div className="condensed-menu-width flex jc-center al-center mobile-column menu-right-border mint-green">
+                    <h3>M</h3><h3>E</h3><h3>N</h3><h3>U</h3>        
                 </div>
                 <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-theme-open"/>
             </div>
