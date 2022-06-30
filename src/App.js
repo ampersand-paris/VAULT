@@ -29,9 +29,9 @@ import MeetingThree from "./Videos/MeetingThree"
 function App() {
 
     const [index, setIndex] = useState('none')
-    const [themes, setThemes] = useState('flex')
+    const [themes, setThemes] = useState('none')
     const [indexClosed, setIndexClosed] = useState('flex');
-    const [themesClosed, setThemesClosed] = useState('none');
+    const [themesClosed, setThemesClosed] = useState('flex');
 
     const toggleLeftMenu = () => {
         if (themes === 'none') {

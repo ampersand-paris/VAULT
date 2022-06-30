@@ -8,8 +8,8 @@ body {
 /* ====== FONTS ====== */
 
 h1 {
-  font-family: myriad-pro-semiextended,sans-serif;
-  font-weight: 900;
+  font-family: myriad-pro-semi-condensed,sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -512,8 +512,17 @@ audio::-webkit-media-controls-timeline {
   padding-bottom: 5vH;
 }
 
+.home-slash {
+  height: 75vH;
+  position: absolute;
+  bottom: 0%;
+  right: 200px;
+}
+
 .home-text {
   font-size: 18em;
+  margin: 0;
+  margin-left: 20vW;
 }
 
 .home-text-width {
@@ -683,8 +692,39 @@ iframe {
 
 @media screen and (max-width: 600px) {
 
+.mobile-width {
+  width: 70vW;
+}
+
 /* ====== SPACING ====== */
+
+.mobile-flex {
+  display: flex;
+}
+
+.mobile-jc-center{
+  justify-content: center;
+}
+
 .mobile-column{
   flex-direction: column ;
 }
+
+/* ====== PADDING ====== */
+
+.mobile-padding {
+  padding-top: 4vH;
+}
+
+/* ====== WRITING ====== */
+
+.essay-width {
+  width: 70vW;
+}
+/* ====== HOMEPAGE ====== */
+
+.home-text-width {
+  width: 70vW;
+}
+
 }
