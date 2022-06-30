@@ -8,8 +8,8 @@ body {
 /* ====== FONTS ====== */
 
 h1 {
-  font-family: myriad-pro-semiextended,sans-serif;
-  font-weight: 900;
+  font-family: myriad-pro-semi-condensed,sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -512,8 +512,17 @@ audio::-webkit-media-controls-timeline {
   padding-bottom: 5vH;
 }
 
+.home-slash {
+  height: 75vH;
+  position: absolute;
+  bottom: 0%;
+  right: 200px;
+}
+
 .home-text {
   font-size: 18em;
+  margin: 0;
+  margin-left: 20vW;
 }
 
 .home-text-width {
@@ -681,10 +690,83 @@ iframe {
 
 /* ============ MOBILE ============ */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+
+/* ====== HEIGHT & WIDTH ====== */
+
+.one-hundred-vh {
+  height: 100%;
+}
+
+.mobile-one-hundred-vh {
+  height: 100vH;
+}
+
+.mobile-width {
+  width: 70vW;
+}
 
 /* ====== SPACING ====== */
+
+.mobile-flex {
+  display: flex;
+}
+
+.mobile-al-center {
+  align-items: center;
+}
+
+.mobile-jc-center{
+  justify-content: center;
+}
+
 .mobile-column{
   flex-direction: column ;
 }
+
+/* ====== PADDING ====== */
+
+.mobile-padding {
+  padding-top: 4vH ;
+}
+
+/* ====== TRANSCRIPTION ====== */
+
+.mobile-transcript-width{
+  width: 56vW;
+}
+
+.transcript-slash {
+  height: 250px;
+}
+/* ====== WRITING ====== */
+
+.essay-width {
+  width: 70vW;
+}
+
+/* ====== VIDEO ====== */
+
+iframe {
+  height: 42vW;
+  width: 75vW;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 2vH 0vW;
+  width: 100vW;
+}
+
+.video-title-width {
+  width: 0vW;
+}
+
+/* ====== HOMEPAGE ====== */
+
+.home-text-width {
+  width: 75vW;
+}
+
 }

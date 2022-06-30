@@ -4,9 +4,9 @@ const MarjiColeEssay = (props) => {
 
     return (
     <>
-        <div className="top-padding flex jc-center preserved-lemon">
-            <div className="vault-padding">
-                <div className="relative flex space-btwn essay-title-height">
+        <div className="top-padding flex jc-center mobile-column preserved-lemon">
+            <div className="vault-padding mobile-jc-center mobile-flex">
+                <div className="relative essay-title-height mobile-width  flex  space-btwn ">
                     <div>
                         <h2 className="subtitle essay-heading">Essay</h2>
                     </div>
@@ -16,7 +16,7 @@ const MarjiColeEssay = (props) => {
                     </div>
                 </div>
             </div>
-            <section className="flex column al-center preserved-lemon">
+            <section className="flex column al-center mobile-padding preserved-lemon">
                 <div className="essay-width">
                 <p className="no-top-padding"><b>What matters, and what matters to whom? Could the question of what matters be a guiding principle in creating an archive?</b></p>
                 <p>The collective stuff and memory of it all matters to me. The evidence of my lifetime of work matters to me. It is tangible evidence of my curiosity, exploration and growth as an artist.</p>
