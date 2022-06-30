@@ -692,6 +692,12 @@ iframe {
 
 @media screen and (max-width: 600px) {
 
+/* ====== HEIGHT & WIDTH ====== */
+
+.one-hundred-vh {
+  height: 100%;
+}
+
 .mobile-width {
   width: 70vW;
 }
@@ -700,6 +706,10 @@ iframe {
 
 .mobile-flex {
   display: flex;
+}
+
+.mobile-al-center {
+  align-items: center;
 }
 
 .mobile-jc-center{
@@ -713,7 +723,7 @@ iframe {
 /* ====== PADDING ====== */
 
 .mobile-padding {
-  padding-top: 4vH;
+  padding-top: 4vH ;
 }
 
 /* ====== WRITING ====== */
