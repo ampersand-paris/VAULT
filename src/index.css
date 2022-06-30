@@ -98,8 +98,40 @@ li {
   height: 90vH;
 }
 
+.h-sixty {
+  height: 60%;
+}
+
+.w-one-hundred {
+  width: 100%;
+}
+
+.w-seventy {
+  width: 70%;
+}
+
+.w-sixty {
+  width: 60%;
+}
+
 .w-fifty {
   width: 50%;
+}
+
+.w-forty-seven {
+  width: 47%;
+}
+
+.w-forty {
+  width: 40%;
+}
+
+.w-thirty {
+  width: 30%;
+}
+
+.w-twenty-five {
+  width: 25%;
 }
 
 /* ====== SPACING ====== */
@@ -134,6 +166,15 @@ li {
 
 /* ====== POSITION ====== */
 
+.absolute {
+  position: absolute;
+}
+
+.fifty-fifty {
+  top: 65%;
+  left: 25%;
+}
+
 .relative {
   position: relative;
 }
@@ -167,14 +208,31 @@ li {
   padding: 15vH 0 5vH 0;
 }
 
+.only-top-padding {
+  padding-top: 1vH;
+}
+
+.only-top-margin {
+  margin-top: 1vH;
+}
+
 .no-padding {
   padding: 0;
   margin: 0;
 }
 
+.side-padding {
+  padding: 0vH 1vW;
+}
+
 .stnd-padding {
   padding: 1vH 1vW;
 }
+
+.double-padding {
+  padding: 2vH 2vW;
+}
+
 /* ====== COLORS ====== */
 
 :root {
@@ -222,12 +280,21 @@ li {
 .pumpkin-txt {
   color: var(--pumpkin);
 }
+
 .sand {
   background-color: var(--sand);
 }
 
 .sand-txt {
   color: var(--sand);
+}
+
+.sand-gradient-50 {
+  background-image: linear-gradient(0deg, var(--sand) 0%, var(--sand) 50%, transparent 50%);
+}
+
+.sand-gradient-50-down {
+  background-image: linear-gradient(180deg, var(--sand) 0%, var(--sand) 50%, transparent 50%);
 }
 
 .txt-al-center {
@@ -241,18 +308,22 @@ li {
   border-radius: 10px;
   display: flex;
   font-family: neuzeit-grotesk, sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
   height: 30px;
   justify-content: center;
   padding: 0vH 2vW;
-  margin: 0 2vW;
-  width: 100px;
+  text-transform: uppercase;
+  width: 120px;
 }
 
 
 .button-div-height {
   height: 60px;
+}
+
+.sand-border {
+  border: 2px solid var(--sand)
 }
 
 .sand-border-right {
@@ -261,6 +332,12 @@ li {
 
 .sand-border-bottom {
   border-bottom: 5px solid var(--sand);
+}
+
+/* ====== BORDER ====== */
+
+.border-radius {
+  border-radius: 10px;
 }
 
 /* ====== AUDIO ====== */
@@ -327,6 +404,7 @@ audio::-webkit-media-controls-timeline {
 .vault-padding {
   padding: 0vH 1vW;
 }
+
 
 /* === INDEX MENU === */
 
@@ -522,13 +600,12 @@ iframe {
 /* ====== GATHERED MATERIALS ====== */
 
 .container {
-  height: 100vH;
   overflow-x: scroll;
   width: 100vW;
 }
 
 .container-length {
-  width: 5000px;
+  width: 6000px;
 }
 
 .intro-panel-width {
@@ -553,6 +630,10 @@ iframe {
   width: 700px;
 }
 
+.panel-900 {
+  width: 900px;
+}
+
 /* === ARCHIVAL THINKING === */
 
 .ar-panel-1 {
@@ -567,6 +648,10 @@ iframe {
   height: 80vH;
   left: 20%;
   top: 70px;
+}
+
+.bebe-seattle {
+  background-image: url('/public/Images/Pictures/BebeSeattle.svg');
 }
 
 .ishmael{
