@@ -98,6 +98,10 @@ li {
   height: 90vH;
 }
 
+.w-fifty {
+  width: 50%;
+}
+
 /* ====== SPACING ====== */
 
 .al-center {
@@ -138,6 +142,19 @@ li {
   z-index: 999 !important;
 }
 
+.z-index-10 {
+  z-index: 10;
+}
+
+/* ====== MARGIN ====== */
+
+.bottom-100px {
+  margin-bottom: 100px;
+}
+
+.top-100px {
+  margin-top: 100px;
+}
 
 /* ====== PADDING ====== */
 
@@ -505,6 +522,7 @@ iframe {
 /* ====== GATHERED MATERIALS ====== */
 
 .container {
+  height: 100vH;
   overflow-x: scroll;
   width: 100vW;
 }
@@ -551,6 +569,14 @@ iframe {
   top: 70px;
 }
 
+.ishmael{
+  position: absolute;
+  width: 75%;
+  right: 0%;
+  top: 10%;
+  z-index: 0;
+}
+
 .practice {
   background-color: lightblue;
   border: 1px solid black;
@@ -563,3 +589,4 @@ iframe {
   width: 40vW;
   margin: 0;
   }
+

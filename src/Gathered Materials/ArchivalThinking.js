@@ -15,8 +15,8 @@ const ArchivalThinking = (props) => {
                 <div className="ar-panel-1 panel-1400 flex">
                     <h1 className="pumpkin-txt intro-title">ARCHIVAL THINKING</h1>
                     <img src="/Images/OrangeSlash.svg" className="ar-slash"/>
-                    <div>
-                        <div className="flex column al-center jc-center">
+                    <div className="h-one-hundred flex column space-btwn">
+                        <div className="flex column al-center jc-center top-100px">
                             <h2 className="pumpkin-txt"><em>How are we viewing the archive?</em></h2>
                             <div className="flex">
                                 <div className="button-div-height flex jc-center al-center sand-border-right">
@@ -27,9 +27,13 @@ const ArchivalThinking = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="sand stnd-padding">
-                            <h3 className="pumpkin-txt">ESSAY: Ishmael Houston-Jones</h3> 
-                            <p className="pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
+                        <div className="h-fifty relative  bottom-100px">
+                            <div className="z-index-10 relative w-fifty sand stnd-padding">
+                                <h3 className="pumpkin-txt">WRITING: Ishmael Houston-Jones</h3> 
+                                <p className="pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
+                                <a className="small-bttn pumpkin sand-txt">Writing</a>
+                            </div>
+                            <img src="/Images/Pictures/Ishmael.svg" className="ishmael"/>
                         </div>
                     </div>     
                 </div>
