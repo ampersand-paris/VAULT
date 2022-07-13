@@ -23,7 +23,9 @@ import MeetingOne from "./Transcripts/MeetingOne";
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
 import JuliaRaeAntonickBio from "./Biographies/JuliaRaeAntonick";
-import RachelBoggiaBio from "./Biographies/RachelBoggia"
+import RachelBoggiaBio from "./Biographies/RachelBoggia";
+import BetseyBrockBio from "./Biographies/BetseyBrock";
+import BonnieBrooksBio from "./Biographies/BonnieBrooks";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree"
@@ -61,12 +63,17 @@ return (
         <Index active={toggleRightMenu} openDisplay={index} closedDisplay={indexClosed}/>
         <Routes>
             <Route path="/" element={<Home />} />
+            {/* Themes */}
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
+            {/* Essays */}
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             {/* Biographies */}
+                <Route path="betsey-brock-bio" element={<BetseyBrockBio />} />
+                <Route path="bonnie-brooks-bio" element={<BonnieBrooksBio />} />
                 <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
-                <Route path="/julia-rae-antonick" element={<JuliaRaeAntonickBio />} />
-                <Route path="/rachel-boggia" element={<RachelBoggiaBio />} />
+                <Route path="/julia-rae-antonick-bio" element={<JuliaRaeAntonickBio />} />
+                <Route path="/rachel-boggia-bio" element={<RachelBoggiaBio />} />
+            {/* Transcripts */}
             <Route path="/meeting-one" element={<MeetingOne />} />
             <Route path="/meeting-three" element={<MeetingThree />} />
             <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
