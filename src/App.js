@@ -45,6 +45,7 @@ import JsunHowardBio from "./Biographies/JsunHoward";
 import LilaHurwitzBio from "./Biographies/LilaHurwitz";
 import JudyHussieTaylorBio from "./Biographies/JudyHussieTaylor";
 import JaneJerardiBio from "./Biographies/JaneJerardi";
+import DarrellJonesBio from "./Biographies/DarrellJones";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
@@ -93,6 +94,7 @@ return (
                 <Route path="/betsey-brock-bio" element={<BetseyBrockBio />} />
                 <Route path="/bonnie-brooks-bio" element={<BonnieBrooksBio />} />
                 <Route path="/dayna-hanson-bio" element={<DaynaHansonBio />} />
+                <Route path="/darrell-jones-bio" element={<DarrellJonesBio />} />
                 <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
                 <Route path="/ginger-farley-bio" element={<GingerFarleyBio />} />
                 <Route path="/ishmael-houston-jones-bio" element={<IshmaelHoustonJonesBio />} />
@@ -109,6 +111,7 @@ return (
                 <Route path="/melanie-george-bio" element={<MelanieGeorgeBio />} />
                 <Route path="/nena-couch-bio" element={<NenaCouchBio />} />
                 <Route path="/pat-graney-bio" element={<PatGraneyBio />} />
+                
                 <Route path="/shannon-drake-bio" element={<ShannonDrakeBio />} />
                 <Route path="/rachel-boggia-bio" element={<RachelBoggiaBio />} />
             {/* Transcripts */}
