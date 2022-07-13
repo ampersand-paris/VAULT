@@ -4,7 +4,7 @@ const FailspaceBio = (props) => {
 
     return (
     <>
-        <div className="one-hundred-vh flex jc-center mobile-al-center mobile-column top-padding mint-green">
+        <div className="flex jc-center mobile-al-center mobile-column top-padding mint-green">
             <div className="vault-padding mobile-flex mobile-jc-center mobile-width">
                 <div className="flex space-btwn essay-title-height">
                     <div>
