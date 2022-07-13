@@ -22,6 +22,7 @@ import MeetingOne from "./Transcripts/MeetingOne";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
+import JuliaRaeAntonickBio from "./Biographies/JuliaRaeAntonick";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree"
@@ -61,7 +62,9 @@ return (
             <Route path="/" element={<Home />} />
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
-            <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
+            {/* Biographies */}
+                <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
+                <Route path="/julia-rae-antonick" element={<JuliaRaeAntonickBio />} />
             <Route path="/meeting-one" element={<MeetingOne />} />
             <Route path="/meeting-three" element={<MeetingThree />} />
             <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
