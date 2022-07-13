@@ -22,9 +22,53 @@ import MeetingOne from "./Transcripts/MeetingOne";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
+import JuliaRaeAntonickBio from "./Biographies/JuliaRaeAntonick";
+import RachelBoggiaBio from "./Biographies/RachelBoggia";
+import BetseyBrockBio from "./Biographies/BetseyBrock";
+import BonnieBrooksBio from "./Biographies/BonnieBrooks";
+import MayfieldBrooksBio from "./Biographies/MayfieldBrooks";
+import AnnCarlsonBio from "./Biographies/AnnCarlson";
+import EllenChenowethBio from "./Biographies/EllenChenoweth";
+import NenaCouchBio from "./Biographies/NenaCouch";
+import JenaiCutcherBio from "./Biographies/JenaiCutcher";
+import LaneCzaplinskiBio from "./Biographies/LaneCzaplinski";
+import ShannonDrakeBio from "./Biographies/ShannonDrake";
+import GingerFarleyBio from "./Biographies/GingerFarley";
+import MaraFrazierBio from "./Biographies/MaraFrazier";
+import MelanieGeorgeBio from "./Biographies/MelanieGeorge";
+import AliceGostiBio from "./Biographies/AliceGosti";
+import PatGraneyBio from "./Biographies/PatGraney";
+import DaynaHansonBio from "./Biographies/DaynaHanson";
+import AngieHauserBio from "./Biographies/AngieHauser";
+import IshmaelHoustonJonesBio from "./Biographies/IshmaelHoustonJones";
+import JsunHowardBio from "./Biographies/JsunHoward";
+import LilaHurwitzBio from "./Biographies/LilaHurwitz";
+import JudyHussieTaylorBio from "./Biographies/JudyHussieTaylor";
+import JaneJerardiBio from "./Biographies/JaneJerardi";
+import DarrellJonesBio from "./Biographies/DarrellJones";
+import RajaFeatherKellyBio from "./Biographies/RajaFeatherKelly";
+import ErinKilmurrayBio from "./Biographies/ErinKilmurray";
+import JaamilOlawaleKosokoBio from "./Biographies/JaamilOlawaleKosoko";
+import SarahLassBio from "./Biographies/SarahLass";
+import ClaudiaLaRoccoBio from "./Biographies/ClaudiaLaRocco";
+import RussellLepleyBio from "./Biographies/RussellLepley";
+import TonyaLockyerBio from "./Biographies/TonyaLockyer";
+import GeselMasonBio from "./Biographies/GeselMason";
+import EllenMaynardBio from "./Biographies/EllenMaynard";
+import JonathanMeyerBio from "./Biographies/JonathanMeyer";
+import BebeMillerBio from "./Biographies/BebeMiller";
+import DianaMuhammadBio from "./Biographies/DianaMuhammad";
+import CoriOlinghouseBio from "./Biographies/CoriOlinghouse";
+import LaurenReeSloneBio from "./Biographies/LaurenReeSlone";
+import ImogenSmithBio from "./Biographies/ImogenSmith";
+import AlexSpringerBio from "./Biographies/AlexSpringer";
+import DanaWhitcoBio from "./Biographies/DanaWhitco";
+import NijaWhitsonBio from "./Biographies/NijaWhitson";
+import ReggieWilsonBio from "./Biographies/ReggieWilson";
+import FailspaceBio from "./Biographies/Failspace";
 
 // === VIDEOS ===
-import MeetingThree from "./Videos/MeetingThree"
+import MeetingThree from "./Videos/MeetingThree";
 
 function App() {
 
@@ -59,9 +103,57 @@ return (
         <Index active={toggleRightMenu} openDisplay={index} closedDisplay={indexClosed}/>
         <Routes>
             <Route path="/" element={<Home />} />
+            {/* Themes */}
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
+            {/* Essays */}
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
-            <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
+            {/* Biographies */}
+                <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
+                <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
+                <Route path="/angie-hauser-bio" element={<AngieHauserBio />} />
+                <Route path="/ann-carlson-bio" element={<AnnCarlsonBio />} />
+                <Route path="/bebe-miller-bio" element={<BebeMillerBio />} />
+                <Route path="/betsey-brock-bio" element={<BetseyBrockBio />} />
+                <Route path="/bonnie-brooks-bio" element={<BonnieBrooksBio />} />
+                <Route path="/claudia-la-rocco-bio" element={<ClaudiaLaRoccoBio />} />
+                <Route path="/cori-olinghouse-bio" element={<CoriOlinghouseBio />} />
+                <Route path="/dana-whitco-bio" element={<DanaWhitcoBio />} />
+                <Route path="/darrell-jones-bio" element={<DarrellJonesBio />} />
+                <Route path="/dayna-hanson-bio" element={<DaynaHansonBio />} />
+                <Route path="/diana-muhammad-bio" element={<DianaMuhammadBio />} />
+                <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
+                <Route path="/ellen-maynard-bio" element={<EllenMaynardBio />} />
+                <Route path="/erin-kilmurray-bio" element={<ErinKilmurrayBio />} />
+                <Route path="/gesel-mason-bio" element={<GeselMasonBio />} />
+                <Route path="/failspace" element={<FailspaceBio />} />
+                <Route path="/ginger-farley-bio" element={<GingerFarleyBio />} />
+                <Route path="/imogen-smith-bio" element={<ImogenSmithBio />} />
+                <Route path="/ishmael-houston-jones-bio" element={<IshmaelHoustonJonesBio />} />
+                <Route path="/jaamil-olawale-kosoko-bio" element={<JaamilOlawaleKosokoBio />} />
+                <Route path="/jane-jerardi-bio" element={<JaneJerardiBio />} />
+                <Route path="/jenai-cutcher-bio" element={<JenaiCutcherBio />} />
+                <Route path="/jonathan-meyer-bio" element={<JonathanMeyerBio />} />
+                <Route path="/jsun-howard-bio" element={<JsunHowardBio />} />
+                <Route path="/judy-hussie-taylor-bio" element={<JudyHussieTaylorBio />} />
+                <Route path="/julia-rae-antonick-bio" element={<JuliaRaeAntonickBio />} />
+                <Route path="/lane-czaplinski-bio" element={<LaneCzaplinskiBio />} />
+                <Route path="/lauren-ree-slone-bio" element={<LaurenReeSloneBio />} />
+                <Route path="/lila-hurwitz-bio" element={<LilaHurwitzBio />} />
+                <Route path="/mara-frazier-bio" element={<MaraFrazierBio />} />
+                <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
+                <Route path="/mayfield-brooks-bio" element={<MayfieldBrooksBio />} />
+                <Route path="/melanie-george-bio" element={<MelanieGeorgeBio />} />
+                <Route path="/nena-couch-bio" element={<NenaCouchBio />} />
+                <Route path="/nija-whitson-bio" element={<NijaWhitsonBio />} />
+                <Route path="/pat-graney-bio" element={<PatGraneyBio />} />
+                <Route path="/raja-feather-kelly-bio" element={<RajaFeatherKellyBio />} />
+                <Route path="/russell-lepley-bio" element={<RussellLepleyBio />} />
+                <Route path="/sarah-lass-bio" element={<SarahLassBio />} />
+                <Route path="/shannon-drake-bio" element={<ShannonDrakeBio />} />
+                <Route path="/rachel-boggia-bio" element={<RachelBoggiaBio />} />
+                <Route path="/reggie-wilson-bio" element={<ReggieWilsonBio />} />
+                <Route path="/tonya-lockyer-bio" element={<TonyaLockyerBio />} />
+            {/* Transcripts */}
             <Route path="/meeting-one" element={<MeetingOne />} />
             <Route path="/meeting-three" element={<MeetingThree />} />
             <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
