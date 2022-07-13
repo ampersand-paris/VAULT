@@ -53,6 +53,8 @@ import SarahLassBio from "./Biographies/SarahLass";
 import ClaudiaLaRoccoBio from "./Biographies/ClaudiaLaRocco";
 import RussellLepleyBio from "./Biographies/RussellLepley";
 import TonyaLockyerBio from "./Biographies/TonyaLockyer";
+import GeselMasonBio from "./Biographies/GeselMason";
+
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
 
@@ -104,6 +106,7 @@ return (
                 <Route path="/darrell-jones-bio" element={<DarrellJonesBio />} />
                 <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
                 <Route path="/erin-kilmurray-bio" element={<ErinKilmurrayBio />} />
+                <Route path="/gesel-mason-bio" element={<GeselMasonBio />} />
                 <Route path="/ginger-farley-bio" element={<GingerFarleyBio />} />
                 <Route path="/ishmael-houston-jones-bio" element={<IshmaelHoustonJonesBio />} />
                 <Route path="/jaamil-olawale-kosoko-bio" element={<JaamilOlawaleKosokoBio />} />
