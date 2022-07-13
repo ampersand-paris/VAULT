@@ -44,6 +44,7 @@ import IshmaelHoustonJonesBio from "./Biographies/IshmaelHoustonJones";
 import JsunHowardBio from "./Biographies/JsunHoward";
 import LilaHurwitzBio from "./Biographies/LilaHurwitz";
 import JudyHussieTaylorBio from "./Biographies/JudyHussieTaylor";
+import JaneJerardiBio from "./Biographies/JaneJerardi";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
@@ -95,6 +96,7 @@ return (
                 <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
                 <Route path="/ginger-farley-bio" element={<GingerFarleyBio />} />
                 <Route path="/ishmael-houston-jones-bio" element={<IshmaelHoustonJonesBio />} />
+                <Route path="/jane-jerardi-bio" element={<JaneJerardiBio />} />
                 <Route path="/jenai-cutcher-bio" element={<JenaiCutcherBio />} />
                 <Route path="/jsun-howard-bio" element={<JsunHowardBio />} />
                 <Route path="/judy-hussie-taylor-bio" element={<JudyHussieTaylorBio />} />
