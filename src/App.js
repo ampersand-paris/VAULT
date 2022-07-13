@@ -28,6 +28,7 @@ import BetseyBrockBio from "./Biographies/BetseyBrock";
 import BonnieBrooksBio from "./Biographies/BonnieBrooks";
 import MayfieldBrooksBio from "./Biographies/MayfieldBrooks";
 import AnnCarlsonBio from "./Biographies/AnnCarlson";
+import EllenChenowethBio from "./Biographies/EllenChenoweth";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree"
@@ -70,9 +71,10 @@ return (
             {/* Essays */}
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             {/* Biographies */}
-                <Route path="ann-carlson-bio" element={<AnnCarlsonBio />} />
-                <Route path="betsey-brock-bio" element={<BetseyBrockBio />} />
-                <Route path="bonnie-brooks-bio" element={<BonnieBrooksBio />} />
+                <Route path="/ann-carlson-bio" element={<AnnCarlsonBio />} />
+                <Route path="/betsey-brock-bio" element={<BetseyBrockBio />} />
+                <Route path="/bonnie-brooks-bio" element={<BonnieBrooksBio />} />
+                <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
                 <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
                 <Route path="/mayfield-brooks-bio" element={<MayfieldBrooksBio />} />
                 <Route path="/julia-rae-antonick-bio" element={<JuliaRaeAntonickBio />} />
