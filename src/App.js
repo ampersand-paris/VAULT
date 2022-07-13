@@ -30,9 +30,10 @@ import MayfieldBrooksBio from "./Biographies/MayfieldBrooks";
 import AnnCarlsonBio from "./Biographies/AnnCarlson";
 import EllenChenowethBio from "./Biographies/EllenChenoweth";
 import NenaCouchBio from "./Biographies/NenaCouch";
+import JenaiCutcherBio from "./Biographies/JenaiCutcher";
 
 // === VIDEOS ===
-import MeetingThree from "./Videos/MeetingThree"
+import MeetingThree from "./Videos/MeetingThree";
 
 function App() {
 
@@ -76,6 +77,7 @@ return (
                 <Route path="/betsey-brock-bio" element={<BetseyBrockBio />} />
                 <Route path="/bonnie-brooks-bio" element={<BonnieBrooksBio />} />
                 <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
+                <Route path="/jenai-cutcher-bio" element={<JenaiCutcherBio />} />
                 <Route path="/julia-rae-antonick-bio" element={<JuliaRaeAntonickBio />} />
                 <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
                 <Route path="/mayfield-brooks-bio" element={<MayfieldBrooksBio />} />
