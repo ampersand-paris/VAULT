@@ -60,7 +60,10 @@ import BebeMillerBio from "./Biographies/BebeMiller";
 import DianaMuhammadBio from "./Biographies/DianaMuhammad";
 import CoriOlinghouseBio from "./Biographies/CoriOlinghouse";
 import LaurenReeSloneBio from "./Biographies/LaurenReeSlone";
-import ImogenSmithBio from "./Biographies/ImogenSmith"
+import ImogenSmithBio from "./Biographies/ImogenSmith";
+import AlexSpringerBio from "./Biographies/AlexSpringer";
+import DanaWhitcoBio from "./Biographies/DanaWhitco";
+import NijaWhitsonBio from "./Biographies/NijaWhitson";
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
 
@@ -103,6 +106,7 @@ return (
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             {/* Biographies */}
                 <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
+                <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
                 <Route path="/angie-hauser-bio" element={<AngieHauserBio />} />
                 <Route path="/ann-carlson-bio" element={<AnnCarlsonBio />} />
                 <Route path="/bebe-miller-bio" element={<BebeMillerBio />} />
@@ -110,8 +114,9 @@ return (
                 <Route path="/bonnie-brooks-bio" element={<BonnieBrooksBio />} />
                 <Route path="/claudia-la-rocco-bio" element={<ClaudiaLaRoccoBio />} />
                 <Route path="/cori-olinghouse-bio" element={<CoriOlinghouseBio />} />
-                <Route path="/dayna-hanson-bio" element={<DaynaHansonBio />} />
+                <Route path="/dana-whitco-bio" element={<DanaWhitcoBio />} />
                 <Route path="/darrell-jones-bio" element={<DarrellJonesBio />} />
+                <Route path="/dayna-hanson-bio" element={<DaynaHansonBio />} />
                 <Route path="/diana-muhammad-bio" element={<DianaMuhammadBio />} />
                 <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
                 <Route path="/ellen-maynard-bio" element={<EllenMaynardBio />} />
@@ -135,6 +140,7 @@ return (
                 <Route path="/mayfield-brooks-bio" element={<MayfieldBrooksBio />} />
                 <Route path="/melanie-george-bio" element={<MelanieGeorgeBio />} />
                 <Route path="/nena-couch-bio" element={<NenaCouchBio />} />
+                <Route path="/nija-whitson-bio" element={<NijaWhitsonBio />} />
                 <Route path="/pat-graney-bio" element={<PatGraneyBio />} />
                 <Route path="/raja-feather-kelly-bio" element={<RajaFeatherKellyBio />} />
                 <Route path="/russell-lepley-bio" element={<RussellLepleyBio />} />
