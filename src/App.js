@@ -23,6 +23,7 @@ import MeetingOne from "./Transcripts/MeetingOne";
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
 import JuliaRaeAntonickBio from "./Biographies/JuliaRaeAntonick";
+import RachelBoggiaBio from "./Biographies/RachelBoggia"
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree"
@@ -65,6 +66,7 @@ return (
             {/* Biographies */}
                 <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
                 <Route path="/julia-rae-antonick" element={<JuliaRaeAntonickBio />} />
+                <Route path="/rachel-boggia" element={<RachelBoggiaBio />} />
             <Route path="/meeting-one" element={<MeetingOne />} />
             <Route path="/meeting-three" element={<MeetingThree />} />
             <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
