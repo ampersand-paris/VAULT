@@ -52,7 +52,7 @@ import JaamilOlawaleKosokoBio from "./Biographies/JaamilOlawaleKosoko";
 import SarahLassBio from "./Biographies/SarahLass";
 import ClaudiaLaRoccoBio from "./Biographies/ClaudiaLaRocco";
 import RussellLepleyBio from "./Biographies/RussellLepley";
-
+import TonyaLockyerBio from "./Biographies/TonyaLockyer";
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
 
@@ -125,6 +125,7 @@ return (
                 <Route path="/sarah-lass-bio" element={<SarahLassBio />} />
                 <Route path="/shannon-drake-bio" element={<ShannonDrakeBio />} />
                 <Route path="/rachel-boggia-bio" element={<RachelBoggiaBio />} />
+                <Route path="/tonya-lockyer-bio" element={<TonyaLockyerBio />} />
             {/* Transcripts */}
             <Route path="/meeting-one" element={<MeetingOne />} />
             <Route path="/meeting-three" element={<MeetingThree />} />
