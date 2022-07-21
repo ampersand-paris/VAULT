@@ -77,6 +77,7 @@ import FailspaceBio from "./Biographies/Failspace";
 import MeetingThree from "./Videos/MeetingThree";
 
 import ClaudiaLaRoccoEssay from "./Essays/ClaudiaLaRoccoEssay";
+import TonyaLockyerEssay from "./Essays/TonyaLockyerEssay";
 
 function App() {
 
@@ -122,6 +123,7 @@ return (
                 <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
                 <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
                 <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
+                <Route path="/tonya-lockyer-essay" element={<TonyaLockyerEssay />} />
             {/* Biographies */}
                 <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
                 <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
