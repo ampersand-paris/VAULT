@@ -78,6 +78,8 @@ import MeetingThree from "./Videos/MeetingThree";
 
 import ClaudiaLaRoccoEssay from "./Essays/ClaudiaLaRoccoEssay";
 import TonyaLockyerEssay from "./Essays/TonyaLockyerEssay";
+import JaneJerardiEssay from "./Essays/JaneJerardiEssay";
+import DianaMuhammadEssay from "./Essays/DianaMuhammadEssay";
 
 function App() {
 
@@ -120,6 +122,8 @@ return (
                 <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
                 <Route path="/cori-olinghouse-essay" element={<CoriOlinghouseEssay />} />
                 <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
+                <Route path="/diana-muhammad-essay" element={<DianaMuhammadEssay />} />
+                <Route path="/jane-jerardi-essay" element={<JaneJerardiEssay />} />
                 <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
                 <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
                 <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
