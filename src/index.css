@@ -49,12 +49,26 @@ ul {
   margin: 0;
 }
 
+ol {
+  padding: 0 0 0 2vW;
+}
+
 
 li {
   font-family: myriad-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
   list-style: none;
+}
+
+.bullets {
+  list-style: circle;
+  padding-top: 10px;
+}
+
+.numbers {
+  list-style: decimal;
+  padding-top: 10px;
 }
 
 .coporate {
@@ -703,7 +717,7 @@ iframe {
 }
 
 .mobile-width {
-  width: 70vW;
+  width: 65vW;
 }
 
 /* ====== SPACING ====== */
@@ -742,7 +756,7 @@ iframe {
 /* ====== WRITING ====== */
 
 .essay-width {
-  width: 70vW;
+  width: 65vW;
 }
 
 /* ====== VIDEO ====== */
@@ -766,7 +780,7 @@ iframe {
 /* ====== HOMEPAGE ====== */
 
 .home-text-width {
-  width: 75vW;
+  width: 65vW;
 }
 
 }

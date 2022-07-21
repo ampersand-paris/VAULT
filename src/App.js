@@ -15,7 +15,26 @@ import ResourcesMentioned from "./ResourcesMentioned";
 import ArchivalThinking from "./Gathered Materials/ArchivalThinking";
 
 // === ESSAYS ===
-import MarjiColeEssay from "./Essays/MarjiCole";
+import AlexSpringerEssay from "./Essays/AlexSpringerEssay";
+import MarjiColeEssay from "./Essays/MarjiColeEssay";
+import IshmaelHoustonJonesEssay from "./Essays/IshmaelHoustonJonesEssay";
+import DanyaHansonEssay from "./Essays/DanyaHansonEssay";
+import BonnieBrooksEssay from "./Essays/BonnieBrooksEssay";
+import JSunHowardEssay from "./Essays/JSunHowardEssay";
+import CoriOlinghouseEssay from "./Essays/CoriOlinghouseEssay";
+import ClaudiaLaRoccoEssay from "./Essays/ClaudiaLaRoccoEssay";
+import TonyaLockyerEssay from "./Essays/TonyaLockyerEssay";
+import JaneJerardiEssay from "./Essays/JaneJerardiEssay";
+import DianaMuhammadEssay from "./Essays/DianaMuhammadEssay";
+import LaurenReeSloneEssay from "./Essays/LaurenSloneEssay";
+import ErinKilmurrayEssay from "./Essays/ErinKilmurrayEssay";
+import DarrellJonesEssay from "./Essays/DarrellJonesEssay";
+import AngieHauserEssay from "./Essays/AngieHauserEssay";
+import JonathanMeyerEssay from "./Essays/JonathanMeyerEssay";
+import AnnCarlsonEssay from "./Essays/AnnCarlsonEssay";
+import MaraFrazierEssay from "./Essays/MaraFrazierEssay";
+import RussellLepleyEssay from "./Essays/RussellLepleyEssay";
+import EllenChenowethEssay from "./Essays/EllenChenowethEssay";
 
 // === TRANSCRIPTS ===
 import MeetingOne from "./Transcripts/MeetingOne";
@@ -106,7 +125,26 @@ return (
             {/* Themes */}
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
             {/* Essays */}
-            <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
+                <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
+                <Route path="/angie-hauser-essay" element={<AngieHauserEssay />} />
+                <Route path="/ann-carlson-essay" element={<AnnCarlsonEssay />} />                <Route path="/bonnie-brooks-essay" element={<BonnieBrooksEssay />} />
+                <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
+                <Route path="/cori-olinghouse-essay" element={<CoriOlinghouseEssay />} />
+                <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
+                <Route path="/darrell-jones-essay" element={<DarrellJonesEssay />} />
+                <Route path="/diana-muhammad-essay" element={<DianaMuhammadEssay />} />
+                <Route path="/ellen-chenoweth-essay" element={<EllenChenowethEssay />} />
+                <Route path="/erin-kilmurray-essay" element={<ErinKilmurrayEssay />} />
+                <Route path="/imogen-smith-essay" element={<ImogenSmithBio />} />
+                <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
+                <Route path="/jane-jerardi-essay" element={<JaneJerardiEssay />} />
+                <Route path="/jonathan-meyer-essay" element={<JonathanMeyerEssay />} />
+                <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
+                <Route path="/lauren-slone-essay" element={<LaurenReeSloneEssay />} />
+                <Route path="/mara-frazier-essay" element={<MaraFrazierEssay />} />
+                <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
+                <Route path="/russell-lepley-essay" element={<RussellLepleyEssay />} />
+                <Route path="/tonya-lockyer-essay" element={<TonyaLockyerEssay />} />
             {/* Biographies */}
                 <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
                 <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
