@@ -18,6 +18,10 @@ import ArchivalThinking from "./Gathered Materials/ArchivalThinking";
 import AlexSpringerEssay from "./Essays/AlexSpringerEssay";
 import MarjiColeEssay from "./Essays/MarjiColeEssay";
 import IshmaelHoustonJonesEssay from "./Essays/IshmaelHoustonJonesEssay";
+import DanyaHansonEssay from "./Essays/DanyaHansonEssay";
+import BonnieBrooksEssay from "./Essays/BonnieBrooksEssay";
+import JSunHowardEssay from "./Essays/JSunHowardEssay";
+import CoriOlinghouseEssay from "./Essays/CoriOlinghouseEssay";
 
 // === TRANSCRIPTS ===
 import MeetingOne from "./Transcripts/MeetingOne";
@@ -73,9 +77,6 @@ import FailspaceBio from "./Biographies/Failspace";
 import MeetingThree from "./Videos/MeetingThree";
 
 import ClaudiaLaRoccoEssay from "./Essays/ClaudiaLaRoccoEssay";
-import DanyaHansonEssay from "./Essays/DanyaHansonEssay";
-import BonnieBrooksEssay from "./Essays/BonnieBrooksEssay";
-import JSunHowardEssay from "./Essays/JSunHowardEssay";
 
 function App() {
 
@@ -116,6 +117,7 @@ return (
                 <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
                 <Route path="/bonnie-brooks-essay" element={<BonnieBrooksEssay />} />
                 <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
+                <Route path="/cori-olinghouse-essay" element={<CoriOlinghouseEssay />} />
                 <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
                 <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
                 <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
