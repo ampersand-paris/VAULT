@@ -703,7 +703,7 @@ iframe {
 }
 
 .mobile-width {
-  width: 70vW;
+  width: 65vW;
 }
 
 /* ====== SPACING ====== */
@@ -742,7 +742,7 @@ iframe {
 /* ====== WRITING ====== */
 
 .essay-width {
-  width: 70vW;
+  width: 65vW;
 }
 
 /* ====== VIDEO ====== */
@@ -766,7 +766,7 @@ iframe {
 /* ====== HOMEPAGE ====== */
 
 .home-text-width {
-  width: 75vW;
+  width: 65vW;
 }
 
 }

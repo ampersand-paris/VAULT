@@ -15,7 +15,9 @@ import ResourcesMentioned from "./ResourcesMentioned";
 import ArchivalThinking from "./Gathered Materials/ArchivalThinking";
 
 // === ESSAYS ===
-import MarjiColeEssay from "./Essays/MarjiCole";
+import AlexSpringerEssay from "./Essays/AlexSpringerEssay";
+import MarjiColeEssay from "./Essays/MarjiColeEssay";
+import IshmaelHoustonJonesEssay from "./Essays/IshmaelHoustonJonesEssay";
 
 // === TRANSCRIPTS ===
 import MeetingOne from "./Transcripts/MeetingOne";
@@ -106,6 +108,8 @@ return (
             {/* Themes */}
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
             {/* Essays */}
+            <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
+            <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             {/* Biographies */}
                 <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
