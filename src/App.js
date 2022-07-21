@@ -72,6 +72,9 @@ import FailspaceBio from "./Biographies/Failspace";
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
 
+import ClaudiaLaRoccoEssay from "./Essays/ClaudiaLaRoccoEssay";
+import DanyaHansonEssay from "./Essays/DanyaHansonEssay";
+
 function App() {
 
     const [index, setIndex] = useState('none')
@@ -109,6 +112,8 @@ return (
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
             {/* Essays */}
             <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
+            <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
+            <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
             <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
             <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             {/* Biographies */}
