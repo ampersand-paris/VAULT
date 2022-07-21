@@ -63,10 +63,12 @@ li {
 
 .bullets {
   list-style: circle;
+  padding-top: 10px;
 }
 
 .numbers {
   list-style: decimal;
+  padding-top: 10px;
 }
 
 .coporate {
