@@ -74,6 +74,8 @@ import MeetingThree from "./Videos/MeetingThree";
 
 import ClaudiaLaRoccoEssay from "./Essays/ClaudiaLaRoccoEssay";
 import DanyaHansonEssay from "./Essays/DanyaHansonEssay";
+import BonnieBrooksEssay from "./Essays/BonnieBrooksEssay";
+import JSunHowardEssay from "./Essays/JSunHowardEssay";
 
 function App() {
 
@@ -111,11 +113,13 @@ return (
             {/* Themes */}
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
             {/* Essays */}
-            <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
-            <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
-            <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
-            <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
-            <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
+                <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
+                <Route path="/bonnie-brooks-essay" element={<BonnieBrooksEssay />} />
+                <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
+                <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
+                <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
+                <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
+                <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
             {/* Biographies */}
                 <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
                 <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
