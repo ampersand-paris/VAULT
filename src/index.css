@@ -679,6 +679,8 @@ iframe {
 
 .bebe-seattle {
   background-image: url('/public/Images/Pictures/BebeSeattle.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ishmael{
@@ -706,10 +708,30 @@ iframe {
 
 @media screen and (max-width: 800px) {
 
+
+/* ====== BORDERS ====== */
+.no-mobile-border {
+  border: none;
+}
+
+.top-mobile-sand-border {
+  border-top: 5px solid var(--sand);
+
+}
+/* ====== DISPLAY ====== */
+
+.display-none {
+  display: none;
+}
+
 /* ====== HEIGHT & WIDTH ====== */
 
 .one-hundred-vh {
   height: 100%;
+}
+
+.mobile-h-200px {
+  height: 250px;
 }
 
 .mobile-one-hundred-vh {
@@ -720,6 +742,37 @@ iframe {
   width: 65vW;
 }
 
+.w-fifty {
+  width: calc(100% - 2vW);
+}
+
+.mobile-w-forty-seven-border-adjust {
+  width: calc(100% - 2vW + 4px) !important;
+}
+
+.w-forty-seven {
+  width: calc(100% - 2vW);
+}
+
+.w-forty-seven-split {
+  width: 48% !important;
+}
+
+.w-forty {
+  width: calc(100% - 4vW);
+}
+
+.w-seventy {
+  width: calc(100% - 2vW);
+}
+
+.w-sixty {
+  width: calc(100% - 2vW);
+}
+
+.w-twenty-five {
+  width: calc(100% - 2vW);
+}
 /* ====== SPACING ====== */
 
 .mobile-flex {
@@ -734,7 +787,7 @@ iframe {
   justify-content: center;
 }
 
-.mobile-column{
+.mobile-column {
   flex-direction: column ;
 }
 
@@ -742,6 +795,70 @@ iframe {
 
 .mobile-padding {
   padding-top: 4vH ;
+}
+
+.mobile-side-padding {
+  padding-left: 12vW;
+  padding-right: 12vW;
+}
+
+/* ====== MARGIN ====== */
+
+.mobile-top-100px {
+  margin-top: 100px;
+}
+
+/* ====== MENUS ====== */
+
+.triangle-size {
+  width: 25px !important;
+}
+
+/* ====== GATHERED MATERIALS ====== */
+
+.container {
+  overflow-x: scroll;
+  width: 100vW;
+}
+
+.container-length {
+  width: 100vW;
+}
+
+.intro-panel-width {
+  width: 100vW;
+}
+
+.intro-title {
+  font-size: 50px;
+  margin: 0;
+  padding: 0vH 2vW;
+}
+
+.intro-width {
+  width: 200px;
+}
+
+.panel-1400 {
+  width: 76vW;
+}
+
+.panel-700 {
+  width: 76vW;
+}
+
+.panel-900 {
+  width: 76vW;
+}
+
+/* === ARCHIVAL THINKING === */
+
+.ishmael{
+  position: relative;
+  width: 100%;
+  right: 0%;
+  top: 10%;
+  z-index: 0;
 }
 
 /* ====== TRANSCRIPTION ====== */
