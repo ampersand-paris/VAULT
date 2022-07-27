@@ -124,6 +124,11 @@ li {
   width: 70%;
 }
 
+.w-seventy-five {
+  width: 75%;
+}
+
+
 .w-sixty {
   width: 60%;
 }
@@ -182,6 +187,10 @@ li {
   justify-content: space-between;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
 /* ====== POSITION ====== */
 
 .absolute {
@@ -215,12 +224,25 @@ li {
   margin-top: 100px;
 }
 
+.methods-margin {
+  margin-top: 150px;
+}
+
+.left-margin-10px {
+  margin-left: 10px;
+}
 /* ====== PADDING ====== */
 
 .no-top-padding {
   padding-top: 0;
   margin-top: 0;
 }
+
+.no-bottom-padding {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 
 .top-padding {
   padding: 15vH 0 5vH 0;
@@ -262,6 +284,13 @@ li {
   --pumpkin: #E26E40;
 }
 
+.black {
+  background-color: black;
+}
+
+.black-txt {
+  color: black;
+}
 .cobalt {
   background-color: var(--cobalt);
 }
@@ -273,7 +302,6 @@ li {
 .cobalt-txt {
   color: var(--cobalt);
 }
-
 
 .evergreen {
   background-color: var(--evergreen);
@@ -289,6 +317,10 @@ li {
 
 .preserved-lemon {
   background-color: var(--preserved-lemon);
+}
+
+.preserved-lemon-txt {
+  color: var(--preserved-lemon);
 }
 
 .pumpkin {
@@ -317,6 +349,10 @@ li {
 
 .txt-al-center {
   text-align: center;
+}
+
+.txt-al-right {
+  text-align: right;
 }
 
 /* ====== BUTTONS ====== */
@@ -439,6 +475,7 @@ audio::-webkit-media-controls-timeline {
   border-bottom: 1px solid black;
   padding-bottom: 1px;
 }
+
 .index-menu {
   min-width: 300px;
   position: fixed;
@@ -670,6 +707,13 @@ iframe {
   position: relative;
 }
 
+.methods-panel-1 {
+  background-image: url('/public/Images/Pictures/ArchivalThinking1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .ar-slash {
   position: absolute;
   height: 80vH;
@@ -704,6 +748,15 @@ iframe {
   margin: 0;
   }
 
+
+/* === METHODS === */
+
+  .m-slash {
+    position: absolute;
+    height: 80vH;
+    left: 70%;
+    top: 70px;
+  }
 /* ============ MOBILE ============ */
 
 @media screen and (max-width: 800px) {

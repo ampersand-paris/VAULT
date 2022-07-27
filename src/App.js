@@ -13,6 +13,7 @@ import ResourcesMentioned from "./ResourcesMentioned";
 
 // === THEMES ===
 import ArchivalThinking from "./Gathered Materials/ArchivalThinking";
+import Methods from "./Gathered Materials/Methods"
 
 // === ESSAYS ===
 import AlexSpringerEssay from "./Essays/AlexSpringerEssay";
@@ -124,6 +125,7 @@ return (
             <Route path="/" element={<Home />} />
             {/* Themes */}
             <Route path="/archival-thinking" element={<ArchivalThinking />} />
+            <Route path="/methods" element={<Methods />} />
             {/* Essays */}
                 <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
                 <Route path="/angie-hauser-essay" element={<AngieHauserEssay />} />
