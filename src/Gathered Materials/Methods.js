@@ -3,7 +3,7 @@ const Methods = (props) => {
     return (
     <>
         <div className="container one-hundred-vh preserved-lemon">
-            <div className="container-length one-hundred-vh flex mobile-column">
+            <div className="m-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
                         <div className="methods-margin">
@@ -113,102 +113,95 @@ const Methods = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1400 flex column mobile-side-padding">
-                    <div className="h-fifty flex mobile-column">
-                        <div className="w-seventy sand-border-right">
-                            <div className="flex space-btwn mobile-column">
-                                <div className="flex mobile-column w-seventy">
-                                    <div className="w-fifty stnd-padding">
-                                        <img src="/Images/Pictures/LaRocco.svg" />
-                                    </div>
-                                    <div className="relative stnd-padding">
-                                        <div className="flex column jc-center double-padding sand pumpkin-txt">
-                                            <p className="transcription-details side-padding no-padding"><b>WRITING: Claudia La Rocco</b></p>
-                                            <p className="transcription-details side-padding no-padding">There is often anxiety around documentation.</p>
-                                        </div>
-                                        <div className="flex jc-center sand-gradient-50-down w-one-hundred">
-                                            <a className="small-bttn pumpkin sand-txt sand-border">Writing</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex column space-btwn stnd-padding">
-                                    <div className="sand pumpkin-txt stnd-padding border-radius">
-                                        <p className="transcription-details no-padding">Is there a way to enlist [funders] in learning from this process…</p>
-                                        <div className="flex flex-end">
-                                            <a className="small-bttn pumpkin sand-txt">Video</a>
-                                        </div>
-                                    </div>
-                                    <img className="only-top-padding" src="/Images/Pictures/Reggie.svg" />
-                                </div>                    
+                <div className="panel-1200 flex mobile-side-padding">
+                    <div className="flex column eighty">
+                        <div className="h-thirty-three flex sand stnd-padding">
+                            <div className="flex column jc-center">
+                                <p className="no-padding"><b>Bebe Miller</b></p>
+                                <p className="no-padding">As Michael Morris said, you’re always dancing with your ancestors, you’re never alone. ...Darrell is extraordinary because he embraces that, brings out something about the whole Vault project for me… —the sense of the form and what the form is for, which has a lot to do with how we then document it and receive it.</p>
+                            </div>
+                            <div className="flex column jc-center">                       
+                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Meeting Notes</a>
                             </div>
                         </div>
-                        <div className="w-twenty-five flex column space-btwn al-center stnd-padding">
-                            <img className="only-top-padding" src="/Images/Pictures/Reggie.svg" />
-                            <div className="sand pumpkin-txt border-radius stnd-padding ">
-                                <p className="no-padding transcription-details"><b>Jaamil Olawale Kosoko</b></p> 
-                                <p className="no-padding transcription-details">...as the archivist, as the curator, as the maker, I'm just showing you my ways in which I'm maneuvering through certain materials.</p>
-                                <div className="flex flex-end">
-                                    <a className="small-bttn pumpkin sand-txt">Video</a>
+                        <div className="h-thirty-three flex space-around stnd-padding">
+                            <div className="w-thirty flex column">
+                                <div className="flex sand-gradient-50 w-one-hundred">
+                                    <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
+                                </div>
+                                <div className="w-one-hundred sand">
+                                    <p className="side-padding"><b>WRITING: Ishmael Houston-Jones</b></p>
+                                    <p className="no-top-padding side-padding">…peer/follower review + feedback + championing has been the active ingredient in pushing [my work] forward.</p>
+                                </div>
+                            </div>
+                            <img src="/Images/Pictures/Reggie.svg" className="w-twenty-five" />
+                            <div className="w-thirty flex column">
+                                <div className="flex sand-gradient-50 w-one-hundred">
+                                    <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
+                                </div>
+                                <div className="w-one-hundred sand">
+                                    <p className="side-padding"><b>WRITING: Darrell Jones</b></p>
+                                    <p className="no-top-padding side-padding">I have a personal interest in cataloging [my father’s materials as a creative tool with applications in movement research…</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="h-thirty-three flex  stnd-padding">
+                            <div className="flex jc-center">
+                                <div className="w-eighty">
+                                    <p><b>Angie Hauser</b></p>
+                                    <p>The methodology of archiving [is] determined by the ephemera of the technology that’s available to you. Now, in a situation where we have so much information [... the] joy of finding archival contact sheets, etc. [and] seeing everything else that wasn’t selected, [can be lost.]</p>
+                                    <a className="small-bttn left-margin-10px sand black-txt sand-border">Meeting Notes</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="h-fifty flex mobile-column">
-                        <div className="w-sixty">
-                            <div className="flex h-one-hundred mobile-column">
-                                <div className="bebe-seattle w-forty-seven mobile-w-forty-seven-border-adjust stnd-padding">
-                                    <div className="flex flex-end mobile-h-200px">
-                                        <a className="small-bttn pumpkin sand-txt">Meeting Notes</a>
-                                    </div>
-                                </div>
-                                <div className="w-forty-seven stnd-padding sand-txt sand-border">
-                                    <p><b>Bebe Miller, Seattle:</b></p> 
-                                    <p>Did we grow into this archiving of process? 30 years ago we only documented performance even though all that process was there. We have learned to love it and want to share that. When we stop wanting to do that, share that ephemeral aspect of what we love about process? What else is there? Our attention to process is a kind of thing.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-forty flex column flex-end al-center double-padding w-one-hundred">
-                            <div className="flex flex-end mobile-jc-center w-one-hundred stnd-padding">
-                                <img className="w-forty" src="/Images/Pictures/Jaamil.svg" />
-                            </div>
-                            <div className="flex jc-center sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn pumpkin sand-txt sand-border">Writing</a>
-                            </div>
-                            <div className="sand pumpkin-txt w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
-                                <p className="side-padding">…documentation has become more of an aesthetic pursuit…</p>
-                            </div>
-                            <h3 className="vault-padding sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h3>
-                        </div>
+                    <div className="flex column flex-end al-center">
+                        <img src="/Images/CreamOutlineSlash.svg" className="slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-700 flex column mobile-side-padding">
-                    <div className="h-fifty flex space-btwn stnd-padding">
-                        <div className="w-forty-seven w-forty-seven-split">
-                                <div className="sand-txt">
-                                    <p className="no-padding"><b>Raja Feather Kelly, Seattle:</b></p>
-                                    <p className="no-padding">Would other/newer ways to archive, change the way work was made?</p>
-                                    <div className="flex">
-                                        <a className="small-bttn sand pumpkin-txt">Meeting notes</a>
-                                    </div>
-                                </div>
+                <div className="panel-1400 flex space-around mobile-side-padding">
+                    <div className="w-twenty-five flex column space-around sand sand-border">
+                        <div className="flex column">
+                            <div className="flex black-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
                             </div>
-                            <div className="w-forty-seven w-forty-seven-split">
-                                <img className="" src="/Images/Pictures/Reggie.svg" />
-                                <div className="stnd-padding border-radius sand pumpkin-txt">
-                                    <p className="transcription-details no-padding"><b>Bebe Miller:</b></p>
-                                    <p className="transcription-details no-padding">Bebe Miller, …there's something about the immediacy of [social media's] dispersal of information...</p>
-                                    <div className="flex flex-end">
-                                        <a className="small-bttn pumpkin sand-txt">Video</a>
-                                    </div>
-                                </div>
+                            <div className="w-one-hundred preserved-lemon">
+                                <p className="side-padding"><b>WRITING: Bonnie Brooks</b></p>
+                                <p className="side-padding">The advent of personal, digital phones opened yet a wider avenue to cost-free recording and documentation.</p>
                             </div>
                         </div>
-                    <div className="h-fifty sand pumpkin-txt stnd-padding">
-                        <p><b>Judy Hussie-Taylor, NYC: </b></p>
-                        <p>Intersection between what are we doing, what are we saving, what are we collecting, what are we not doing—always at play in our work at least on the curatorial side. We’re making interventions, we’re making choices. What we all feel every day: whatever it is we value is under attack, in so many ways. A war on certain kinds of value systems. Maybe this is different than how/what we archive but these choices point to what we value.</p>
+                        <div className="flex column">
+                            <div className="flex black-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
+                            </div>
+                            <div className="w-one-hundred preserved-lemon">
+                                <p className="side-padding"><b>WRITING: Jonathan Meyer</b></p>
+                                <p className="side-padding">The onus is so often on artists rather than on the institutions that mean to support them.</p>
+                            </div>
+                        </div>
+                        <div className="flex column">
+                            <div className="flex black-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
+                            </div>
+                            <div className="w-one-hundred preserved-lemon">
+                                <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
+                                <p className="side-padding">…it’s another example of a somewhat documentary impulse blurring into a creative one.</p>
+                            </div>
+                        </div>
                     </div>
-                    
+                    <div className="w-sixty flex column flex-end double-padding">
+                        <p className="sand-txt txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                        <div className="sand-border flex double-padding">
+                            <div className="flex column w-seventy-five">
+                                <img src="/Images/Pictures/Reggie.svg" className="" />
+                                <p className="side-padding txt-al-right no-bottom-padding "><b>WRITING excerpt: Cori Olinghouse,</b></p>
+                                <p className="side-padding txt-al-right no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
+                            </div>
+                            <div className="w-twenty-five flex jc-center">
+                                <a className="small-bttn jc-center sand black-txt">WRITING</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
