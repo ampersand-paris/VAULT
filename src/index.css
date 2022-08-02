@@ -100,6 +100,14 @@ li {
   height: 50%;
 }
 
+.h-sixty {
+  height: 60%;
+}
+
+.h-forty {
+  height: 40%;
+}
+
 .h-one-hundred {
   height: 100%;
 }
@@ -169,6 +177,10 @@ li {
 
 .flex {
   display: flex;
+}
+
+.al-flex-end {
+  align-items: flex-end;
 }
 
 .flex-end {
@@ -686,6 +698,10 @@ iframe {
   width: 200px;
 }
 
+.panel-1800 {
+  width: 1800px;
+}
+
 .panel-1400 {
   width: 1400px;
 }
@@ -708,7 +724,7 @@ iframe {
 }
 
 .methods-panel-1 {
-  background-image: url('/public/Images/Pictures/ArchivalThinking1.svg');
+  background-image: url('/public/Images/Pictures/Methods.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

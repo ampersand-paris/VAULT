@@ -14,7 +14,7 @@ const Methods = (props) => {
                 </div>
                 <div className="methods-panel-1 panel-1400 flex mobile-column mobile-side-padding">
                     <h1 className="preserved-lemon-txt intro-title">METHODS</h1>
-                    <img src="/Images/OrangeSlash.svg" className="m-slash display-none"/>    
+                    <img src="/Images/LemonSlash.svg" className="m-slash display-none"/>    
                 </div>
                 <div className="panel-1400 flex space-around mobile-side-padding">
                     <div className="w-twenty-five flex column space-around">
@@ -23,8 +23,8 @@ const Methods = (props) => {
                                 <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                             </div>
                             <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
-                                <p className="side-padding">…documentation has become more of an aesthetic pursuit…</p>
+                                <p className="side-padding"><b>WRITING: Diana Muhammed</b></p>
+                                <p className="side-padding">This availability [of video] provides easy access for study and reflection of a work.</p>
                             </div>
                         </div>
                         <div className="flex column">
@@ -32,8 +32,8 @@ const Methods = (props) => {
                                 <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                             </div>
                             <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
-                                <p className="side-padding">…documentation has become more of an aesthetic pursuit…</p>
+                                <p className="side-padding"><b>WRITING: Tonya Lockyer</b></p>
+                                <p className="side-padding">Or perhaps, by the very act of so meticulously recording it, [John Cage] had helped manifest its importance.</p>
                             </div>
                         </div>
                         <div className="flex column">
@@ -41,8 +41,8 @@ const Methods = (props) => {
                                 <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                             </div>
                             <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
-                                <p className="side-padding">…documentation has become more of an aesthetic pursuit…</p>
+                                <p className="side-padding"><b>WRITING: Jane Jerardi</b></p>
+                                <p className="side-padding">I sometimes feel the desire to be selective about what I share with the world.</p>
                             </div>
                         </div>
                     </div>
@@ -60,33 +60,56 @@ const Methods = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
-                    <div className="h-fifty vault-padding ">
-                        <div className="stnd-padding sand-txt sand-border-bottom no-mobile-border">
-                            <p><b>Ann Carlson, NYC:</b></p> <p>The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying ‘the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
-                            <a className="small-bttn pumpkin-txt sand">Meeting Notes</a>
+                <div className="panel-1800 flex mobile-side-padding top-mobile-sand-border">
+                    <div className="w-twenty-five flex column space-btwn stnd-padding">
+                        <div className="flex column al-flex-end">
+                            <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
+                            </div>
+                            <div className="w-seventy-five sand w-one-hundred">
+                                <p className="side-padding"><b>WRITING: J’Sun Howard</b></p>
+                                <p className="side-padding">Virtual Reality/Augmented Reality is becoming a new trend in dance…</p>
+                            </div>
+                        </div>
+                        <div className="flex column al-flex-end txt-al-right">
+                            <p className="no-padding"><b>Angie Hauser</b></p> 
+                            <p className="no-padding">…whatever direction I might go in, [in order to] participate in a conversation around archiving, and to build process around archives, it would be to align [archiving] with how dance is actually made</p>
+                            <a className="small-bttn jc-center sand black-txt">VIDEO</a>
+                            <img src="/Images/Pictures/Reggie.svg" className="only-top-padding" />
                         </div>
                     </div>
-                    <div className="h-fifty flex space-btwn stnd-padding sand-txt">
-                        <div className="w-forty-seven w-forty-seven-split">
-                            <img className="" src="/Images/Pictures/Reggie.svg" />
-                            <div className="stnd-padding border-radius sand pumpkin-txt">
-                                <p className="transcription-details no-padding"><b>Reggie Wilson, Seattle:</b></p>
-                                <p className="transcription-details no-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
-                                <div className="flex flex-end">
-                                    <a className="small-bttn pumpkin sand-txt">Video</a>
+                    <div className="w-seventy-five flex column stnd-padding">
+                        <div className="h-sixty flex space-btwn stnd-padding">
+                            <div className="w-forty flex column space-around">
+                                <div className="flex column">
+                                    <div className="flex sand-gradient-50 w-one-hundred">
+                                        <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
+                                    </div>
+                                    <div className="w-one-hundred sand">
+                                        <p className="side-padding"><b>WRITING: Lauren Slone</b></p>
+                                        <p className="side-padding">…I also get into strange conversations with myself about “proving” to friends that I’m doing something.</p>
+                                    </div>
                                 </div>
+                                <div className="flex column">
+                                    <div className="flex sand-gradient-50 w-one-hundred">
+                                        <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
+                                    </div>
+                                    <div className="w-one-hundred sand">
+                                        <p className="side-padding"><b>WRITING: Erin Kilmurray</b></p>
+                                        <p className="side-padding">…peer/follower review + feedback + championing has been the active ingredient in pushing [my work] forward.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-sixty flex column jc-center">
+                                <img src="/Images/Pictures/Reggie.svg" className="side-padding" />
                             </div>
                         </div>
-                        <div className="w-forty-seven w-forty-seven-split">
-                            <img className="" src="/Images/Pictures/DanaWhitco.svg" />
-                            <div className="stnd-padding border-radius sand pumpkin-txt">
-                                <p className="transcription-details no-padding"><b>Dana Whitco:</b></p>
-                                <p className="transcription-details no-padding">That choreography could be thought of not as the creation of steps that have its own sort of logic, but that it is a wayfinding technique In the world.</p>
-                                <div className="flex flex-end">
-                                    <a className="small-bttn pumpkin sand-txt">Video</a>
-                                </div>
+                        <div className="h-forty flex column jc-center stnd-padding">
+                            <div className="flex space-btwn baseline">
+                                <p className="no-padding"><b>Ishmael Houston-Jones</b></p>
+                                <a className="small-bttn jc-center sand black-txt">ESSAY</a>
                             </div>
+                            <p className="no-padding">The process of my practice seems so fragile and elusive to the idea of archive. My choreography is (almost) never set in the tradition of Modern Dance or Ballet. Therefore, in those infrequent times when I have revived work that was created earlier with a different cast, the new cast is recreating the old work anew. In reality, this is true of the revival of any dance work but this seems much more unambiguous when that work is improvised. Which is “the piece?” What defines a choreography that has no set movement? What are the archival tools available to capture this work? The scattered notes I made in random notebooks hidden away in random drawers and boxes? VHS video tape? Digital transfers? Reviews, previews, and interviews in print or on blogs? Memory?</p>
                         </div>
                     </div>
                 </div>
