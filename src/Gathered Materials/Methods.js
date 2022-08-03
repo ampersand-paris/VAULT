@@ -189,17 +189,76 @@ const Methods = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-sixty flex column flex-end double-padding">
-                        <p className="sand-txt txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                    <div className="w-sixty flex column double-padding">
                         <div className="sand-border flex double-padding">
+                            <div className="w-twenty-five flex jc-center">
+                                <a className="small-bttn jc-center sand black-txt">Video</a>
+                            </div>
                             <div className="flex column w-seventy-five">
                                 <img src="/Images/Pictures/Reggie.svg" className="" />
-                                <p className="side-padding txt-al-right no-bottom-padding "><b>WRITING excerpt: Cori Olinghouse,</b></p>
-                                <p className="side-padding txt-al-right no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
+                                <p className="side-padding no-bottom-padding "><b>Dana Whitco</b></p>
+                                <p className="side-padding no-top-padding ">…I was trying to figure out how to create a fundraising opportunity around process... lots of people are doing this.</p>
                             </div>
-                            <div className="w-twenty-five flex jc-center">
-                                <a className="small-bttn jc-center sand black-txt">WRITING</a>
+                        </div>
+                        <div className="flex space-btwn">
+                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                            <div className="flex column">
+                                <div className="sand">
+                                    <p className="no-bottom-padding side-padding"><b>WRITING: Angie Hauser</b></p>
+                                    <p className="no-top-padding side-padding">…the archive that seems to be the most compelling, complex, and rich is the one that is my thinking body.</p>
+                                </div>
+                                <div className="flex sand-gradient-50-down  w-one-hundred">
+                                    <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
+                                </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
+                    <div className="vault-padding flex column">
+                        <div className="flex column">
+                            <div className="stnd-padding flex space-btwn sand al-center">
+                                <p className="no-bottom-padding"><b>Mara Frazier:</b>I would like artists to feel more welcomed into archives…</p>
+                                <a className="small-bttn black-border black sand-txt">Writing</a>
+                            </div>
+                            <div className="stnd-padding flex space-btwn sand al-center">
+                                <p className="w-seventy-five no-top-padding"><b>Ann Carlson:</b>I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
+                                <a className="small-bttn black-border black sand-txt">Writing</a>
+                            </div>
+                        </div>
+                        <div className="stnd-padding black-border-bottom no-mobile-border">
+                            <p className="no-bottom-padding"><b>Russell Lepley:</b></p> 
+                            <p className="no-top-padding">I am an early career dance-maker and have documentation of my complete works publicly available on streaming platforms YouTube and Vimeo… Attention to how my work is documented affects how institutions perceive my product which influences my future work directly… My work becomes more thoughtfully layered and more concise without those pressures.</p>
+                            <a className="small-bttn black-border black-txt">Writing</a>
+                        </div>
+                    </div>
+                    <div className="h-sixty flex space-around stnd-padding">
+                        <div className="flex column stnd-padding black-border">
+                            <p className="transcription-details no-padding"><b>Rachel Boggia, Jacob’s Pillow:</b></p>
+                            <div className="h-one-hundred flex column space-btwn">
+                                <div className="flex column">                    
+                                    <p className="transcription-details no-padding">It's a challenge with any new technology to know whether to invent. I think in dance in the academic centers like Ohio State we're [...] often late adopters of technology because there's just not enough money for us to make big mistakes.</p>
+                                    <div className="flex flex-end only-top-padding">
+                                        <a className="small-bttn black sand-txt">Video</a>
+                                    </div>
+                                </div>
+                                <div className="flex column space-btwn">
+                                    <p className="transcription-details no-padding">I'm assuming that a lot of the structures that help decide who gets archived reinforce a lot of institutional privilege, right? And and so. One way of countering that—besides actively countering it within institutions, which is would be a good idea—would be to think about what structures, monied institutions, can offer to people to do this for themselves, to some degree, or do this for each other, like communities of archiving.</p>
+                                    <div className="flex flex-end only-top-padding">
+                                        <a className="small-bttn black sand-txt">Video</a>
+                                    </div>
+                                </div>
+                                <div className="flex column space-btwn">                    
+                                    <p className="transcription-details no-padding">A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</p>                                
+                                    <div className="flex flex-end  only-top-padding">
+                                        <a className="small-bttn black sand-txt">Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex column space-btwn sand-gradient-50">
+                            <img src="/Images/Pictures/Reggie.svg" className="h-fifty" />
+                            <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
                     </div>
                 </div>

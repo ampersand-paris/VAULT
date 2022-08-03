@@ -420,6 +420,10 @@ li {
   border-bottom: 5px solid var(--sand);
 }
 
+.black-border-bottom {
+  border-bottom: 5px solid black;
+}
+
 .black-border-u-shape {
   border-left: 2px solid black;
   border-right: 2px solid black;
@@ -708,7 +712,7 @@ iframe {
 }
 
 .m-container-length {
-  width: 8000px;
+  width: 9000px;
 }
 
 .intro-panel-width {
