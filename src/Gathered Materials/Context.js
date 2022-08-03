@@ -6,13 +6,13 @@ const Context = (props) => {
             <div className="c-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
                     <div className="intro-width flex space-btwn column vault-padding">
-                        <div className="methods-margin">
+                        <div className="context-margin">
                             <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
                         <p className="transcription-details corporate"><b>We found that context depends on the perspective of the archive: artist-driven, institutional curation, the involvement of collaborating artists, dance improvisation as well as choreographic form. Documentation, the politics behind the impulse to archive, and the systems in which it occurs are also included.</b></p>
                     </div>
                 </div>
-                <div className="methods-panel-1 panel-1400 flex space-btwn double-padding mobile-column mobile-side-padding">
+                <div className="context-panel-1 panel-1400 flex space-btwn double-padding mobile-column mobile-side-padding">
                     <h1 className="evergreen-txt intro-title">CONTEXT</h1>
                     <img src="/Images/GreenSlash.svg" className="c-slash display-none"/>
                     <div className="w-twenty-five sand-txt flex column space-btwn">

@@ -248,10 +248,6 @@ li {
   margin-top: 100px;
 }
 
-.methods-margin {
-  margin-top: 150px;
-}
-
 .left-margin-10px {
   margin-left: 10px;
 }
@@ -764,13 +760,6 @@ iframe {
   position: relative;
 }
 
-.methods-panel-1 {
-  background-image: url('/public/Images/Pictures/Methods.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .ar-slash {
   position: absolute;
   height: 80vH;
@@ -812,6 +801,17 @@ iframe {
   width: 9000px;
 }
 
+.methods-panel-1 {
+  background-image: url('/public/Images/Pictures/Methods.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.methods-margin {
+  margin-top: 150px;
+}
+
 .m-slash {
   position: absolute;
   height: 80vH;
@@ -829,6 +829,17 @@ iframe {
 
 .c-container-length {
   width: 9000px;
+}
+
+.context-panel-1{
+  background-image: url('/public/Images/Pictures/Context.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.context-margin{
+  margin-top: 90px;
 }
 
 .c-slash {
