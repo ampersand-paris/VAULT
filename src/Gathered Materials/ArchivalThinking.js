@@ -3,7 +3,7 @@ const ArchivalThinking = (props) => {
     return (
     <>
         <div className="container one-hundred-vh pumpkin">
-            <div className="container-length one-hundred-vh flex mobile-column">
+            <div className="ar-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
                         <div>
