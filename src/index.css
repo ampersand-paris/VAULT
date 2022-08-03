@@ -94,6 +94,10 @@ li {
   margin: 0;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 /* ====== HEIGHT & WIDTH ====== */
 
 .h-fifty {
@@ -251,6 +255,12 @@ li {
 .left-margin-10px {
   margin-left: 10px;
 }
+
+.top-margin-10px{
+  top: 10px;
+  left: -100px;
+}
+
 /* ====== PADDING ====== */
 
 .no-top-padding {
@@ -707,14 +717,6 @@ iframe {
   width: 100vW;
 }
 
-.ar-container-length {
-  width: 6000px;
-}
-
-.m-container-length {
-  width: 9000px;
-}
-
 .intro-panel-width {
   width: 600px;
 }
@@ -750,6 +752,10 @@ iframe {
 }
 
 /* === ARCHIVAL THINKING === */
+
+.ar-container-length {
+  width: 6000px;
+}
 
 .ar-panel-1 {
   background-image: url('/public/Images/Pictures/ArchivalThinking1.svg');
@@ -802,18 +808,36 @@ iframe {
 
 /* === METHODS === */
 
-  .m-slash {
-    position: absolute;
-    height: 80vH;
-    left: 70%;
-    top: 70px;
-  }
+.m-container-length {
+  width: 9000px;
+}
 
-  .slash {
-    height: 80vH;
-    left: 70%;
-    top: 70px;
-  }
+.m-slash {
+  position: absolute;
+  height: 80vH;
+  left: 70%;
+  top: 70px;
+}
+
+.slash {
+  height: 80vH;
+  left: 70%;
+  top: 70px;
+}
+
+/* === CONTEXT === */
+
+.c-container-length {
+  width: 9000px;
+}
+
+.c-slash {
+  position: absolute;
+  height: 80vH;
+  left: 50%;
+  top: 70px;
+}
+
 /* ============ MOBILE ============ */
 
 @media screen and (max-width: 800px) {

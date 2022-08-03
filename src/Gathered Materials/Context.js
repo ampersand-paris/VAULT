@@ -1,20 +1,32 @@
-const Methods = (props) => {
+const Context = (props) => {
 
     return (
     <>
-        <div className="container one-hundred-vh preserved-lemon">
-            <div className="m-container-length one-hundred-vh flex mobile-column">
-                <div className="intro-panel-width flex flex-end mobile-jc-center">
+        <div className="container one-hundred-vh evergreen">
+            <div className="c-container-length one-hundred-vh flex mobile-column">
+                <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
                     <div className="intro-width flex space-btwn column vault-padding">
                         <div className="methods-margin">
-                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                            <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
-                        <p className="transcription-details corporate"><b>Methods. Is it digital or analog? Widely available online and through social media, or is it protected in some way? Is there a generational or historical perspective to consider? Is the work improvised or set? In the journey from initial concept to production, are all aspects of the process considered? You'll find a range of practices and concerns addressed in this section.</b></p>
+                        <p className="transcription-details corporate"><b>We found that context depends on the perspective of the archive: artist-driven, institutional curation, the involvement of collaborating artists, dance improvisation as well as choreographic form. Documentation, the politics behind the impulse to archive, and the systems in which it occurs are also included.</b></p>
                     </div>
                 </div>
-                <div className="methods-panel-1 panel-1400 flex double-padding mobile-column mobile-side-padding">
-                    <h1 className="preserved-lemon-txt intro-title">METHODS</h1>
-                    <img src="/Images/LemonSlash.svg" className="m-slash display-none"/>    
+                <div className="methods-panel-1 panel-1400 flex space-btwn double-padding mobile-column mobile-side-padding">
+                    <h1 className="evergreen-txt intro-title">CONTEXT</h1>
+                    <img src="/Images/GreenSlash.svg" className="c-slash display-none"/>
+                    <div className="w-twenty-five sand-txt flex column space-btwn">
+                        <div>
+                            <p><b>Tonya Lockyer, Seattle:</b></p>    
+                            <p>Stories really capture what happened. In Russia, in 1998 there was a conversation about CI. Two people began to dance together, but for one of them it was only about concrete shapes—moving from one to the next. They didn’t realize it was a moving form. They had only seen the photographs, not recordings.</p>
+                            <a className="small-bttn sand  evergreen-txt sand-border">Meeting Notes</a>
+                        </div>
+                        <div className="relative stnd-padding sand evergreen-txt txt-al-center">
+                            <p className="no-bottom-padding"><b>Margi Cole</b></p>    
+                            <p className="no-top-padding"> Create a valid space to move away from product-driven work.</p>
+                            <a className="absolute top-margin-10px small-bttn evergreen sand-txt sand-border">Writing</a>
+                        </div>
+                    </div>
                 </div>
                 <div className="panel-1400 flex space-around mobile-side-padding">
                     <div className="w-twenty-five flex column space-around">
@@ -268,4 +280,4 @@ const Methods = (props) => {
   );
 }
 
-export default Methods;
+export default Context;
