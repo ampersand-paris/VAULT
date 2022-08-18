@@ -28,46 +28,44 @@ const Context = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1400 flex space-around mobile-side-padding">
-                    <div className="w-twenty-five flex column space-around">
-                        <div className="flex column">
-                            <div className="flex sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                            </div>
-                            <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Diana Muhammed</b></p>
-                                <p className="side-padding">This availability [of video] provides easy access for study and reflection of a work.</p>
-                            </div>
+                <div className="panel-1400 flex mobile-side-padding">
+                    <div className="w-sixty flex column stnd-padding">
+                        <div>
+                            <img src="/Images/Pictures/Reggie.svg"/>
                         </div>
-                        <div className="flex column">
-                            <div className="flex sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
+                        <div className="flex">
+                            <div className="w-fifty flex column sand-txt">
+                                <p className="no-bottom-padding"><b>Seattle, Pat Graney:</b></p> 
+                                <p className="no-top-padding">There's an assumption with certain generations and folks who are younger sometimes, that immediacy is the documentation, is the experience.</p>
+                                <a className="small-bttn sand evergreen-txt sand-border">Video</a>
                             </div>
-                            <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Tonya Lockyer</b></p>
-                                <p className="side-padding">Or perhaps, by the very act of so meticulously recording it, [John Cage] had helped manifest its importance.</p>
-                            </div>
-                        </div>
-                        <div className="flex column">
-                            <div className="flex sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                            </div>
-                            <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Jane Jerardi</b></p>
-                                <p className="side-padding">I sometimes feel the desire to be selective about what I share with the world.</p>
+                            <div className="w-fifty flex column al-flex-end">
+                                <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
+                                    <a className="small-bttn left-margin-10px evergreen sand-txt sand-border">Writing</a>
+                                </div>
+                                <div className="w-seventy-five w-one-hundred sand evergreen-txt">
+                                    <p className="side-padding"><b>WRITING: J’Sun Howard</b></p>
+                                    <p className="side-padding">…more incubation residencies with full support…</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="w-sixty flex column flex-end double-padding">
-                        <p className="sand-txt txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                        <div className="sand-border flex double-padding">
-                            <div className="flex column w-seventy-five">
-                                <img src="/Images/Pictures/Reggie.svg" className="" />
-                                <p className="side-padding txt-al-right no-bottom-padding "><b>WRITING excerpt: Cori Olinghouse,</b></p>
-                                <p className="side-padding txt-al-right no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
+                    <div className="w-forty flex column stnd-padding">
+                        <div className="flex sand-txt">
+                            <div>
+                                <p className="no-bottom-padding"><b>Essay Excerpt, Dayna Hanson:</b></p> 
+                                <p className="no-top-padding">Over time, I’ve noticed that documentation has become more of an aesthetic pursuit for me, as the lines between the original work and its archival document have increasingly blurred.</p>
+                                <a className="small-bttn sand evergreen-txt sand-border">Writing</a>
                             </div>
-                            <div className="w-twenty-five flex jc-center">
-                                <a className="small-bttn jc-center sand black-txt">WRITING</a>
+                            <div className="w-fifty flex column jc-center">
+                                <img className="small-slash" src="/Images/CreamSlash.svg" />
+                            </div>
+                        </div>
+                        <div className="top-100px double-padding sand-border sand-txt ">
+                            <p className="no-bottom-padding"><b>Seattle, Pat Graney:</b></p> 
+                            <p className="no-top-padding">To me, the most important thing about archives [...] is the context [they provide].</p>
+                            <div className="flex flex-end">
+                                <a className="small-bttn sand evergreen-txt sand-border">Video</a>
                             </div>
                         </div>
                     </div>

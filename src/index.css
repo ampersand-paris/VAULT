@@ -849,6 +849,9 @@ iframe {
   top: 70px;
 }
 
+.small-slash {
+}
+
 /* ============ MOBILE ============ */
 
 @media screen and (max-width: 800px) {
