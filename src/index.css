@@ -191,6 +191,10 @@ li {
   flex-direction: column;
 }
 
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
 .flex {
   display: flex;
 }
@@ -260,9 +264,12 @@ li {
   margin-left: 10px;
 }
 
-.top-margin-10px{
-  top: 10px;
+.left-negative-100px{
   left: -100px;
+}
+
+.top-margin-10px {
+  top: 10px;
 }
 
 /* ====== PADDING ====== */
