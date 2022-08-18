@@ -71,56 +71,63 @@ const Context = (props) => {
                     </div>
                 </div>
                 <div className="panel-1800 flex mobile-side-padding top-mobile-sand-border">
-                    <div className="w-twenty-five flex column space-btwn stnd-padding">
-                        <div className="flex column al-flex-end">
-                            <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
+                    <div className="w-forty-seven flex stnd-padding">
+                        <div className="flex column space-btwn sand-border double-padding">
+                            <div className="flex jc-center stnd-padding">
+                                <div className="w-fifty sand-txt">
+                                    <p className="no-bottom-padding"><b>Seattle, Pat Graney:</b></p>
+                                    <p className="no-top-padding">What do we want people to learn and know about...</p>
+                                    <a className="small-bttn sand evergreen-txt">Video</a>
+                                </div>
+                                <div className="w-forty flex">
+                                    <img className="w-one-hundred" src="/Images/Pictures/Reggie.svg"/>
+                                </div>
                             </div>
-                            <div className="w-seventy-five sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: J’Sun Howard</b></p>
-                                <p className="side-padding">Virtual Reality/Augmented Reality is becoming a new trend in dance…</p>
+                            <div className="flex jc-center stnd-padding">
+                                <div className="w-fifty sand-txt">
+                                    <p className="no-bottom-padding"><b>Seattle: Angie Hauser:</b></p>
+                                    <p className="no-top-padding"> [I'm thinking] about archiving in the scale of history, [in] that includes multiple generations beyond the people that are living now.</p>
+                                    <a className="small-bttn sand evergreen-txt">Video</a>
+                                </div>
+                                <div className="w-forty flex">
+                                    <img className="w-one-hundred" src="/Images/Pictures/Reggie.svg"/>
+                                </div>
                             </div>
-                        </div>
-                        <div className="flex column al-flex-end txt-al-right">
-                            <p className="no-padding"><b>Angie Hauser</b></p> 
-                            <p className="no-padding">…whatever direction I might go in, [in order to] participate in a conversation around archiving, and to build process around archives, it would be to align [archiving] with how dance is actually made</p>
-                            <a className="small-bttn jc-center sand black-txt">VIDEO</a>
-                            <img src="/Images/Pictures/Reggie.svg" className="only-top-padding" />
+                            <div className="flex jc-center stnd-padding">
+                                <div className="w-fifty sand-txt">
+                                    <p className="no-bottom-padding no-top-padding"><b>Jacob’s Pillow, Ishmael Houston-Jones:</b></p>
+                                    <p className="no-top-padding">I think there is something about the accidentalness of what gets left, and what gets found, and what remains.</p>
+                                    <a className="small-bttn sand evergreen-txt">Video</a>
+                                </div>
+                                <div className="w-forty flex">
+                                    <img className="w-one-hundred" src="/Images/Pictures/Reggie.svg"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="w-seventy-five flex column stnd-padding">
-                        <div className="h-sixty flex space-btwn stnd-padding">
-                            <div className="w-forty flex column space-around">
-                                <div className="flex column">
-                                    <div className="flex sand-gradient-50 w-one-hundred">
-                                        <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                                    </div>
-                                    <div className="w-one-hundred sand">
-                                        <p className="side-padding"><b>WRITING: Lauren Slone</b></p>
-                                        <p className="side-padding">…I also get into strange conversations with myself about “proving” to friends that I’m doing something.</p>
-                                    </div>
+                    <div className="w-forty-seven relative flex column stnd-padding">
+                        <div className="relative h-fifty w-seventy flex flex-end evergreen-txt">
+                            <img className="absolute left w-ninety" src="/Images/Pictures/Reggie.svg"/>
+                            <div className="relative w-seventy flex column">
+                                <div className="flex sand-gradient-50 w-one-hundred">
+                                    <a className="small-bttn left-margin-10px evergreen sand-txt sand-border">Writing</a>
                                 </div>
-                                <div className="flex column">
-                                    <div className="flex sand-gradient-50 w-one-hundred">
-                                        <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                                    </div>
-                                    <div className="w-one-hundred sand">
-                                        <p className="side-padding"><b>WRITING: Erin Kilmurray</b></p>
-                                        <p className="side-padding">…peer/follower review + feedback + championing has been the active ingredient in pushing [my work] forward.</p>
-                                    </div>
+                                <div className="w-one-hundred sand">
+                                    <p className="side-padding"><b>WRITING: Jane Jerardi</b></p>
+                                    <p className="no-top-padding side-padding">I think it would be interesting to test out more networked structures.</p>
                                 </div>
                             </div>
-                            <div className="w-sixty flex column jc-center">
-                                <img src="/Images/Pictures/Reggie.svg" className="side-padding" />
+                        </div>
+                        <div className="w-fifty">
+                            <div className="sand evergreen-txt double-padding">
+                                <p className="no-bottom-padding no-top-padding"><b>Cori Olinghouse:</b></p>
+                                <p className="no-top-padding"> I often take up each project as a hybrid archival-curatorial intervention, built with a particular context and audience in mind, in connection to the needs and interests of the artist and the communities the work inhabits.</p>
+                            </div>
+                            <div className="double-padding">
+                                <a className="small-bttn sand evergreen-txt">Writing</a>
                             </div>
                         </div>
-                        <div className="h-forty flex column jc-center stnd-padding">
-                            <div className="flex space-btwn baseline">
-                                <p className="no-padding"><b>Ishmael Houston-Jones</b></p>
-                                <a className="small-bttn jc-center sand black-txt">ESSAY</a>
-                            </div>
-                            <p className="no-padding">The process of my practice seems so fragile and elusive to the idea of archive. My choreography is (almost) never set in the tradition of Modern Dance or Ballet. Therefore, in those infrequent times when I have revived work that was created earlier with a different cast, the new cast is recreating the old work anew. In reality, this is true of the revival of any dance work but this seems much more unambiguous when that work is improvised. Which is “the piece?” What defines a choreography that has no set movement? What are the archival tools available to capture this work? The scattered notes I made in random notebooks hidden away in random drawers and boxes? VHS video tape? Digital transfers? Reviews, previews, and interviews in print or on blogs? Memory?</p>
-                        </div>
+                        <img src="/Images/CreamOutlineSlash.svg" className="absolute large-slash display-none"/>    
                     </div>
                 </div>
                 <div className="panel-1200 flex mobile-side-padding">

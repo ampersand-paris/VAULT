@@ -144,6 +144,10 @@ li {
   width: 80%;
 }
 
+.w-ninety {
+  width: 90%;
+}
+
 .w-seventy-five {
   width: 75%;
 }
@@ -219,6 +223,10 @@ li {
 
 .absolute {
   position: absolute;
+}
+
+.left {
+  left: 0%;
 }
 
 .fifty-fifty {
@@ -849,7 +857,9 @@ iframe {
   top: 70px;
 }
 
-.small-slash {
+.large-slash {
+  height: 98vH;
+  left: 60%;
 }
 
 /* ============ MOBILE ============ */
