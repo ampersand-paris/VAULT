@@ -23,23 +23,23 @@ const Context = (props) => {
                         </div>
                         <div className="relative mobile-flex mobile-column mobile-al-center mobile-top-100px stnd-padding sand evergreen-txt txt-al-center">
                             <p className="no-bottom-padding"><b>Margi Cole</b></p>    
-                            <p className="no-top-padding"> Create a valid space to move away from product-driven work.</p>
+                            <p className="no-top-padding">Create a valid space to move away from product-driven work.</p>
                             <a className="absolute mobile-relative left-negative-100px top-margin-10px small-bttn evergreen sand-txt sand-border">Writing</a>
                         </div>
                     </div>
                 </div>
-                <div className="panel-1400 flex mobile-side-padding">
+                <div className="panel-1400 flex mobile-column mobile-side-padding">
                     <div className="w-sixty flex column stnd-padding">
                         <div>
                             <img src="/Images/Pictures/Reggie.svg"/>
                         </div>
-                        <div className="flex">
+                        <div className="flex mobile-column">
                             <div className="w-fifty flex column sand-txt">
                                 <p className="no-bottom-padding"><b>Seattle, Pat Graney:</b></p> 
                                 <p className="no-top-padding">There's an assumption with certain generations and folks who are younger sometimes, that immediacy is the documentation, is the experience.</p>
                                 <a className="small-bttn sand evergreen-txt sand-border">Video</a>
                             </div>
-                            <div className="w-fifty flex column al-flex-end">
+                            <div className="w-fifty flex column al-flex-end mobile-top-100px">
                                 <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
                                     <a className="small-bttn left-margin-10px evergreen sand-txt sand-border">Writing</a>
                                 </div>
@@ -58,7 +58,7 @@ const Context = (props) => {
                                 <a className="small-bttn sand evergreen-txt sand-border">Writing</a>
                             </div>
                             <div className="w-fifty flex column jc-center">
-                                <img className="small-slash" src="/Images/CreamSlash.svg" />
+                                <img className="display-none small-slash" src="/Images/CreamSlash.svg" />
                             </div>
                         </div>
                         <div className="top-100px double-padding sand-border sand-txt ">
@@ -70,7 +70,7 @@ const Context = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1800 flex mobile-side-padding top-mobile-sand-border">
+                <div className="panel-1800 flex mobile-column mobile-side-padding top-mobile-sand-border">
                     <div className="w-forty-seven flex stnd-padding">
                         <div className="flex column space-btwn sand-border double-padding">
                             <div className="flex jc-center stnd-padding">
