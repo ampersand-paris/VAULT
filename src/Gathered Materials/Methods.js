@@ -16,9 +16,9 @@ const Methods = (props) => {
                     <h1 className="preserved-lemon-txt intro-title">METHODS</h1>
                     <img src="/Images/LemonSlash.svg" className="m-slash display-none"/>    
                 </div>
-                <div className="panel-1400 flex space-around mobile-side-padding">
+                <div className="panel-1400 flex mobile-column space-around mobile-side-padding">
                     <div className="w-twenty-five flex column space-around">
-                        <div className="flex column">
+                        <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                             </div>
@@ -27,7 +27,7 @@ const Methods = (props) => {
                                 <p className="side-padding">This availability [of video] provides easy access for study and reflection of a work.</p>
                             </div>
                         </div>
-                        <div className="flex column">
+                        <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                             </div>
@@ -36,7 +36,7 @@ const Methods = (props) => {
                                 <p className="side-padding">Or perhaps, by the very act of so meticulously recording it, [John Cage] had helped manifest its importance.</p>
                             </div>
                         </div>
-                        <div className="flex column">
+                        <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                             </div>
@@ -47,8 +47,8 @@ const Methods = (props) => {
                         </div>
                     </div>
                     <div className="w-sixty flex column flex-end double-padding">
-                        <p className="sand-txt txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                        <div className="sand-border flex double-padding">
+                        <p className="sand-txt txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                        <div className="sand-border flex mobile-column double-padding">
                             <div className="flex column w-seventy-five">
                                 <img src="/Images/Pictures/Reggie.svg" className="" />
                                 <p className="side-padding txt-al-right no-bottom-padding "><b>WRITING excerpt: Cori Olinghouse,</b></p>
@@ -60,7 +60,7 @@ const Methods = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1800 flex mobile-side-padding top-mobile-sand-border">
+                <div className="panel-1800 flex mobile-column mobile-side-padding top-mobile-sand-border">
                     <div className="w-twenty-five flex column space-btwn stnd-padding">
                         <div className="flex column al-flex-end">
                             <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
@@ -71,7 +71,7 @@ const Methods = (props) => {
                                 <p className="side-padding">Virtual Reality/Augmented Reality is becoming a new trend in dance…</p>
                             </div>
                         </div>
-                        <div className="flex column al-flex-end txt-al-right">
+                        <div className="flex column al-flex-end mobile-top-20px txt-al-right">
                             <p className="no-padding"><b>Angie Hauser</b></p> 
                             <p className="no-padding">…whatever direction I might go in, [in order to] participate in a conversation around archiving, and to build process around archives, it would be to align [archiving] with how dance is actually made</p>
                             <a className="small-bttn jc-center sand black-txt">VIDEO</a>
@@ -79,7 +79,7 @@ const Methods = (props) => {
                         </div>
                     </div>
                     <div className="w-seventy-five flex column stnd-padding">
-                        <div className="h-sixty flex space-btwn stnd-padding">
+                        <div className="h-sixty flex mobile-column space-btwn stnd-padding">
                             <div className="w-forty flex column space-around">
                                 <div className="flex column">
                                     <div className="flex sand-gradient-50 w-one-hundred">
@@ -90,7 +90,7 @@ const Methods = (props) => {
                                         <p className="side-padding">…I also get into strange conversations with myself about “proving” to friends that I’m doing something.</p>
                                     </div>
                                 </div>
-                                <div className="flex column">
+                                <div className="flex column mobile-top-20px">
                                     <div className="flex sand-gradient-50 w-one-hundred">
                                         <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                                     </div>
@@ -100,12 +100,12 @@ const Methods = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-sixty flex column jc-center">
+                            <div className="w-sixty flex column jc-center mobile-top-20px">
                                 <img src="/Images/Pictures/Reggie.svg" className="side-padding" />
                             </div>
                         </div>
                         <div className="h-forty flex column jc-center stnd-padding">
-                            <div className="flex space-btwn baseline">
+                            <div className="flex mobile-column-reverse space-btwn baseline mobile-top-20px">
                                 <p className="no-padding"><b>Ishmael Houston-Jones</b></p>
                                 <a className="small-bttn jc-center sand black-txt">ESSAY</a>
                             </div>
@@ -113,19 +113,19 @@ const Methods = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1200 flex mobile-side-padding">
+                <div className="panel-1200 flex mobile-column mobile-side-padding">
                     <div className="flex column eighty">
-                        <div className="h-thirty-three flex sand stnd-padding">
+                        <div className="h-thirty-three flex mobile-column sand double-padding">
                             <div className="flex column jc-center">
                                 <p className="no-padding"><b>Bebe Miller</b></p>
                                 <p className="no-padding">As Michael Morris said, you’re always dancing with your ancestors, you’re never alone. ...Darrell is extraordinary because he embraces that, brings out something about the whole Vault project for me… —the sense of the form and what the form is for, which has a lot to do with how we then document it and receive it.</p>
                             </div>
-                            <div className="flex column jc-center">                       
+                            <div className="flex column jc-center mobile-al-center">                       
                                 <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Meeting Notes</a>
                             </div>
                         </div>
-                        <div className="h-thirty-three flex space-around stnd-padding">
-                            <div className="w-thirty flex column">
+                        <div className="h-thirty-three flex mobile-column space-around stnd-padding">
+                            <div className="w-thirty flex column mobile-top-20px">
                                 <div className="flex sand-gradient-50 w-one-hundred">
                                     <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                                 </div>
@@ -135,7 +135,7 @@ const Methods = (props) => {
                                 </div>
                             </div>
                             <img src="/Images/Pictures/Reggie.svg" className="w-twenty-five" />
-                            <div className="w-thirty flex column">
+                            <div className="w-thirty flex column mobile-top-20px">
                                 <div className="flex sand-gradient-50 w-one-hundred">
                                     <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
                                 </div>
@@ -145,7 +145,7 @@ const Methods = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="h-thirty-three flex  stnd-padding">
+                        <div className="h-thirty-three flex stnd-padding">
                             <div className="flex jc-center">
                                 <div className="w-eighty">
                                     <p><b>Angie Hauser</b></p>
@@ -159,9 +159,9 @@ const Methods = (props) => {
                         <img src="/Images/CreamOutlineSlash.svg" className="slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-1400 flex space-around mobile-side-padding">
+                <div className="panel-1400 flex mobile-column space-around mobile-side-padding">
                     <div className="w-twenty-five flex column space-around sand sand-border">
-                        <div className="flex column">
+                        <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
                                 <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
                             </div>
@@ -170,7 +170,7 @@ const Methods = (props) => {
                                 <p className="side-padding">The advent of personal, digital phones opened yet a wider avenue to cost-free recording and documentation.</p>
                             </div>
                         </div>
-                        <div className="flex column">
+                        <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
                                 <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
                             </div>
@@ -179,7 +179,7 @@ const Methods = (props) => {
                                 <p className="side-padding">The onus is so often on artists rather than on the institutions that mean to support them.</p>
                             </div>
                         </div>
-                        <div className="flex column">
+                        <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
                                 <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
                             </div>
@@ -189,8 +189,8 @@ const Methods = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-sixty flex column double-padding">
-                        <div className="sand-border flex double-padding">
+                    <div className="w-sixty flex column stnd-padding">
+                        <div className="sand-border flex mobile-column-reverse double-padding">
                             <div className="w-twenty-five flex jc-center">
                                 <a className="small-bttn jc-center sand black-txt">Video</a>
                             </div>
@@ -200,8 +200,8 @@ const Methods = (props) => {
                                 <p className="side-padding no-top-padding ">…I was trying to figure out how to create a fundraising opportunity around process... lots of people are doing this.</p>
                             </div>
                         </div>
-                        <div className="flex space-btwn">
-                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                        <div className="flex mobile-column space-btwn">
+                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                             <div className="flex column">
                                 <div className="sand">
                                     <p className="no-bottom-padding side-padding"><b>WRITING: Angie Hauser</b></p>
@@ -215,15 +215,19 @@ const Methods = (props) => {
                     </div>
                 </div>
                 <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
-                    <div className="vault-padding flex column">
+                    <div className="vault-padding flex column mobile-top-20px">
                         <div className="flex column">
-                            <div className="stnd-padding flex space-btwn sand al-center">
+                            <div className="stnd-padding flex mobile-column space-btwn sand al-center">
                                 <p className="no-bottom-padding"><b>Mara Frazier:</b>I would like artists to feel more welcomed into archives…</p>
-                                <a className="small-bttn black-border black sand-txt">Writing</a>
+                                <div className="w-one-hundred mobile-flex mobile-flex-end">
+                                    <a className="small-bttn black-border black sand-txt">Writing</a>
+                                </div>
                             </div>
-                            <div className="stnd-padding flex space-btwn sand al-center">
-                                <p className="w-seventy-five no-top-padding"><b>Ann Carlson:</b>I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
-                                <a className="small-bttn black-border black sand-txt">Writing</a>
+                            <div className="stnd-padding flex mobile-column space-btwn sand al-center">
+                                <p className="w-seventy-five no-top-padding mobile-top-20px"><b>Ann Carlson:</b>I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
+                                <div className="w-one-hundred mobile-flex mobile-flex-end">
+                                    <a className="small-bttn black-border black sand-txt">Writing</a>
+                                </div>
                             </div>
                         </div>
                         <div className="stnd-padding black-border-bottom no-mobile-border">
@@ -232,7 +236,7 @@ const Methods = (props) => {
                             <a className="small-bttn black-border black-txt">Writing</a>
                         </div>
                     </div>
-                    <div className="h-sixty flex space-around stnd-padding">
+                    <div className="h-sixty flex mobile-column space-around stnd-padding">
                         <div className="flex column stnd-padding black-border">
                             <p className="transcription-details no-padding"><b>Rachel Boggia, Jacob’s Pillow:</b></p>
                             <div className="h-one-hundred flex column space-btwn">
