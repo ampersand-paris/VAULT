@@ -19,12 +19,12 @@ const Context = (props) => {
                         <div>
                             <p><b>Tonya Lockyer, Seattle:</b></p>    
                             <p>Stories really capture what happened. In Russia, in 1998 there was a conversation about CI. Two people began to dance together, but for one of them it was only about concrete shapes—moving from one to the next. They didn’t realize it was a moving form. They had only seen the photographs, not recordings.</p>
-                            <a className="small-bttn sand  evergreen-txt sand-border">Meeting Notes</a>
+                            <a className="small-bttn sand evergreen-txt sand-border">Meeting Notes</a>
                         </div>
-                        <div className="relative stnd-padding sand evergreen-txt txt-al-center">
+                        <div className="relative mobile-flex mobile-column mobile-al-center mobile-top-100px stnd-padding sand evergreen-txt txt-al-center">
                             <p className="no-bottom-padding"><b>Margi Cole</b></p>    
                             <p className="no-top-padding"> Create a valid space to move away from product-driven work.</p>
-                            <a className="absolute left-negative-100px top-margin-10px small-bttn evergreen sand-txt sand-border">Writing</a>
+                            <a className="absolute mobile-relative left-negative-100px top-margin-10px small-bttn evergreen sand-txt sand-border">Writing</a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,6 @@ const Context = (props) => {
                                     <p className="no-top-padding">How much agency does a performer have since it’s not their work and not their archive?</p>
                                     <a className="small-bttn sand-border sand-txt evergreen">Meeting Notes</a>
                                 </div>
-                    
                             </div>
                         </div>
                         <img src="/Images/CreamOutlineSlash.svg" className="absolute large-slash display-none"/>    
