@@ -12,7 +12,7 @@ const Methods = (props) => {
                         <p className="transcription-details corporate"><b>Methods. Is it digital or analog? Widely available online and through social media, or is it protected in some way? Is there a generational or historical perspective to consider? Is the work improvised or set? In the journey from initial concept to production, are all aspects of the process considered? You'll find a range of practices and concerns addressed in this section.</b></p>
                     </div>
                 </div>
-                <div className="methods-panel-1 panel-1400 flex mobile-column mobile-side-padding">
+                <div className="methods-panel-1 panel-1400 flex double-padding mobile-column mobile-side-padding">
                     <h1 className="preserved-lemon-txt intro-title">METHODS</h1>
                     <img src="/Images/LemonSlash.svg" className="m-slash display-none"/>    
                 </div>
