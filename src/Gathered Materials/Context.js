@@ -159,43 +159,47 @@ const Context = (props) => {
                                 
                             </div>
                         </div>
-                        <div className="h-sixty flex space-around stnd-padding">
+                        <div className="h-sixty w-one-hundred flex space-around stnd-padding">
                             <div className="flex column stnd-padding sand-border sand-txt">
-                                <h2 className="no-padding"><b>Jacob’s Pillow</b> &#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h2>
+                                <h2 className="no-padding"><b>Jacob’s Pillow</b> &#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h2>
                                 <div className="h-one-hundred flex column space-btwn">
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding"><b>Dana Whitco:</b></p>
-                                        <div className="flex space-btwn only-top-padding">
-                                            <p className="w-sixty transcription-details no-padding">[When you mentioned] creating for yourself or maintaining for yourself a mode of hyper-contextuality, I wondered whether that is a resistance to some forces that you feel in the world?</p>
-                                            <a className="small-bttn sand evergreen-txt">Video</a>
+                                        <p className="transcription-details no-padding mobile-top-10px"><b>Dana Whitco:</b></p>
+                                        <div className="flex mobile-column space-btwn only-top-padding">
+                                            <p className="w-sixty transcription-details no-padding ">[When you mentioned] creating for yourself or maintaining for yourself a mode of hyper-contextuality, I wondered whether that is a resistance to some forces that you feel in the world?</p>
+                                            <a className="small-bttn sand evergreen-txt mobile-top-10px">Video</a>
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding"><b> Reggie Watts:</b></p>
-                                        <div className="flex space-btwn only-top-padding">
+                                        <p className="transcription-details no-padding mobile-top-10px"><b> Reggie Watts:</b></p>
+                                        <div className="flex mobile-column space-btwn only-top-padding">
                                             <p className="w-sixty transcription-details no-padding">Is this for our own dramaturgy? Is this for another choreographers dramaturgy? Is this for historians?</p>
-                                            <a className="small-bttn sand evergreen-txt">Video</a>
+                                            <div className="flex flex-end">
+                                                <a className="small-bttn sand evergreen-txt mobile-top-10px">Video</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding"><b>Angie Hauser:</b></p>
-                                        <div className="flex space-btwn only-top-padding">
+                                        <p className="transcription-details no-padding mobile-top-10px"><b>Angie Hauser:</b></p>
+                                        <div className="flex mobile-column space-btwn only-top-padding">
                                             <p className="w-sixty transcription-details no-padding">I think the moment of improvisation is a certain kind of archive, maybe in quotes or italics or something that it is the archive of the practice.</p>
-                                            <a className="small-bttn sand evergreen-txt">Video</a>
+                                            <a className="small-bttn sand evergreen-txt mobile-top-10px">Video</a>
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding"><b>Rachel Boggia:</b></p>
-                                        <div className="flex space-btwn only-top-padding">
+                                        <p className="transcription-details no-padding mobile-top-10px"><b>Rachel Boggia:</b></p>
+                                        <div className="flex mobile-column space-btwn only-top-padding">
                                             <p className="w-sixty transcription-details no-padding">A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</p>
-                                            <a className="small-bttn sand evergreen-txt">Video</a>
+                                            <div className="flex flex-end">
+                                                <a className="small-bttn sand evergreen-txt mobile-top-10px">Video</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding"><b>Jaamil Olawale Kosoko:</b></p>
-                                        <div className="flex space-btwn only-top-padding">
+                                        <p className="transcription-details no-padding mobile-top-10px"><b>Jaamil Olawale Kosoko:</b></p>
+                                        <div className="flex mobile-column space-btwn only-top-padding">
                                             <p className="w-sixty transcription-details no-padding">I feel like this hyper-contextuality is a part of me defending my own perspective.</p>
-                                            <a className="small-bttn sand evergreen-txt">Video</a>
+                                            <a className="small-bttn sand evergreen-txt mobile-top-10px">Video</a>
                                         </div>
                                     </div>
                                 </div>

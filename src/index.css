@@ -844,7 +844,7 @@ iframe {
 /* === CONTEXT === */
 
 .c-container-length {
-  width: 9000px;
+  width: 7500px;
 }
 
 .context-panel-1{
@@ -992,6 +992,11 @@ iframe {
   margin-top: 20px;
 }
 
+.mobile-top-10px {
+  margin-top: 10px;
+}
+
+
 /* ====== MENUS ====== */
 
 .triangle-size {
@@ -1013,6 +1018,10 @@ iframe {
   width: 100vW;
 }
 
+.m-container-length {
+  width: 100vW;
+}
+
 .intro-panel-width {
   width: 100vW;
 }
@@ -1024,7 +1033,7 @@ iframe {
 }
 
 .intro-width {
-  width: 200px;
+  width: 65vW;
 }
 
 .panel-1400 {
