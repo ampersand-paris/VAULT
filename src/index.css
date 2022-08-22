@@ -928,11 +928,19 @@ iframe {
   width: calc(100% - 2vW);
 }
 
+.w-thirty {
+  width: calc(100% - 2vW);
+}
+
 .w-seventy-five {
   width: calc(100% - 2vW);
 }
 
 .w-seventy {
+  width: calc(100% - 2vW);
+}
+
+.w-eighty {
   width: calc(100% - 2vW);
 }
 
@@ -958,6 +966,10 @@ iframe {
 
 .mobile-flex {
   display: flex;
+}
+
+.mobile-flex-end {
+  justify-content: flex-end;
 }
 
 .mobile-al-center {
@@ -1046,6 +1058,10 @@ iframe {
 }
 
 .panel-1400 {
+  width: 76vW;
+}
+
+.panel-1200 {
   width: 76vW;
 }
 
