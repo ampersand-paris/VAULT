@@ -61,7 +61,7 @@ const Context = (props) => {
                                 <img className="display-none small-slash" src="/Images/CreamSlash.svg" />
                             </div>
                         </div>
-                        <div className="top-100px double-padding sand-border sand-txt ">
+                        <div className="top-100px double-padding sand-border sand-txt">
                             <p className="no-bottom-padding"><b>Seattle, Pat Graney:</b></p> 
                             <p className="no-top-padding">To me, the most important thing about archives [...] is the context [they provide].</p>
                             <div className="flex flex-end">
@@ -71,43 +71,43 @@ const Context = (props) => {
                     </div>
                 </div>
                 <div className="panel-1800 flex mobile-column mobile-side-padding top-mobile-sand-border">
-                    <div className="w-forty-seven flex stnd-padding">
+                    <div className="w-forty-seven flex mobile-column stnd-padding">
                         <div className="flex column space-btwn sand-border double-padding">
-                            <div className="flex jc-center stnd-padding">
+                            <div className="flex mobile-column jc-center stnd-padding">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding"><b>Seattle, Pat Graney:</b></p>
                                     <p className="no-top-padding">What do we want people to learn and know about...</p>
                                     <a className="small-bttn sand evergreen-txt">Video</a>
                                 </div>
                                 <div className="w-forty flex">
-                                    <img className="w-one-hundred" src="/Images/Pictures/Reggie.svg"/>
+                                    <img className="w-one-hundred mobile-top-20px" src="/Images/Pictures/Reggie.svg"/>
                                 </div>
                             </div>
-                            <div className="flex jc-center stnd-padding">
+                            <div className="flex mobile-column jc-center stnd-padding">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding"><b>Seattle: Angie Hauser:</b></p>
                                     <p className="no-top-padding"> [I'm thinking] about archiving in the scale of history, [in] that includes multiple generations beyond the people that are living now.</p>
                                     <a className="small-bttn sand evergreen-txt">Video</a>
                                 </div>
                                 <div className="w-forty flex">
-                                    <img className="w-one-hundred" src="/Images/Pictures/Reggie.svg"/>
+                                    <img className="w-one-hundred mobile-top-20px" src="/Images/Pictures/Reggie.svg"/>
                                 </div>
                             </div>
-                            <div className="flex jc-center stnd-padding">
+                            <div className="flex mobile-column jc-center stnd-padding">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding no-top-padding"><b>Jacob’s Pillow, Ishmael Houston-Jones:</b></p>
                                     <p className="no-top-padding">I think there is something about the accidentalness of what gets left, and what gets found, and what remains.</p>
                                     <a className="small-bttn sand evergreen-txt">Video</a>
                                 </div>
                                 <div className="w-forty flex">
-                                    <img className="w-one-hundred" src="/Images/Pictures/Reggie.svg"/>
+                                    <img className="w-one-hundred mobile-top-20px" src="/Images/Pictures/Reggie.svg"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="w-forty-seven relative flex column stnd-padding">
                         <div className="relative h-fifty w-seventy flex flex-end evergreen-txt">
-                            <img className="absolute left w-ninety" src="/Images/Pictures/Reggie.svg"/>
+                            <img className="display-none absolute left w-ninety" src="/Images/Pictures/Reggie.svg"/>
                             <div className="relative w-seventy flex column">
                                 <div className="flex sand-gradient-50 w-one-hundred">
                                     <a className="small-bttn left-margin-10px evergreen sand-txt sand-border">Writing</a>
@@ -118,7 +118,7 @@ const Context = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-one-hundred flex space-btwn">
+                        <div className="w-one-hundred flex mobile-column-reverse mobile-top-20px space-btwn">
                             <div className="w-fifty flex column">
                                 <div className="sand evergreen-txt double-padding">
                                     <p className="no-bottom-padding no-top-padding"><b>Cori Olinghouse:</b></p>
@@ -136,10 +136,10 @@ const Context = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <img src="/Images/CreamOutlineSlash.svg" className="absolute large-slash display-none"/>    
+                        <img src="/Images/CreamOutlineSlash.svg" className="display-none absolute large-slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-1800 flex mobile-side-padding">
+                <div className="panel-1800 flex mobile-column mobile-side-padding">
                     <div className="w-forty flex column sand-txt">
                         <p className="no-bottom-padding"><b>Tonya Lockyer:</b></p>
                         <p className="no-top-padding">Yes, archives need to collect all this important stuff. But archives also need to tell good stories. Or, another way of putting it: archives are never objective. Just as a researcher’s race, gender or class influences their interpretation of an archive; how the archive is constructed, located and monitored influences the researcher. If you are creating an archive to resist disappearance and erasure, it helps to have strategies for manipulating the system.</p>
@@ -200,7 +200,7 @@ const Context = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex column-reverse flex-start">
+                            <div className="display-none flex column-reverse flex-start">
                                 <img src="/Images/Pictures/Reggie.svg" className="h-fifty" />
                                 <p className="txt-al-right sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                             </div>

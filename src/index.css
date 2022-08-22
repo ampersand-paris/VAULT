@@ -161,7 +161,8 @@ li {
   width: 50%;
 }
 
-.w-forty-seven {
+.
+ {
   width: 47%;
 }
 
@@ -924,7 +925,7 @@ iframe {
 }
 
 .w-forty {
-  width: calc(100% - 4vW);
+  width: calc(100% - 2vW);
 }
 
 .w-seventy {
@@ -967,6 +968,9 @@ iframe {
   flex-direction: column ;
 }
 
+.mobile-column-reverse {
+  flex-direction: column-reverse ;
+}
 /* ====== PADDING ====== */
 
 .mobile-padding {
@@ -982,6 +986,10 @@ iframe {
 
 .mobile-top-100px {
   margin-top: 100px;
+}
+
+.mobile-top-20px {
+  margin-top: 20px;
 }
 
 /* ====== MENUS ====== */
@@ -1001,6 +1009,10 @@ iframe {
   width: 100vW;
 }
 
+.c-container-length {
+  width: 100vW;
+}
+
 .intro-panel-width {
   width: 100vW;
 }
@@ -1016,6 +1028,10 @@ iframe {
 }
 
 .panel-1400 {
+  width: 76vW;
+}
+
+.panel-1800 {
   width: 76vW;
 }
 
