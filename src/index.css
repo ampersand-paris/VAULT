@@ -132,6 +132,14 @@ li {
   height: 60%;
 }
 
+.h-200px {
+  height: 200px;
+}
+
+.h-150px {
+  height: 150px;
+}
+
 .w-one-hundred {
   width: 100%;
 }
@@ -273,6 +281,10 @@ li {
   margin-left: 10px;
 }
 
+.left-10px {
+  left: 10px;
+}
+
 .left-negative-100px{
   left: -100px;
 }
@@ -283,6 +295,14 @@ li {
 
 .top-10px {
   top: 10px;
+}
+
+.bottom-10px {
+  bottom: 10px;
+}
+
+.top-30px {
+  top: 20px;
 }
 
 /* ====== PADDING ====== */
