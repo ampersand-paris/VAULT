@@ -855,7 +855,7 @@ iframe {
 }
 
 .context-margin{
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
 .c-slash {
@@ -868,6 +868,30 @@ iframe {
 .large-slash {
   height: 98vH;
   left: 60%;
+}
+
+/* ====== WHY IT MATTERS ====== */
+
+.w-container-length {
+  width: 9000px;
+}
+
+.why-it-matters-margin {
+  margin-top: 230px;
+}
+
+.why-it-matters-panel-1 {
+  background-image: url('/public/Images/Pictures/WhyItMatters.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.w-slash {
+  position: absolute;
+  height: 80vH;
+  left: 30%;
+  top: 70px;
 }
 
 /* ============ MOBILE ============ */
