@@ -16,46 +16,51 @@ const WhyItMatters = (props) => {
                     <h1 className="cobalt-txt intro-title">WHY IT MATTERS</h1>
                     <img src="/Images/CobaltSlash.svg" className="w-slash display-none"/>    
                 </div>
-                <div className="panel-1400 flex mobile-column space-around mobile-side-padding">
-                    <div className="w-twenty-five flex column space-around">
-                        <div className="flex column mobile-top-20px">
-                            <div className="flex sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                            </div>
-                            <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Diana Muhammed</b></p>
-                                <p className="side-padding">This availability [of video] provides easy access for study and reflection of a work.</p>
-                            </div>
-                        </div>
-                        <div className="flex column mobile-top-20px">
-                            <div className="flex sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                            </div>
-                            <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Tonya Lockyer</b></p>
-                                <p className="side-padding">Or perhaps, by the very act of so meticulously recording it, [John Cage] had helped manifest its importance.</p>
+                <div className="panel-1800 flex mobile-column space-around stnd-padding mobile-side-padding">
+                    <div className="w-forty flex column flex-end">
+                        <div className="flex stnd-padding sand-txt">
+                            <img src="/Images/Pictures/Reggie.svg" className="w-fifty" />
+                            <div className="stnd-padding">
+                                <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
+                                <p className="no-padding">Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</p>
+                                <a className="small-bttn jc-center sand cobalt-txt">Video</a>
                             </div>
                         </div>
-                        <div className="flex column mobile-top-20px">
-                            <div className="flex sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                            </div>
-                            <div className="sand w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Jane Jerardi</b></p>
-                                <p className="side-padding">I sometimes feel the desire to be selective about what I share with the world.</p>
+                        <div className="h-fifty stnd-padding sand cobalt-txt">
+                            <p className="no-padding"><b>NYC, Judy Hussie-Taylor:</b></p>
+                            <p className="no-padding">Which brings up the “who,” who do you want to reach? During [Danspace Project’s] Lost & Found organizing meetings, we all felt such urgency. For me that platform was about that 17-year-old who found their way to one event and thought, “Oh, there’s a community of like minds?” I was at the Walker [Art Center], a mini-convening, showing Eiko’s work and Ishmael’s Lost & Found, someone asked about audiences and I said “this 17-year-old…” Olga Visu said at the White House [in 2015 when Ralph Lemon received the Medal of the Arts from President Obama], Ralph had never met Philip Glass. Glass said “I was at the Walker in the 70’s and there were only five people in the room, and I thought I’d never be invited back. And Ralph said “I was a 17-year-old in that room.” So, it got me thinking about audience on the seventh generation level.</p>
+                            <div className="flex flex-end top-margin-10px">
+                                <a className="small-bttn jc-center cobalt sand-txt">Meeting Notes</a>
                             </div>
                         </div>
                     </div>
-                    <div className="w-sixty flex column flex-end double-padding">
-                        <p className="sand-txt txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                        <div className="sand-border flex mobile-column double-padding">
-                            <div className="flex column w-seventy-five">
-                                <img src="/Images/Pictures/Reggie.svg" className="" />
-                                <p className="side-padding txt-al-right no-bottom-padding "><b>WRITING excerpt: Cori Olinghouse,</b></p>
-                                <p className="side-padding txt-al-right no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
+                    <div className="relative w-sixty flex column flex-end sand-txt">
+                        <div className="h-fifty flex">
+                            <div className="w-twenty-five"> 
+                                <img src="/Images/Pictures/Reggie.svg" />
                             </div>
-                            <div className="w-twenty-five flex jc-center">
-                                <a className="small-bttn jc-center sand black-txt">WRITING</a>
+                            <div className="w-forty stnd-padding">
+                                <p className="no-padding"><b>Jacob’s Pillow, Dana Whitco:</b></p> 
+                                <p className="no-padding">I do think there's something very radical about the idea of the performance being the documentation of the thing.</p>
+                                <a className="small-bttn jc-center sand cobalt-txt">Video</a>
+                            </div>
+                        </div>
+                        <img src="/Images/Pictures/WhyItMattersImg2.png" className="why-it-matters-img-2 absolute z-index-10" />
+                        <div className="white-box absolute stnd-padding sand-border-left">
+                            <div className="sand white-box">
+
+                            </div>
+                        </div>
+                        <div className="h-fifty flex jc-baseline space-btwn z-index-11">
+                            <div className="w-forty cobalt sand-txt stnd-padding">
+                                <p className="no-padding"><b>Seattle, Betsey Brock:</b></p>
+                                <p className="no-padding">Is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom? …Who is the audience, does the institution On the Boards get to decide? Are we beholden to the artists or to future generations, or ourself, or all of the above?</p>
+                                <a className="small-bttn jc-center sand cobalt-txt top-margin-10px">Meeting Notes</a>
+                            </div> 
+                            <div className="w-forty stnd-padding">
+                                <p className="no-padding"><b>Imogen Smith</b></p> 
+                                <p className="no-padding">...artists often lack access to documentation they need to remount works…</p>
+                                <a className="small-bttn jc-center sand cobalt-txt top-margin-10px">Writing</a>
                             </div>
                         </div>
                     </div>
@@ -211,58 +216,6 @@ const WhyItMatters = (props) => {
                                     <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
-                    <div className="vault-padding flex column mobile-top-20px">
-                        <div className="flex column">
-                            <div className="stnd-padding flex mobile-column space-btwn sand al-center">
-                                <p className="no-bottom-padding"><b>Mara Frazier:</b>I would like artists to feel more welcomed into archives…</p>
-                                <div className="w-one-hundred mobile-flex mobile-flex-end">
-                                    <a className="small-bttn black-border black sand-txt">Writing</a>
-                                </div>
-                            </div>
-                            <div className="stnd-padding flex mobile-column space-btwn sand al-center">
-                                <p className="w-seventy-five no-top-padding mobile-top-20px"><b>Ann Carlson:</b>I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
-                                <div className="w-one-hundred mobile-flex mobile-flex-end">
-                                    <a className="small-bttn black-border black sand-txt">Writing</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="stnd-padding black-border-bottom no-mobile-border">
-                            <p className="no-bottom-padding"><b>Russell Lepley:</b></p> 
-                            <p className="no-top-padding">I am an early career dance-maker and have documentation of my complete works publicly available on streaming platforms YouTube and Vimeo… Attention to how my work is documented affects how institutions perceive my product which influences my future work directly… My work becomes more thoughtfully layered and more concise without those pressures.</p>
-                            <a className="small-bttn black-border black-txt">Writing</a>
-                        </div>
-                    </div>
-                    <div className="h-sixty flex mobile-column space-around stnd-padding">
-                        <div className="flex column stnd-padding black-border">
-                            <p className="transcription-details no-padding"><b>Rachel Boggia, Jacob’s Pillow:</b></p>
-                            <div className="h-one-hundred flex column space-btwn">
-                                <div className="flex column">                    
-                                    <p className="transcription-details no-padding">It's a challenge with any new technology to know whether to invent. I think in dance in the academic centers like Ohio State we're [...] often late adopters of technology because there's just not enough money for us to make big mistakes.</p>
-                                    <div className="flex flex-end only-top-padding">
-                                        <a className="small-bttn black sand-txt">Video</a>
-                                    </div>
-                                </div>
-                                <div className="flex column space-btwn">
-                                    <p className="transcription-details no-padding">I'm assuming that a lot of the structures that help decide who gets archived reinforce a lot of institutional privilege, right? And and so. One way of countering that—besides actively countering it within institutions, which is would be a good idea—would be to think about what structures, monied institutions, can offer to people to do this for themselves, to some degree, or do this for each other, like communities of archiving.</p>
-                                    <div className="flex flex-end only-top-padding">
-                                        <a className="small-bttn black sand-txt">Video</a>
-                                    </div>
-                                </div>
-                                <div className="flex column space-btwn">                    
-                                    <p className="transcription-details no-padding">A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</p>                                
-                                    <div className="flex flex-end  only-top-padding">
-                                        <a className="small-bttn black sand-txt">Video</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex column space-btwn sand-gradient-50">
-                            <img src="/Images/Pictures/Reggie.svg" className="h-fifty" />
-                            <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
                     </div>
                 </div>

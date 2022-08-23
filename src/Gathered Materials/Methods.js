@@ -219,13 +219,13 @@ const Methods = (props) => {
                         <div className="flex column">
                             <div className="stnd-padding flex mobile-column space-btwn sand al-center">
                                 <p className="no-bottom-padding"><b>Mara Frazier:</b>I would like artists to feel more welcomed into archives…</p>
-                                <div className="w-one-hundred mobile-flex mobile-flex-end">
+                                <div className="mobile-flex mobile-flex-end">
                                     <a className="small-bttn black-border black sand-txt">Writing</a>
                                 </div>
                             </div>
                             <div className="stnd-padding flex mobile-column space-btwn sand al-center">
                                 <p className="w-seventy-five no-top-padding mobile-top-20px"><b>Ann Carlson:</b>I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
-                                <div className="w-one-hundred mobile-flex mobile-flex-end">
+                                <div className="mobile-flex mobile-flex-end">
                                     <a className="small-bttn black-border black sand-txt">Writing</a>
                                 </div>
                             </div>
@@ -252,7 +252,7 @@ const Methods = (props) => {
                                         <a className="small-bttn black sand-txt">Video</a>
                                     </div>
                                 </div>
-                                <div className="flex column space-btwn">                    
+                                <div className="flex space-btwn">                    
                                     <p className="transcription-details no-padding">A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</p>                                
                                     <div className="flex flex-end  only-top-padding">
                                         <a className="small-bttn black sand-txt">Video</a>

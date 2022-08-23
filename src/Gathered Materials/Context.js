@@ -24,7 +24,7 @@ const Context = (props) => {
                         <div className="relative mobile-flex mobile-column mobile-al-center mobile-top-100px stnd-padding sand evergreen-txt txt-al-center">
                             <p className="no-bottom-padding"><b>Margi Cole</b></p>    
                             <p className="no-top-padding">Create a valid space to move away from product-driven work.</p>
-                            <a className="absolute mobile-relative left-negative-100px top-margin-10px small-bttn evergreen sand-txt sand-border">Writing</a>
+                            <a className="absolute mobile-relative left-negative-100px top-10px small-bttn evergreen sand-txt sand-border">Writing</a>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ const Context = (props) => {
                         <p className="no-bottom-padding"><b>Tonya Lockyer:</b></p>
                         <p className="no-top-padding">Yes, archives need to collect all this important stuff. But archives also need to tell good stories. Or, another way of putting it: archives are never objective. Just as a researcher’s race, gender or class influences their interpretation of an archive; how the archive is constructed, located and monitored influences the researcher. If you are creating an archive to resist disappearance and erasure, it helps to have strategies for manipulating the system.</p>
                         <div className="relative h-fifty">
-                            <a className="absolute left-margin-10px top-margin-10px small-bttn evergreen sand-txt">Writing</a>
+                            <a className="absolute left-margin-10px top-10px small-bttn evergreen sand-txt">Writing</a>
                             <img className="" src="/Images/Pictures/Reggie.svg"/>
                         </div>
                     </div>
