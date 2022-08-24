@@ -16,9 +16,9 @@ const WhyItMatters = (props) => {
                     <h1 className="cobalt-txt intro-title">WHY IT MATTERS</h1>
                     <img src="/Images/CobaltSlash.svg" className="w-slash display-none"/>    
                 </div>
-                <div className="panel-1800 flex mobile-column space-around stnd-padding mobile-side-padding">
+                <div className="panel-1800 flex mobile-column mobile-jc-center space-around stnd-padding mobile-side-padding">
                     <div className="w-forty flex column flex-end">
-                        <div className="flex stnd-padding sand-txt">
+                        <div className="flex mobile-column stnd-padding sand-txt">
                             <img src="/Images/Pictures/Reggie.svg" className="w-fifty" />
                             <div className="stnd-padding">
                                 <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
@@ -35,7 +35,7 @@ const WhyItMatters = (props) => {
                         </div>
                     </div>
                     <div className="relative w-sixty flex column flex-end sand-txt">
-                        <div className="h-fifty flex">
+                        <div className="h-fifty flex mobile-column mobile-top-20px">
                             <div className="w-twenty-five"> 
                                 <img src="/Images/Pictures/Reggie.svg" />
                             </div>
@@ -47,10 +47,10 @@ const WhyItMatters = (props) => {
                         </div>
                         <img src="/Images/Pictures/WhyItMattersImg2.png" className="why-it-matters-img-2 absolute z-index-10" />
                         <div className="white-box absolute stnd-padding sand-border-left">
-                            <div className="sand white-box">
+                            <div className="display-none sand white-box ">
                             </div>
                         </div>
-                        <div className="h-fifty flex jc-baseline space-btwn z-index-11">
+                        <div className="h-fifty flex mobile-column jc-baseline space-btwn z-index-11">
                             <div className="w-forty cobalt sand-txt stnd-padding">
                                 <p className="no-padding"><b>Seattle, Betsey Brock:</b></p>
                                 <p className="no-padding">Is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom? …Who is the audience, does the institution On the Boards get to decide? Are we beholden to the artists or to future generations, or ourself, or all of the above?</p>
@@ -65,12 +65,12 @@ const WhyItMatters = (props) => {
                     </div>
                 </div>
                 <div className="panel-1800 flex space-btwn mobile-column mobile-side-padding top-mobile-sand-border">
-                    <div className="w-thirty flex column space-around">
-                        <div className="relative h-200px  flex column flex-end">
+                    <div className="w-thirty flex column mobile-jc-center space-around">
+                        <div className="relative h-200px flex column flex-end">
                             <a className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border">Writing</a>
                             <div className="h-150px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
                                 <p className="no-padding"><b>Ann Carlson</b></p>
-                                <p className="no-top-padding txt-al-center">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
+                                <p className="no-padding txt-al-center">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
                             </div>
                         </div>
                         <img src="/Images/Pictures/Reggie.svg" className="w-eighty" />
@@ -81,8 +81,8 @@ const WhyItMatters = (props) => {
                         </div>
                     </div>
                     <div className="relative w-thirty flex column flex-end stnd-padding sand-txt">
-                        <div className="relative h-fifty">
-                            <img src="/Images/Pictures/WhyItMattersImg3.png" className="h-one-hundred"/>
+                        <div className="relative h-fifty mobile-top-20px">
+                            <img src="/Images/Pictures/WhyItMattersImg3.png" className="h-one-hundred mobile-76vW"/>
                             <p className="absolute bottom-10px left-10px no-padding"><b>Columbus, Gesel Mason:</b></p> 
                         </div>
                         <div className="h-fifty flex column z-index-11 stnd-padding">
@@ -157,7 +157,7 @@ const WhyItMatters = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="h-fifty flex space-around">
+                        <div className="h-fifty flex mobile-column space-around">
                             <div className="w-fifty flex column">
                                 <div className="flex column mobile-top-20px">
                                     <div className="relative h-150px  flex column flex-end">
@@ -239,46 +239,46 @@ const WhyItMatters = (props) => {
                         <h2 className="no-padding"><b>Columbus, Group Discussion:</b></h2>
                         <div className="flex column stnd-padding sand-border">
                             <div className="h-one-hundred flex column space-btwn">
-                                <div className="flex space-btwn sand-border-left-thin">                    
+                                <div className="flex mobile-column space-btwn sand-border-left-thin">                    
                                     <p className="">What does a fieldwide funding strategy look like?</p>
                                     <div className="flex al-center flex-end only-top-padding">
-                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                        <a className="small-bttn sand cobalt-txt mobile-bottom-10px">Video</a>
                                     </div>
                                 </div>
-                                <div className="flex space-btwn sand-border-left-thin">
+                                <div className="flex mobile-column space-btwn sand-border-left-thin">
                                     <p className="">Digital archive...where the form has a relationship to embodied practices…</p>
                                     <div className="flex flex-end al-center only-top-padding">
-                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                        <a className="small-bttn sand cobalt-txt mobile-bottom-10px">Video</a>
                                     </div>
                                 </div>
-                                <div className="flex space-btwn sand-border-left-thin">                    
+                                <div className="flex mobile-column space-btwn sand-border-left-thin ">                    
                                     <p className="">...Anti-racist methods of dissemination, whether online or in digital space…</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
-                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                        <a className="small-bttn sand cobalt-txt mobile-bottom-10px">Video</a>
                                     </div>
                                 </div>
-                                <div className="flex space-btwn sand-border-left-thin">                    
+                                <div className="flex mobile-column space-btwn sand-border-left-thin">                    
                                     <p className="">How can we incentivise archival behavior broadly?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
-                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                        <a className="small-bttn sand cobalt-txt mobile-bottom-10px">Video</a>
                                     </div>
                                 </div>
-                                <div className="flex space-btwn sand-border-left-thin">                    
+                                <div className="flex mobile-column space-btwn sand-border-left-thin">                    
                                     <p className="">How can we prevent experimental and obscure performance practices from erasure…?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
-                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                        <a className="small-bttn sand cobalt-txt mobile-bottom-10px">Video</a>
                                     </div>
                                 </div>
-                                <div className="flex space-btwn sand-border-left-thin">                    
+                                <div className="flex mobile-column space-btwn sand-border-left-thin">                    
                                     <p className="">Is there a better way to name an archive?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
-                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                        <a className="small-bttn sand cobalt-txt mobile-bottom-10px">Video</a>
                                     </div>
                                 </div>
-                                <div className="flex space-btwn">                    
+                                <div className="flex mobile-column space-btwn">                    
                                     <p className="">What is the relationship between archiving and stewardship?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
-                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                        <a className="small-bttn sand cobalt-txt mobile-bottom-10px">Video</a>
                                     </div>
                                 </div>
                             </div>
