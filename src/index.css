@@ -1142,6 +1142,11 @@ iframe {
 
 }
 
+.why-it-matters-panel-1  {
+  height: 100vH;
+  background-position: right;
+}
+
 .intro-panel-width {
   width: 100vW;
 }
