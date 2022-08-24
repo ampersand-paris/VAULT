@@ -83,7 +83,7 @@ const WhyItMatters = (props) => {
                     <div className="relative w-thirty flex column flex-end stnd-padding sand-txt">
                         <div className="relative h-fifty">
                             <img src="/Images/Pictures/WhyItMattersImg3.png" className="h-one-hundred"/>
-                            <p className="absolute bottom-10px left-10px no-padding"><b>Columbus: Gesel Mason:</b></p> 
+                            <p className="absolute bottom-10px left-10px no-padding"><b>Columbus, Gesel Mason:</b></p> 
                         </div>
                         <div className="h-fifty flex column z-index-11 stnd-padding">
                             <ul className="bullets">
@@ -128,43 +128,58 @@ const WhyItMatters = (props) => {
                 </div>
                 <div className="panel-1200 flex mobile-column mobile-side-padding">
                     <div className="flex column eighty">
-                        <div className="h-thirty-three flex mobile-column sand double-padding">
+                        <div className="flex mobile-column sand cobalt-txt double-padding">
                             <div className="flex column jc-center">
-                                <p className="no-padding"><b>Bebe Miller</b></p>
-                                <p className="no-padding">As Michael Morris said, you’re always dancing with your ancestors, you’re never alone. ...Darrell is extraordinary because he embraces that, brings out something about the whole Vault project for me… —the sense of the form and what the form is for, which has a lot to do with how we then document it and receive it.</p>
+                                <p className="no-padding"><b>Seattle, Betsey Brock:</b></p>
+                                <p className="no-padding">Is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom? …Who is the audience, does the institution On the Boards get to decide? Are we beholden to the artists or to future generations, or ourself, or all of the above?</p>
                             </div>
                             <div className="flex column jc-center mobile-al-center">                       
-                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Meeting Notes</a>
+                                <a className="small-bttn left-margin-10px cobalt sand-txt">Meeting Notes</a>
                             </div>
                         </div>
-                        <div className="h-thirty-three flex mobile-column space-around stnd-padding">
-                            <div className="w-thirty flex column mobile-top-20px">
-                                <div className="flex sand-gradient-50 w-one-hundred">
-                                    <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                                </div>
-                                <div className="w-one-hundred sand">
-                                    <p className="side-padding"><b>WRITING: Ishmael Houston-Jones</b></p>
-                                    <p className="no-top-padding side-padding">…peer/follower review + feedback + championing has been the active ingredient in pushing [my work] forward.</p>
+                        <div className="flex mobile-column space-around">
+                            <div className="w-fifty flex column mobile-top-20px">
+                                <div className="relative h-200px  flex column flex-end">
+                                    <a className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border">Video</a>
+                                    <div className="h-150px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
+                                        <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
+                                        <p className="no-top-padding txt-al-center">…to participate in a conversation around archiving and to build process around archives—to align [archives] with how dance is actually made.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <img src="/Images/Pictures/Reggie.svg" className="w-twenty-five" />
-                            <div className="w-thirty flex column mobile-top-20px">
-                                <div className="flex sand-gradient-50 w-one-hundred">
-                                    <a className="small-bttn left-margin-10px black sand-txt sand-border">Writing</a>
-                                </div>
-                                <div className="w-one-hundred sand">
-                                    <p className="side-padding"><b>WRITING: Darrell Jones</b></p>
-                                    <p className="no-top-padding side-padding">I have a personal interest in cataloging [my father’s materials as a creative tool with applications in movement research…</p>
+                            <div className="w-fifty flex column mobile-top-20px">
+                                <div className="relative h-200px flex column al-flex-end flex-end">
+                                    <a className="absolute top-30px small-bttn right-margin-10px cobalt sand-txt sand-border">Video</a>
+                                    <div className="h-150px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
+                                        <p className="no-padding"><b>Jacob’s Pillow, Jaamil Olawale Kosoko:</b></p>
+                                        <p className="no-top-padding txt-al-center">…So how do you go about overcoming harsh review, especially if it's completely inaccurate?</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="h-thirty-three flex stnd-padding">
-                            <div className="flex jc-center">
-                                <div className="w-eighty">
-                                    <p><b>Angie Hauser</b></p>
-                                    <p>The methodology of archiving [is] determined by the ephemera of the technology that’s available to you. Now, in a situation where we have so much information [... the] joy of finding archival contact sheets, etc. [and] seeing everything else that wasn’t selected, [can be lost.]</p>
-                                    <a className="small-bttn left-margin-10px sand black-txt sand-border">Meeting Notes</a>
+                        <div className="h-fifty flex space-around">
+                            <div className="w-fifty flex column">
+                                <div className="flex column mobile-top-20px">
+                                    <div className="relative h-150px  flex column flex-end">
+                                        <a className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border">Video</a>
+                                        <div className="h-100px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
+                                            <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
+                                            <p className="no-padding txt-al-center">…but you just can't hold on to all of it, so it's changing the methodology absolutely.</p>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div className="flex column mobile-top-20px">
+                                    <div className="relative h-150px flex column flex-end">
+                                        <a className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border">Video</a>
+                                        <div className="h-100px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
+                                            <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
+                                            <p className="no-padding txt-al-center">Do you even think about archive at this point in your dance making?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-fifty flex al-center">
+                                <img src="/Images/Pictures/WhyItMattersImg2.png"  className="w-one-hundred"/>
                             </div>
                         </div>
                     </div>
@@ -175,30 +190,30 @@ const WhyItMatters = (props) => {
                 <div className="panel-1400 flex mobile-column space-around mobile-side-padding">
                     <div className="w-twenty-five flex column space-around sand sand-border">
                         <div className="flex column mobile-top-20px">
-                            <div className="flex black-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
+                            <div className="flex cobalt-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px cobalt sand-txt sand-border">Writing</a>
                             </div>
-                            <div className="w-one-hundred preserved-lemon">
-                                <p className="side-padding"><b>WRITING: Bonnie Brooks</b></p>
-                                <p className="side-padding">The advent of personal, digital phones opened yet a wider avenue to cost-free recording and documentation.</p>
-                            </div>
-                        </div>
-                        <div className="flex column mobile-top-20px">
-                            <div className="flex black-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
-                            </div>
-                            <div className="w-one-hundred preserved-lemon">
-                                <p className="side-padding"><b>WRITING: Jonathan Meyer</b></p>
-                                <p className="side-padding">The onus is so often on artists rather than on the institutions that mean to support them.</p>
+                            <div className="w-one-hundred cobalt sand-txt">
+                                <p className="no-bottom-padding side-padding"><b>Russell Lepley</b></p>
+                                <p className="no-top-padding side-padding">We need clear and simply shot video…</p>
                             </div>
                         </div>
                         <div className="flex column mobile-top-20px">
-                            <div className="flex black-gradient-50 w-one-hundred">
-                                <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
+                            <div className="flex cobalt-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px cobalt sand-txt sand-border">Writing</a>
                             </div>
-                            <div className="w-one-hundred preserved-lemon">
-                                <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
-                                <p className="side-padding">…it’s another example of a somewhat documentary impulse blurring into a creative one.</p>
+                            <div className="w-one-hundred cobalt sand-txt">
+                                <p className="no-bottom-padding side-padding"><b>Mara Frazier</b></p>
+                                <p className="no-top-padding side-padding">I assume that audiences have viewed at least a sample of a choreographer’s work before they buy a ticket.</p>
+                            </div>
+                        </div>
+                        <div className="flex column mobile-top-20px">
+                            <div className="flex cobalt-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px cobalt sand-txt sand-border">Writing</a>
+                            </div>
+                            <div className="w-one-hundred cobalt sand-txt">
+                                <p className="no-bottom-padding side-padding"><b>Jonathan Meyer</b></p>
+                                <p className="no-top-padding side-padding">…I would say that the work fails when it’s not live.</p>
                             </div>
                         </div>
                     </div>
