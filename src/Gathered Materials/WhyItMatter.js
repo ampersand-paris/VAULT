@@ -187,7 +187,7 @@ const WhyItMatters = (props) => {
                         <img src="/Images/CreamOutlineSlash.svg" className="slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-1400 flex mobile-column space-around mobile-side-padding">
+                <div className="panel-1800 flex mobile-column space-around mobile-side-padding">
                     <div className="w-twenty-five flex column space-around sand sand-border">
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
@@ -216,27 +216,70 @@ const WhyItMatters = (props) => {
                                 <p className="no-top-padding side-padding">…I would say that the work fails when it’s not live.</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="w-sixty flex column stnd-padding">
-                        <div className="sand-border flex mobile-column-reverse double-padding">
-                            <div className="w-twenty-five flex jc-center">
-                                <a className="small-bttn jc-center sand black-txt">Video</a>
+                        <div className="flex column mobile-top-20px">
+                            <div className="flex cobalt-gradient-50 w-one-hundred">
+                                <a className="small-bttn left-margin-10px cobalt sand-txt sand-border">Writing</a>
                             </div>
-                            <div className="flex column w-seventy-five">
-                                <img src="/Images/Pictures/Reggie.svg" className="" />
-                                <p className="side-padding no-bottom-padding "><b>Dana Whitco</b></p>
-                                <p className="side-padding no-top-padding ">…I was trying to figure out how to create a fundraising opportunity around process... lots of people are doing this.</p>
+                            <div className="w-one-hundred cobalt sand-txt">
+                                <p className="no-bottom-padding side-padding"><b>Claudia La Rocco</b></p>
+                                <p className="no-top-padding side-padding">I try to assume nothing about “audience.</p>
                             </div>
                         </div>
-                        <div className="flex mobile-column space-btwn">
-                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                            <div className="flex column">
-                                <div className="sand">
-                                    <p className="no-bottom-padding side-padding"><b>WRITING: Angie Hauser</b></p>
-                                    <p className="no-top-padding side-padding">…the archive that seems to be the most compelling, complex, and rich is the one that is my thinking body.</p>
+                    </div>
+                    <div className="w-forty flex column jc-center stnd-padding">
+                        <div className="h-fifty sand cobalt-txt double-padding">
+                            <h2 className="no-padding"><b>Ishmael Houston-Jones</b></h2>
+                            <p className="transcription-details">In 2017, I find myself in my mid-60s and thinking much more about legacy. My own legacy and the legacy of my peers. Sadly, this was provoked by the recent deaths of several of those peers and my meditations led me to contemplate how will their (and my) contributions to this particular and peculiar subset of this art form, experimental dance, be remembered. Who will be able to access the archive of lifetimes of work? How will this archive be available? Formats and gatekeepers, what and who will they be, and do we have any control over either?</p>
+                            <p className="transcription-details">So, do I want just anyone to have access to all of my work? Now? When I’m no longer here? I keep thinking that there is no parallel in writing. One writes a book and anyone can read it if they buy it or it is available in a library or online. Recorded music is much the same? There is a handful of exceptionally good writers writing on the subject of experimental dance. Is there some reason that there aren’t more efficient methods of archiving and disseminating our work to a greater public other than oblivious reviews or by YouTube and Vimeo?</p>
+                        </div>
+                        <img src="/Images/Pictures/Jaamil.svg" className="w-one-hundred"/>    
+                    </div>
+                    <div className="w-forty flex column flex-end mobile-column stnd-padding sand-txt">
+                        <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                        <h2 className="no-padding"><b>Columbus, Group Discussion:</b></h2>
+                        <div className="flex column stnd-padding sand-border">
+                            <div className="h-one-hundred flex column space-btwn">
+                                <div className="flex space-btwn sand-border-left-thin">                    
+                                    <p className="">What does a fieldwide funding strategy look like?</p>
+                                    <div className="flex al-center flex-end only-top-padding">
+                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                    </div>
                                 </div>
-                                <div className="flex sand-gradient-50-down  w-one-hundred">
-                                    <a className="small-bttn left-margin-10px preserved-lemon black-txt sand-border">Writing</a>
+                                <div className="flex space-btwn sand-border-left-thin">
+                                    <p className="">Digital archive...where the form has a relationship to embodied practices…</p>
+                                    <div className="flex flex-end al-center only-top-padding">
+                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                    </div>
+                                </div>
+                                <div className="flex space-btwn sand-border-left-thin">                    
+                                    <p className="">...Anti-racist methods of dissemination, whether online or in digital space…</p>                                
+                                    <div className="flex flex-end al-center only-top-padding">
+                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                    </div>
+                                </div>
+                                <div className="flex space-btwn sand-border-left-thin">                    
+                                    <p className="">How can we incentivise archival behavior broadly?</p>                                
+                                    <div className="flex flex-end al-center only-top-padding">
+                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                    </div>
+                                </div>
+                                <div className="flex space-btwn sand-border-left-thin">                    
+                                    <p className="">How can we prevent experimental and obscure performance practices from erasure…?</p>                                
+                                    <div className="flex flex-end al-center only-top-padding">
+                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                    </div>
+                                </div>
+                                <div className="flex space-btwn sand-border-left-thin">                    
+                                    <p className="">Is there a better way to name an archive?</p>                                
+                                    <div className="flex flex-end al-center only-top-padding">
+                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                    </div>
+                                </div>
+                                <div className="flex space-btwn">                    
+                                    <p className="">What is the relationship between archiving and stewardship?</p>                                
+                                    <div className="flex flex-end al-center only-top-padding">
+                                        <a className="small-bttn sand cobalt-txt">Video</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

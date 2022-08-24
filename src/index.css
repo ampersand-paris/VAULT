@@ -108,6 +108,10 @@ li {
   height: 60%;
 }
 
+.h-eighty {
+  height: 80%;
+}
+
 .h-forty {
   height: 40%;
 }
@@ -202,6 +206,10 @@ li {
 
 .jc-baseline {
   align-items: flex-end;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
 }
 
 .column {
@@ -488,6 +496,10 @@ li {
 
 .sand-border-left {
   border-left: 5px solid var(--sand);
+}
+
+.sand-border-left-thin {
+  border-bottom: 1px solid var(--sand);
 }
 
 .sand-border-bottom {
