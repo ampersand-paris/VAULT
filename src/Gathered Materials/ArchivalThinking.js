@@ -123,7 +123,7 @@ const ArchivalThinking = (props) => {
                         <div className="w-sixty">
                             <div className="flex h-one-hundred mobile-column">
                                 <div className="bebe-seattle w-forty-seven mobile-w-forty-seven-border-adjust stnd-padding">
-                                    <div className="flex flex-end mobile-h-200px">
+                                    <div className="flex flex-end mobile-h-250px">
                                         <a className="small-bttn pumpkin sand-txt">Meeting Notes</a>
                                     </div>
                                 </div>
