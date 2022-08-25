@@ -3,7 +3,6 @@ import { useParams, useLocation } from "react-router-dom";
 
 const Seattle = (props) => {
     const background = useLocation().state.background
-    console.log(background)
 
     return (
     <>

@@ -1,10 +1,12 @@
 // ====== COMPONENTS ======
+import { useLocation } from "react-router-dom";
 
 const EllenChenowethEssay = (props) => {
+    const background = useLocation().state.background
 
     return (
     <>
-        <div className="top-padding flex jc-center mobile-column mint-green">
+        <div style={{ backgroundColor: background }} className="top-padding flex jc-center mobile-column mint-green">
             <div className="vault-padding mobile-jc-center mobile-flex">
                 <div className="relative essay-title-height mobile-width  flex  space-btwn ">
                     <div>

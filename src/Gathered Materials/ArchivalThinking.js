@@ -33,7 +33,15 @@ const ArchivalThinking = (props) => {
                             <div className="z-index-10 relative w-fifty sand stnd-padding">
                                 <h3 className="pumpkin-txt">WRITING: Ishmael Houston-Jones</h3> 
                                 <p className="pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
-                                <a className="small-bttn pumpkin sand-txt" href="/ishmael-houston-jones-essay">Writing</a>
+                                <Link 
+                                    className="small-bttn pumpkin sand-txt"
+                                    to='/ishmael-houston-jones-essay'
+                                    state={{ 
+                                        background: "var(--pumpkin)",
+                                        textColor: "var(--sand)",
+                                        slash: "/Images/CreamSlash.svg" }}
+                                    >Writing
+                                </Link>
                             </div>
                             <img src="/Images/Pictures/Ishmael.svg" className="ishmael mobile-width"/>
                         </div>
@@ -44,15 +52,9 @@ const ArchivalThinking = (props) => {
                         <p className="no-bottom-padding"><b>Dayna Hanson, Seattle:</b></p>
                         <p className="no-top-padding">[We] think about media as being inherently archival, and inherently lasting; and we work in live forms that are inherently ephemeral. So [...] there's something rich and unexpected to me about these digital forms like Snapchat or like Instagram Live that expire so quickly [...] That's somehow good, maybe. Maybe it's placing a [value] judgment.</p>
                         <Link 
-                                className="small-bttn pumpkin sand-txt"
-                                // to={{
-                                //     pathname: "/seattle",
-                                //     state: { 
-                                //         background: "var(--pumpkin)" 
-                                //     }
-                                // }}
-                                to='/seattle'
-                                state={{ background: "var(--pumpkin)" }}
+                            className="small-bttn pumpkin sand-txt"
+                            to='/seattle'
+                            state={{ background: "var(--pumpkin)" }}
                             >Video
                         </Link>
                     </div>
