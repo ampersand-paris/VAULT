@@ -81,7 +81,7 @@ const ArchivalThinking = (props) => {
                             </Link>
                         </div>
                     </div>
-                    <div className="h-fifty flex space-btwn stnd-padding sand-txt">
+                    <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
                         <div className="w-forty-seven w-forty-seven-split">
                             <img className="" src="/Images/Pictures/Reggie.svg" />
                             <div className="stnd-padding border-radius sand pumpkin-txt">

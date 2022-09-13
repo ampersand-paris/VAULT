@@ -1054,7 +1054,7 @@ iframe {
 }
 
 .w-forty-seven-split {
-  width: 48% !important;
+  width: calc(100% - 2vW);
 }
 
 .w-forty {
