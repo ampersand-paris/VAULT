@@ -39,8 +39,9 @@ import MaraFrazierEssay from "./Essays/MaraFrazierEssay";
 import RussellLepleyEssay from "./Essays/RussellLepleyEssay";
 import EllenChenowethEssay from "./Essays/EllenChenowethEssay";
 
-// === TRANSCRIPTS ===
-import MeetingOne from "./Transcripts/MeetingOne";
+// === TRANSCRIPTS & NOTES ===
+import MeetingOneTranscript from "./Transcripts/MeetingOneTranscript";
+import MeetingTwoNotes from "./Transcripts/MeetingTwoNotes";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
@@ -200,8 +201,9 @@ return (
                 <Route path="/reggie-wilson-bio" element={<ReggieWilsonBio />} />
                 <Route path="/tonya-lockyer-bio" element={<TonyaLockyerBio />} />
             {/* Transcripts */}
-                <Route path="/meeting-one" element={<MeetingOne />} />
+                <Route path="/meeting-one-transcript" element={<MeetingOneTranscript />} />
                 <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
+                <Route path="/meeting-two-notes" element={<MeetingTwoNotes />} />
             {/* Videos */}
                 <Route path="/meeting-three" element={<MeetingThree />} />
                 <Route path="/jacobs-pillow-small-group" element={<JacobsPillowSmallGroup />} />
