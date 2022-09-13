@@ -43,6 +43,8 @@ import EllenChenowethEssay from "./Essays/EllenChenowethEssay";
 import MeetingOneTranscript from "./Transcripts/MeetingOneTranscript";
 import MeetingTwoNotes from "./Transcripts/MeetingTwoNotes";
 import MeetingThreeNotes from "./Transcripts/MeetingThreeNotes";
+import MeetingFourNotes from "./Transcripts/MeetingFourNotes";
+import MeetingFiveNotes from "./Transcripts/MeetignFiveNotes";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
@@ -205,6 +207,8 @@ return (
                 <Route path="/meeting-one-transcript" element={<MeetingOneTranscript />} />
                 <Route path="/meeting-two-notes" element={<MeetingTwoNotes />} />
                 <Route path="/meeting-three-notes" element={<MeetingThreeNotes />} />
+                <Route path="/meething-four-notes" element={<MeetingFourNotes />} />
+                <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
             {/* Videos */}
                 <Route path="/meeting-three" element={<MeetingThree />} />
                 <Route path="/jacobs-pillow-small-group" element={<JacobsPillowSmallGroup />} />
