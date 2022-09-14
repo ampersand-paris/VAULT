@@ -99,6 +99,7 @@ import JacobsPillowSmallGroup from "./Videos/MeetingThreeSmallGroupFive";
 import Seattle from "./Videos/Seattle"
 import MeetingThreeSmallGroup from "./Videos/MeethingThreeSmallGroup";
 import MeetingThreeSmallGroupFive from "./Videos/MeetingThreeSmallGroupFive";
+import ChicagoFunders from "./Videos/ChicagoFunders";
 
 function App() {
 
@@ -216,6 +217,7 @@ return (
                 <Route path="/meeting-three-small-group-5" element={<MeetingThreeSmallGroupFive />} />
                 <Route path="/seattle" element={<Seattle />} />
                 <Route path="/meeting-three-small-group" element={<MeetingThreeSmallGroup />} />
+                <Route path="/chicago-funders" element={<ChicagoFunders />} />
             {/* MISC */}   
                 <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
         </Routes>

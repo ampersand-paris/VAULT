@@ -164,7 +164,15 @@ const ArchivalThinking = (props) => {
                                             <p className="transcription-details side-padding no-padding">There is often anxiety around documentation.</p>
                                         </div>
                                         <div className="flex jc-center sand-gradient-50-down w-one-hundred">
-                                            <a className="small-bttn pumpkin sand-txt sand-border">Writing</a>
+                                            <Link 
+                                                className="small-bttn pumpkin sand-txt sand-border"
+                                                to='/claudia-la-rocco-essay'
+                                                state={{ 
+                                                    background: "var(--pumpkin)",
+                                                    textColor: "var(--sand)",
+                                                    slash: "/Images/CreamSlash.svg"                                                    }}
+                                                >Writing
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +180,16 @@ const ArchivalThinking = (props) => {
                                     <div className="sand pumpkin-txt stnd-padding border-radius">
                                         <p className="transcription-details no-padding">Is there a way to enlist [funders] in learning from this process…</p>
                                         <div className="flex flex-end">
-                                            <a className="small-bttn pumpkin sand-txt">Video</a>
+                                            <Link 
+                                                className="small-bttn pumpkin sand-txt"
+                                                to='/chicago-funders'
+                                                state={{ 
+                                                    background: "var(--sand)",
+                                                    textColor: "var(--pumpkin)",
+                                                    startTime: "https://player.vimeo.com/video/738669235?h=b3498dfda6"
+                                                    }}
+                                                >Video
+                                            </Link>
                                         </div>
                                     </div>
                                     <img className="only-top-padding" src="/Images/Pictures/Reggie.svg" />
@@ -185,7 +202,16 @@ const ArchivalThinking = (props) => {
                                 <p className="no-padding transcription-details"><b>Jaamil Olawale Kosoko</b></p> 
                                 <p className="no-padding transcription-details">...as the archivist, as the curator, as the maker, I'm just showing you my ways in which I'm maneuvering through certain materials.</p>
                                 <div className="flex flex-end">
-                                    <a className="small-bttn pumpkin sand-txt">Video</a>
+                                    <Link 
+                                        className="small-bttn pumpkin sand-txt"
+                                        to='/meeting-three-small-group'
+                                        state={{ 
+                                            background: "var(--sand)",
+                                            textColor: "var(--pumpkin)",
+                                            startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=16m45s"
+                                        }}
+                                    >Video
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +221,15 @@ const ArchivalThinking = (props) => {
                             <div className="flex h-one-hundred mobile-column">
                                 <div className="bebe-seattle w-forty-seven mobile-w-forty-seven-border-adjust stnd-padding">
                                     <div className="flex flex-end mobile-h-250px">
-                                        <a className="small-bttn pumpkin sand-txt">Meeting Notes</a>
+                                        <Link 
+                                            className="small-bttn pumpkin sand-txt"
+                                            to='/meeting-two-notes'
+                                            state={{ 
+                                                background: "var(--pumpkin)",
+                                                textColor: "var(--sand)",
+                                                slash: "/Images/CreamSlash.svg"                                                    }}
+                                            >Meeting Notes
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="w-forty-seven stnd-padding sand-txt sand-border">
@@ -209,7 +243,15 @@ const ArchivalThinking = (props) => {
                                 <img className="w-forty" src="/Images/Pictures/Jaamil.svg" />
                             </div>
                             <div className="flex jc-center sand-gradient-50 w-one-hundred">
-                                <a className="small-bttn pumpkin sand-txt sand-border">Writing</a>
+                                <Link 
+                                    className="small-bttn pumpkin sand-txt sand-border"
+                                    to='/meeting-two-notes'
+                                    state={{ 
+                                        background: "var(--pumpkin)",
+                                        textColor: "var(--sand)",
+                                        slash: "/Images/CreamSlash.svg"                                                    }}
+                                    >Writing
+                                </Link>
                             </div>
                             <div className="sand pumpkin-txt w-one-hundred">
                                 <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
