@@ -1,33 +1,40 @@
 // ====== COMPONENTS ======
-import { useParams, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const Seattle = (props) => {
-    const background = useLocation().state.background
 
+    const location = useLocation()
+    let background = 'black';
+    let startTime = 'https://player.vimeo.com/video/738669816?h=3e11a58d51'
+    let textColor = 'black';
+
+    if (location.state) {
+        background = location.state.background
+        textColor =  location.state.textColor
+        startTime = location.state.startTime
+    } 
+    
     return (
     <>
-        <div className="mobile-one-hundred-vh one-hundred-vh mobile-flex mobile-column mobile-al-center sand">
+        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh one-hundred-vh mobile-flex mobile-column mobile-al-center">
             <div className="flex flex-end top-padding sand">
-                <div style={{ backgroundColor: background }} className="video-title-width flex column flex-end cobalt-gradient">
+                <div style={{ backgroundColor: textColor }} className="video-title-width flex column flex-end cobalt-gradient">
                     <h2 className="transcription txt-al-center sand-txt">VIDEO</h2>
                 </div>
-                <div style={{backgroundColor: background}}  className="video">
-                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51" width="640" height="360" frameborder="0" allowfullscreen></iframe>            
+                <div style={{ backgroundColor: textColor }}  className="video">
+                    <iframe title="vimeo-player" src={ startTime } frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div className="flex column al-center mobile-width sand">
-                <div  className="essay-width flex column space-btwn evergreen-txt">
-                    <div>
-                        <p style={{ color: background }} className="transcription cobalt-txt"><b>Seattle Meeting:</b></p>
-                        <p style={{ color: background }} className="transcription-details cobalt-txt">No date
+                <div  className="essay-width flex column space-btwn">
+                    <div style={{ color: textColor }}>
+                        <p className="transcription"><b>Seattle Meeting:</b></p>
+                        <p className="transcription-details">No date
                         <br></br>
                         Seattle, WA</p>
-                        <p style={{ color: background }} className="cobalt-txt transcription-details"><b>Participants:</b> No information</p>                
+                        <p className="transcription-details"><b>Participants:</b> No information</p>                
                     </div>
                 </div>
-                <section className="flex column al-center sand evergreen-txt">
-                    
-                </section>
             </div>
         </div>
     </>

@@ -95,8 +95,10 @@ import FailspaceBio from "./Biographies/Failspace";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
-import JacobsPillowSmallGroup from "./Videos/JacobsPillow";
+import JacobsPillowSmallGroup from "./Videos/MeetingThreeSmallGroupFive";
 import Seattle from "./Videos/Seattle"
+import MeetingThreeSmallGroup from "./Videos/MeethingThreeSmallGroup";
+import MeetingThreeSmallGroupFive from "./Videos/MeetingThreeSmallGroupFive";
 
 function App() {
 
@@ -211,8 +213,9 @@ return (
                 <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
             {/* Videos */}
                 <Route path="/meeting-three" element={<MeetingThree />} />
-                <Route path="/jacobs-pillow-small-group" element={<JacobsPillowSmallGroup />} />
+                <Route path="/meeting-three-small-group-5" element={<MeetingThreeSmallGroupFive />} />
                 <Route path="/seattle" element={<Seattle />} />
+                <Route path="/meeting-three-small-group" element={<MeetingThreeSmallGroup />} />
             {/* MISC */}   
                 <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
         </Routes>

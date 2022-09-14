@@ -3,25 +3,32 @@ import { useLocation } from "react-router-dom";
 
 const MeetingOne = (props) => {
 
+    const location = useLocation()
+    let background = 'var(--mint-green';
+    let textColor = 'black';
+    let slash = '/Images/Slash.svg'
+
+    if (location.state) {
+        background = location.state.background
+        textColor = location.state.textColor
+        slash = location.state.slash
+    } 
 
     return (
     <>
-        <div className="top-padding flex column al-center sand">
-            <div className="essay-width flex space-btwn evergreen-txt">
+        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center">
+            <div className="essay-width flex space-btwn">
                 <div className="column">
                     <h2 className="transcription">Transcription</h2>
                     <p className="transcription"><b>Vault Meeting #1</b></p>
-                    <audio controls
-                        src="">
-                        Your browser does not support the<code>audio</code> element.</audio>
                     <p className="transcription-details">March 10, 2017
                     <br></br>
                     Cafe Orlin, NYC</p>
                     <p className="transcription-details">Participants: Ann Carlson, Ishmael Houston-Jones, Judy Hussie-Taylor, Jaamil Olawale Kosoko, Bebe Miller</p>
                 </div>
-                <img className="transcript-slash" src="/Images/GreenSlash.svg" />
+                <img className="transcript-slash" src={ slash } />
             </div>
-            <section className="flex column al-center sand evergreen-txt">
+            <section className="flex column al-center">
                 <div className="essay-width">
                     <p><b>Jaamil:</b> Key points Bebe brought up, some questions. Clearly interest in contemporary, virtual ways in which we document the work, those who are engaged with sexy internet-based ways…how that affects the creative process as a whole. #Negrophobia, very much a kind of living archive with a digital archive embedded in the work—audience members take photos, create a part of the archive as they view the work. I keep various ephemera (programs, etc.) that becomes part of the show…. I can talk about how artist archive ideas went into the actual conception and creative process, allowing that to be a shared process among viewers and spectators.</p>
                     <p>Some questions I have: what would be a successful event? What are the major take-aways? Key questions at the core?</p>

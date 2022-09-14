@@ -3,11 +3,21 @@ import { useLocation } from "react-router-dom";
 
 const MeetingThreeNotes = (props) => {
 
+    const location = useLocation()
+    let background = 'var(--mint-green';
+    let textColor = 'black';
+    let slash = '/Images/Slash.svg'
+
+    if (location.state) {
+        background = location.state.background
+        textColor = location.state.textColor
+        slash = location.state.slash
+    } 
 
     return (
     <>
-        <div className="top-padding flex column al-center sand">
-            <div className="essay-width flex space-btwn evergreen-txt">
+        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center">
+            <div className="essay-width flex space-btwn">
                 <div className="column">
                     <h2 className="transcription">Meeting Notes</h2>
                     <p className="transcription"><b>Vault Meeting #3</b></p>
@@ -17,9 +27,9 @@ const MeetingThreeNotes = (props) => {
                     <p className="transcription-details">Meeting Notes by Sarah Lass</p>
                     <p className="transcription-details">Participants: Rachel Boggia (RB); mayfield brooks (mb); Nena Couch (NC); Angie Hauser (AH); Ishmael Houston Jones (IHJ); Jaamil Olawale Kosoko (JOK); Sarah Lass (SL),  documenter (notes); Ellen Maynard (EM), documenter (video); Bebe Miller (BM); Lauren Slone (LS); Dana Whitco (DW); Reggie Wilson (RW)</p>
                 </div>
-                <img className="transcript-slash" src="/Images/GreenSlash.svg" />
+                <img className="transcript-slash" src={ slash } />
             </div>
-            <section className="flex column al-center sand evergreen-txt">
+            <section className="flex column al-center">
                 <div className="essay-width">
                     <p className="no-bottom-padding"><b>Summary of Events</b></p>
                     <p className="no-bottom-padding no-top-padding">Sunday, May 6: opening meeting/discussion, artist-artist interviews, evening work sharing, bonfire</p>
