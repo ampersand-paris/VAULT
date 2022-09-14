@@ -1,7 +1,7 @@
 // ====== COMPONENTS ======
 import { useLocation } from "react-router-dom";
 
-const MeetingThreeSmallGroup = (props) => {
+const MeetingThreeSmallGroupTwo = (props) => {
 
     const location = useLocation()
     let background = 'var(--mint-green';
@@ -41,4 +41,4 @@ const MeetingThreeSmallGroup = (props) => {
   );
 }
 
-export default MeetingThreeSmallGroup;
+export default MeetingThreeSmallGroupTwo;

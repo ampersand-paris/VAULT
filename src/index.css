@@ -844,7 +844,7 @@ iframe {
 /* === ARCHIVAL THINKING === */
 
 .ar-container-length {
-  width: 6000px;
+  width: 7000px;
 }
 
 .ar-panel-1 {
@@ -865,6 +865,7 @@ iframe {
   background-image: url('/public/Images/Pictures/BebeSeattle.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .ishmael{

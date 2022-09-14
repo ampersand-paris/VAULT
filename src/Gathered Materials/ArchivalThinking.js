@@ -35,7 +35,7 @@ const ArchivalThinking = (props) => {
                                 <div className="button-div-height flex jc-center al-center vault-padding">
                                 <Link 
                                     className="small-bttn pumpkin sand-txt"
-                                    to='/meeting-three-small-group'
+                                    to='/meeting-three-small-group-two'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--pumpkin)",
@@ -204,7 +204,7 @@ const ArchivalThinking = (props) => {
                                 <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/meeting-three-small-group'
+                                        to='/meeting-three-small-group-two'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
@@ -245,7 +245,7 @@ const ArchivalThinking = (props) => {
                             <div className="flex jc-center sand-gradient-50 w-one-hundred">
                                 <Link 
                                     className="small-bttn pumpkin sand-txt sand-border"
-                                    to='/meeting-two-notes'
+                                    to='/danya-hanson-essay'
                                     state={{ 
                                         background: "var(--pumpkin)",
                                         textColor: "var(--sand)",
@@ -268,7 +268,15 @@ const ArchivalThinking = (props) => {
                                     <p className="no-padding"><b>Raja Feather Kelly, Seattle:</b></p>
                                     <p className="no-padding">Would other/newer ways to archive, change the way work was made?</p>
                                     <div className="flex">
-                                        <a className="small-bttn sand pumpkin-txt">Meeting notes</a>
+                                        <Link 
+                                            className="small-bttn sand pumpkin-txt"
+                                            to='/meeting-two-notes'
+                                            state={{ 
+                                                background: "var(--pumpkin)",
+                                                textColor: "var(--sand)",
+                                                slash: "/Images/CreamSlash.svg"                                                    }}
+                                            >Meeting notes
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -278,7 +286,16 @@ const ArchivalThinking = (props) => {
                                     <p className="transcription-details no-padding"><b>Bebe Miller:</b></p>
                                     <p className="transcription-details no-padding">Bebe Miller, …there's something about the immediacy of [social media's] dispersal of information...</p>
                                     <div className="flex flex-end">
-                                        <a className="small-bttn pumpkin sand-txt">Video</a>
+                                    <Link 
+                                        className="small-bttn pumpkin sand-txt"
+                                        to='/seattle'
+                                        state={{ 
+                                            background: "var(--sand)",
+                                            textColor: "var(--pumpkin)",
+                                            startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=13m40s"
+                                        }}
+                                        >Video
+                                    </Link>
                                     </div>
                                 </div>
                             </div>
@@ -286,8 +303,86 @@ const ArchivalThinking = (props) => {
                     <div className="h-fifty sand pumpkin-txt stnd-padding">
                         <p><b>Judy Hussie-Taylor, NYC: </b></p>
                         <p>Intersection between what are we doing, what are we saving, what are we collecting, what are we not doing—always at play in our work at least on the curatorial side. We’re making interventions, we’re making choices. What we all feel every day: whatever it is we value is under attack, in so many ways. A war on certain kinds of value systems. Maybe this is different than how/what we archive but these choices point to what we value.</p>
+                        <Link 
+                            className="small-bttn pumpkin sand-txt"
+                            to='/meeting-one-transcript'
+                            state={{ 
+                                background: "var(--pumpkin)",
+                                textColor: "var(--sand)",
+                                slash: "/Images/CreamSlash.svg"                                                    }}
+                            >Meeting notes
+                        </Link>
+                    </div>        
+                </div>
+                <div className="panel-900 flex column-reverse mobile-side-padding top-mobile-sand-border">
+                    <div className="h-fifty vault-padding ">
+                        <div className="stnd-padding sand-txt no-mobile-border sand-border-bottom">
+                            <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p> 
+                            <p className="no-top-padding">What’s the nature of what we’re archiving? What are the layers important to us? Then the curator and teacher of dance history in me zoomed out further: What are the politics of inclusion? Who and what might be missing? … Who do we want to be in conversation with, now and 100 years from now?</p>
+                            <Link 
+                                className="small-bttn sand pumpkin-txt"
+                                to='/meeting-two-notes'
+                                state={{ 
+                                    background: "var(--pumpkin)",
+                                    textColor: "var(--sand)",
+                                    slash: "/Images/CreamSlash.svg" }}
+                                >Meeting Notes
+                            </Link>
+                        </div>
+                        <div className="stnd-padding sand-txt no-mobile-border">
+                            <p className="no-bottom-padding"><b>Bonnie Brooks:</b></p> 
+                            <p className="no-top-padding">…over time these platforms have become largely digital…</p>
+                            <Link 
+                                className="small-bttn sand pumpkin-txt"
+                                to='/bonnie-brooks-writing'
+                                state={{ 
+                                    background: "var(--pumpkin)",
+                                    textColor: "var(--sand)",
+                                    slash: "/Images/CreamSlash.svg" }}
+                                >Writing
+                            </Link>
+                        </div>
                     </div>
-                    
+                    <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
+                        <div className="w-forty w-forty-seven-split">
+                            <img className="" src="/Images/Pictures/Reggie.svg" />
+                            <div className="stnd-padding border-radius sand pumpkin-txt">
+                                <p className="transcription-details no-padding"><b>Jaamil Olawale Kosoko, Jacob's Pillow:</b></p>
+                                <p className="transcription-details no-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
+                                <div className="flex flex-end">
+                                    <Link 
+                                        className="small-bttn pumpkin sand-txt"
+                                        to='/seattle'
+                                        state={{ 
+                                            background: "var(--sand)",
+                                            textColor: "var(--pumpkin)",
+                                            startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=19m40s"
+                                            }}
+                                        >Video
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-forty w-forty-seven-split">
+                            <img className="" src="/Images/Pictures/DanaWhitco.svg" />
+                            <div className="stnd-padding border-radius sand pumpkin-txt">
+                                <p className="transcription-details no-padding"><b>Nena Couch, Jacob's Pillow:</b></p>
+                                <p className="transcription-details no-padding">There are different ways that we choose what to keep.</p>
+                                <div className="flex flex-end">
+                                    <Link 
+                                        className="small-bttn pumpkin sand-txt"
+                                        to='/seattle'
+                                        state={{ 
+                                            background: "var(--sand)",
+                                            textColor: "var(--pumpkin)",
+                                            startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=0m33s"
+                                            }}
+                                        >Video
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
