@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
+
 const ArchivalThinking = (props) => {
 
     return (
@@ -23,7 +25,7 @@ const ArchivalThinking = (props) => {
                                     <a className="small-bttn pumpkin sand-txt">Transcription</a>
                                 </div>
                                 <div className="button-div-height flex jc-center al-center vault-padding">
-                                    <a className="small-bttn pumpkin sand-txt">Video</a>
+                                    <a className="small-bttn pumpkin sand-txt" href="/jacobs-pillow-small-group">Video</a>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +33,15 @@ const ArchivalThinking = (props) => {
                             <div className="z-index-10 relative w-fifty sand stnd-padding">
                                 <h3 className="pumpkin-txt">WRITING: Ishmael Houston-Jones</h3> 
                                 <p className="pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
-                                <a className="small-bttn pumpkin sand-txt">Writing</a>
+                                <Link 
+                                    className="small-bttn pumpkin sand-txt"
+                                    to='/ishmael-houston-jones-essay'
+                                    state={{ 
+                                        background: "var(--pumpkin)",
+                                        textColor: "var(--sand)",
+                                        slash: "/Images/CreamSlash.svg" }}
+                                    >Writing
+                                </Link>
                             </div>
                             <img src="/Images/Pictures/Ishmael.svg" className="ishmael mobile-width"/>
                         </div>
@@ -39,24 +49,39 @@ const ArchivalThinking = (props) => {
                 </div>
                 <div className="panel-700 flex column mobile-side-padding">
                     <div className="h-fifty stnd-padding sand pumpkin-txt">
-                        <p><b>Dayna Hanson, Seattle:</b></p>
-                        <p>[We] think about media as being inherently archival, and inherently lasting; and we work in live forms that are inherently ephemeral. So [...] there's something rich and unexpected to me about these digital forms like Snapchat or like Instagram Live that expire so quickly [...] That's somehow good, maybe. Maybe it's placing a [value] judgment.</p>
-                        <a className="small-bttn pumpkin sand-txt">Video</a>
+                        <p className="no-bottom-padding"><b>Dayna Hanson, Seattle:</b></p>
+                        <p className="no-top-padding">[We] think about media as being inherently archival, and inherently lasting; and we work in live forms that are inherently ephemeral. So [...] there's something rich and unexpected to me about these digital forms like Snapchat or like Instagram Live that expire so quickly [...] That's somehow good, maybe. Maybe it's placing a [value] judgment.</p>
+                        <Link 
+                            className="small-bttn pumpkin sand-txt"
+                            to='/seattle'
+                            state={{ background: "var(--pumpkin)" }}
+                            >Video
+                        </Link>
                     </div>
                     <div className="h-fifty stnd-padding sand-txt">
-                        <p><b>Bebe Miller, NYC:</b></p> 
-                        <p className="sand-border-right no-mobile-border">There’s now a very different horizontal platform in the idea of archiving... The immediacy of the archive now—broadcast it, be done with it, let it be absorbed into the artistic mindset of the culture—even at the beginning of conceiving of the idea/event/artwork. In that difference between the vertical and horizontal, on a fascial/body level, is there a difference in the work we make, do we need to support both axes or yet a new direction?</p>
-                        <a className="small-bttn pumpkin-txt sand">Meeting Notes</a>
+                        <p className="no-bottom-padding"><b>Bebe Miller, NYC:</b></p> 
+                        <p className="no-top-padding sand-border-right no-mobile-border">There’s now a very different horizontal platform in the idea of archiving... The immediacy of the archive now—broadcast it, be done with it, let it be absorbed into the artistic mindset of the culture—even at the beginning of conceiving of the idea/event/artwork. In that difference between the vertical and horizontal, on a fascial/body level, is there a difference in the work we make, do we need to support both axes or yet a new direction?</p>
+                        <a className="small-bttn pumpkin-txt sand" href="/meeting-one">Meeting Notes</a>
                     </div>
                 </div>
                 <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
                     <div className="h-fifty vault-padding ">
                         <div className="stnd-padding sand-txt sand-border-bottom no-mobile-border">
-                            <p><b>Ann Carlson, NYC:</b></p> <p>The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying ‘the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
-                            <a className="small-bttn pumpkin-txt sand">Meeting Notes</a>
+                            <p className="no-bottom-padding"><b>Ann Carlson, NYC:</b></p> 
+                            <p className="no-top-padding">The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying ‘the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
+                            <Link 
+                                className="small-bttn pumpkin-txt sand"
+                                to={{
+                                    pathname: "/seattle/parameter-data",
+                                    state: { 
+                                        background: "var(--pumpkin)" 
+                                    }
+                                }}
+                                >Meeting Notes
+                            </Link>
                         </div>
                     </div>
-                    <div className="h-fifty flex space-btwn stnd-padding sand-txt">
+                    <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
                         <div className="w-forty-seven w-forty-seven-split">
                             <img className="" src="/Images/Pictures/Reggie.svg" />
                             <div className="stnd-padding border-radius sand pumpkin-txt">

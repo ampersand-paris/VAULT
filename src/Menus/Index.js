@@ -6,7 +6,7 @@ import { useState } from "react"
  // ====== REACT COMPONENTS ======
 import Home from "../Home";
 import MarjiColeEssay from "../Essays/MarjiColeEssay";
-import MeetingOne from "../Transcripts/MeetingOne";
+import MeetingOneTranscript from "../Transcripts/MeetingOneTranscript";
 
 const Index = (props) => {
 

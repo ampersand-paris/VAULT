@@ -1,16 +1,29 @@
 // ====== COMPONENTS ======
+import { useLocation } from "react-router-dom";
 
 const IshmaelHoustonJonesEssay = (props) => {
+    const location = useLocation()
+    let background = 'var(--mint-green';
+    let textColor = 'black';
+    let slash = '/Images/Slash.svg'
+
+    if (location.state) {
+        background = location.state.background
+        textColor = location.state.textColor
+        slash = location.state.slash
+    } 
+
+    console.log(location)
 
     return (
     <>
-        <div className="top-padding flex jc-center mobile-column pumpkin sand-txt">
+        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex jc-center mobile-column sand-txt">
             <div className="vault-padding mobile-jc-center mobile-flex">
                 <div className="relative essay-title-height mobile-width  flex space-btwn ">
                     <div>
                         <h2 className="subtitle essay-heading">Essay</h2>
                     </div>
-                    <img className="essay-slash" src="/Images/CreamSlash.svg" />
+                    <img className="essay-slash" src={ slash } />
                     <div className="flex column flex-end">
                         <h2 className="subtitle essay-author">Ishmael Houston-Jones</h2>
                     </div>

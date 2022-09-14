@@ -39,8 +39,12 @@ import MaraFrazierEssay from "./Essays/MaraFrazierEssay";
 import RussellLepleyEssay from "./Essays/RussellLepleyEssay";
 import EllenChenowethEssay from "./Essays/EllenChenowethEssay";
 
-// === TRANSCRIPTS ===
-import MeetingOne from "./Transcripts/MeetingOne";
+// === TRANSCRIPTS & NOTES ===
+import MeetingOneTranscript from "./Transcripts/MeetingOneTranscript";
+import MeetingTwoNotes from "./Transcripts/MeetingTwoNotes";
+import MeetingThreeNotes from "./Transcripts/MeetingThreeNotes";
+import MeetingFourNotes from "./Transcripts/MeetingFourNotes";
+import MeetingFiveNotes from "./Transcripts/MeetignFiveNotes";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
@@ -91,6 +95,8 @@ import FailspaceBio from "./Biographies/Failspace";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
+import JacobsPillowSmallGroup from "./Videos/JacobsPillow";
+import Seattle from "./Videos/Seattle"
 
 function App() {
 
@@ -198,9 +204,17 @@ return (
                 <Route path="/reggie-wilson-bio" element={<ReggieWilsonBio />} />
                 <Route path="/tonya-lockyer-bio" element={<TonyaLockyerBio />} />
             {/* Transcripts */}
-            <Route path="/meeting-one" element={<MeetingOne />} />
-            <Route path="/meeting-three" element={<MeetingThree />} />
-            <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
+                <Route path="/meeting-one-transcript" element={<MeetingOneTranscript />} />
+                <Route path="/meeting-two-notes" element={<MeetingTwoNotes />} />
+                <Route path="/meeting-three-notes" element={<MeetingThreeNotes />} />
+                <Route path="/meething-four-notes" element={<MeetingFourNotes />} />
+                <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
+            {/* Videos */}
+                <Route path="/meeting-three" element={<MeetingThree />} />
+                <Route path="/jacobs-pillow-small-group" element={<JacobsPillowSmallGroup />} />
+                <Route path="/seattle" element={<Seattle />} />
+            {/* MISC */}   
+                <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
         </Routes>
     </Router>
   );

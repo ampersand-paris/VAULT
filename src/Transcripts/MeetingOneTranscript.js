@@ -1,6 +1,8 @@
 // ====== COMPONENTS ======
+import { useLocation } from "react-router-dom";
 
 const MeetingOne = (props) => {
+
 
     return (
     <>
