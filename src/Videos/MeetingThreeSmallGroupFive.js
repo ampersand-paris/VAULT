@@ -22,7 +22,6 @@ const MeetingThreeSmallGroupFive = (props) => {
                     <h2 className="transcription txt-al-center sand-txt">VIDEO</h2>
                 </div>
                 <div style={{ color: textColor }} className="video">
-                <iframe title="vimeo-player" src="https://player.vimeo.com/video/738666979?h=de936851e2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                     <iframe title="vimeo-player" src={ startTime } frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>

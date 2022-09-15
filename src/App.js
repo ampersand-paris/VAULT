@@ -44,7 +44,7 @@ import MeetingOneTranscript from "./Transcripts/MeetingOneTranscript";
 import MeetingTwoNotes from "./Transcripts/MeetingTwoNotes";
 import MeetingThreeNotes from "./Transcripts/MeetingThreeNotes";
 import MeetingFourNotes from "./Transcripts/MeetingFourNotes";
-import MeetingFiveNotes from "./Transcripts/MeetignFiveNotes";
+import MeetingFiveNotes from "./Transcripts/MeetingFiveNotes";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
@@ -101,6 +101,7 @@ import MeetingThreeSmallGroupTwo from "./Videos/MeethingThreeSmallGroupTwo";
 import MeetingThreeSmallGroupFive from "./Videos/MeetingThreeSmallGroupFive";
 import ChicagoFunders from "./Videos/ChicagoFunders";
 import MeetingThreeSmallGroupThree from "./Videos/MeetingThreeSmallGroupThree";
+import MeetingThreeSmallGroupConclusion from "./Videos/MeetingThreeSmallGroupConclusion";
 
 function App() {
 
@@ -219,6 +220,7 @@ return (
                 <Route path="/seattle" element={<Seattle />} />
                 <Route path="/meeting-three-small-group-two" element={<MeetingThreeSmallGroupTwo />} />
                 <Route path="/meeting-three-small-group-three" element={<MeetingThreeSmallGroupThree />} />
+                <Route path="/meeting-three-small-group-conclusion" element={<MeetingThreeSmallGroupConclusion />} />
                 <Route path="/chicago-funders" element={<ChicagoFunders />} />
             {/* MISC */}   
                 <Route path="/resources-mentioned" element={<ResourcesMentioned />} />

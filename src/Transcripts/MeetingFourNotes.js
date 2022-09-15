@@ -3,10 +3,20 @@ import { useLocation } from "react-router-dom";
 
 const MeetingFourNotes = (props) => {
 
+    const location = useLocation()
+    let background = 'var(--mint-green';
+    let textColor = 'black';
+    let slash = '/Images/Slash.svg'
+
+    if (location.state) {
+        background = location.state.background
+        textColor = location.state.textColor
+        slash = location.state.slash
+    } 
 
     return (
     <>
-        <div className="top-padding flex column al-center sand">
+        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center sand">
             <div className="essay-width flex space-btwn evergreen-txt">
                 <div className="column">
                     <h2 className="transcription">Meeting Notes</h2>
@@ -17,7 +27,7 @@ const MeetingFourNotes = (props) => {
                     <p className="transcription-details">Meeting Notes by Lila Hurwitz</p>
                     <p className="transcription-details">Participants: Julia Antonick, Bonnie Brooks, Ellen Chenoweth, Margi Cole, Jenai Cutcher, Ginger Farley, J'sun Howard, Lila Hurwitz, Jane Jerardi, Darrell Jones, Erin Kilmurray, Jonathan Meyer, Bebe Miller, Diana Muhammad</p>
                 </div>
-                <img className="transcript-slash" src="/Images/GreenSlash.svg" />
+                <img className="transcript-slash" src={ slash } />
             </div>
             <section className="flex column al-center sand evergreen-txt">
                 <div className="essay-width">

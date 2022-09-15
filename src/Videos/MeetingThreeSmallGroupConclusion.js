@@ -1,11 +1,11 @@
 // ====== COMPONENTS ======
 import { useLocation } from "react-router-dom";
 
-const MeetingThree = (props) => {
+const MeetingThreeSmallGroupConclusion = (props) => {
 
     const location = useLocation()
     let background = 'var(--mint-green';
-    let startTime = 'https://vimeo.com/738669816/3e11a58d51'
+    let startTime = 'https://player.vimeo.com/video/738666979?h=de936851e2'
     let textColor = 'black';
 
     if (location.state) {
@@ -22,7 +22,7 @@ const MeetingThree = (props) => {
                     <h2 className="transcription txt-al-center sand-txt">VIDEO</h2>
                 </div>
                 <div style={{ backgroundColor: textColor }} className="video">
-                    <iframe title="vimeo-player" src={ startTime } frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/_jKEqDKpJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 </div>
             </div>
             <div className="flex column al-center mobile-width sand">
@@ -41,4 +41,4 @@ const MeetingThree = (props) => {
   );
 }
 
-export default MeetingThree;
+export default MeetingThreeSmallGroupConclusion;
