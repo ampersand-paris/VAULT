@@ -711,13 +711,12 @@ audio::-webkit-media-controls-timeline {
   height: 75vH;
   position: absolute;
   bottom: 0%;
-  right: 200px;
+  right: 160px;
 }
 
 .home-text {
   font-size: 18em;
   margin: 0;
-  margin-left: 20vW;
 }
 
 .home-text-width {
@@ -1166,6 +1165,23 @@ iframe {
 
 .triangle-size {
   width: 25px !important;
+}
+
+/* ====== HOME ====== */
+
+.home-text {
+  font-size: 7em;
+}
+
+.home-slash {
+  height: 70vH;
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+}
+
+.home-height {
+  height: 90vH;
 }
 
 /* ====== GATHERED MATERIALS ====== */
