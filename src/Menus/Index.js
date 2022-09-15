@@ -25,44 +25,171 @@ const Index = (props) => {
                     <h1>VAULT</h1>
                 </div>
                 <div className="index-entries flex column">
-                    <h3 className="index-location-first">Chicago 2019:</h3>
-                    <p className="index-sub-title">Chicago Attendees:</p>
+                    <h3 className="index-location-first">Meeting #1</h3>
+                    <h4 className="index-location-first">Café Orlin</h4>
+                    <h4 className="index-location-first">New York City, NY</h4>
+                    <h4 className="index-location-first">March 10, 2017:</h4>
+                    <p className="index-sub-title">New York City Attendees:</p>
                     <ul className="index-list">
-                        <Link to="/marji-cole-bio"><li>Cole, Margi: Bio</li></Link>
-                        <Link to="/marji-cole-essay"><li>Cole, Margi: Writing</li></Link>
-                        <li>Houston-Jones, Ishmael: Bio</li>
-                        <li>Houston-Jones, Ishmael: Writing</li>
-                        <li>Miller, Bebe: Bio</li>
-                        <li>Miller, Bebe: Writing</li>
+                        <Link to="/ann-carlson-bio"><li>Carlson, Ann: Bio</li></Link>
+                        <Link to="/ann-carlson-essay"><li>Carlson, Ann: Writing</li></Link>
+                        <Link to="/ishmael-houston-jones-bio"><li>Houston-Jones, Ishmael: Bio</li></Link>
+                        <Link to="/ishmael-houston-jones-essay"><li>Houston-Jones, Ishmael: Writing</li></Link>
+                        <Link to="/judy-hussie-taylor-bio"><li>Hussie-Taylor, Judy: Bio</li></Link>
+                        <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-essay"><li>Miller, Bebe: Writing</li></Link>
+                        <Link to="/jaamil-olawale-kosoko-bio"><li>Olawale Kosoko, Jaamil: Bio</li></Link>
                     </ul>
-                    <p className="index-sub-title">Chicago Videos:</p>
+                    <p className="index-sub-title">New York City Transcription:</p>
                     <ul className="index-list">
-                        <li>Chicago Meeting Notes</li>
-                        <li>Bebe Miller on Methods</li>
-                        <li>Rachel Boggia on Technology</li>
+                        <Link to="/meeting-one-transcript"><li>Meeting #2</li></Link>
                     </ul>
-                    <h3 className="index-location">Jacob's Pillow 2018:</h3>
+                    <h3 className="index-location-first">Meeting #2</h3>
+                    <h4 className="index-location-first">On the Boards</h4>
+                    <h4 className="index-location-first">Seattle, WA</h4>
+                    <h4 className="index-location-first">August 7, 2017:</h4>
+                    <p className="index-sub-title">Seattle Attendees:</p>
+                    <ul className="index-list">
+                        <Link to="/betsy-brock-bio"><li>Brock, Betsey: Bio</li></Link>
+                        <Link to="/alice-gosti-bio"><li>Gosti, Alice: Bio</li></Link>
+                        <Link to="/pat-graney-bio"><li>Graney, Pat: Bio</li></Link>
+                        <Link to="/dayna-hanson-bio"><li>Hanson, Dayna: Bio</li></Link>
+                        <Link to="/dayna-hanson-essay"><li>Hanson, Dayna: Writing</li></Link>
+                        <Link to="/angie-hauser-bio"><li>Hauser, Angie: Bio</li></Link>
+                        <Link to="/angie-hauser-essay"><li>Hauser, Angie: Writing</li></Link>
+                        <Link to="/ishmael-houston-jones-bio"><li>Houston-Jones, Ishmael: Bio</li></Link>
+                        <Link to="/ishmael-houston-jones-essay"><li>Houston-Jones, Ishmael: Writing</li></Link>
+                        <Link to="/lila-hurwitz-bio"><li>Hurwitz, Lila: Bio</li></Link>
+                        <Link to="/raja-feather-kelly-bio"><li>Kelly, Raja Feather: Bio</li></Link>
+                        <Link to="/tonya-lockyer-bio"><li>Lockyer, Tonya: Bio</li></Link>
+                        <Link to="/tonya-lockyer-essay"><li>Lockyer, Tonya: Writing</li></Link>
+                        <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-essay"><li>Miller, Bebe: Writing</li></Link>
+                    </ul>
+                    <p className="index-sub-title">Seattle Meeting Notes:</p>
+                    <ul className="index-list">
+                        <Link to="/meeting-two-notes"><li>Meeting #2</li></Link>
+                    </ul>
+                    <p className="index-sub-title">Seattle Meeting Notes:</p>
+                    <ul className="index-list">
+                        <Link to="/seattle"><li>Seattle Meeting</li></Link>
+                    </ul>
+                    <h3 className="index-location">Meeting #3</h3>
+                    <h4 className="index-location-first">Jacob's Pillow</h4>
+                    <h4 className="index-location-first">Becket, MA</h4>
+                    <h4 className="index-location-first">May 6–7, 2018:</h4>
                     <p className="index-sub-title">Jacob’s Pillow Attendees:</p>
                     <ul className="index-list">
-                        <li>Boggia, Rachel: Bio</li>
-                        <li>Boggia, Rachel: Writing</li>
-                        <li>Miller, Bebe: Bio</li>
-                        <li>Miller, Bebe: Writing</li>
+                        <Link to="/rachel-boggia-bio"><li>Boggia, Rachel: Bio</li></Link>
+                        <Link to="/rachel-boggia-essay"><li>Boggia, Rachel: Writing</li></Link>
+                        <Link to="/mayfield-brooks-bio"><li>brooks, mayfield: Bio</li></Link>
+                        <Link to="/mayfield-brooks-essay"><li>brooks, mayfield: Writing</li></Link>
+                        <Link to="/nena-couch-bio"><li>Couch, Nena: Bio</li></Link>
+                        <Link to="/angie-hauser-bio"><li>Hauser, Angie: Bio</li></Link>
+                        <Link to="/angie-hauser-essay"><li>Hauser, Angie: Writing</li></Link>
+                        <Link to="/ishmael-houston-jones-bio"><li>Houston-Jones, Ishmael: Bio</li></Link>
+                        <Link to="/ishmael-houston-jones-essay"><li>Houston-Jones, Ishmael: Writing</li></Link>
+                        <Link to="/jaamil-olawale-kosoko-bio"><li>Olawale Kosoko, Jaamil: Bio</li></Link>
+                        <Link to="/sarah-lass-bio"><li>Lass, Sarah: Bio</li></Link>
+                        <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-essay"><li>Miller, Bebe: Writing</li></Link>
+                        <Link to="/lauren-slone-bio"><li>Slone, Lauren: Bio</li></Link> 
+                        <Link to="/lauren-slone-essay"><li>Slone, Lauren: Writing</li></Link>
+                        <Link to="/dana-whitco-bio"><li>Whitco, Dana: Bio</li></Link>
+                        <Link to="/reggie-wilson-bio"><li>Wilson, Reggie: Bio</li></Link> 
+                    </ul>
+                    <p className="index-sub-title">Jacob's Pillow Meeting Notes:</p>
+                    <ul className="index-list">
+                        <Link to="/meeting-three-notes"><li>Meeting #3</li></Link>
                     </ul>
                     <p className="index-sub-title">Jacob's Pillow Videos:</p>
                     <ul className="index-list">
-                        <li>Rachel Boggia, Ishmael Houston-Jones, Nena Couch on Gardening</li>
+\                        <Link to="/meeting-three-small-group-two"><li>Meeting #3 Small Group 2</li></Link>
+                        <Link to="/meeting-three-small-group-three"><li>Meeting #3 Small Group 3</li></Link>
+                        <Link to="/meeting-three-small-group-conclusion"><li>Meeting #3 Conclusion</li></Link>
                     </ul>
-                    <p className="index-sub-title">Jacob’s Pillow Meeting Transcription</p>
-                    <h3 className="index-location">New York City 2017:</h3>
-                    <p className="index-sub-title">New York City Attendees:</p>
+                    <h3 className="index-location-first">Meeting #4</h3>
+                    <h4 className="index-location-first">Dance Center Columbia College</h4>
+                    <h4 className="index-location-first">Chicago, IL</h4>
+                    <h4 className="index-location-first">Novebmer 16, 2019:</h4>
+                    <p className="index-sub-title">Chicago Attendees:</p>
                     <ul className="index-list">
-                        <li>Houston-Jones, Ishmael: Bio</li>
-                        <li>Houston-Jones, Ishmael: Writing</li>
-                        <li>Miller, Bebe: Bio</li>
-                        <li>Miller, Bebe: Writing</li>
+                        <Link to="/julia-antonick-bio"><li>Antonick, Julia: Bio</li></Link>
+                        <Link to="/bonnie-brooks-bio"><li>Brooks, Bonnie: Bio</li></Link>
+                        <Link to="/bonnie-brooks-essay"><li>Brooks, Bonnie: Writing</li></Link>
+                        <Link to="/ellen-chenoweth-bio"><li>Chenoweth, Ellen: Bio</li></Link>
+                        <Link to="/ellen-chenoweth-essay"><li>Chenoweth, Ellen: Writing</li></Link>
+                        <Link to="/marji-cole-bio"><li>Cole, Margi: Bio</li></Link>
+                        <Link to="/marji-cole-essay"><li>Cole, Margi: Writing</li></Link>
+                        <Link to="/jenai-cutcher-bio"><li>Cutcher, Jenai: Bio</li></Link>
+                        <Link to="/ginger-farley-bio"><li>Farley, Ginger: Bio</li></Link>
+                        <Link to="/jsun-howard-bio"><li>Howard, J'sun: Bio</li></Link>
+                        <Link to="/jsun-howard-essay"><li>Howard, J'sun: Writing</li></Link>
+                        <Link to="/lila-hurwitz-bio"><li>Hurwitz, Lila: Bio</li></Link>
+                        <Link to="/jane-jerardi-bio"><li>Jerardi, Jane: Bio</li></Link>
+                        <Link to="/jane-jerardi-essay"><li>Jerardi, Jane: Writing</li></Link>
+                        <Link to="/darrell-jones-bio"><li>Jones, Darrell: Bio</li></Link>
+                        <Link to="/darrell-jones-essay"><li>Jones, Darrell: Writing</li></Link>
+                        <Link to="/erin-kilmurray-bio"><li>Kilmurray, Erin: Bio</li></Link>
+                        <Link to="/erin-kilmurray-bio"><li>Kilmurray, Erin: Writing</li></Link>
+                        <Link to="/jonathan-meyer-bio"><li>Meyer, Jonathan: Bio</li></Link>
+                        <Link to="/jonathan-meyer-essay"><li>Meyer, Jonathan: Writing</li></Link>
+                        <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-essay"><li>Miller, Bebe: Writing</li></Link>
+                        <Link to="/diana-muhammad-bio"><li>Muhammad, Diana: Bio</li></Link>
+                        <Link to="/diana-muhammad-bio"><li>Muhammad, Diana: Writing</li></Link>
                     </ul>
-                    <p className="index-sub-title">New York City Meeting Notes</p>
+                    <p className="index-sub-title">Chicago Meeting Notes:</p>
+                    <ul className="index-list">
+                        <Link to="/meeting-four-notes"><li>Meeting #4</li></Link>
+                    </ul>
+                    <p className="index-sub-title">Chicago Videos:</p>
+                    <ul className="index-list">
+                        <Link to="/chicago"><li>Chicago Meeting</li></Link>
+                    </ul>
+                    <h3 className="index-location-first">Meeting #5</h3>
+                    <h4 className="index-location-first">Ann Hamilton & Michael Mercil’s Studio</h4>
+                    <h4 className="index-location-first">Columbus, OH</h4>
+                    <h4 className="index-location-first">January 18–19, 2020:</h4>
+                    <p className="index-sub-title">Columbus Attendees:</p>
+                    <ul className="index-list">
+                        <Link to="/ann-carlson-bio"><li>Carlson, Ann: Bio</li></Link>
+                        <Link to="/ann-carlson-essay"><li>Carlson, Ann: Writing</li></Link>
+                        <Link to="/nena-couch-bio"><li>Couch, Nena: Bio</li></Link>
+                        <Link to="/lane-czaplinski-bio"><li>Czaplinski, Lane: Bio</li></Link>
+                        <Link to="/mara-frazier-bio"><li>Frazier, Mara: Bio</li></Link>
+                        <Link to="/mara-frazier-essay"><li>Frazier, Mara: Writing</li></Link>
+                        <Link to="/melanie-george-bio"><li>George, Melanie: Bio</li></Link>
+                        <Link to="/angie-hauser-bio"><li>Hauser, Angie: Bio</li></Link>
+                        <Link to="/angie-hauser-essay"><li>Hauser, Angie: Writing</li></Link>
+                        <Link to="/lila-hurwitz-bio"><li>Hurwitz, Lila: Bio</li></Link>
+                        <Link to="/darrell-jones-bio"><li>Jones, Darrell: Bio</li></Link>
+                        <Link to="/darrell-jones-essay"><li>Jones, Darrell: Writing</li></Link>
+                        <Link to="/claudia-la-rocco-bio"><li>LaRocco, Claudia: Bio</li></Link>
+                        <Link to="/claudia-la-rocco-essay"><li>LaRocco, Claudia: Writing</li></Link>
+                        <Link to="/sarah-lass-bio"><li>Lass, Sarah: Bio</li></Link>
+                        <Link to="/russell-lepley-bio"><li>Lepley, Russell: Bio</li></Link>
+                        <Link to="/russell-lepley-essay"><li>Lepley, Russell: Writing</li></Link>
+                        <Link to="/gesel-mason-bio"><li>Mason, Gesel: Bio</li></Link>
+                        <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-essay"><li>Miller, Bebe: Writing</li></Link>
+                        <Link to="/cori-olinghouse-bio"><li>Olinghouse, Cori: Bio</li></Link>
+                        <Link to="/cori-olinghouse-essay"><li>Olinghouse, Cori: Writing</li></Link>
+                        <Link to="/imogen-smith-bio"><li>Smith, Imogen: Bio</li></Link>
+                        <Link to="/imogen-smith-bio"><li>Smith, Imogen: Writing</li></Link>
+                        <Link to="/alex-springer-bio"><li>Springer, Alex: Bio</li></Link>
+                        <Link to="/alex-springer-essay"><li>Springer, Alex: Writing</li></Link>
+                        <Link to="/dana-whitco-bio"><li>Whitco, Dana: Bio</li></Link>
+                        <Link to="/nija-whitson-bio"><li>Whitson, Ni'Ja: Bio</li></Link>
+                    </ul>
+                    <p className="index-sub-title">Columbus Meeting Notes:</p>
+                    <ul className="index-list">
+                        <Link to="/meeting-five-notes"><li>Meeting #5</li></Link>
+                    </ul>
+                    <p className="index-sub-title">Columbus Videos:</p>
+                    <ul className="index-list">
+                        <Link to="/columbus"><li>Columbus Meeting</li></Link>
+                    </ul>
                 </div>  
                 <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-index-close"/>
                 <div className="flex flex-end">

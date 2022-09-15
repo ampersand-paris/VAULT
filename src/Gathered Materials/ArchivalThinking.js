@@ -118,7 +118,7 @@ const ArchivalThinking = (props) => {
                                 <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/meeting-three-small-group-5'
+                                        to='/meeting-three-small-group-conclusion'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
@@ -182,7 +182,7 @@ const ArchivalThinking = (props) => {
                                         <div className="flex flex-end">
                                             <Link 
                                                 className="small-bttn pumpkin sand-txt"
-                                                to='/chicago-funders'
+                                                to='/chicago'
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--pumpkin)",

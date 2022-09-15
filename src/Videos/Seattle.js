@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 const Seattle = (props) => {
 
     const location = useLocation()
-    let background = 'black';
+    let background = 'var(--mint-green';
     let startTime = 'https://player.vimeo.com/video/738669816?h=3e11a58d51'
     let textColor = 'black';
 
