@@ -5,7 +5,7 @@
 function Home() {
   return (
     <>
-        <div className="home-height relative flex mint-green home-border">
+        <div className="home-height relative flex jc-center mint-green home-border">
           <h1 className="home-text">VAULT</h1>
           <img className="home-slash" src="/Images/Slash.svg" />
         </div>
