@@ -25,6 +25,13 @@ h3 {
   font-style: normal;
 }
 
+h4 {
+  font-family: myriad-pro-semiextended,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: .9em !important;
+}
+
 /* You may need this non-extended font later in development */
 
 /* h1 {
@@ -635,11 +642,14 @@ audio::-webkit-media-controls-timeline {
   border-top: 5px solid black;
   margin: 0;
   text-transform: uppercase;
+  font-size: 1.25em;
 }
 
 .index-location-first {
   margin: 0;
   text-transform: uppercase;
+  font-size: 1.25em;
+
 }
 
 .index-sub-title {
@@ -649,6 +659,7 @@ audio::-webkit-media-controls-timeline {
   margin: 0;
   padding-left: 1vW;
   text-transform: uppercase;
+  font-size: 1em;
 }
 
 #triangle-index-close {
