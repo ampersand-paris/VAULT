@@ -44,7 +44,7 @@ import MeetingOneTranscript from "./Transcripts/MeetingOneTranscript";
 import MeetingTwoNotes from "./Transcripts/MeetingTwoNotes";
 import MeetingThreeNotes from "./Transcripts/MeetingThreeNotes";
 import MeetingFourNotes from "./Transcripts/MeetingFourNotes";
-import MeetingFiveNotes from "./Transcripts/MeetignFiveNotes";
+import MeetingFiveNotes from "./Transcripts/MeetingFiveNotes";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
@@ -95,8 +95,14 @@ import FailspaceBio from "./Biographies/Failspace";
 
 // === VIDEOS ===
 import MeetingThree from "./Videos/MeetingThree";
-import JacobsPillowSmallGroup from "./Videos/JacobsPillow";
+import JacobsPillowSmallGroup from "./Videos/MeetingThreeSmallGroupFive";
 import Seattle from "./Videos/Seattle"
+import MeetingThreeSmallGroupTwo from "./Videos/MeethingThreeSmallGroupTwo";
+import MeetingThreeSmallGroupFive from "./Videos/MeetingThreeSmallGroupFive";
+import ChicagoFunders from "./Videos/ChicagoFunders";
+import MeetingThreeSmallGroupThree from "./Videos/MeetingThreeSmallGroupThree";
+import MeetingThreeSmallGroupConclusion from "./Videos/MeetingThreeSmallGroupConclusion";
+import Columbus from "./Videos/Columbus";
 
 function App() {
 
@@ -211,8 +217,13 @@ return (
                 <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
             {/* Videos */}
                 <Route path="/meeting-three" element={<MeetingThree />} />
-                <Route path="/jacobs-pillow-small-group" element={<JacobsPillowSmallGroup />} />
+                <Route path="/meeting-three-small-group-5" element={<MeetingThreeSmallGroupFive />} />
                 <Route path="/seattle" element={<Seattle />} />
+                <Route path="/meeting-three-small-group-two" element={<MeetingThreeSmallGroupTwo />} />
+                <Route path="/meeting-three-small-group-three" element={<MeetingThreeSmallGroupThree />} />
+                <Route path="/meeting-three-small-group-conclusion" element={<MeetingThreeSmallGroupConclusion />} />
+                <Route path="/chicago-funders" element={<ChicagoFunders />} />
+                <Route path="columbus" element={<Columbus />} />
             {/* MISC */}   
                 <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
         </Routes>

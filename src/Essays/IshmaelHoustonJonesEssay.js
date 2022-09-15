@@ -12,9 +12,7 @@ const IshmaelHoustonJonesEssay = (props) => {
         textColor = location.state.textColor
         slash = location.state.slash
     } 
-
-    console.log(location)
-
+    
     return (
     <>
         <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex jc-center mobile-column sand-txt">
