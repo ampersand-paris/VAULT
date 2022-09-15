@@ -13,10 +13,10 @@ const MeetingThreeSmallGroupThree = (props) => {
         startTime = location.state.startTime
         textColor = location.state.textColor
     } 
-    
+
     return (
     <>
-        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh one-hundred-vh mobile-flex mobile-column mobile-al-center">
+        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh mobile-flex mobile-column mobile-al-center">
             <div className="flex flex-end top-padding ">
                 <div style={{ backgroundColor: textColor }} className="video-title-width flex column flex-end cobalt-gradient">
                     <h2 className="transcription txt-al-center sand-txt">VIDEO</h2>

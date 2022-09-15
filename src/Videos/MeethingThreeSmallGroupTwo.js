@@ -16,7 +16,7 @@ const MeetingThreeSmallGroupTwo = (props) => {
 
     return (
     <>
-        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh one-hundred-vh mobile-flex mobile-column mobile-al-center">
+        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh mobile-flex mobile-column mobile-al-center">
             <div className="flex flex-end top-padding ">
                 <div style={{ backgroundColor: textColor }} className="video-title-width flex column flex-end cobalt-gradient">
                     <h2 className="transcription txt-al-center sand-txt">VIDEO</h2>
@@ -25,8 +25,8 @@ const MeetingThreeSmallGroupTwo = (props) => {
                     <iframe title="vimeo-player" src={ startTime } frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div className="flex column al-center mobile-width sand">
-                <div className="essay-width flex column space-btwn evergreen-txt">
+            <div className="flex column al-center mobile-width">
+                <div className="essay-width flex column space-btwn">
                     <div style={{ color: textColor }}>
                         <p className="transcription"><b>Small Group Conversation, Meeting #3, Jacob’s Pillow:</b></p>
                         <p className="transcription-details">May 6–7, 2018
