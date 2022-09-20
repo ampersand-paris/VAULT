@@ -11,6 +11,7 @@ function Home() {
         {`
         audio::-webkit-media-controls-panel {
           background-color: var(--mint-green);
+          z-index: 10;
         }
         
         audio::-webkit-media-controls-play-button {
@@ -46,7 +47,7 @@ function Home() {
             src={audio}
             controls 
           />
-          <img className="home-slash" src="/Images/Slash.svg" />
+          <img className="home-slash" src="/Images/BlackOutlineSlash.png" />
         </div>
         <section className="home-section-padding flex column al-center mint-green top-black-border">
           <div className="home-text-width">

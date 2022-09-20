@@ -780,10 +780,10 @@ li {
 }
 
 .home-slash {
-  height: 75vH;
+  height: 90vH;
   position: absolute;
   bottom: 0%;
-  right: 160px;
+  right: 200px;
 }
 
 .home-text {
@@ -1246,7 +1246,7 @@ iframe {
 }
 
 .home-slash {
-  height: 70vH;
+  height: 90vH;
   position: absolute;
   bottom: 0%;
   left: 25%;
