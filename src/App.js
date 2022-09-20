@@ -101,6 +101,8 @@ import MeetingThreeSmallGroupTwo from "./Videos/MeethingThreeSmallGroupTwo";
 import MeetingThreeSmallGroupThree from "./Videos/MeetingThreeSmallGroupThree";
 import MeetingThreeSmallGroupConclusion from "./Videos/MeetingThreeSmallGroupConclusion";
 import ScrollToTop from "./ScrollToTop";
+import GeselMasonPresentation from "./Transcripts/GeselMasonPresentation";
+import CoriOlinghousePresentation from "./Transcripts/CoriOlinghousePresentation";
 
 function App() {
 
@@ -314,8 +316,10 @@ return (
                   <Route path="/meeting-one-transcript" element={<MeetingOneTranscript />} />
                   <Route path="/meeting-two-notes" element={<MeetingTwoNotes />} />
                   <Route path="/meeting-three-notes" element={<MeetingThreeNotes />} />
-                  <Route path="/meething-four-notes" element={<MeetingFourNotes />} />
+                  <Route path="/meeting-four-notes" element={<MeetingFourNotes />} />
                   <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
+                  <Route path="/gesel-mason-presentation" element={<GeselMasonPresentation />} />
+                  <Route path="/cori-olinghouse-presentation" element={<CoriOlinghousePresentation />} />
               {/* Videos */}
                   <Route path="/seattle" element={<Seattle />} />
                   <Route path="/meeting-three-small-group-two" element={<MeetingThreeSmallGroupTwo />} />
