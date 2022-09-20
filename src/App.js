@@ -100,6 +100,7 @@ import Seattle from "./Videos/Seattle"
 import MeetingThreeSmallGroupTwo from "./Videos/MeethingThreeSmallGroupTwo";
 import MeetingThreeSmallGroupThree from "./Videos/MeetingThreeSmallGroupThree";
 import MeetingThreeSmallGroupConclusion from "./Videos/MeetingThreeSmallGroupConclusion";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
 
@@ -234,96 +235,98 @@ return (
     <Router>
         <ThemesMenu active={toggleThemesMenu} />
         <Index active={toggleIndexMenu} />
-        <Routes>
-            <Route path="/" element={<Home />} />
-            {/* Themes */}
-            <Route path="/archival-thinking" element={<ArchivalThinking />} />
-            <Route path="/context" element={<Context />} />
-            <Route path="/methods" element={<Methods />} />
-            <Route path="/why-it-matters" element={<WhyItMatters />} />
-            {/* Essays */}
-                <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
-                <Route path="/angie-hauser-essay" element={<AngieHauserEssay />} />
-                <Route path="/ann-carlson-essay" element={<AnnCarlsonEssay />} />                <Route path="/bonnie-brooks-essay" element={<BonnieBrooksEssay />} />
-                <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
-                <Route path="/cori-olinghouse-essay" element={<CoriOlinghouseEssay />} />
-                <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
-                <Route path="/darrell-jones-essay" element={<DarrellJonesEssay />} />
-                <Route path="/diana-muhammad-essay" element={<DianaMuhammadEssay />} />
-                <Route path="/ellen-chenoweth-essay" element={<EllenChenowethEssay />} />
-                <Route path="/erin-kilmurray-essay" element={<ErinKilmurrayEssay />} />
-                <Route path="/imogen-smith-essay" element={<ImogenSmithBio />} />
-                <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
-                <Route path="/jane-jerardi-essay" element={<JaneJerardiEssay />} />
-                <Route path="/jonathan-meyer-essay" element={<JonathanMeyerEssay />} />
-                <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
-                <Route path="/lauren-slone-essay" element={<LaurenReeSloneEssay />} />
-                <Route path="/mara-frazier-essay" element={<MaraFrazierEssay />} />
-                <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
-                <Route path="/russell-lepley-essay" element={<RussellLepleyEssay />} />
-                <Route path="/tonya-lockyer-essay" element={<TonyaLockyerEssay />} />
-            {/* Biographies */}
-                <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
-                <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
-                <Route path="/angie-hauser-bio" element={<AngieHauserBio />} />
-                <Route path="/ann-carlson-bio" element={<AnnCarlsonBio />} />
-                <Route path="/bebe-miller-bio" element={<BebeMillerBio />} />
-                <Route path="/betsey-brock-bio" element={<BetseyBrockBio />} />
-                <Route path="/bonnie-brooks-bio" element={<BonnieBrooksBio />} />
-                <Route path="/claudia-la-rocco-bio" element={<ClaudiaLaRoccoBio />} />
-                <Route path="/cori-olinghouse-bio" element={<CoriOlinghouseBio />} />
-                <Route path="/dana-whitco-bio" element={<DanaWhitcoBio />} />
-                <Route path="/darrell-jones-bio" element={<DarrellJonesBio />} />
-                <Route path="/dayna-hanson-bio" element={<DaynaHansonBio />} />
-                <Route path="/diana-muhammad-bio" element={<DianaMuhammadBio />} />
-                <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
-                <Route path="/ellen-maynard-bio" element={<EllenMaynardBio />} />
-                <Route path="/erin-kilmurray-bio" element={<ErinKilmurrayBio />} />
-                <Route path="/gesel-mason-bio" element={<GeselMasonBio />} />
-                <Route path="/failspace" element={<FailspaceBio />} />
-                <Route path="/ginger-farley-bio" element={<GingerFarleyBio />} />
-                <Route path="/imogen-smith-bio" element={<ImogenSmithBio />} />
-                <Route path="/ishmael-houston-jones-bio" element={<IshmaelHoustonJonesBio />} />
-                <Route path="/jaamil-olawale-kosoko-bio" element={<JaamilOlawaleKosokoBio />} />
-                <Route path="/jane-jerardi-bio" element={<JaneJerardiBio />} />
-                <Route path="/jenai-cutcher-bio" element={<JenaiCutcherBio />} />
-                <Route path="/jonathan-meyer-bio" element={<JonathanMeyerBio />} />
-                <Route path="/jsun-howard-bio" element={<JsunHowardBio />} />
-                <Route path="/judy-hussie-taylor-bio" element={<JudyHussieTaylorBio />} />
-                <Route path="/julia-rae-antonick-bio" element={<JuliaRaeAntonickBio />} />
-                <Route path="/lane-czaplinski-bio" element={<LaneCzaplinskiBio />} />
-                <Route path="/lauren-ree-slone-bio" element={<LaurenReeSloneBio />} />
-                <Route path="/lila-hurwitz-bio" element={<LilaHurwitzBio />} />
-                <Route path="/mara-frazier-bio" element={<MaraFrazierBio />} />
-                <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
-                <Route path="/mayfield-brooks-bio" element={<MayfieldBrooksBio />} />
-                <Route path="/melanie-george-bio" element={<MelanieGeorgeBio />} />
-                <Route path="/nena-couch-bio" element={<NenaCouchBio />} />
-                <Route path="/nija-whitson-bio" element={<NijaWhitsonBio />} />
-                <Route path="/pat-graney-bio" element={<PatGraneyBio />} />
-                <Route path="/raja-feather-kelly-bio" element={<RajaFeatherKellyBio />} />
-                <Route path="/russell-lepley-bio" element={<RussellLepleyBio />} />
-                <Route path="/sarah-lass-bio" element={<SarahLassBio />} />
-                <Route path="/shannon-drake-bio" element={<ShannonDrakeBio />} />
-                <Route path="/rachel-boggia-bio" element={<RachelBoggiaBio />} />
-                <Route path="/reggie-wilson-bio" element={<ReggieWilsonBio />} />
-                <Route path="/tonya-lockyer-bio" element={<TonyaLockyerBio />} />
-            {/* Transcripts */}
-                <Route path="/meeting-one-transcript" element={<MeetingOneTranscript />} />
-                <Route path="/meeting-two-notes" element={<MeetingTwoNotes />} />
-                <Route path="/meeting-three-notes" element={<MeetingThreeNotes />} />
-                <Route path="/meething-four-notes" element={<MeetingFourNotes />} />
-                <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
-            {/* Videos */}
-                <Route path="/seattle" element={<Seattle />} />
-                <Route path="/meeting-three-small-group-two" element={<MeetingThreeSmallGroupTwo />} />
-                <Route path="/meeting-three-small-group-three" element={<MeetingThreeSmallGroupThree />} />
-                <Route path="/meeting-three-small-group-conclusion" element={<MeetingThreeSmallGroupConclusion />} />
-                <Route path="/chicago" element={<ChicagoFunders />} />
-                <Route path="columbus" element={<Columbus />} />
-            {/* MISC */}   
-                <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+              <Route path="/" element={<Home />} />
+              {/* Themes */}
+              <Route path="/archival-thinking" element={<ArchivalThinking />} />
+              <Route path="/context" element={<Context />} />
+              <Route path="/methods" element={<Methods />} />
+              <Route path="/why-it-matters" element={<WhyItMatters />} />
+              {/* Essays */}
+                  <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
+                  <Route path="/angie-hauser-essay" element={<AngieHauserEssay />} />
+                  <Route path="/ann-carlson-essay" element={<AnnCarlsonEssay />} />                <Route path="/bonnie-brooks-essay" element={<BonnieBrooksEssay />} />
+                  <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
+                  <Route path="/cori-olinghouse-essay" element={<CoriOlinghouseEssay />} />
+                  <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
+                  <Route path="/darrell-jones-essay" element={<DarrellJonesEssay />} />
+                  <Route path="/diana-muhammad-essay" element={<DianaMuhammadEssay />} />
+                  <Route path="/ellen-chenoweth-essay" element={<EllenChenowethEssay />} />
+                  <Route path="/erin-kilmurray-essay" element={<ErinKilmurrayEssay />} />
+                  <Route path="/imogen-smith-essay" element={<ImogenSmithBio />} />
+                  <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
+                  <Route path="/jane-jerardi-essay" element={<JaneJerardiEssay />} />
+                  <Route path="/jonathan-meyer-essay" element={<JonathanMeyerEssay />} />
+                  <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
+                  <Route path="/lauren-slone-essay" element={<LaurenReeSloneEssay />} />
+                  <Route path="/mara-frazier-essay" element={<MaraFrazierEssay />} />
+                  <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
+                  <Route path="/russell-lepley-essay" element={<RussellLepleyEssay />} />
+                  <Route path="/tonya-lockyer-essay" element={<TonyaLockyerEssay />} />
+              {/* Biographies */}
+                  <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
+                  <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
+                  <Route path="/angie-hauser-bio" element={<AngieHauserBio />} />
+                  <Route path="/ann-carlson-bio" element={<AnnCarlsonBio />} />
+                  <Route path="/bebe-miller-bio" element={<BebeMillerBio />} />
+                  <Route path="/betsey-brock-bio" element={<BetseyBrockBio />} />
+                  <Route path="/bonnie-brooks-bio" element={<BonnieBrooksBio />} />
+                  <Route path="/claudia-la-rocco-bio" element={<ClaudiaLaRoccoBio />} />
+                  <Route path="/cori-olinghouse-bio" element={<CoriOlinghouseBio />} />
+                  <Route path="/dana-whitco-bio" element={<DanaWhitcoBio />} />
+                  <Route path="/darrell-jones-bio" element={<DarrellJonesBio />} />
+                  <Route path="/dayna-hanson-bio" element={<DaynaHansonBio />} />
+                  <Route path="/diana-muhammad-bio" element={<DianaMuhammadBio />} />
+                  <Route path="/ellen-chenoweth-bio" element={<EllenChenowethBio />} />
+                  <Route path="/ellen-maynard-bio" element={<EllenMaynardBio />} />
+                  <Route path="/erin-kilmurray-bio" element={<ErinKilmurrayBio />} />
+                  <Route path="/gesel-mason-bio" element={<GeselMasonBio />} />
+                  <Route path="/failspace" element={<FailspaceBio />} />
+                  <Route path="/ginger-farley-bio" element={<GingerFarleyBio />} />
+                  <Route path="/imogen-smith-bio" element={<ImogenSmithBio />} />
+                  <Route path="/ishmael-houston-jones-bio" element={<IshmaelHoustonJonesBio />} />
+                  <Route path="/jaamil-olawale-kosoko-bio" element={<JaamilOlawaleKosokoBio />} />
+                  <Route path="/jane-jerardi-bio" element={<JaneJerardiBio />} />
+                  <Route path="/jenai-cutcher-bio" element={<JenaiCutcherBio />} />
+                  <Route path="/jonathan-meyer-bio" element={<JonathanMeyerBio />} />
+                  <Route path="/jsun-howard-bio" element={<JsunHowardBio />} />
+                  <Route path="/judy-hussie-taylor-bio" element={<JudyHussieTaylorBio />} />
+                  <Route path="/julia-rae-antonick-bio" element={<JuliaRaeAntonickBio />} />
+                  <Route path="/lane-czaplinski-bio" element={<LaneCzaplinskiBio />} />
+                  <Route path="/lauren-ree-slone-bio" element={<LaurenReeSloneBio />} />
+                  <Route path="/lila-hurwitz-bio" element={<LilaHurwitzBio />} />
+                  <Route path="/mara-frazier-bio" element={<MaraFrazierBio />} />
+                  <Route path="/marji-cole-bio" element={<MarjiColeBio />} />
+                  <Route path="/mayfield-brooks-bio" element={<MayfieldBrooksBio />} />
+                  <Route path="/melanie-george-bio" element={<MelanieGeorgeBio />} />
+                  <Route path="/nena-couch-bio" element={<NenaCouchBio />} />
+                  <Route path="/nija-whitson-bio" element={<NijaWhitsonBio />} />
+                  <Route path="/pat-graney-bio" element={<PatGraneyBio />} />
+                  <Route path="/raja-feather-kelly-bio" element={<RajaFeatherKellyBio />} />
+                  <Route path="/russell-lepley-bio" element={<RussellLepleyBio />} />
+                  <Route path="/sarah-lass-bio" element={<SarahLassBio />} />
+                  <Route path="/shannon-drake-bio" element={<ShannonDrakeBio />} />
+                  <Route path="/rachel-boggia-bio" element={<RachelBoggiaBio />} />
+                  <Route path="/reggie-wilson-bio" element={<ReggieWilsonBio />} />
+                  <Route path="/tonya-lockyer-bio" element={<TonyaLockyerBio />} />
+              {/* Transcripts */}
+                  <Route path="/meeting-one-transcript" element={<MeetingOneTranscript />} />
+                  <Route path="/meeting-two-notes" element={<MeetingTwoNotes />} />
+                  <Route path="/meeting-three-notes" element={<MeetingThreeNotes />} />
+                  <Route path="/meething-four-notes" element={<MeetingFourNotes />} />
+                  <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
+              {/* Videos */}
+                  <Route path="/seattle" element={<Seattle />} />
+                  <Route path="/meeting-three-small-group-two" element={<MeetingThreeSmallGroupTwo />} />
+                  <Route path="/meeting-three-small-group-three" element={<MeetingThreeSmallGroupThree />} />
+                  <Route path="/meeting-three-small-group-conclusion" element={<MeetingThreeSmallGroupConclusion />} />
+                  <Route path="/chicago" element={<ChicagoFunders />} />
+                  <Route path="columbus" element={<Columbus />} />
+              {/* MISC */}   
+                  <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
+          </Routes>
+        </ScrollToTop>
     </Router>
   );
 }
