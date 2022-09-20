@@ -15,7 +15,7 @@ const ThemesMenu = (props) => {
 
     return (
         <>        
-            <div style={openStyles} className="themes-menu z-index h-one-hundred flex just-center mint-green">
+            <div style={openStyles} id="themes-menu-open" className="themes-menu z-index h-one-hundred flex just-center mint-green">
                 <div className="flex al-center mint-green menu-right-border vault-padding">
                     <img className="ninety-vh" src="/Images/VAULT.svg" />
                 </div>
@@ -46,7 +46,7 @@ const ThemesMenu = (props) => {
                     <h3 className="vault-padding">MENU&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                 </div>
             </div>
-            <div style={closedStyles} className="theme-condensed-menu z-index h-one-hundred flex">
+            <div style={closedStyles} id="themes-menu-closed" className="theme-condensed-menu z-index h-one-hundred flex">
                 <div className="condensed-menu-width flex jc-center al-center mobile-column menu-right-border mint-green">
                     <h3>M</h3><h3>E</h3><h3>N</h3><h3>U</h3>        
                 </div>
