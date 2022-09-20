@@ -20,7 +20,7 @@ const Index = (props) => {
 
     return (
         <>        
-            <div style={openStyles} className="index-menu z-index h-one-hundred flex column space-btwn mint-green menu-left-border">
+            <div style={openStyles} id="index-menu-open" className="index-menu z-index h-one-hundred flex column space-btwn mint-green menu-left-border">
                 <div className="flex flex-end vault-padding">
                     <h1>VAULT</h1>
                 </div>
@@ -197,7 +197,7 @@ const Index = (props) => {
                 </div>
                 <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-index-close"/>
             </div> 
-            <div style={closedStyles} className="index-condensed-menu z-index h-one-hundred flex">
+            <div style={closedStyles} id="index-menu-closed" className="index-condensed-menu z-index h-one-hundred flex">
                 <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-index-open"/>
                 <div className="condensed-menu-width flex mobile-column jc-center al-center menu-left-border mint-green">
                     <h3>I</h3><h3>N</h3><h3>D</h3><h3>E</h3><h3>X</h3>        

@@ -4,6 +4,102 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* ====== ANIMATIONS ====== */
+
+/* === OPEN MENUS === */
+
+@keyframes closeRightMenu {
+  from {right: 0px;}
+  to {right: -250px;}
+}
+
+@keyframes openRightMenu {
+  from {right: -250px;}
+  to {right: 0px;}
+}
+
+@keyframes openLeftMenu {
+  from {left: -250px;}
+  to {left: 0px;}
+}
+
+@keyframes closeLeftMenu {
+  from {left: 0px;}
+  to {left: -250px;}
+}
+
+.open-right-menu {
+  animation: openRightMenu 1s forwards;
+}
+
+.close-right-menu {
+  animation: closeRightMenu 1s forwards;
+}
+
+.open-left-menu {
+  animation: openLeftMenu 1s forwards;
+}
+
+.close-left-menu {
+  animation: closeLeftMenu 1s forwards;
+}
+
+.left-menu-triangle-close-animation {
+  animation: triangleAppear 1s forwards;
+}
+
+.left-menu-triangle-open-animation {
+  animation: triangleDisappear 1s forwards;
+}
+
+.right-menu-triangle-close-animation {
+  animation: triangleAppear 1s forwards;
+}
+
+.right-menu-triangle-open-animation {
+  animation: triangleDisappear 1s forwards;
+}
+
+/* === CLOSED MENUS === */
+
+@keyframes closeIndexMenuClosed {
+  from {right: 0px;}
+  to {right: -210px;}
+}
+
+@keyframes openIndexMenuClosed {
+  from {right: -210px;}
+  to {right: 0px;}
+}
+
+@keyframes openThemesMenuClosed {
+  from {left: -210px;}
+  to {left: 0px;}
+}
+
+@keyframes closeThemesMenuClosed {
+  from {left: 0px;}
+  to {left: -210px;}
+}
+
+.open-themes-menu-closed {
+  animation: openThemesMenuClosed 1s forwards;
+
+}
+
+.close-themes-menu-closed {
+  animation: closeThemesMenuClosed 1s forwards;
+}
+
+.open-index-menu-closed {
+  animation: openIndexMenuClosed 1s forwards;
+
+}
+
+.close-index-menu-closed {
+  animation: closeIndexMenuClosed 1s forwards;
+}
+
 
 /* ====== FONTS ====== */
 
@@ -619,7 +715,7 @@ audio::-webkit-media-controls-timeline {
 .index-menu {
   min-width: 300px;
   position: fixed;
-  right: 0%;
+  right: -250px;
   width: 25vW;
   overflow: hidden;
 }
@@ -680,7 +776,7 @@ audio::-webkit-media-controls-timeline {
 
 .themes-menu {
   position: fixed;
-  left: 0%;
+  left: -250px;
   width: 25vW;
 }
 

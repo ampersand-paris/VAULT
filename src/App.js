@@ -108,30 +108,111 @@ function App() {
     const [indexClosed, setIndexClosed] = useState('flex');
     const [themesClosed, setThemesClosed] = useState('flex');
 
-    const toggleLeftMenu = () => {
-        if (themes === 'none') {
-            setThemes('flex')
-            setThemesClosed('none')
-        } else {
-            setThemes('none')
-            setThemesClosed('flex')
-        }
-    }
+    // const toggleLeftMenu = () => {
+    //     if (themes === 'none') {
+    //         setThemes('flex')
+    //         setThemesClosed('none')
+    //     } else {
+    //         setThemes('none')
+    //         setThemesClosed('flex')
+    //     }
+    // }
 
-    const toggleRightMenu = () => {
-        if (index === 'none') {
-            setIndex('flex')
-            setIndexClosed('none')
-        } else {
-            setIndex('none')
-            setIndexClosed('flex')
-        }
-    }
+    // const toggleRightMenu = () => {
+    //     if (index === 'none') {
+    //         setIndex('flex')
+    //         setIndexClosed('none')
+    //     } else {
+    //         setIndex('none')
+    //         setIndexClosed('flex')
+    //     }
+    // }
+
+    const toggleThemesMenu = () => {
+        const themesMenuOpen = document.getElementById('themes-menu-open');
+        const themesMenuClosed = document.getElementById('themes-menu-closed');
+        const indexMenuOpen = document.getElementById('index-menu-open');
+        const indexMenuClosed = document.getElementById('index-menu-closed');
     
+        if (window.innerWidth < 600){
+          if(indexMenuOpen.classList.contains('open-right-menu')){
+            indexMenuOpen.classList.remove('open-right-menu');
+            indexMenuOpen.classList.add('close-right-menu');
+          }
+    
+          if(themesMenuOpen.classList.contains('open-left-menu')){
+            themesMenuOpen.classList.remove('open-left-menu');
+            themesMenuOpen.classList.add('close-left-menu');
+          } else if (themesMenuOpen.classList.contains('close-left-menu')) {
+            themesMenuOpen.classList.remove('close-left-menu');
+            themesMenuOpen.classList.add('open-left-menu');
+          } else {
+            themesMenuOpen.classList.add('open-left-menu');
+          }
+        } else {
+          if(themesMenuOpen.classList.contains('open-left-menu')){
+            themesMenuOpen.classList.remove('open-left-menu');
+            themesMenuOpen.classList.add('close-left-menu');
+            themesMenuClosed.classList.add('open-themes-menu-closed');
+            themesMenuClosed.classList.remove('close-themes-menu-closed');
+          } else if (themesMenuOpen.classList.contains('close-left-menu')) {
+            themesMenuOpen.classList.remove('close-left-menu');
+            themesMenuOpen.classList.add('open-left-menu');
+            themesMenuClosed.classList.remove('open-themes-menu-closed');
+            themesMenuClosed.classList.add('close-themes-menu-closed');
+          } else {
+            themesMenuOpen.classList.add('open-left-menu');
+            themesMenuClosed.classList.add('close-themes-menu-closed');
+          }
+        }  
+      }
+    
+      const toggleIndexMenu = () => {
+        const themesMenuOpen = document.getElementById('themes-menu-open');
+        const themesMenuClosed = document.getElementById('themes-menu-closed');
+        const indexMenuOpen = document.getElementById('index-menu-open');
+        const indexMenuClosed = document.getElementById('index-menu-closed');
+    
+        if (window.innerWidth < 600){
+          if(themesMenuOpen.classList.contains('open-left-menu')){
+            indexMenuOpen.classList.remove('open-right-menu');
+            indexMenuOpen.classList.add('close-right-menu');
+          }
+    
+          if(indexMenuOpen.classList.contains('open-left-menu')){
+            indexMenuOpen.classList.remove('open-left-menu');
+            indexMenuOpen.classList.add('close-left-menu');
+          } else if (indexMenuOpen.classList.contains('close-left-menu')) {
+            indexMenuOpen.classList.remove('close-left-menu');
+            indexMenuOpen.classList.add('open-left-menu');
+          } else {
+            indexMenuOpen.classList.add('open-left-menu');
+          }
+        } else {
+          if(indexMenuOpen.classList.contains('open-right-menu')){
+            indexMenuOpen.classList.remove('open-right-menu');
+            indexMenuOpen.classList.add('close-right-menu');
+            indexMenuClosed.classList.add('open-index-menu-closed');
+            indexMenuClosed.classList.remove('close-index-menu-closed');
+          } else if (indexMenuOpen.classList.contains('close-right-menu')) {
+            indexMenuOpen.classList.remove('close-right-menu');
+            indexMenuOpen.classList.add('open-right-menu');
+            indexMenuClosed.classList.remove('open-index-menu-closed');
+            indexMenuClosed.classList.add('close-index-menu-closed');
+          } else {
+            indexMenuOpen.classList.add('open-right-menu');
+            indexMenuClosed.classList.add('close-index-menu-closed');
+          }
+        }  
+      }
+    
+    //   openDisplay={themes} closedDisplay={themesClosed}
+    //   openDisplay={index} closedDisplay={indexClosed}
+
 return (
     <Router>
-        <ThemesMenu active={toggleLeftMenu} openDisplay={themes} closedDisplay={themesClosed}/>
-        <Index active={toggleRightMenu} openDisplay={index} closedDisplay={indexClosed}/>
+        <ThemesMenu active={toggleThemesMenu} />
+        <Index active={toggleIndexMenu} />
         <Routes>
             <Route path="/" element={<Home />} />
             {/* Themes */}
