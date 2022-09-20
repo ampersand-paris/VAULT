@@ -1,9 +1,49 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
+import ReactAudioPlayer from "react-audio-player";
+import audio from "../Audio/ArchivalThinking.mp3"
 
 const ArchivalThinking = (props) => {
-
+        
     return (
     <>
+        <style>
+            {
+                `
+                audio {
+                    width: 200px;
+                }
+
+                audio::-webkit-media-controls-panel {
+                    background-color: var(--sand);
+                }
+                
+                audio::-webkit-media-controls-play-button {
+                    background-color:: var(--pumpkin);
+                
+                }
+                
+                audio::-webkit-media-controls-current-time-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--pumpkin);
+                }
+                
+                audio::-webkit-media-controls-time-remaining-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--pumpkin);
+                }
+                
+                audio::-webkit-media-controls-timeline {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+            `
+            }
+        </style>
         <div className="container one-hundred-vh pumpkin">
             <div className="ar-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
@@ -11,7 +51,13 @@ const ArchivalThinking = (props) => {
                         <div>
                             <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
-                        <p className="transcription-details sand-txt corporate"><b>Here you’ll find materials about choice-making—what to keep, who keeps it and how to keep it—along with information about how we might map an artist’s creative practice. You’ll find references to aspects of creative practice that are available outside, or even alongside the product—the dance—itself.</b></p>
+                        <div className="flex column">
+                            <ReactAudioPlayer
+                                src={audio}
+                                controls 
+                            />
+                            <p className="transcription-details sand-txt corporate"><b>Here you’ll find materials about choice-making—what to keep, who keeps it and how to keep it—along with information about how we might map an artist’s creative practice. You’ll find references to aspects of creative practice that are available outside, or even alongside the product—the dance—itself.</b></p>
+                        </div>
                     </div>
                 </div>
                 <div className="ar-panel-1 panel-1400 flex space-btwn double-padding mobile-column mobile-side-padding">

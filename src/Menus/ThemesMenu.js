@@ -43,7 +43,7 @@ const ThemesMenu = (props) => {
                         </Link>
                     </div>  
                     <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-close"/>
-                    <h3 className="vault-padding">MENU&#x2f;&#x2f;&#x2f;&#x2f;</h3>
+                    <h3 className="vault-padding"><a href="/" className="no-underline black-txt">HOME</a>&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                 </div>
             </div>
             <div style={closedStyles} id="themes-menu-closed" className="theme-condensed-menu z-index h-one-hundred flex">

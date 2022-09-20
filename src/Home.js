@@ -1,13 +1,53 @@
 // ====== REACT ELEMENTS ======
+import ReactAudioPlayer from "react-audio-player";
+import audio from "./Audio/Introduction.mp3"
 
 // ====== COMPONENTS ======
 
 function Home() {
   return (
     <>
-        <div className="home-height relative flex jc-center mint-green home-border">
+      <style>
+        {`
+        audio::-webkit-media-controls-panel {
+          background-color: var(--mint-green);
+          z-index: 10;
+        }
+        
+        audio::-webkit-media-controls-play-button {
+          background-color: rgba(255, 255, 255, 0);
+        
+        }
+        
+        audio::-webkit-media-controls-current-time-display {
+          font-family: neuzeit-grotesk, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          background-color: rgba(255, 255, 255, 0);
+        
+        }
+        
+        audio::-webkit-media-controls-time-remaining-display {
+          font-family: neuzeit-grotesk, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          background-color: rgba(255, 255, 255, 0);
+        
+        }
+        
+        audio::-webkit-media-controls-timeline {
+          background-color: rgba(255, 255, 255, 0);
+        
+        }
+        `}
+      </style>
+        <div className="home-height relative flex column al-center mint-green home-border">
           <h1 className="home-text">VAULT</h1>
-          <img className="home-slash" src="/Images/Slash.svg" />
+          <ReactAudioPlayer
+            src={audio}
+            controls 
+          />
+          <img className="home-slash" src="/Images/BlackOutlineSlash.png" />
         </div>
         <section className="home-section-padding flex column al-center mint-green top-black-border">
           <div className="home-text-width">

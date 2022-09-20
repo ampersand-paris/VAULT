@@ -1,9 +1,50 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
+import ReactAudioPlayer from "react-audio-player";
+import audio from "../Audio/Context.mp3"
 
 const Context = (props) => {
 
     return (
     <>
+        <style>
+            {
+                `
+                audio {
+                    width: 200px;
+                }
+
+                audio::-webkit-media-controls-panel {
+                    background-color: var(--sand);
+                }
+                
+                audio::-webkit-media-controls-play-button {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+                
+                audio::-webkit-media-controls-current-time-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-time-remaining-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-timeline {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+            `
+            }
+        </style>
         <div className="container one-hundred-vh evergreen">
             <div className="c-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
@@ -11,7 +52,13 @@ const Context = (props) => {
                         <div className="context-margin">
                             <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
-                        <p className="transcription-details corporate"><b>We found that context depends on the perspective of the archive: artist-driven, institutional curation, the involvement of collaborating artists, dance improvisation as well as choreographic form. Documentation, the politics behind the impulse to archive, and the systems in which it occurs are also included.</b></p>
+                        <div className="flex column">
+                            <ReactAudioPlayer
+                                src={audio}
+                                controls 
+                            />
+                            <p className="transcription-details corporate"><b>We found that context depends on the perspective of the archive: artist-driven, institutional curation, the involvement of collaborating artists, dance improvisation as well as choreographic form. Documentation, the politics behind the impulse to archive, and the systems in which it occurs are also included.</b></p>
+                        </div>
                     </div>
                 </div>
                 <div className="context-panel-1 panel-1400 flex space-btwn double-padding mobile-column mobile-side-padding">

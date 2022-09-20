@@ -632,31 +632,7 @@ li {
 }
 /* ====== AUDIO ====== */
 
-audio::-webkit-media-controls-panel {
-  background-color: var(--sand);
-  color: var(--evergreen)
-}
 
-audio::-webkit-media-controls-play-button {
-  color: var(--evergreen);
-}
-
-audio::-webkit-media-controls-current-time-display {
-  font-family: neuzeit-grotesk, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--evergreen);
-}
-
-audio::-webkit-media-controls-time-remaining-display {
-  font-family: neuzeit-grotesk, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--evergreen);
-}
-
-audio::-webkit-media-controls-timeline {
-}
 
 /* ====== MENUS ====== */
 
@@ -804,10 +780,10 @@ audio::-webkit-media-controls-timeline {
 }
 
 .home-slash {
-  height: 75vH;
+  height: 90vH;
   position: absolute;
   bottom: 0%;
-  right: 160px;
+  right: 200px;
 }
 
 .home-text {
@@ -1270,7 +1246,7 @@ iframe {
 }
 
 .home-slash {
-  height: 70vH;
+  height: 90vH;
   position: absolute;
   bottom: 0%;
   left: 25%;
