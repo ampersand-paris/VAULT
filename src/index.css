@@ -10,11 +10,11 @@ body {
 
 @keyframes closeRightMenu {
   from {right: 0px;}
-  to {right: -250px;}
+  to {right: -300px;}
 }
 
 @keyframes openRightMenu {
-  from {right: -250px;}
+  from {right: -300px;}
   to {right: 0px;}
 }
 
@@ -715,7 +715,7 @@ audio::-webkit-media-controls-timeline {
 .index-menu {
   min-width: 300px;
   position: fixed;
-  right: -250px;
+  right: -300px;
   width: 25vW;
   overflow: hidden;
 }

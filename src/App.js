@@ -135,20 +135,31 @@ function App() {
         const indexMenuClosed = document.getElementById('index-menu-closed');
     
         if (window.innerWidth < 600){
+
+            // MOBILE LOGIC
           if(indexMenuOpen.classList.contains('open-right-menu')){
             indexMenuOpen.classList.remove('open-right-menu');
             indexMenuOpen.classList.add('close-right-menu');
+            indexMenuClosed.classList.add('open-index-menu-closed');
+            indexMenuClosed.classList.remove('close-index-menu-closed');
           }
     
           if(themesMenuOpen.classList.contains('open-left-menu')){
             themesMenuOpen.classList.remove('open-left-menu');
             themesMenuOpen.classList.add('close-left-menu');
+            themesMenuClosed.classList.add('open-themes-menu-closed');
+            themesMenuClosed.classList.remove('close-themes-menu-closed');
           } else if (themesMenuOpen.classList.contains('close-left-menu')) {
             themesMenuOpen.classList.remove('close-left-menu');
             themesMenuOpen.classList.add('open-left-menu');
+            themesMenuClosed.classList.remove('open-themes-menu-closed');
+            themesMenuClosed.classList.add('close-themes-menu-closed');
           } else {
             themesMenuOpen.classList.add('open-left-menu');
+            themesMenuClosed.classList.add('close-themes-menu-closed');
           }
+
+           // DESKTOP LOGIC
         } else {
           if(themesMenuOpen.classList.contains('open-left-menu')){
             themesMenuOpen.classList.remove('open-left-menu');
@@ -174,20 +185,30 @@ function App() {
         const indexMenuClosed = document.getElementById('index-menu-closed');
     
         if (window.innerWidth < 600){
+            // MOBILE LOGIC
           if(themesMenuOpen.classList.contains('open-left-menu')){
-            indexMenuOpen.classList.remove('open-right-menu');
-            indexMenuOpen.classList.add('close-right-menu');
+            themesMenuOpen.classList.remove('open-left-menu');
+            themesMenuOpen.classList.add('close-left-menu');
+            themesMenuClosed.classList.add('open-themes-menu-closed');
+            themesMenuClosed.classList.remove('close-themes-menu-closed');
           }
     
-          if(indexMenuOpen.classList.contains('open-left-menu')){
-            indexMenuOpen.classList.remove('open-left-menu');
-            indexMenuOpen.classList.add('close-left-menu');
-          } else if (indexMenuOpen.classList.contains('close-left-menu')) {
-            indexMenuOpen.classList.remove('close-left-menu');
-            indexMenuOpen.classList.add('open-left-menu');
+          if(indexMenuOpen.classList.contains('open-right-menu')){
+            indexMenuOpen.classList.remove('open-right-menu');
+            indexMenuOpen.classList.add('close-right-menu');
+            indexMenuClosed.classList.add('open-index-menu-closed');
+            indexMenuClosed.classList.remove('close-index-menu-closed');
+          } else if (indexMenuOpen.classList.contains('close-right-menu')) {
+            indexMenuOpen.classList.remove('close-right-menu');
+            indexMenuOpen.classList.add('open-right-menu');
+            indexMenuClosed.classList.remove('open-index-menu-closed');
+            indexMenuClosed.classList.add('close-index-menu-closed');
           } else {
-            indexMenuOpen.classList.add('open-left-menu');
+            indexMenuOpen.classList.add('open-right-menu');
+            indexMenuClosed.classList.add('close-index-menu-closed');
           }
+
+          // DESKTOP LOGIC
         } else {
           if(indexMenuOpen.classList.contains('open-right-menu')){
             indexMenuOpen.classList.remove('open-right-menu');
