@@ -139,7 +139,7 @@ const WhyItMatters = (props) => {
                             </ul>
                             <Link 
                                 className="small-bttn jc-center sand cobalt-txt top-margin-10px"
-                                to='/meeting-five-notes'
+                                to='/gesel-mason-presentation'
                                 state={{ 
                                     background: "var(--sand)",
                                     textColor: "var(--cobalt)",
@@ -191,7 +191,7 @@ const WhyItMatters = (props) => {
                                     <p className="no-top-padding">Different forms promote different modes of reception… Embodied practice gets to speak across body-document divide.</p>
                                     <Link 
                                         className="small-bttn top-margin-10px cobalt sand-txt sand-border"
-                                        to='/meeting-five-notes'
+                                        to='/cori-olinghouse-presentation'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--cobalt)",

@@ -17,7 +17,7 @@ const MeetingFourNotes = (props) => {
     return (
     <>
         <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center sand">
-            <div className="essay-width flex space-btwn evergreen-txt">
+            <div className="essay-width flex space-btwn">
                 <div className="column">
                     <h2 className="transcription">Meeting Notes</h2>
                     <p className="transcription"><b>Vault Meeting #4</b></p>
@@ -29,7 +29,7 @@ const MeetingFourNotes = (props) => {
                 </div>
                 <img className="transcript-slash" src={ slash } />
             </div>
-            <section className="flex column al-center sand evergreen-txt">
+            <section className="flex column al-center">
                 <div className="essay-width">
                     <p><b>Diana:</b></p>
                     <ul>
