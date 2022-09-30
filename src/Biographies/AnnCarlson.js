@@ -8,7 +8,7 @@ const AnnCarlsonBio = (props) => {
             <div className="vault-padding mobile-flex mobile-jc-center mobile-width">
                 <div className="flex space-btwn essay-title-height">
                     <div>
-                        <h2 className="subtitle ">BIOGRAPHY</h2>
+                        <h2 className="subtitle">BIOGRAPHY</h2>
                         <h2 className="subtitle neuzit">Ann Carlson</h2>
                     </div>
                     <img className="bio-slash" src="/Images/Slash.svg" />

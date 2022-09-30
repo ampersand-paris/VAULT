@@ -41,16 +41,20 @@ const ThemesMenu = (props) => {
                                 <h3>why it matters</h3>
                             </div>
                         </Link>
-                    </div>  
-                    <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-close"/>
+                    </div>
+                    <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-close"/> 
                     <h3 className="vault-padding"><a href="/" className="no-underline black-txt">HOME</a>&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                 </div>
             </div>
-            <div style={closedStyles} id="themes-menu-closed" className="theme-condensed-menu z-index h-one-hundred flex">
+            <div style={closedStyles} id="themes-menu-closed" className="theme-condensed-menu relative z-index h-one-hundred flex">
                 <div className="condensed-menu-width flex jc-center al-center mobile-column menu-right-border mint-green">
-                    <h3>M</h3><h3>E</h3><h3>N</h3><h3>U</h3>        
+                    <div onClick={props.active} class="flex mobile-column cursor">
+                        <h3>M</h3><h3>E</h3><h3>N</h3><h3>U</h3> 
+                    </div>       
                 </div>
-                <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-theme-open"/>
+                <div className='relative'>
+                    <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-theme-open"/>
+                </div>
             </div>
         </>
 

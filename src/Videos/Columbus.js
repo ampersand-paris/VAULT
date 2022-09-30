@@ -4,24 +4,26 @@ import { useLocation } from "react-router-dom";
 const Columbus = (props) => {
 
     const location = useLocation()
-    let background = 'var(--mint-green';
+    let background = 'var(--sand)';
     let startTime = 'https://player.vimeo.com/video/747370875?h=8ab58f63bf'
     let textColor = 'black';
+    let videoColor = 'var(--mint-green)';
 
     if (location.state) {
         background = location.state.background
         startTime = location.state.startTime
         textColor = location.state.textColor
+        videoColor = location.state.videoColor
     } 
 
     return (
-    <>
-        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh mobile-flex mobile-column mobile-al-center">
+    <div style={{ backgroundColor: background }}>
+        <div className="mobile-one-hundred-vh mobile-flex mobile-column mobile-al-center">
             <div className="flex flex-end top-padding ">
-                <div style={{ backgroundColor: textColor }} className="video-title-width flex column flex-end cobalt-gradient">
-                    <h2 className="transcription txt-al-center sand-txt">VIDEO</h2>
+                <div style={{ backgroundColor: videoColor }} className="video-title-width flex column flex-end sand-gradient">
+                    <h2  style={{ color: textColor }} className="transcription txt-al-center">VIDEO</h2>
                 </div>
-                <div style={{ backgroundColor: textColor }} className="video">
+                <div style={{ backgroundColor: videoColor }} className="video">
                     <iframe title="vimeo-player" src={ startTime } frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -37,7 +39,7 @@ const Columbus = (props) => {
                 </div>
             </div>
         </div>
-    </>
+    </div>
   );
 }
 

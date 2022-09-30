@@ -38,6 +38,7 @@ import AnnCarlsonEssay from "./Essays/AnnCarlsonEssay";
 import MaraFrazierEssay from "./Essays/MaraFrazierEssay";
 import RussellLepleyEssay from "./Essays/RussellLepleyEssay";
 import EllenChenowethEssay from "./Essays/EllenChenowethEssay";
+import ImogenSmithEssay from "./Essays/ImogenSmithEssay";
 
 // === TRANSCRIPTS & NOTES ===
 import MeetingOneTranscript from "./Transcripts/MeetingOneTranscript";
@@ -245,27 +246,28 @@ return (
               <Route path="/context" element={<Context />} />
               <Route path="/methods" element={<Methods />} />
               <Route path="/why-it-matters" element={<WhyItMatters />} />
-              {/* Essays */}
-                  <Route path="/alex-springer-essay" element={<AlexSpringerEssay />} />
-                  <Route path="/angie-hauser-essay" element={<AngieHauserEssay />} />
-                  <Route path="/ann-carlson-essay" element={<AnnCarlsonEssay />} />                <Route path="/bonnie-brooks-essay" element={<BonnieBrooksEssay />} />
-                  <Route path="/claudia-la-rocco-essay" element={<ClaudiaLaRoccoEssay />} />
-                  <Route path="/cori-olinghouse-essay" element={<CoriOlinghouseEssay />} />
-                  <Route path="/danya-hanson-essay" element={<DanyaHansonEssay />} />
-                  <Route path="/darrell-jones-essay" element={<DarrellJonesEssay />} />
-                  <Route path="/diana-muhammad-essay" element={<DianaMuhammadEssay />} />
-                  <Route path="/ellen-chenoweth-essay" element={<EllenChenowethEssay />} />
-                  <Route path="/erin-kilmurray-essay" element={<ErinKilmurrayEssay />} />
-                  <Route path="/imogen-smith-essay" element={<ImogenSmithBio />} />
-                  <Route path="/ishmael-houston-jones-essay" element={<IshmaelHoustonJonesEssay />} />
-                  <Route path="/jane-jerardi-essay" element={<JaneJerardiEssay />} />
-                  <Route path="/jonathan-meyer-essay" element={<JonathanMeyerEssay />} />
-                  <Route path="/jsun-howard-essay" element={<JSunHowardEssay />} />
-                  <Route path="/lauren-slone-essay" element={<LaurenReeSloneEssay />} />
-                  <Route path="/mara-frazier-essay" element={<MaraFrazierEssay />} />
-                  <Route path="/marji-cole-essay" element={<MarjiColeEssay />} />
-                  <Route path="/russell-lepley-essay" element={<RussellLepleyEssay />} />
-                  <Route path="/tonya-lockyer-essay" element={<TonyaLockyerEssay />} />
+              {/* Writings */}
+                  <Route path="/alex-springer-writing" element={<AlexSpringerEssay />} />
+                  <Route path="/angie-hauser-writing" element={<AngieHauserEssay />} />
+                  <Route path="/ann-carlson-writing" element={<AnnCarlsonEssay />} />                
+                  <Route path="/bonnie-brooks-writing" element={<BonnieBrooksEssay />} />
+                  <Route path="/claudia-la-rocco-writing" element={<ClaudiaLaRoccoEssay />} />
+                  <Route path="/cori-olinghouse-writing" element={<CoriOlinghouseEssay />} />
+                  <Route path="/dayna-hanson-writing" element={<DanyaHansonEssay />} />
+                  <Route path="/darrell-jones-writing" element={<DarrellJonesEssay />} />
+                  <Route path="/diana-muhammad-writing" element={<DianaMuhammadEssay />} />
+                  <Route path="/ellen-chenoweth-writing" element={<EllenChenowethEssay />} />
+                  <Route path="/erin-kilmurray-writing" element={<ErinKilmurrayEssay />} />
+                  <Route path="/imogen-smith-writing" element={<ImogenSmithEssay />} />
+                  <Route path="/ishmael-houston-jones-writing" element={<IshmaelHoustonJonesEssay />} />
+                  <Route path="/jane-jerardi-writing" element={<JaneJerardiEssay />} />
+                  <Route path="/jonathan-meyer-writing" element={<JonathanMeyerEssay />} />
+                  <Route path="/jsun-howard-writing" element={<JSunHowardEssay />} />
+                  <Route path="/lauren-slone-writing" element={<LaurenReeSloneEssay />} />
+                  <Route path="/mara-frazier-writing" element={<MaraFrazierEssay />} />
+                  <Route path="/marji-cole-writing" element={<MarjiColeEssay />} />
+                  <Route path="/russell-lepley-writing" element={<RussellLepleyEssay />} />
+                  <Route path="/tonya-lockyer-writing" element={<TonyaLockyerEssay />} />
               {/* Biographies */}
                   <Route path="/alice-gosti-bio" element={<AliceGostiBio />} />
                   <Route path="/alex-springer-bio" element={<AlexSpringerBio />} />
