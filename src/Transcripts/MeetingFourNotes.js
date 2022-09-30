@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 const MeetingFourNotes = (props) => {
 
     const location = useLocation()
-    let background = 'var(--mint-green';
+    let background = 'var(--mint-green)';
     let textColor = 'black';
     let slash = '/Images/Slash.svg'
 
@@ -33,20 +33,20 @@ const MeetingFourNotes = (props) => {
                 <div className="essay-width">
                     <p><b>Diana:</b></p>
                     <ul>
-                        <li className="bulllets">Who owns Vault?</li>
-                        <li className="bulllets">Could be helpful for young dance-makers</li>
+                        <li className="bullets">Who owns Vault?</li>
+                        <li className="bullets">Could be helpful for young dance-makers</li>
                     </ul>
                     <p><b>Darrell:</b> Going to the Wall DVD</p>
                     <p><b>Erin:</b> Define difference between digital and analog</p>
                     <p><b>Jane:</b></p>
                     <ul>
-                        <li className="bulllets">Archiving is her job</li>
-                        <li className="bulllets">Kind of ambivalent; archiving happening all the time now</li>
-                        <li className="bulllets">Doesn’t ever dig into archives that are there; wants to, but no time; feels like a luxury</li>
-                        <li className="bulllets">Resources: to pay people to be in piece; to pay people to document it; just buys another hard drive, tons sitting there</li>
-                        <li className="bulllets">Live and analog experience becoming more important</li>
-                        <li className="bulllets">Tino Sehgal: highly regulated archives, makes them more “valuable”</li>
-                        <li className="bulllets">Should I be sharing process? Too much given away before show?</li>
+                        <li className="bullets">Archiving is her job</li>
+                        <li className="bullets">Kind of ambivalent; archiving happening all the time now</li>
+                        <li className="bullets">Doesn’t ever dig into archives that are there; wants to, but no time; feels like a luxury</li>
+                        <li className="bullets">Resources: to pay people to be in piece; to pay people to document it; just buys another hard drive, tons sitting there</li>
+                        <li className="bullets">Live and analog experience becoming more important</li>
+                        <li className="bullets">Tino Sehgal: highly regulated archives, makes them more “valuable”</li>
+                        <li className="bullets">Should I be sharing process? Too much given away before show?</li>
                     </ul> 
                     <p><b>Bebe:</b> The idea of audience then is involved</p>
                     <p><b>Jonathan:</b></p>

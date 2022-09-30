@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 const MeetingFiveNotes = (props) => {
 
     const location = useLocation()
-    let background = 'var(--mint-green';
+    let background = 'var(--mint-green)';
     let textColor = 'black';
     let slash = '/Images/Slash.svg'
 
