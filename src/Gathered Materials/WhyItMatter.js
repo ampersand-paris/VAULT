@@ -4,7 +4,69 @@ const WhyItMatters = (props) => {
 
     return (
     <>
-        <div className="container one-hundred-vh cobalt">
+    <style>
+            {
+                `
+                audio {
+                    width: 200px;
+                }
+
+                audio::-webkit-media-controls-panel {
+                    background-color: var(--sand);
+                }
+                
+                audio::-webkit-media-controls-play-button {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+                
+                audio::-webkit-media-controls-current-time-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-time-remaining-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-timeline {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+
+                /* width */
+                ::-webkit-scrollbar {
+                width: 25px !important;
+
+                }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background-color: var(--sand);
+                }
+                
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                background: var(--cobalt); 
+                border-radius: 10px;
+                border: 2px solid var(--sand);
+                }
+
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                background: black; 
+            `
+            }
+        </style>
+        <div className="container cobalt">
             <div className="w-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding sand-txt">
@@ -24,7 +86,7 @@ const WhyItMatters = (props) => {
                             <img src="/Images/Pictures/Reggie.svg" className="w-fifty" />
                             <div className="stnd-padding">
                                 <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
-                                <p className="no-padding">Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</p>
+                                <p className="no-top-padding">Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</p>
                                 <Link 
                                     className="small-bttn jc-center sand cobalt-txt"
                                     to='/meeting-three-small-group-two'
@@ -59,7 +121,7 @@ const WhyItMatters = (props) => {
                             </div>
                             <div className="w-forty stnd-padding">
                                 <p className="no-padding"><b>Jacob’s Pillow, Dana Whitco:</b></p> 
-                                <p className="no-padding">I do think there's something very radical about the idea of the performance being the documentation of the thing.</p>
+                                <p className="no-top-padding">I do think there's something very radical about the idea of the performance being the documentation of the thing.</p>
                                 <Link 
                                     className="small-bttn jc-center sand cobalt-txt"
                                     to='/meeting-three-small-group-two'
@@ -125,10 +187,10 @@ const WhyItMatters = (props) => {
                             </Link>
                         </div>
                     </div>
-                    <div className="relative w-thirty flex column flex-end stnd-padding sand-txt">
-                        <div className="relative h-fifty mobile-top-20px">
+                    <div className="relative w-forty flex column flex-end stnd-padding sand-txt">
+                        <div className="relative flex jc-center h-fifty overflow-hidden mobile-top-20px">
                             <img src="/Images/Pictures/WhyItMattersImg3.png" className="h-one-hundred mobile-76vW"/>
-                            <p className="absolute bottom-10px left-10px no-padding"><b>Columbus, Gesel Mason:</b></p> 
+                            <p className="absolute bottom-10px left-10px double-padding sand cobalt-txt"><b>NO BOUNDARIES: Gesel Mason</b></p> 
                         </div>
                         <div className="h-fifty flex column z-index-11 stnd-padding">
                             <ul className="bullets">
@@ -204,7 +266,7 @@ const WhyItMatters = (props) => {
                     </div>
                 </div>
                 <div className="panel-1200 flex mobile-column mobile-side-padding">
-                    <div className="flex column eighty">
+                    <div className="flex column space-around eighty">
                         <div className="flex mobile-column sand cobalt-txt double-padding">
                             <div className="flex column jc-center">
                                 <p className="no-padding"><b>Seattle, Betsey Brock:</b></p>
@@ -234,7 +296,7 @@ const WhyItMatters = (props) => {
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m18s" }}
                                         >Video
                                     </Link>
-                                    <div className="h-150px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
+                                    <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
                                         <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
                                         <p className="no-top-padding txt-al-center">…to participate in a conversation around archiving and to build process around archives—to align [archives] with how dance is actually made.</p>
                                     </div>
@@ -251,7 +313,7 @@ const WhyItMatters = (props) => {
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=12m11s" }}
                                         >Video
                                     </Link>
-                                    <div className="h-150px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
+                                    <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
                                         <p className="no-padding"><b>Jacob’s Pillow, Jaamil Olawale Kosoko:</b></p>
                                         <p className="no-top-padding txt-al-center">…So how do you go about overcoming harsh review, especially if it's completely inaccurate?</p>
                                     </div>
@@ -259,8 +321,8 @@ const WhyItMatters = (props) => {
                             </div>
                         </div>
                         <div className="h-fifty flex mobile-column space-around">
-                            <div className="w-fifty flex column">
-                                <div className="flex column mobile-top-20px">
+                            <div className="w-fifty flex column space-around">
+                                <div className="flex column  mobile-top-20px">
                                     <div className="relative h-150px  flex column flex-end">
                                         <Link 
                                             className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
@@ -295,8 +357,8 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-fifty flex al-center">
-                                <img src="/Images/Pictures/WhyItMattersImg2.png"  className="w-one-hundred"/>
+                            <div className="w-fifty flex column overflow-hidden">
+                                <img src="/Images/Pictures/WhyItMattersImg2.png"  className="w-one-hundred stnd-padding"/>
                             </div>
                         </div>
                     </div>
@@ -371,7 +433,7 @@ const WhyItMatters = (props) => {
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
                                 <p className="no-bottom-padding side-padding"><b>Claudia La Rocco</b></p>
-                                <p className="no-top-padding side-padding">I try to assume nothing about “audience.</p>
+                                <p className="no-top-padding side-padding">I try to assume nothing about “audience".</p>
                             </div>
                         </div>
                     </div>
@@ -392,15 +454,17 @@ const WhyItMatters = (props) => {
                             <p className="transcription-details">In 2017, I find myself in my mid-60s and thinking much more about legacy. My own legacy and the legacy of my peers. Sadly, this was provoked by the recent deaths of several of those peers and my meditations led me to contemplate how will their (and my) contributions to this particular and peculiar subset of this art form, experimental dance, be remembered. Who will be able to access the archive of lifetimes of work? How will this archive be available? Formats and gatekeepers, what and who will they be, and do we have any control over either?</p>
                             <p className="transcription-details">So, do I want just anyone to have access to all of my work? Now? When I’m no longer here? I keep thinking that there is no parallel in writing. One writes a book and anyone can read it if they buy it or it is available in a library or online. Recorded music is much the same? There is a handful of exceptionally good writers writing on the subject of experimental dance. Is there some reason that there aren’t more efficient methods of archiving and disseminating our work to a greater public other than oblivious reviews or by YouTube and Vimeo?</p>
                         </div>
-                        <img src="/Images/Pictures/Jaamil.svg" className="w-one-hundred"/>    
+                        <div className="h-fifty overflow-hidden">
+                            <img src="/Images/Pictures/Jaamil.svg" className="w-one-hundred"/>    
+                        </div>
                     </div>
                     <div className="w-forty flex column flex-end mobile-column stnd-padding sand-txt">
                         <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                        <h2 className="no-padding"><b>Columbus, Group Discussion:</b></h2>
+                        <h2 className="no-padding"><b>Columbus Questions:</b></h2>
                         <div className="flex column stnd-padding sand-border">
                             <div className="h-one-hundred flex column space-btwn">
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="">What does a fieldwide funding strategy look like?</p>
+                                    <p className="transcription-details">What does a fieldwide funding strategy look like?</p>
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -414,7 +478,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">
-                                    <p className="">Digital archive...where the form has a relationship to embodied practices…</p>
+                                    <p className="transcription-details">Digital archive...where the form has a relationship to embodied practices…</p>
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -428,7 +492,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin ">                    
-                                    <p className="">...Anti-racist methods of dissemination, whether online or in digital space…</p>                                
+                                    <p className="transcription-details">...Anti-racist methods of dissemination, whether online or in digital space…</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -442,7 +506,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="">How might an archive be thought of as...dimensional?</p>                                
+                                    <p className="transcription-details">How might an archive be thought of as...dimensional?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -456,7 +520,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="">How can we incentivise archival behavior broadly?</p>                                
+                                    <p className="transcription-details">How can we incentivise archival behavior broadly?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -470,7 +534,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="">How can we prevent experimental and obscure performance practices from erasure…?</p>                                
+                                    <p className="transcription-details">How can we prevent experimental and obscure performance practices from erasure…?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -484,7 +548,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="">Is there a better way to name an archive?</p>                                
+                                    <p className="transcription-details">Is there a better way to name an archive?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -498,7 +562,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn">                    
-                                    <p className="">What is the relationship between archiving and stewardship?</p>                                
+                                    <p className="transcription-details">What is the relationship between archiving and stewardship?</p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"

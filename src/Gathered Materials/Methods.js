@@ -4,7 +4,69 @@ const Methods = (props) => {
 
     return (
     <>
-        <div className="container one-hundred-vh preserved-lemon">
+    <style>
+            {
+                `
+                audio {
+                    width: 200px;
+                }
+
+                audio::-webkit-media-controls-panel {
+                    background-color: var(--sand);
+                }
+                
+                audio::-webkit-media-controls-play-button {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+                
+                audio::-webkit-media-controls-current-time-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-time-remaining-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-timeline {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+
+                /* width */
+                ::-webkit-scrollbar {
+                width: 25px !important;
+
+                }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background-color: var(--sand);
+                }
+                
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                background: var(--preserved-lemon); 
+                border-radius: 10px;
+                border: 2px solid var(--sand);
+                }
+
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                background: black; 
+            `
+            }
+        </style>
+        <div className="container preserved-lemon">
             <div className="m-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
@@ -77,13 +139,13 @@ const Methods = (props) => {
                         <div className="sand-border flex mobile-column double-padding">
                             <div className="flex column w-seventy-five">
                                 <img src="/Images/Pictures/Reggie.svg" className="" />
-                                <p className="side-padding txt-al-right no-bottom-padding "><b>Cori Olinghouse,</b></p>
+                                <p className="side-padding txt-al-right no-bottom-padding "><b>Cori Olinghouse</b></p>
                                 <p className="side-padding txt-al-right no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
                             </div>
                             <div className="w-twenty-five flex jc-center">
                                 <Link 
                                     className="small-bttn jc-center sand black-txt"
-                                    to='/cori-orlinghouse-essay'
+                                    to='/cori-olinghouse-essay'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",

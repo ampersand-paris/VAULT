@@ -42,10 +42,33 @@ const Context = (props) => {
                     background-color: rgba(255, 255, 255, 0);
                 
                 }
+
+                /* width */
+                ::-webkit-scrollbar {
+                width: 25px !important;
+
+                }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background-color: var(--sand);
+                }
+                
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                background: var(--evergreen); 
+                border-radius: 10px;
+                border: 2px solid var(--sand);
+                }
+
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                background: black; 
             `
             }
         </style>
-        <div className="container one-hundred-vh evergreen">
+        <div className="container evergreen">
             <div className="c-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
                     <div className="intro-width flex space-btwn column vault-padding">
@@ -176,7 +199,16 @@ const Context = (props) => {
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding"><b>Seattle, Pat Graney:</b></p>
                                     <p className="no-top-padding">What do we want people to learn and know about...</p>
-                                    <a className="small-bttn sand evergreen-txt">Video</a>
+                                    <Link 
+                                        className="small-bttn sand evergreen-txt"
+                                        to='/seattle'
+                                        state={{ 
+                                            background: "var(--sand)",
+                                            textColor: "var(--evergreen)",
+                                            startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s"
+                                            }}
+                                        >Video
+                                    </Link>
                                 </div>
                                 <div className="w-forty flex">
                                     <img className="w-one-hundred mobile-top-20px" src="/Images/Pictures/Reggie.svg"/>
@@ -337,7 +369,7 @@ const Context = (props) => {
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding mobile-top-10px"><b> Reggie Watts:</b></p>
+                                        <p className="transcription-details no-padding mobile-top-10px"><b> Reggie Wilson:</b></p>
                                         <div className="flex mobile-column space-btwn only-top-padding">
                                             <p className="w-sixty transcription-details no-padding">Is this for our own dramaturgy? Is this for another choreographers dramaturgy? Is this for historians?</p>
                                             <div className="flex flex-end">

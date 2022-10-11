@@ -41,10 +41,33 @@ const ArchivalThinking = (props) => {
                 audio::-webkit-media-controls-timeline {
                     background-color: rgba(255, 255, 255, 0);
                 }
+
+                /* width */
+                ::-webkit-scrollbar {
+                width: 25px !important;
+                }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background-color: var(--sand);
+                }
+                
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                background: var(--pumpkin); 
+                border-radius: 10px;
+                border: 2px solid var(--sand);
+                }
+
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                background: black; 
+}
             `
             }
         </style>
-        <div className="container one-hundred-vh pumpkin">
+        <div className="container pumpkin">
             <div className="ar-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
@@ -65,20 +88,9 @@ const ArchivalThinking = (props) => {
                     <img src="/Images/OrangeSlash.svg" className="ar-slash display-none"/>
                     <div className="h-one-hundred flex column">
                         <div className="flex column al-center jc-center top-100px">
-                            <h2 className="pumpkin-txt"><em>How are we viewing the archive?</em></h2>
+                            <h2 className="pumpkin-txt no-bottom-padding"><em>How are we viewing the archive?</em></h2>
                             <div className="flex">
-                                <div className="button-div-height flex jc-center al-center vault-padding sand-border-right">
-                                <Link 
-                                    className="small-bttn pumpkin sand-txt"
-                                    to='/meeting-three-notes'
-                                    state={{ 
-                                        background: "var(--pumpkin)",
-                                        textColor: "var(--sand)",
-                                        slash: "/Images/CreamSlash.svg" }}
-                                    >Transcription
-                                </Link>
-                                </div>
-                                <div className="button-div-height flex jc-center al-center vault-padding">
+                                <div className="button-div-height flex jc-center al-center">
                                 <Link 
                                     className="small-bttn pumpkin sand-txt"
                                     to='/meeting-three-small-group-two'
@@ -224,6 +236,7 @@ const ArchivalThinking = (props) => {
                                 </div>
                                 <div className="flex column space-btwn stnd-padding">
                                     <div className="sand pumpkin-txt stnd-padding border-radius">
+                                        <p className="transcription-details no-padding"><b>Ginger Farley</b></p>
                                         <p className="transcription-details no-padding">Is there a way to enlist [funders] in learning from this process…</p>
                                         <div className="flex flex-end">
                                             <Link 
@@ -267,20 +280,21 @@ const ArchivalThinking = (props) => {
                             <div className="flex h-one-hundred mobile-column">
                                 <div className="bebe-seattle w-forty-seven mobile-w-forty-seven-border-adjust stnd-padding">
                                     <div className="flex flex-end mobile-h-250px">
-                                        <Link 
-                                            className="small-bttn pumpkin sand-txt"
-                                            to='/meeting-two-notes'
-                                            state={{ 
-                                                background: "var(--pumpkin)",
-                                                textColor: "var(--sand)",
-                                                slash: "/Images/CreamSlash.svg"                                                    }}
-                                            >Meeting Notes
-                                        </Link>
+                                        
                                     </div>
                                 </div>
                                 <div className="w-forty-seven stnd-padding sand-txt sand-border">
-                                    <p><b>Bebe Miller, Seattle:</b></p> 
-                                    <p>Did we grow into this archiving of process? 30 years ago we only documented performance even though all that process was there. We have learned to love it and want to share that. When we stop wanting to do that, share that ephemeral aspect of what we love about process? What else is there? Our attention to process is a kind of thing.</p>
+                                    <p className="no-bottom-padding"><b>Bebe Miller, Seattle:</b></p> 
+                                    <p className="no-top-padding">Did we grow into this archiving of process? 30 years ago we only documented performance even though all that process was there. We have learned to love it and want to share that. When we stop wanting to do that, share that ephemeral aspect of what we love about process? What else is there? Our attention to process is a kind of thing.</p>
+                                    <Link 
+                                        className="small-bttn sand pumpkin-txt"
+                                        to='/meeting-two-notes'
+                                        state={{ 
+                                            background: "var(--pumpkin)",
+                                            textColor: "var(--sand)",
+                                            slash: "/Images/CreamSlash.svg"                                                    }}
+                                        >Meeting Notes
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -311,8 +325,8 @@ const ArchivalThinking = (props) => {
                     <div className="h-fifty flex space-btwn stnd-padding">
                         <div className="w-forty-seven w-forty-seven-split">
                                 <div className="sand-txt">
-                                    <p className="no-padding"><b>Raja Feather Kelly, Seattle:</b></p>
-                                    <p className="no-padding">Would other/newer ways to archive, change the way work was made?</p>
+                                    <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
+                                    <p className="no-top-padding">Would other/newer ways to archive, change the way work was made?</p>
                                     <div className="flex">
                                         <Link 
                                             className="small-bttn sand pumpkin-txt"
@@ -329,8 +343,8 @@ const ArchivalThinking = (props) => {
                             <div className="w-forty-seven w-forty-seven-split">
                                 <img className="" src="/Images/Pictures/Reggie.svg" />
                                 <div className="stnd-padding border-radius sand pumpkin-txt">
-                                    <p className="transcription-details no-padding"><b>Bebe Miller:</b></p>
-                                    <p className="transcription-details no-padding">Bebe Miller, …there's something about the immediacy of [social media's] dispersal of information...</p>
+                                    <p className="transcription-details no-bottom-padding"><b>Bebe Miller:</b></p>
+                                    <p className="transcription-details no-top-padding">…there's something about the immediacy of [social media's] dispersal of information...</p>
                                     <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"

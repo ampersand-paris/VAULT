@@ -17,7 +17,7 @@ const ThemesMenu = (props) => {
         <>        
             <div style={openStyles} id="themes-menu-open" className="themes-menu z-index h-one-hundred flex just-center mint-green">
                 <div className="flex al-center mint-green menu-right-border vault-padding">
-                    <img className="ninety-vh" src="/Images/VAULT.svg" />
+                    <img className="ninety-vh max-width-150px" src="/Images/VAULT.svg" />
                 </div>
                 <div className="relative flex column space-btwn mint-green menu-right-border">
                     <div className="flex column">
