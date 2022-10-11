@@ -42,10 +42,33 @@ const Context = (props) => {
                     background-color: rgba(255, 255, 255, 0);
                 
                 }
+
+                /* width */
+                ::-webkit-scrollbar {
+                width: 25px !important;
+
+                }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background-color: var(--sand);
+                }
+                
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                background: var(--evergreen); 
+                border-radius: 10px;
+                border: 2px solid var(--sand);
+                }
+
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                background: black; 
             `
             }
         </style>
-        <div className="container one-hundred-vh evergreen">
+        <div className="container evergreen">
             <div className="c-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
                     <div className="intro-width flex space-btwn column vault-padding">

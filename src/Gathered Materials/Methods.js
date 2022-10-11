@@ -4,7 +4,69 @@ const Methods = (props) => {
 
     return (
     <>
-        <div className="container one-hundred-vh preserved-lemon">
+    <style>
+            {
+                `
+                audio {
+                    width: 200px;
+                }
+
+                audio::-webkit-media-controls-panel {
+                    background-color: var(--sand);
+                }
+                
+                audio::-webkit-media-controls-play-button {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+                
+                audio::-webkit-media-controls-current-time-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-time-remaining-display {
+                    font-family: neuzeit-grotesk, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: var(--evergreen);
+                }
+                
+                audio::-webkit-media-controls-timeline {
+                    background-color: rgba(255, 255, 255, 0);
+                
+                }
+
+                /* width */
+                ::-webkit-scrollbar {
+                width: 25px !important;
+
+                }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background-color: var(--sand);
+                }
+                
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                background: var(--preserved-lemon); 
+                border-radius: 10px;
+                border: 2px solid var(--sand);
+                }
+
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                background: black; 
+            `
+            }
+        </style>
+        <div className="container preserved-lemon">
             <div className="m-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">

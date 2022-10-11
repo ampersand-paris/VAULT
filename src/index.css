@@ -228,7 +228,7 @@ li {
 }
 
 .one-hundred-vh {
-  height: 100vH;
+  height: calc(100vH - 16px);
 }
 
 .ninety-vh {
@@ -368,6 +368,10 @@ li {
 .fifty-fifty {
   top: 65%;
   left: 25%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .relative {
@@ -597,8 +601,6 @@ li {
   height: 60px;
 }
 
-
-
 /* ====== BORDER ====== */
 
 .border-radius {
@@ -639,8 +641,7 @@ li {
   border: 2px solid black;
 }
 
-/* ====== AUDIO ====== */
-
+/* ====== SCROLL BAR ====== */
 
 
 /* ====== MENUS ====== */
@@ -971,6 +972,7 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .ishmael{
@@ -1050,7 +1052,7 @@ iframe {
 }
 
 .large-slash {
-  height: 98vH;
+  height: 95vH;
   left: 60%;
 }
 
