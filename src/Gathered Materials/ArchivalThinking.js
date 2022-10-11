@@ -224,6 +224,7 @@ const ArchivalThinking = (props) => {
                                 </div>
                                 <div className="flex column space-btwn stnd-padding">
                                     <div className="sand pumpkin-txt stnd-padding border-radius">
+                                        <p className="transcription-details side-padding no-padding"><b>Ginger Farley</b></p>
                                         <p className="transcription-details no-padding">Is there a way to enlist [funders] in learning from this process…</p>
                                         <div className="flex flex-end">
                                             <Link 

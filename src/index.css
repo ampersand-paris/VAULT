@@ -769,6 +769,10 @@ li {
   left: 0%;
 }
 
+.max-width-150px {
+  max-width: 150px;
+}
+
 .themes-menu {
   position: fixed;
   left: -250px;

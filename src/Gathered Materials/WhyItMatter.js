@@ -128,7 +128,7 @@ const WhyItMatters = (props) => {
                     <div className="relative w-thirty flex column flex-end stnd-padding sand-txt">
                         <div className="relative h-fifty mobile-top-20px">
                             <img src="/Images/Pictures/WhyItMattersImg3.png" className="h-one-hundred mobile-76vW"/>
-                            <p className="absolute bottom-10px left-10px no-padding"><b>Columbus, Gesel Mason:</b></p> 
+                            <p className="absolute bottom-10px left-10px no-padding"><b>NO BOUNDARIES: Gesel Mason</b></p> 
                         </div>
                         <div className="h-fifty flex column z-index-11 stnd-padding">
                             <ul className="bullets">
@@ -371,7 +371,7 @@ const WhyItMatters = (props) => {
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
                                 <p className="no-bottom-padding side-padding"><b>Claudia La Rocco</b></p>
-                                <p className="no-top-padding side-padding">I try to assume nothing about “audience.</p>
+                                <p className="no-top-padding side-padding">I try to assume nothing about “audience".</p>
                             </div>
                         </div>
                     </div>
@@ -396,7 +396,7 @@ const WhyItMatters = (props) => {
                     </div>
                     <div className="w-forty flex column flex-end mobile-column stnd-padding sand-txt">
                         <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                        <h2 className="no-padding"><b>Columbus, Group Discussion:</b></h2>
+                        <h2 className="no-padding"><b>Columbus Questions:</b></h2>
                         <div className="flex column stnd-padding sand-border">
                             <div className="h-one-hundred flex column space-btwn">
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    

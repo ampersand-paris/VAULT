@@ -77,13 +77,13 @@ const Methods = (props) => {
                         <div className="sand-border flex mobile-column double-padding">
                             <div className="flex column w-seventy-five">
                                 <img src="/Images/Pictures/Reggie.svg" className="" />
-                                <p className="side-padding txt-al-right no-bottom-padding "><b>Cori Olinghouse,</b></p>
+                                <p className="side-padding txt-al-right no-bottom-padding "><b>Cori Olinghouse</b></p>
                                 <p className="side-padding txt-al-right no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
                             </div>
                             <div className="w-twenty-five flex jc-center">
                                 <Link 
                                     className="small-bttn jc-center sand black-txt"
-                                    to='/cori-orlinghouse-essay'
+                                    to='/cori-olinghouse-essay'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
