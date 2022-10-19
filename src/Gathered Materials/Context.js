@@ -1,8 +1,32 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import ReactAudioPlayer from "react-audio-player";
 import audio from "../Audio/Context.mp3"
+import { useEffect, useState } from 'react'
 
 const Context = (props) => {
+
+    const [scrollPosition, setScrollPosition] = useState(0)    
+    const [loading, setLoading] = useState(false)
+
+    const setPosition = () => {
+        const container = document.getElementById('context-postion')
+        const position = container.scrollLeft
+        window.localStorage.setItem('context', position)
+        console.log('link', position)
+    }
+
+    useEffect(() => {
+        const position = JSON.parse(window.localStorage.getItem('context'))
+        setScrollPosition(position)
+        console.log('useeffect', position)
+      
+     
+    }, [])
+
+    useEffect(() => {
+        const xPosition = document.getElementById('context-postion')
+        xPosition.scrollLeft = scrollPosition
+    }, [scrollPosition])
 
     return (
     <>
@@ -68,7 +92,7 @@ const Context = (props) => {
             `
             }
         </style>
-        <div className="container evergreen">
+        <div className="container evergreen" id="context-postion">
             <div className="c-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
                     <div className="intro-width flex space-btwn column vault-padding">
@@ -92,6 +116,7 @@ const Context = (props) => {
                             <p className="no-bottom-padding"><b>Tonya Lockyer, Seattle:</b></p>    
                             <p className="no-top-padding">Stories really capture what happened. In Russia, in 1998 there was a conversation about CI. Two people began to dance together, but for one of them it was only about concrete shapes—moving from one to the next. They didn’t realize it was a moving form. They had only seen the photographs, not recordings.</p>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn sand evergreen-txt sand-border"
                                 to='/meeting-two-notes'
                                 state={{ 
@@ -105,6 +130,7 @@ const Context = (props) => {
                             <p className="no-bottom-padding"><b>Margi Cole:</b></p>    
                             <p className="no-top-padding">Create a valid space to move away from product-driven work.</p>
                             <Link 
+                                onClick={setPosition}
                                 className="absolute mobile-relative left-negative-100px top-10px small-bttn evergreen sand-txt sand-border"
                                 to='/marji-cole-writing'
                                 state={{ 
@@ -126,6 +152,7 @@ const Context = (props) => {
                                 <p className="no-bottom-padding"><b>Pat Graney, Seattle:</b></p> 
                                 <p className="no-top-padding"><em>There's an assumption with certain generations and folks who are younger sometimes, that immediacy is the documentation, is the experience.</em></p>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn sand evergreen-txt sand-border"
                                     to='/seattle'
                                     state={{ 
@@ -139,6 +166,7 @@ const Context = (props) => {
                             <div className="w-fifty flex column al-flex-end mobile-top-100px">
                                 <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn left-margin-10px evergreen sand-txt sand-border"
                                         to='/jsun-howard-writing'
                                         state={{ 
@@ -161,6 +189,7 @@ const Context = (props) => {
                                 <p className="no-bottom-padding"><b>Dayna Hanson:</b></p> 
                                 <p className="no-top-padding">Over time, I’ve noticed that documentation has become more of an aesthetic pursuit for me, as the lines between the original work and its archival document have increasingly blurred.</p>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn sand evergreen-txt sand-border"
                                     to='/danya-hanson-writing'
                                     state={{ 
@@ -179,6 +208,7 @@ const Context = (props) => {
                             <p className="no-top-padding"><em>To me, the most important thing about archives [...] is the context [they provide].</em></p>
                             <div className="flex flex-end">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn sand evergreen-txt sand-border"
                                     to='/seattle'
                                     state={{ 
@@ -200,6 +230,7 @@ const Context = (props) => {
                                     <p className="no-bottom-padding"><b>Pat Graney, Seattle:</b></p>
                                     <p className="no-top-padding"><em>What do we want people to learn and know about...</em></p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn sand evergreen-txt"
                                         to='/seattle'
                                         state={{ 
@@ -219,6 +250,7 @@ const Context = (props) => {
                                     <p className="no-bottom-padding"><b>Angie Hauser, Seattle:</b></p>
                                     <p className="no-top-padding"><em>[I'm thinking] about archiving in the scale of history, [in] that includes multiple generations beyond the people that are living now.</em></p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn sand evergreen-txt"
                                         to='/seattle'
                                         state={{ 
@@ -238,6 +270,7 @@ const Context = (props) => {
                                     <p className="no-bottom-padding no-top-padding"><b>Ishmael Houston-Jones, Jacob’s Pillow:</b></p>
                                     <p className="no-top-padding"><em>I think there is something about the accidentalness of what gets left, and what gets found, and what remains.</em></p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn sand evergreen-txt"
                                         to='/meeting-three-small-group-three'
                                         state={{ 
@@ -260,6 +293,7 @@ const Context = (props) => {
                             <div className="relative w-seventy flex column">
                                 <div className="flex sand-gradient-50 w-one-hundred">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn left-margin-10px evergreen sand-txt sand-border"
                                         to='/jane-jerardi-writing'
                                         state={{ 
@@ -283,6 +317,7 @@ const Context = (props) => {
                                 </div>
                                 <div className="double-padding">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn sand evergreen-txt"
                                         to='/cori-orlinghouse-writing'
                                         state={{ 
@@ -298,6 +333,7 @@ const Context = (props) => {
                                     <p className="no-bottom-padding no-top-padding"><b>Columbus, Ni’Ja Whitson:</b></p>
                                     <p className="no-top-padding">How much agency does a performer have since it’s not their work and not their archive?</p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn sand-border sand-txt evergreen"
                                         to='/meeting-five-notes'
                                         state={{ 
@@ -318,6 +354,7 @@ const Context = (props) => {
                         <p className="no-top-padding">Yes, archives need to collect all this important stuff. But archives also need to tell good stories. Or, another way of putting it: archives are never objective. Just as a researcher’s race, gender or class influences their interpretation of an archive; how the archive is constructed, located and monitored influences the researcher. If you are creating an archive to resist disappearance and erasure, it helps to have strategies for manipulating the system.</p>
                         <div className="relative h-fifty">
                             <Link 
+                                onClick={setPosition}
                                 className="absolute left-margin-10px top-10px small-bttn evergreen sand-txt"
                                 to='/tonya-lockyer-writing'
                                 state={{ 
@@ -336,6 +373,7 @@ const Context = (props) => {
                                     <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
                                     <p className="no-top-padding">I keep trying to think about what like what's my personal relationship with the idea or story, like what is archive? And when I heard when I heard you say this like I those words I was like if he knows the words that we would use when we describe like how we make performance. You know like can we can we get? All of our you know, year two year, four year process into this hour into this 50 minutes. How can we get all of this exploration of movement into this one movement so that it represents this thing?</p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn evergreen sand-txt"
                                         to='/meeting-two-notes'
                                         state={{ 
@@ -357,6 +395,7 @@ const Context = (props) => {
                                         <div className="flex mobile-column space-btwn no-top-padding">
                                             <p className="w-sixty transcription-details no-padding "><em>[When you mentioned] creating for yourself or maintaining for yourself a mode of hyper-contextuality, I wondered whether that is a resistance to some forces that you feel in the world?</em></p>
                                             <Link 
+                                                onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
                                                 to='/meeting-three-small-group-two'
                                                 state={{ 
@@ -374,6 +413,7 @@ const Context = (props) => {
                                             <p className="w-sixty transcription-details no-padding"><em>Is this for our own dramaturgy? Is this for another choreographers dramaturgy? Is this for historians?</em></p>
                                             <div className="flex flex-end">
                                             <Link 
+                                                onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
                                                 to='/meeting-three-small-group-conclusion'
                                                 state={{ 
@@ -391,6 +431,7 @@ const Context = (props) => {
                                         <div className="flex mobile-column space-btwn no-top-padding">
                                             <p className="w-sixty transcription-details no-padding"><em>I think the moment of improvisation is a certain kind of archive, maybe in quotes or italics or something that it is the archive of the practice.</em></p>
                                             <Link 
+                                                onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
                                                 to='/meeting-three-small-group-two'
                                                 state={{ 
@@ -408,6 +449,7 @@ const Context = (props) => {
                                             <p className="w-sixty transcription-details no-padding"><em>A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</em></p>
                                             <div className="flex flex-end">
                                             <Link 
+                                                onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
                                                 to='/meeting-three-small-group-three'
                                                 state={{ 
@@ -425,6 +467,7 @@ const Context = (props) => {
                                         <div className="flex mobile-column space-btwn no-top-padding">
                                             <p className="w-sixty transcription-details no-padding"><em>I feel like this hyper-contextuality is a part of me defending my own perspective.</em></p>
                                             <Link 
+                                                onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
                                                 to='/meeting-three-small-group-two'
                                                 state={{ 
