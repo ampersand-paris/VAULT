@@ -106,11 +106,11 @@ const ArchivalThinking = (props) => {
                         </div>
                         <div className="h-fifty relative mobile-flex mobile-column bottom-100px mobile-top-100px">
                             <div className="z-index-10 relative w-fifty sand stnd-padding">
-                                <h3 className="pumpkin-txt">WRITING: Ishmael Houston-Jones</h3> 
-                                <p className="pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
+                                <h3 className="no-bottom-padding pumpkin-txt">Ishmael Houston-Jones:</h3> 
+                                <p className="no-top-padding pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
                                 <Link 
                                     className="small-bttn pumpkin sand-txt"
-                                    to='/ishmael-houston-jones-essay'
+                                    to='/ishmael-houston-jones-writing'
                                     state={{ 
                                         background: "var(--pumpkin)",
                                         textColor: "var(--sand)",
@@ -125,7 +125,7 @@ const ArchivalThinking = (props) => {
                 <div className="panel-700 flex column mobile-side-padding">
                     <div className="h-fifty stnd-padding sand pumpkin-txt">
                         <p className="no-bottom-padding"><b>Dayna Hanson, Seattle:</b></p>
-                        <p className="no-top-padding">[We] think about media as being inherently archival, and inherently lasting; and we work in live forms that are inherently ephemeral. So [...] there's something rich and unexpected to me about these digital forms like Snapchat or like Instagram Live that expire so quickly [...] That's somehow good, maybe. Maybe it's placing a [value] judgment.</p>
+                        <p className="no-top-padding"><em>[We] think about media as being inherently archival, and inherently lasting; and we work in live forms that are inherently ephemeral. So [...] there's something rich and unexpected to me about these digital forms like Snapchat or like Instagram Live that expire so quickly [...] That's somehow good, maybe. Maybe it's placing a [value] judgment.</em></p>
                         <Link 
                             className="small-bttn pumpkin sand-txt"
                             to='/seattle'
@@ -171,8 +171,8 @@ const ArchivalThinking = (props) => {
                         <div className="w-forty w-forty-seven-split">
                             <img className="" src="/Images/Pictures/Reggie.svg" />
                             <div className="stnd-padding border-radius sand pumpkin-txt">
-                                <p className="transcription-details no-padding"><b>Reggie Wilson, Seattle:</b></p>
-                                <p className="transcription-details no-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
+                                <p className="transcription-details no-bottom-padding"><b>Reggie Wilson, Seattle:</b></p>
+                                <p className="transcription-details no-top-padding"><em>Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</em></p>
                                 <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
@@ -190,8 +190,8 @@ const ArchivalThinking = (props) => {
                         <div className="w-forty w-forty-seven-split">
                             <img className="" src="/Images/Pictures/DanaWhitco.svg" />
                             <div className="stnd-padding border-radius sand pumpkin-txt">
-                                <p className="transcription-details no-padding"><b>Dana Whitco:</b></p>
-                                <p className="transcription-details no-padding">That choreography could be thought of not as the creation of steps that have its own sort of logic, but that it is a wayfinding technique In the world.</p>
+                                <p className="transcription-details no-bottom-padding"><b>Dana Whitco:</b></p>
+                                <p className="transcription-details no-top-padding"><em>That choreography could be thought of not as the creation of steps that have its own sort of logic, but that it is a wayfinding technique In the world.</em></p>
                                 <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
@@ -218,13 +218,13 @@ const ArchivalThinking = (props) => {
                                     </div>
                                     <div className="relative stnd-padding">
                                         <div className="flex column jc-center double-padding sand pumpkin-txt">
-                                            <p className="transcription-details side-padding no-padding"><b>WRITING: Claudia La Rocco</b></p>
+                                            <p className="transcription-details side-padding no-padding"><b>Claudia La Rocco:</b></p>
                                             <p className="transcription-details side-padding no-padding">There is often anxiety around documentation.</p>
                                         </div>
                                         <div className="flex jc-center sand-gradient-50-down w-one-hundred">
                                             <Link 
                                                 className="small-bttn pumpkin sand-txt sand-border"
-                                                to='/claudia-la-rocco-essay'
+                                                to='/claudia-la-rocco-writing'
                                                 state={{ 
                                                     background: "var(--pumpkin)",
                                                     textColor: "var(--sand)",
@@ -237,7 +237,7 @@ const ArchivalThinking = (props) => {
                                 <div className="flex column space-btwn stnd-padding">
                                     <div className="sand pumpkin-txt stnd-padding border-radius">
                                         <p className="transcription-details no-padding"><b>Ginger Farley</b></p>
-                                        <p className="transcription-details no-padding">Is there a way to enlist [funders] in learning from this process…</p>
+                                        <p className="transcription-details no-top-padding"><em>Is there a way to enlist [funders] in learning from this process…</em></p>
                                         <div className="flex flex-end">
                                             <Link 
                                                 className="small-bttn pumpkin sand-txt"
@@ -259,7 +259,7 @@ const ArchivalThinking = (props) => {
                             <img className="only-top-padding" src="/Images/Pictures/Reggie.svg" />
                             <div className="sand pumpkin-txt border-radius stnd-padding ">
                                 <p className="no-padding transcription-details"><b>Jaamil Olawale Kosoko</b></p> 
-                                <p className="no-padding transcription-details">...as the archivist, as the curator, as the maker, I'm just showing you my ways in which I'm maneuvering through certain materials.</p>
+                                <p className="no-top-padding transcription-details"><em>...as the archivist, as the curator, as the maker, I'm just showing you my ways in which I'm maneuvering through certain materials.</em></p>
                                 <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
@@ -305,7 +305,7 @@ const ArchivalThinking = (props) => {
                             <div className="flex jc-center sand-gradient-50 w-one-hundred">
                                 <Link 
                                     className="small-bttn pumpkin sand-txt sand-border"
-                                    to='/danya-hanson-essay'
+                                    to='/danya-hanson-writing'
                                     state={{ 
                                         background: "var(--pumpkin)",
                                         textColor: "var(--sand)",
@@ -314,8 +314,8 @@ const ArchivalThinking = (props) => {
                                 </Link>
                             </div>
                             <div className="sand pumpkin-txt w-one-hundred">
-                                <p className="side-padding"><b>WRITING: Dayna Hanson</b></p>
-                                <p className="side-padding">…documentation has become more of an aesthetic pursuit…</p>
+                                <p className="no-bottom-padding side-padding"><b>Dayna Hanson:</b></p>
+                                <p className="no-top-padding side-padding">…documentation has become more of an aesthetic pursuit…</p>
                             </div>
                             <h3 className="vault-padding sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                         </div>
@@ -344,7 +344,7 @@ const ArchivalThinking = (props) => {
                                 <img className="" src="/Images/Pictures/Reggie.svg" />
                                 <div className="stnd-padding border-radius sand pumpkin-txt">
                                     <p className="transcription-details no-bottom-padding"><b>Bebe Miller:</b></p>
-                                    <p className="transcription-details no-top-padding">…there's something about the immediacy of [social media's] dispersal of information...</p>
+                                    <p className="transcription-details no-top-padding"><em>…there's something about the immediacy of [social media's] dispersal of information...</em></p>
                                     <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
@@ -360,9 +360,9 @@ const ArchivalThinking = (props) => {
                                 </div>
                             </div>
                         </div>
-                    <div className="h-fifty sand pumpkin-txt stnd-padding">
-                        <p><b>Judy Hussie-Taylor, NYC: </b></p>
-                        <p>Intersection between what are we doing, what are we saving, what are we collecting, what are we not doing—always at play in our work at least on the curatorial side. We’re making interventions, we’re making choices. What we all feel every day: whatever it is we value is under attack, in so many ways. A war on certain kinds of value systems. Maybe this is different than how/what we archive but these choices point to what we value.</p>
+                    <div className="h-fifty flex column jc-center sand pumpkin-txt stnd-padding">
+                        <p className="no-bottom-padding"><b>Judy Hussie-Taylor, NYC: </b></p>
+                        <p className="no-top-padding">Intersection between what are we doing, what are we saving, what are we collecting, what are we not doing—always at play in our work at least on the curatorial side. We’re making interventions, we’re making choices. What we all feel every day: whatever it is we value is under attack, in so many ways. A war on certain kinds of value systems. Maybe this is different than how/what we archive but these choices point to what we value.</p>
                         <Link 
                             className="small-bttn pumpkin sand-txt"
                             to='/meeting-one-transcript'
@@ -408,7 +408,7 @@ const ArchivalThinking = (props) => {
                             <img className="" src="/Images/Pictures/Reggie.svg" />
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Jaamil Olawale Kosoko, Jacob's Pillow:</b></p>
-                                <p className="transcription-details no-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
+                                <p className="transcription-details no-top-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
                                 <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
@@ -427,7 +427,7 @@ const ArchivalThinking = (props) => {
                             <img className="" src="/Images/Pictures/DanaWhitco.svg" />
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Nena Couch, Jacob's Pillow:</b></p>
-                                <p className="transcription-details no-padding">There are different ways that we choose what to keep.</p>
+                                <p className="transcription-details no-top-padding">There are different ways that we choose what to keep.</p>
                                 <div className="flex flex-end">
                                     <Link 
                                         className="small-bttn pumpkin sand-txt"
