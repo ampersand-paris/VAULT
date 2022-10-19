@@ -85,8 +85,8 @@ const WhyItMatters = (props) => {
                         <div className="flex mobile-column stnd-padding sand-txt">
                             <img src="/Images/Pictures/Reggie.svg" className="w-fifty" />
                             <div className="stnd-padding">
-                                <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
-                                <p className="no-top-padding">Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</p>
+                                <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow, :</b></p>
+                                <p className="no-top-padding"><em>Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</em></p>
                                 <Link 
                                     className="small-bttn jc-center sand cobalt-txt"
                                     to='/meeting-three-small-group-two'
@@ -99,7 +99,7 @@ const WhyItMatters = (props) => {
                             </div>
                         </div>
                         <div className="h-fifty stnd-padding sand cobalt-txt">
-                            <p className="no-padding"><b>NYC, Judy Hussie-Taylor:</b></p>
+                            <p className="no-padding"><b>Judy Hussie-Taylor, NYC:</b></p>
                             <p className="no-padding">Which brings up the “who,” who do you want to reach? During [Danspace Project’s] Lost & Found organizing meetings, we all felt such urgency. For me that platform was about that 17-year-old who found their way to one event and thought, “Oh, there’s a community of like minds?” I was at the Walker [Art Center], a mini-convening, showing Eiko’s work and Ishmael’s Lost & Found, someone asked about audiences and I said “this 17-year-old…” Olga Visu said at the White House [in 2015 when Ralph Lemon received the Medal of the Arts from President Obama], Ralph had never met Philip Glass. Glass said “I was at the Walker in the 70’s and there were only five people in the room, and I thought I’d never be invited back. And Ralph said “I was a 17-year-old in that room.” So, it got me thinking about audience on the seventh generation level.</p>
                             <div className="flex flex-end top-margin-10px">
                                 <Link 
@@ -120,8 +120,8 @@ const WhyItMatters = (props) => {
                                 <img src="/Images/Pictures/Reggie.svg" />
                             </div>
                             <div className="w-forty stnd-padding">
-                                <p className="no-padding"><b>Jacob’s Pillow, Dana Whitco:</b></p> 
-                                <p className="no-top-padding">I do think there's something very radical about the idea of the performance being the documentation of the thing.</p>
+                                <p className="no-padding"><b>Dana Whitco, Jacob’s Pillow:</b></p> 
+                                <p className="no-top-padding"><em>I do think there's something very radical about the idea of the performance being the documentation of the thing.</em></p>
                                 <Link 
                                     className="small-bttn jc-center sand cobalt-txt"
                                     to='/meeting-three-small-group-two'
@@ -144,12 +144,12 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding">...artists often lack access to documentation they need to remount works…</p>
                                 <Link 
                                     className="small-bttn jc-center sand cobalt-txt top-margin-10px"
-                                    to='/imogen-smith-essay'
+                                    to='/imogen-smith-writing'
                                     state={{ 
                                         background: "var(--cobalt)",
                                         textColor: "var(--sand)",
                                         slash: "/Images/CreamSlash.svg" }} 
-                                    >Meeting Notes
+                                    >Writing
                                 </Link>
                             </div> 
                         </div>
@@ -160,22 +160,22 @@ const WhyItMatters = (props) => {
                         <div className="relative h-200px flex column flex-end">
                             <Link 
                                 className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                to='/ann-carlson-essay'
+                                to='/ann-carlson-writing'
                                 state={{ 
                                     background: "var(--cobalt)",
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }} 
                                 >Writing
                             </Link>
-                            <div className="h-150px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
-                                <p className="no-padding"><b>Ann Carlson</b></p>
-                                <p className="no-padding txt-al-center">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
+                            <div className="h-150px w-ninety flex column jc-center stnd-padding sand-txt sand-border">
+                                <p className="no-padding"><b>Ann Carlson:</b></p>
+                                <p className="no-padding">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
                             </div>
                         </div>
                         <img src="/Images/Pictures/Reggie.svg" className="w-eighty" />
                         <div className="stnd-padding sand-txt">
-                            <p className="no-padding"><b>Jacob’s Pillow, Jaamil Olawale Kosoko:</b></p> 
-                            <p className="no-padding">What's the criticality behind what my offering is? With that comes a kind of cultural diplomacy, or ambassadorship.</p>
+                            <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p> 
+                            <p className="no-padding"><em>What's the criticality behind what my offering is? With that comes a kind of cultural diplomacy, or ambassadorship.</em></p>
                             <Link 
                                 className="small-bttn jc-center sand cobalt-txt top-margin-10px"
                                 to='/meeting-three-small-group-two'
@@ -187,13 +187,13 @@ const WhyItMatters = (props) => {
                             </Link>
                         </div>
                     </div>
-                    <div className="relative w-forty flex column flex-end stnd-padding sand-txt">
+                    <div className="relative w-forty flex column flex-end sand-txt">
                         <div className="relative flex jc-center h-fifty overflow-hidden mobile-top-20px">
                             <img src="/Images/Pictures/WhyItMattersImg3.png" className="h-one-hundred mobile-76vW"/>
                             <p className="absolute bottom-10px left-10px double-padding sand cobalt-txt"><b>NO BOUNDARIES: Gesel Mason</b></p> 
                         </div>
-                        <div className="h-fifty flex column z-index-11 stnd-padding">
-                            <ul className="bullets">
+                        <div className="h-fifty flex column z-index-11 no-top-padding">
+                            <ul className="no-top-padding">
                                 <li className="bullets">Legacy, representation</li>
                                 <li className="bullets">Where and how the black dancing body appears and disappears in digital space</li>
                                 <li className="bullets">Who gets to tell what stories?</li>
@@ -216,7 +216,7 @@ const WhyItMatters = (props) => {
                             <div className="flex sand-gradient-50">
                                 <Link 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/erin-kilmurray-essay'
+                                    to='/erin-kilmurray-writing'
                                     state={{ 
                                         background: "var(--cobalt)",
                                         textColor: "var(--sand)",
@@ -225,7 +225,7 @@ const WhyItMatters = (props) => {
                                 </Link>
                             </div>
                             <div className="stnd-padding sand cobalt-txt">
-                                <p className="no-padding txt-al-center"><b>Erin Kilmurray</b></p>
+                                <p className="no-padding txt-al-center"><b>Erin Kilmurray:</b></p>
                                 <p className="no-top-padding txt-al-center">My own dance-making has bloomed to me over time, due to the wide availability of artists’ work beyond my own city limits.</p>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ const WhyItMatters = (props) => {
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <Link 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/alex-springer-essay'
+                                    to='/alex-springer-writing'
                                     state={{ 
                                         background: "var(--cobalt)",
                                         textColor: "var(--sand)",
@@ -242,14 +242,15 @@ const WhyItMatters = (props) => {
                                 </Link>
                             </div>
                             <div className="stnd-padding sand cobalt-txt">
-                                <p className="no-padding txt-al-center"><b>Alex Springer</b></p>
+                                <p className="no-padding txt-al-center"><b>Alex Springer:</b></p>
                                 <p className="no-top-padding txt-al-center">We lose the radical “now” of live performance when we hyper-edit content…</p>
                             </div>
                         </div>
                         <div className="flex column space-btwn stnd-padding">
                             <div className="flex column mobile-top-20px">
                                 <div className="w-one-hundred sand-txt">
-                                    <p className="no-padding"><b>Columbus, Cori Olinghouse:</b></p>
+                                    <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                                    <h2 className="no-padding">Cori Olinghouse, Columbus:</h2>
                                     <p className="no-top-padding">Different forms promote different modes of reception… Embodied practice gets to speak across body-document divide.</p>
                                     <Link 
                                         className="small-bttn top-margin-10px cobalt sand-txt sand-border"
@@ -269,7 +270,7 @@ const WhyItMatters = (props) => {
                     <div className="flex column space-around eighty">
                         <div className="flex mobile-column sand cobalt-txt double-padding">
                             <div className="flex column jc-center">
-                                <p className="no-padding"><b>Seattle, Betsey Brock:</b></p>
+                                <p className="no-padding"><b>Betsey Brock, Seattle:</b></p>
                                 <p className="no-padding">Is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom? …Who is the audience, does the institution On the Boards get to decide? Are we beholden to the artists or to future generations, or ourself, or all of the above?</p>
                             </div>
                             <div className="flex column jc-center mobile-al-center">                       
@@ -297,8 +298,8 @@ const WhyItMatters = (props) => {
                                         >Video
                                     </Link>
                                     <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
-                                        <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
-                                        <p className="no-top-padding txt-al-center">…to participate in a conversation around archiving and to build process around archives—to align [archives] with how dance is actually made.</p>
+                                        <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
+                                        <p className="no-top-padding txt-al-center"><em>…to participate in a conversation around archiving and to build process around archives—to align [archives] with how dance is actually made.</em></p>
                                     </div>
                                 </div>
                             </div>
@@ -314,8 +315,8 @@ const WhyItMatters = (props) => {
                                         >Video
                                     </Link>
                                     <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
-                                        <p className="no-padding"><b>Jacob’s Pillow, Jaamil Olawale Kosoko:</b></p>
-                                        <p className="no-top-padding txt-al-center">…So how do you go about overcoming harsh review, especially if it's completely inaccurate?</p>
+                                        <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p>
+                                        <p className="no-top-padding txt-al-center"><em>…So how do you go about overcoming harsh review, especially if it's completely inaccurate?</em></p>
                                     </div>
                                 </div>
                             </div>
@@ -334,8 +335,8 @@ const WhyItMatters = (props) => {
                                             >Video
                                         </Link>
                                         <div className="h-100px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
-                                            <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
-                                            <p className="no-padding txt-al-center">…but you just can't hold on to all of it, so it's changing the methodology absolutely.</p>
+                                            <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
+                                            <p className="no-padding txt-al-center"><em>…but you just can't hold on to all of it, so it's changing the methodology absolutely.</em></p>
                                         </div>
                                     </div>
                                 </div>
@@ -351,8 +352,8 @@ const WhyItMatters = (props) => {
                                             >Video
                                         </Link>
                                         <div className="h-100px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
-                                            <p className="no-padding"><b>Jacob’s Pillow, Angie Hauser:</b></p>
-                                            <p className="no-padding txt-al-center">Do you even think about archive at this point in your dance making?</p>
+                                            <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
+                                            <p className="no-padding txt-al-center"><em>Do you even think about archive at this point in your dance making?</em></p>
                                         </div>
                                     </div>
                                 </div>
@@ -372,7 +373,7 @@ const WhyItMatters = (props) => {
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/russell-lepley-essay'
+                                    to='/russell-lepley-writing'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
@@ -381,7 +382,7 @@ const WhyItMatters = (props) => {
                                 </Link>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
-                                <p className="no-bottom-padding side-padding"><b>Russell Lepley</b></p>
+                                <p className="no-bottom-padding side-padding"><b>Russell Lepley:</b></p>
                                 <p className="no-top-padding side-padding">We need clear and simply shot video…</p>
                             </div>
                         </div>
@@ -389,7 +390,7 @@ const WhyItMatters = (props) => {
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/mara-frazier-essay'
+                                    to='/mara-frazier-writing'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
@@ -398,7 +399,7 @@ const WhyItMatters = (props) => {
                                 </Link>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
-                                <p className="no-bottom-padding side-padding"><b>Mara Frazier</b></p>
+                                <p className="no-bottom-padding side-padding"><b>Mara Frazier:</b></p>
                                 <p className="no-top-padding side-padding">I assume that audiences have viewed at least a sample of a choreographer’s work before they buy a ticket.</p>
                             </div>
                         </div>
@@ -406,7 +407,7 @@ const WhyItMatters = (props) => {
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/jonathan-meyer-essay'
+                                    to='/jonathan-meyer-writing'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
@@ -415,7 +416,7 @@ const WhyItMatters = (props) => {
                                 </Link>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
-                                <p className="no-bottom-padding side-padding"><b>Jonathan Meyer</b></p>
+                                <p className="no-bottom-padding side-padding"><b>Jonathan Meyer:</b></p>
                                 <p className="no-top-padding side-padding">…I would say that the work fails when it’s not live.</p>
                             </div>
                         </div>
@@ -423,7 +424,7 @@ const WhyItMatters = (props) => {
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/claudia-la-rocco-essay'
+                                    to='/claudia-la-rocco-writing'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
@@ -432,7 +433,7 @@ const WhyItMatters = (props) => {
                                 </Link>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
-                                <p className="no-bottom-padding side-padding"><b>Claudia La Rocco</b></p>
+                                <p className="no-bottom-padding side-padding"><b>Claudia La Rocco:</b></p>
                                 <p className="no-top-padding side-padding">I try to assume nothing about “audience".</p>
                             </div>
                         </div>
@@ -440,7 +441,7 @@ const WhyItMatters = (props) => {
                     <div className="w-forty flex column jc-center stnd-padding">
                         <div className="h-fifty sand cobalt-txt double-padding">
                             <div className="flex space-btwn">
-                                <h2 className="no-padding"><b>Ishmael Houston-Jones</b></h2>
+                                <h2 className="no-padding"><b>Ishmael Houston-Jones:</b></h2>
                                 <Link 
                                     className="small-bttn cobalt sand-txt"
                                     to='/columbus'
@@ -464,7 +465,7 @@ const WhyItMatters = (props) => {
                         <div className="flex column stnd-padding sand-border">
                             <div className="h-one-hundred flex column space-btwn">
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="transcription-details">What does a fieldwide funding strategy look like?</p>
+                                    <p className="transcription-details"><em>What does a fieldwide funding strategy look like?</em></p>
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -478,7 +479,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">
-                                    <p className="transcription-details">Digital archive...where the form has a relationship to embodied practices…</p>
+                                    <p className="transcription-details"><em>Digital archive...where the form has a relationship to embodied practices…</em></p>
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -492,7 +493,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin ">                    
-                                    <p className="transcription-details">...Anti-racist methods of dissemination, whether online or in digital space…</p>                                
+                                    <p className="transcription-details"><em>...Anti-racist methods of dissemination, whether online or in digital space…</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -506,7 +507,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="transcription-details">How might an archive be thought of as...dimensional?</p>                                
+                                    <p className="transcription-details"><em>How might an archive be thought of as...dimensional?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -520,7 +521,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="transcription-details">How can we incentivise archival behavior broadly?</p>                                
+                                    <p className="transcription-details"><em>How can we incentivise archival behavior broadly?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -534,7 +535,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="transcription-details">How can we prevent experimental and obscure performance practices from erasure…?</p>                                
+                                    <p className="transcription-details"><em>How can we prevent experimental and obscure performance practices from erasure…?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -548,7 +549,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="transcription-details">Is there a better way to name an archive?</p>                                
+                                    <p className="transcription-details"><em>Is there a better way to name an archive?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
@@ -562,7 +563,7 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn">                    
-                                    <p className="transcription-details">What is the relationship between archiving and stewardship?</p>                                
+                                    <p className="transcription-details"><em>What is the relationship between archiving and stewardship?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
