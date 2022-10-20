@@ -1,6 +1,29 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
+import { useEffect, useState } from "react";
 
 const Methods = (props) => {
+
+    const [scrollPosition, setScrollPosition] = useState(0)    
+    const [loading, setLoading] = useState(false)
+
+    const setPosition = () => {
+        const container = document.getElementById('methods-position')
+        const position = container.scrollLeft
+        window.localStorage.setItem('methods', position)
+        console.log('link', position)
+    }
+
+    useEffect(() => {
+        const position = JSON.parse(window.localStorage.getItem('methods'))
+        setScrollPosition(position)
+        console.log('useeffect', position)
+    }, [])
+
+    useEffect(() => {
+        console.log(scrollPosition)
+        const xPosition = document.getElementById('methods-position')
+        xPosition.scrollLeft = scrollPosition
+    }, [scrollPosition])
 
     return (
     <>
@@ -66,7 +89,7 @@ const Methods = (props) => {
             `
             }
         </style>
-        <div className="container preserved-lemon">
+        <div className="container preserved-lemon" id="methods-position">
             <div className="m-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
@@ -85,6 +108,7 @@ const Methods = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
                                     to='/diana-muhammad-writing'
                                     state={{ 
@@ -102,6 +126,7 @@ const Methods = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
                                     to='/tonya-lockyer-writing'
                                     state={{ 
@@ -119,6 +144,7 @@ const Methods = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
                                     to='/jane-jerardi-writing'
                                     state={{ 
@@ -142,6 +168,7 @@ const Methods = (props) => {
                                 <p className="no-bottom-padding "><b>Cori Olinghouse:</b></p>
                                 <p className="no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn jc-center sand black-txt"
                                     to='/cori-olinghouse-writing'
                                     state={{ 
@@ -159,6 +186,7 @@ const Methods = (props) => {
                         <div className="flex column al-flex-end">
                             <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
                                     to='/jsun-howard-writing'
                                     state={{ 
@@ -177,6 +205,7 @@ const Methods = (props) => {
                             <p className="no-bottom-padding"><b>Angie Hauser</b></p> 
                             <p className="no-top-padding"><em>…whatever direction I might go in, [in order to] participate in a conversation around archiving, and to build process around archives, it would be to align [archiving] with how dance is actually made</em></p>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn jc-center sand black-txt"
                                 to='/meeting-three-small-group-two'
                                 state={{ 
@@ -195,6 +224,7 @@ const Methods = (props) => {
                                 <div className="flex column">
                                     <div className="flex sand-gradient-50 w-one-hundred stnd-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn left-margin-10px black sand-txt sand-border"
                                             to='/lauren-slone-writing'
                                             state={{ 
@@ -212,6 +242,7 @@ const Methods = (props) => {
                                 <div className="flex column mobile-top-20px">
                                     <div className="flex sand-gradient-50 w-one-hundred stnd-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn left-margin-10px black sand-txt sand-border"
                                             to='/erin-kilmurray-writing'
                                             state={{ 
@@ -237,14 +268,15 @@ const Methods = (props) => {
                             </div>
                             <p className="no-top-padding">The process of my practice seems so fragile and elusive to the idea of archive. My choreography is (almost) never set in the tradition of Modern Dance or Ballet. Therefore, in those infrequent times when I have revived work that was created earlier with a different cast, the new cast is recreating the old work anew. In reality, this is true of the revival of any dance work but this seems much more unambiguous when that work is improvised. Which is “the piece?” What defines a choreography that has no set movement? What are the archival tools available to capture this work? The scattered notes I made in random notebooks hidden away in random drawers and boxes? VHS video tape? Digital transfers? Reviews, previews, and interviews in print or on blogs? Memory?</p>
                             <Link 
-                                    className="small-bttn jc-center sand black-txt"
-                                    to='/ishmael-houston-jones-writing'
-                                    state={{ 
-                                        background: "var(--preserved-lemon)",
-                                        textColor: "black",
-                                        slash: "/Images/Slash.svg" }} 
-                                    >Writing
-                                </Link>
+                                onClick={setPosition}
+                                className="small-bttn jc-center sand black-txt"
+                                to='/ishmael-houston-jones-writing'
+                                state={{ 
+                                    background: "var(--preserved-lemon)",
+                                    textColor: "black",
+                                    slash: "/Images/Slash.svg" }} 
+                                >Writing
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -255,6 +287,7 @@ const Methods = (props) => {
                                 <p className="no-bottom-padding"><b>Bebe Miller:</b></p>
                                 <p className="no-top-padding">As Michael Morris said, you’re always dancing with your ancestors, you’re never alone. ...Darrell is extraordinary because he embraces that, brings out something about the whole Vault project for me… —the sense of the form and what the form is for, which has a lot to do with how we then document it and receive it.</p>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn preserved-lemon black-txt sand-border"
                                     to='/meeting-one-transcript'
                                     state={{ 
@@ -272,6 +305,7 @@ const Methods = (props) => {
                             <div className="w-thirty flex column mobile-top-20px">
                                 <div className="flex sand-gradient-50 w-one-hundred">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn left-margin-10px black sand-txt sand-border"
                                         to='/ishmael-houston-jones-writing'
                                         state={{ 
@@ -289,6 +323,7 @@ const Methods = (props) => {
                             <div className="w-thirty flex column mobile-top-20px">
                                 <div className="flex sand-gradient-50 w-one-hundred">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn left-margin-10px black sand-txt sand-border"
                                         to='/darrell-jones-writing'
                                         state={{ 
@@ -310,6 +345,7 @@ const Methods = (props) => {
                                     <p className="no-bottom-padding"><b>Angie Hauser, Jacob's Pillow:</b></p>
                                     <p className="no-top-padding">The methodology of archiving [is] determined by the ephemera of the technology that’s available to you. Now, in a situation where we have so much information [... the] joy of finding archival contact sheets, etc. [and] seeing everything else that wasn’t selected, [can be lost.]</p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn sand black-txt sand-border"
                                         to='/meeting-three-notes'
                                         state={{ 
@@ -331,6 +367,7 @@ const Methods = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
                                     to='/bonnie-brooks-writing'
                                     state={{ 
@@ -348,6 +385,7 @@ const Methods = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
                                     to='/jonathan-meyer-writing'
                                     state={{ 
@@ -365,6 +403,7 @@ const Methods = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
                                     to='/dayna-hanson-writing'
                                     state={{ 
@@ -384,6 +423,7 @@ const Methods = (props) => {
                         <div className="sand-border flex mobile-column-reverse double-padding">
                             <div className="w-twenty-five flex jc-center">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn jc-center sand black-txt"
                                     to='/meeting-three-small-group-two'
                                     state={{ 
@@ -408,6 +448,7 @@ const Methods = (props) => {
                                 </div>
                                 <div className="flex sand-gradient-50-down w-one-hundred">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
                                         to='/angie-hauser-writing'
                                         state={{ 
@@ -428,6 +469,7 @@ const Methods = (props) => {
                                 <p className="transcription-details no-bottom-padding"><b>Mara Frazier:</b> I would like artists to feel more welcomed into archives…</p>
                                 <div className="mobile-flex mobile-flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn black-border black sand-txt"
                                         to='/mara-frazier-writing'
                                         state={{ 
@@ -442,6 +484,7 @@ const Methods = (props) => {
                                 <p className="w-seventy-five transcription-details no-top-padding mobile-top-20px"><b>Ann Carlson:</b> I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
                                 <div className="mobile-flex mobile-flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn black-border black sand-txt"
                                         to='/ann-carlson-writing'
                                         state={{ 
@@ -457,6 +500,7 @@ const Methods = (props) => {
                             <p className="transcription-details no-bottom-padding"><b>Russell Lepley:</b></p> 
                             <p className="transcription-details no-top-padding">I am an early career dance-maker and have documentation of my complete works publicly available on streaming platforms YouTube and Vimeo… Attention to how my work is documented affects how institutions perceive my product which influences my future work directly… My work becomes more thoughtfully layered and more concise without those pressures.</p>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn black-border black-txt"
                                 to='/russell-lepley-writing'
                                 state={{ 
@@ -475,6 +519,7 @@ const Methods = (props) => {
                                     <p className="transcription-details no-padding"><em>It's a challenge with any new technology to know whether to invent. I think in dance in the academic centers like Ohio State we're [...] often late adopters of technology because there's just not enough money for us to make big mistakes.</em></p>
                                     <div className="flex flex-end only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn black sand-txt"
                                             to='/meeting-three-small-group-three'
                                             state={{ 
@@ -489,6 +534,7 @@ const Methods = (props) => {
                                     <p className="transcription-details no-bottom-padding"><em>I'm assuming that a lot of the structures that help decide who gets archived reinforce a lot of institutional privilege, right? And and so. One way of countering that—besides actively countering it within institutions, which is would be a good idea—would be to think about what structures, monied institutions, can offer to people to do this for themselves, to some degree, or do this for each other, like communities of archiving.</em></p>
                                     <div className="flex flex-end only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn black sand-txt"
                                             to='/meeting-three-small-group-three'
                                             state={{ 
@@ -503,6 +549,7 @@ const Methods = (props) => {
                                     <p className="transcription-details no-bottom-padding"><em>A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</em></p>                                
                                     <div className="flex flex-end only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn black sand-txt"
                                             to='/meeting-three-small-group-three'
                                             state={{ 

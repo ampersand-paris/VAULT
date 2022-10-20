@@ -195,7 +195,7 @@ const Index = (props) => {
                     <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-index-open"/>
                 </div>
                 <div className="condensed-menu-width flex mobile-column jc-center al-center menu-left-border mint-green">
-                    <div onClick={props.active} class="flex mobile-column cursor">
+                    <div onClick={props.active} className="flex mobile-column cursor">
                         <h3>I</h3><h3>N</h3><h3>D</h3><h3>E</h3><h3>X</h3>  
                     </div>      
                 </div>
