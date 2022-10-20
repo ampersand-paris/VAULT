@@ -23,7 +23,7 @@ const DanyaHansonEssay = (props) => {
                     </div>
                     <img className="essay-slash" src={ slash }  />
                     <div className="flex column flex-end">
-                        <h2 className="subtitle essay-author">Danya Hanson</h2>
+                        <a href="/dayna-hanson-bio" class="cursor no-underline" style={{ color: textColor}}><h2 className="subtitle essay-author">Danya Hanson</h2></a>
                     </div>
                 </div>
             </div>
