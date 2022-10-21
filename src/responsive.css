@@ -210,7 +210,10 @@
     
     .m-container-length {
       width: 100vW;
-    
+    }
+
+    .w-container-length {
+      width: 100vW;
     }
     
     .why-it-matters-panel-1  {

@@ -42,26 +42,26 @@ const Methods = (props) => {
                 }
 
                 /* width */
-                ::-webkit-scrollbar {
+                .container::-webkit-scrollbar {
                 width: 25px !important;
 
                 }
 
                 /* Track */
-                ::-webkit-scrollbar-track {
+                .container::-webkit-scrollbar-track {
                 border-radius: 10px;
                 background-color: var(--sand);
                 }
                 
                 /* Handle */
-                ::-webkit-scrollbar-thumb {
+                .container::-webkit-scrollbar-thumb {
                 background: var(--preserved-lemon); 
                 border-radius: 10px;
                 border: 2px solid var(--sand);
                 }
 
                 /* Handle on hover */
-                ::-webkit-scrollbar-thumb:hover {
+                .container::-webkit-scrollbar-thumb:hover {
                 background: black; 
             `
             }
@@ -155,7 +155,7 @@ const Methods = (props) => {
                     </div>
                 </div>
                 <div className="panel-1800 flex mobile-column mobile-side-padding top-mobile-sand-border">
-                    <div className="w-twenty-five flex column space-btwn stnd-padding">
+                    <div className="w-twenty-five flex column space-around stnd-padding">
                         <div className="flex column al-flex-end">
                             <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
                                 <Link 
@@ -173,7 +173,7 @@ const Methods = (props) => {
                                 <p className="no-top-padding side-padding">Virtual Reality/Augmented Reality is becoming a new trend in dance…</p>
                             </div>
                         </div>
-                        <div className="flex column al-flex-end mobile-top-20px txt-al-right">
+                        <div className="h-sixty flex column al-flex-end flex-end mobile-top-20px txt-al-right">
                             <p className="no-bottom-padding"><b>Angie Hauser</b></p> 
                             <p className="no-top-padding"><em>…whatever direction I might go in, [in order to] participate in a conversation around archiving, and to build process around archives, it would be to align [archiving] with how dance is actually made</em></p>
                             <Link 
@@ -186,7 +186,9 @@ const Methods = (props) => {
                                 }}
                                 >VIDEO
                             </Link>
-                            <img src="/Images/Pictures/Reggie.svg" className="only-top-padding" />
+                            <div>
+                                <iframe width="100%" height="100%" className="w-one-hundred txt-al-right only-top-padding" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0" frameborder="0"></iframe>
+                            </div>
                         </div>
                     </div>
                     <div className="w-seventy-five flex column stnd-padding">
@@ -381,7 +383,7 @@ const Methods = (props) => {
                         </div>
                     </div>
                     <div className="w-sixty flex column stnd-padding">
-                        <div className="sand-border flex mobile-column-reverse double-padding">
+                        <div className="h-sixty sand-border flex mobile-column-reverse double-padding">
                             <div className="w-twenty-five flex jc-center">
                                 <Link 
                                     className="small-bttn jc-center sand black-txt"
@@ -394,7 +396,7 @@ const Methods = (props) => {
                                 </Link>
                             </div>
                             <div className="flex column w-seventy-five">
-                                <img src="/Images/Pictures/Reggie.svg" className="" />
+                                <iframe width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=4m43s" frameborder="0"></iframe>
                                 <p className="side-padding no-bottom-padding "><b>Dana Whitco, Jacob's Pillow:</b></p>
                                 <p className="side-padding no-top-padding "><em>…I was trying to figure out how to create a fundraising opportunity around process...lots of people are doing this.</em></p>
                             </div>
@@ -516,7 +518,7 @@ const Methods = (props) => {
                             </div>
                         </div>
                         <div className="flex column space-btwn sand-gradient-50">
-                            <img src="/Images/Pictures/Reggie.svg" className="h-fifty" />
+                           <iframe width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=21m14s" frameborder="0"></iframe>
                             <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
                     </div>

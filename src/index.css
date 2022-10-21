@@ -876,9 +876,13 @@ li {
   width: 10vW;
 }
 
-iframe {
+.iframe {
   width: 53vW;
   height: 30vW;
+}
+
+.h-fifty-six {
+  height: 56%;
 }
 
 /* ====== RESOURCES MENTIONED ====== */

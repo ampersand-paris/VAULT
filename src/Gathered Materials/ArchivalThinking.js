@@ -43,25 +43,25 @@ const ArchivalThinking = (props) => {
                 }
 
                 /* width */
-                ::-webkit-scrollbar {
+                .container::-webkit-scrollbar {
                 width: 25px !important;
                 }
 
                 /* Track */
-                ::-webkit-scrollbar-track {
+                .container::-webkit-scrollbar-track {
                 border-radius: 10px;
                 background-color: var(--sand);
                 }
                 
                 /* Handle */
-                ::-webkit-scrollbar-thumb {
+                .container::-webkit-scrollbar-thumb {
                 background: var(--pumpkin); 
                 border-radius: 10px;
                 border: 2px solid var(--sand);
                 }
 
                 /* Handle on hover */
-                ::-webkit-scrollbar-thumb:hover {
+                .container::-webkit-scrollbar-thumb:hover {
                 background: black; 
 }
             `
@@ -169,7 +169,7 @@ const ArchivalThinking = (props) => {
                     </div>
                     <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
                         <div className="w-forty w-forty-seven-split">
-                            <img className="" src="/Images/Pictures/Reggie.svg" />
+                            <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738666979?h=de936851e2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=3m40s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-bottom-padding"><b>Reggie Wilson, Seattle:</b></p>
                                 <p className="transcription-details no-top-padding"><em>Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</em></p>
@@ -188,7 +188,7 @@ const ArchivalThinking = (props) => {
                             </div>
                         </div>
                         <div className="w-forty w-forty-seven-split">
-                            <img className="" src="/Images/Pictures/DanaWhitco.svg" />
+                            <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=20m33s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-bottom-padding"><b>Dana Whitco:</b></p>
                                 <p className="transcription-details no-top-padding"><em>That choreography could be thought of not as the creation of steps that have its own sort of logic, but that it is a wayfinding technique In the world.</em></p>
@@ -228,13 +228,15 @@ const ArchivalThinking = (props) => {
                                                 state={{ 
                                                     background: "var(--pumpkin)",
                                                     textColor: "var(--sand)",
-                                                    slash: "/Images/CreamSlash.svg"                                                    }}
+                                                    slash: "/Images/CreamSlash.svg"                                                    
+                                                }}
                                                 >Writing
                                             </Link>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex column space-btwn stnd-padding">
+                                <div className="w-forty stnd-padding">
+                                    <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=16m45s" frameborder="0"></iframe>
                                     <div className="sand pumpkin-txt stnd-padding border-radius">
                                         <p className="transcription-details no-padding"><b>Ginger Farley</b></p>
                                         <p className="transcription-details no-top-padding"><em>Is there a way to enlist [funders] in learning from this process…</em></p>
@@ -251,13 +253,12 @@ const ArchivalThinking = (props) => {
                                             </Link>
                                         </div>
                                     </div>
-                                    <img className="only-top-padding" src="/Images/Pictures/Reggie.svg" />
                                 </div>                    
                             </div>
                         </div>
-                        <div className="w-twenty-five flex column space-btwn al-center stnd-padding">
-                            <img className="only-top-padding" src="/Images/Pictures/Reggie.svg" />
-                            <div className="sand pumpkin-txt border-radius stnd-padding ">
+                        <div className="w-twenty-five stnd-padding">
+                            <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=16m45s" frameborder="0"></iframe>
+                            <div className="sand pumpkin-txt border-radius stnd-padding">
                                 <p className="no-padding transcription-details"><b>Jaamil Olawale Kosoko</b></p> 
                                 <p className="no-top-padding transcription-details"><em>...as the archivist, as the curator, as the maker, I'm just showing you my ways in which I'm maneuvering through certain materials.</em></p>
                                 <div className="flex flex-end">
@@ -280,7 +281,7 @@ const ArchivalThinking = (props) => {
                             <div className="flex h-one-hundred mobile-column">
                                 <div className="bebe-seattle w-forty-seven mobile-w-forty-seven-border-adjust stnd-padding">
                                     <div className="flex flex-end mobile-h-250px">
-                                        
+                    
                                     </div>
                                 </div>
                                 <div className="w-forty-seven stnd-padding sand-txt sand-border">
@@ -292,32 +293,36 @@ const ArchivalThinking = (props) => {
                                         state={{ 
                                             background: "var(--pumpkin)",
                                             textColor: "var(--sand)",
-                                            slash: "/Images/CreamSlash.svg"                                                    }}
+                                            slash: "/Images/CreamSlash.svg"                                                    
+                                        }}
                                         >Meeting Notes
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-forty flex column flex-end al-center double-padding w-one-hundred">
+                        <div className="w-forty flex column space-btwn al-center double-padding w-one-hundred">
                             <div className="flex flex-end mobile-jc-center w-one-hundred stnd-padding">
                                 <img className="w-forty" src="/Images/Pictures/Jaamil.svg" />
                             </div>
-                            <div className="flex jc-center sand-gradient-50 w-one-hundred">
-                                <Link 
-                                    className="small-bttn pumpkin sand-txt sand-border"
-                                    to='/danya-hanson-writing'
-                                    state={{ 
-                                        background: "var(--pumpkin)",
-                                        textColor: "var(--sand)",
-                                        slash: "/Images/CreamSlash.svg"                                                    }}
-                                    >Writing
-                                </Link>
+                            <div className="flex column">
+                                <div className="flex jc-center sand-gradient-50 w-one-hundred">
+                                    <Link 
+                                        className="small-bttn pumpkin sand-txt sand-border"
+                                        to='/danya-hanson-writing'
+                                        state={{ 
+                                            background: "var(--pumpkin)",
+                                            textColor: "var(--sand)",
+                                            slash: "/Images/CreamSlash.svg"                                                    
+                                        }}
+                                        >Writing
+                                    </Link>
+                                </div>
+                                <div className="sand pumpkin-txt w-one-hundred">
+                                    <p className="no-bottom-padding side-padding"><b>Dayna Hanson:</b></p>
+                                    <p className="no-top-padding side-padding">…documentation has become more of an aesthetic pursuit…</p>
+                                </div>
+                                <h3 className="vault-padding sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                             </div>
-                            <div className="sand pumpkin-txt w-one-hundred">
-                                <p className="no-bottom-padding side-padding"><b>Dayna Hanson:</b></p>
-                                <p className="no-top-padding side-padding">…documentation has become more of an aesthetic pursuit…</p>
-                            </div>
-                            <h3 className="vault-padding sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                         </div>
                     </div>
                 </div>
@@ -334,14 +339,15 @@ const ArchivalThinking = (props) => {
                                             state={{ 
                                                 background: "var(--pumpkin)",
                                                 textColor: "var(--sand)",
-                                                slash: "/Images/CreamSlash.svg"                                                    }}
+                                                slash: "/Images/CreamSlash.svg"                                                    
+                                            }}
                                             >Meeting notes
                                         </Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="w-forty-seven w-forty-seven-split">
-                                <img className="" src="/Images/Pictures/Reggie.svg" />
+                                <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=16m45s&showinfo=0&controls=0" frameborder="0"></iframe>
                                 <div className="stnd-padding border-radius sand pumpkin-txt">
                                     <p className="transcription-details no-bottom-padding"><b>Bebe Miller:</b></p>
                                     <p className="transcription-details no-top-padding"><em>…there's something about the immediacy of [social media's] dispersal of information...</em></p>
@@ -405,7 +411,7 @@ const ArchivalThinking = (props) => {
                     </div>
                     <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
                         <div className="w-forty w-forty-seven-split">
-                            <img className="" src="/Images/Pictures/Reggie.svg" />
+                            <iframe  width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=19m40s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Jaamil Olawale Kosoko, Jacob's Pillow:</b></p>
                                 <p className="transcription-details no-top-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
@@ -424,7 +430,7 @@ const ArchivalThinking = (props) => {
                             </div>
                         </div>
                         <div className="w-forty w-forty-seven-split">
-                            <img className="" src="/Images/Pictures/DanaWhitco.svg" />
+                            <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=0m33s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Nena Couch, Jacob's Pillow:</b></p>
                                 <p className="transcription-details no-top-padding">There are different ways that we choose what to keep.</p>

@@ -44,31 +44,31 @@ const Context = (props) => {
                 }
 
                 /* width */
-                ::-webkit-scrollbar {
+                .container::-webkit-scrollbar {
                 width: 25px !important;
 
                 }
 
                 /* Track */
-                ::-webkit-scrollbar-track {
+                .container::-webkit-scrollbar-track {
                 border-radius: 10px;
                 background-color: var(--sand);
                 }
                 
                 /* Handle */
-                ::-webkit-scrollbar-thumb {
+                .container::-webkit-scrollbar-thumb {
                 background: var(--evergreen); 
                 border-radius: 10px;
                 border: 2px solid var(--sand);
                 }
 
                 /* Handle on hover */
-                ::-webkit-scrollbar-thumb:hover {
+                .container::-webkit-scrollbar-thumb:hover {
                 background: black; 
             `
             }
         </style>
-        <div className="container evergreen">
+        <section className="container evergreen">
             <div className="c-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
                     <div className="intro-width flex space-btwn column vault-padding">
@@ -117,10 +117,8 @@ const Context = (props) => {
                     </div>
                 </div>
                 <div className="panel-1400 flex mobile-column mobile-side-padding">
-                    <div className="w-sixty flex column stnd-padding">
-                        <div>
-                            <img src="/Images/Pictures/Reggie.svg"/>
-                        </div>
+                    <div className="w-sixty flex column space-around stnd-padding">
+                        <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=15m12s" frameborder="0"></iframe>
                         <div className="flex mobile-column">
                             <div className="w-fifty flex column sand-txt">
                                 <p className="no-bottom-padding"><b>Pat Graney, Seattle:</b></p> 
@@ -210,8 +208,8 @@ const Context = (props) => {
                                         >Video
                                     </Link>
                                 </div>
-                                <div className="w-forty flex">
-                                    <img className="w-one-hundred mobile-top-20px" src="/Images/Pictures/Reggie.svg"/>
+                                <div className="w-forty">
+                                    <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s" frameborder="0"></iframe>
                                 </div>
                             </div>
                             <div className="flex mobile-column jc-center stnd-padding">
@@ -230,7 +228,7 @@ const Context = (props) => {
                                     </Link>
                                 </div>
                                 <div className="w-forty flex">
-                                    <img className="w-one-hundred mobile-top-20px" src="/Images/Pictures/Reggie.svg"/>
+                                    <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s" frameborder="0"></iframe>
                                 </div>
                             </div>
                             <div className="flex mobile-column jc-center stnd-padding">
@@ -249,7 +247,7 @@ const Context = (props) => {
                                     </Link>
                                 </div>
                                 <div className="w-forty flex">
-                                    <img className="w-one-hundred mobile-top-20px" src="/Images/Pictures/Reggie.svg"/>
+                                    <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=5m0s" frameborder="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -348,8 +346,8 @@ const Context = (props) => {
                                 
                             </div>
                         </div>
-                        <div className="h-sixty w-one-hundred flex space-around stnd-padding">
-                            <div className="flex column stnd-padding sand-border sand-txt">
+                        <div className="h-sixty flex space-around stnd-padding">
+                            <div className="w-fifty flex column stnd-padding sand-border sand-txt">
                                 <h2 className="no-padding"><b>Jacob’s Pillow</b> &#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h2>
                                 <div className="h-one-hundred flex column space-btwn">
                                     <div className="flex column space-btwn">
@@ -438,15 +436,15 @@ const Context = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="display-none flex column-reverse flex-start">
-                                <img src="/Images/Pictures/Reggie.svg" className="h-fifty" />
+                            <div className="display-none w-fifty flex column al-flex-end">
+                                <iframe  width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0" frameborder="0"></iframe>
                                 <p className="txt-al-right sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                             </div>
                         </div>           
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </>
   );
 }

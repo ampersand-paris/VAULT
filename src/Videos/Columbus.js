@@ -24,7 +24,7 @@ const Columbus = (props) => {
                     <h2  style={{ color: textColor }} className="transcription txt-al-center">VIDEO</h2>
                 </div>
                 <div style={{ backgroundColor: videoColor }} className="video">
-                    <iframe title="vimeo-player" src={ startTime } frameborder="0" allowfullscreen></iframe>
+                    <iframe className="iframe" title="vimeo-player" src={ startTime } frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div className="flex column al-center mobile-width">

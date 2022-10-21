@@ -42,26 +42,26 @@ const WhyItMatters = (props) => {
                 }
 
                 /* width */
-                ::-webkit-scrollbar {
+                .container::-webkit-scrollbar {
                 width: 25px !important;
 
                 }
 
                 /* Track */
-                ::-webkit-scrollbar-track {
+                .container::-webkit-scrollbar-track {
                 border-radius: 10px;
                 background-color: var(--sand);
                 }
                 
                 /* Handle */
-                ::-webkit-scrollbar-thumb {
+                .container::-webkit-scrollbar-thumb {
                 background: var(--cobalt); 
                 border-radius: 10px;
                 border: 2px solid var(--sand);
                 }
 
                 /* Handle on hover */
-                ::-webkit-scrollbar-thumb:hover {
+                .container::-webkit-scrollbar-thumb:hover {
                 background: black; 
             `
             }
@@ -83,7 +83,7 @@ const WhyItMatters = (props) => {
                 <div className="panel-1800 flex mobile-column mobile-jc-center space-around stnd-padding mobile-side-padding">
                     <div className="w-forty flex column flex-end">
                         <div className="flex mobile-column stnd-padding sand-txt">
-                            <img src="/Images/Pictures/Reggie.svg" className="w-fifty" />
+                        <iframe width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=3m10s" frameborder="0"></iframe>
                             <div className="stnd-padding">
                                 <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow, :</b></p>
                                 <p className="no-top-padding"><em>Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</em></p>
@@ -117,7 +117,7 @@ const WhyItMatters = (props) => {
                     <div className="relative w-sixty flex column flex-end sand-txt">
                         <div className="h-fifty flex mobile-column mobile-top-20px">
                             <div className="w-twenty-five"> 
-                                <img src="/Images/Pictures/Reggie.svg" />
+                              <iframe width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=4m15s" frameborder="0"></iframe>
                             </div>
                             <div className="w-forty stnd-padding">
                                 <p className="no-padding"><b>Dana Whitco, Jacob’s Pillow:</b></p> 
@@ -172,7 +172,7 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
                             </div>
                         </div>
-                        <img src="/Images/Pictures/Reggie.svg" className="w-eighty" />
+                        <iframe width="80%" height="35%" className="" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=8m53s" frameborder="0"></iframe>
                         <div className="stnd-padding sand-txt">
                             <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p> 
                             <p className="no-padding"><em>What's the criticality behind what my offering is? With that comes a kind of cultural diplomacy, or ambassadorship.</em></p>
