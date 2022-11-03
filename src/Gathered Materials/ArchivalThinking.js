@@ -4,6 +4,30 @@ import audio from "../Audio/ArchivalThinking.mp3"
 
 const ArchivalThinking = (props) => {
         
+    const [scrollPosition, setScrollPosition] = useState(0)    
+    const [loading, setLoading] = useState(false)
+
+    const setPosition = () => {
+        const container = document.getElementById('arc-think')
+        const position = container.scrollLeft
+        window.sessionStorage.setItem('position', position)
+        console.log('link', position)
+    }
+
+    useEffect(() => {
+        const position = JSON.parse(window.sessionStorage.getItem('position'))
+        setScrollPosition(position)
+        console.log('useeffect', position)
+      
+     
+    }, [])
+
+    useEffect(() => {
+        const xPosition = document.getElementById('arc-think')
+        xPosition.scrollLeft = scrollPosition
+    }, [scrollPosition])
+
+
     return (
     <>
         <style>

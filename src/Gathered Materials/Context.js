@@ -11,12 +11,12 @@ const Context = (props) => {
     const setPosition = () => {
         const container = document.getElementById('context-postion')
         const position = container.scrollLeft
-        window.localStorage.setItem('context', position)
+        window.sessionStorage.setItem('context', position)
         console.log('link', position)
     }
 
     useEffect(() => {
-        const position = JSON.parse(window.localStorage.getItem('context'))
+        const position = JSON.parse(window.sessionStorage.getItem('context'))
         setScrollPosition(position)
         console.log('useeffect', position)
       

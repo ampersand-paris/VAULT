@@ -9,12 +9,12 @@ const WhyItMatters = (props) => {
     const setPosition = () => {
         const container = document.getElementById('why-position')
         const position = container.scrollLeft
-        window.localStorage.setItem('why', position)
+        window.sessionStorage.setItem('why', position)
         console.log('link', position)
     }
 
     useEffect(() => {
-        const position = JSON.parse(window.localStorage.getItem('why'))
+        const position = JSON.parse(window.sessionStorage.getItem('why'))
         setScrollPosition(position)
         console.log('useeffect', position)
     }, [])
