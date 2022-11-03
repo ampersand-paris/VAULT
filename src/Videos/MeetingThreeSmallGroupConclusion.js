@@ -24,7 +24,7 @@ const MeetingThreeSmallGroupConclusion = (props) => {
                     <h2 style={{ color : textColor }} className="transcription txt-al-center">VIDEO</h2>
                 </div>
                 <div style={{ backgroundColor: videoColor }} className="video">
-                    <iframe src={ startTime } title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                    <iframe className="iframe" src={ startTime } title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 </div>
             </div>
             <div className="flex column al-center mobile-width">
