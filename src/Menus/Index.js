@@ -70,7 +70,8 @@ const Index = (props) => {
                     </ul>
                     <p className="index-sub-title">Seattle Video:</p>
                     <ul className="index-list">
-                        <Link to="/seattle"><li>Seattle Meeting</li></Link>
+                        <Link to="/seattle"><li>Seattle Meeting Part 1</li></Link>
+                        <Link to="/seattle-part-two"><li>Seattle Meeting Part 2</li></Link>
                     </ul>
                     <h3 className="index-location">Meeting #3</h3>
                     <h4 className="index-location-first">Jacob's Pillow</h4>
@@ -178,10 +179,15 @@ const Index = (props) => {
                     <p className="index-sub-title">Columbus Meeting Notes:</p>
                     <ul className="index-list">
                         <Link to="/meeting-five-notes"><li>Meeting #5</li></Link>
+                        <Link to="/imogen-smith-presentation-notes"><li>Imogen Smith Presentation Notes</li></Link>
+                        <Link to="/gesel-mason-presentation-notes"><li>Bebe Miller Presentation Notes</li></Link>
+                        <Link to="/gesel-mason-presentation-notes"><li>Gesel Mason Presentation Notes</li></Link>
+                        <Link to="/gesel-mason-presentation-notes"><li>Cori Olinghouse Presentation Notes</li></Link>
                     </ul>
                     <p className="index-sub-title">Columbus Videos:</p>
                     <ul className="index-list">
                         <Link to="/columbus"><li>Columbus Meeting</li></Link>
+                        <Link to="/imogen-smith-presentation"><li>Imogen Smith Presentation</li></Link>
                     </ul>
                 </div>  
                 <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-index-close"/>

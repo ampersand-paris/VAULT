@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import ReactAudioPlayer from "react-audio-player";
 import audio from "../Audio/ArchivalThinking.mp3"
+import { useEffect, useState } from 'react'
 
 const ArchivalThinking = (props) => {
         
@@ -87,11 +88,11 @@ const ArchivalThinking = (props) => {
                 /* Handle on hover */
                 .container::-webkit-scrollbar-thumb:hover {
                 background: black; 
-}
+            }
             `
             }
         </style>
-        <div className="container pumpkin">
+        <div className="container pumpkin" id="arc-think">
             <div className="ar-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
@@ -112,10 +113,14 @@ const ArchivalThinking = (props) => {
                     <img src="/Images/OrangeSlash.svg" className="ar-slash display-none"/>
                     <div className="h-one-hundred flex column">
                         <div className="flex column al-center jc-center top-100px">
-                            <h2 className="pumpkin-txt no-bottom-padding"><em>How are we viewing the archive?</em></h2>
+                            <div className="flex column al-center sand-border stnd-padding">
+                                <h3 className="pumpkin-txt no-bottom-padding">Dana Whitco, Angie Hauser, and Jaamil Olawale Kosoko, Jacob's Pillow:</h3>
+                                <h2 className="pumpkin-txt no-bottom-padding"><em>How are we viewing the archive?</em></h2>
+                            </div>
                             <div className="flex">
                                 <div className="button-div-height flex jc-center al-center">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn pumpkin sand-txt"
                                     to='/meeting-three-small-group-two'
                                     state={{ 
@@ -151,6 +156,7 @@ const ArchivalThinking = (props) => {
                         <p className="no-bottom-padding"><b>Dayna Hanson, Seattle:</b></p>
                         <p className="no-top-padding"><em>[We] think about media as being inherently archival, and inherently lasting; and we work in live forms that are inherently ephemeral. So [...] there's something rich and unexpected to me about these digital forms like Snapchat or like Instagram Live that expire so quickly [...] That's somehow good, maybe. Maybe it's placing a [value] judgment.</em></p>
                         <Link 
+                            onClick={setPosition}
                             className="small-bttn pumpkin sand-txt"
                             to='/seattle'
                             state={{ 
@@ -165,6 +171,7 @@ const ArchivalThinking = (props) => {
                         <p className="no-bottom-padding"><b>Bebe Miller, NYC:</b></p> 
                         <p className="no-top-padding sand-border-right no-mobile-border">There’s now a very different horizontal platform in the idea of archiving... The immediacy of the archive now—broadcast it, be done with it, let it be absorbed into the artistic mindset of the culture—even at the beginning of conceiving of the idea/event/artwork. In that difference between the vertical and horizontal, on a fascial/body level, is there a difference in the work we make, do we need to support both axes or yet a new direction?</p>
                         <Link 
+                            onClick={setPosition}
                             className="small-bttn sand pumpkin-txt"
                             to='/meeting-one-transcript'
                             state={{ 
@@ -181,6 +188,7 @@ const ArchivalThinking = (props) => {
                             <p className="no-bottom-padding"><b>Ann Carlson, NYC:</b></p> 
                             <p className="no-top-padding">The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying ‘the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn sand pumpkin-txt"
                                 to='/meeting-one-transcript'
                                 state={{ 
@@ -199,6 +207,7 @@ const ArchivalThinking = (props) => {
                                 <p className="transcription-details no-top-padding"><em>Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</em></p>
                                 <div className="flex flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
                                         to='/meeting-three-small-group-conclusion'
                                         state={{ 
@@ -212,18 +221,19 @@ const ArchivalThinking = (props) => {
                             </div>
                         </div>
                         <div className="w-forty w-forty-seven-split">
-                            <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=20m33s" frameborder="0"></iframe>
+                            <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=20m33s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
-                                <p className="transcription-details no-bottom-padding"><b>Dana Whitco:</b></p>
+                                <p className="transcription-details no-bottom-padding"><b>Dana Whitco, Jacob's Pillow:</b></p>
                                 <p className="transcription-details no-top-padding"><em>That choreography could be thought of not as the creation of steps that have its own sort of logic, but that it is a wayfinding technique In the world.</em></p>
                                 <div className="flex flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/seattle'
+                                        to='/meeting-three-small-group-two'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
-                                            startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=20m33s"
+                                            startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=20m33s"
                                             }}
                                         >Video
                                     </Link>
@@ -247,6 +257,7 @@ const ArchivalThinking = (props) => {
                                         </div>
                                         <div className="flex jc-center sand-gradient-50-down w-one-hundred">
                                             <Link 
+                                                onClick={setPosition}
                                                 className="small-bttn pumpkin sand-txt sand-border"
                                                 to='/claudia-la-rocco-writing'
                                                 state={{ 
@@ -266,6 +277,7 @@ const ArchivalThinking = (props) => {
                                         <p className="transcription-details no-top-padding"><em>Is there a way to enlist [funders] in learning from this process…</em></p>
                                         <div className="flex flex-end">
                                             <Link 
+                                                onClick={setPosition}
                                                 className="small-bttn pumpkin sand-txt"
                                                 to='/chicago'
                                                 state={{ 
@@ -287,6 +299,7 @@ const ArchivalThinking = (props) => {
                                 <p className="no-top-padding transcription-details"><em>...as the archivist, as the curator, as the maker, I'm just showing you my ways in which I'm maneuvering through certain materials.</em></p>
                                 <div className="flex flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
                                         to='/meeting-three-small-group-two'
                                         state={{ 
@@ -312,6 +325,7 @@ const ArchivalThinking = (props) => {
                                     <p className="no-bottom-padding"><b>Bebe Miller, Seattle:</b></p> 
                                     <p className="no-top-padding">Did we grow into this archiving of process? 30 years ago we only documented performance even though all that process was there. We have learned to love it and want to share that. When we stop wanting to do that, share that ephemeral aspect of what we love about process? What else is there? Our attention to process is a kind of thing.</p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn sand pumpkin-txt"
                                         to='/meeting-two-notes'
                                         state={{ 
@@ -331,6 +345,7 @@ const ArchivalThinking = (props) => {
                             <div className="flex column">
                                 <div className="flex jc-center sand-gradient-50 w-one-hundred">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt sand-border"
                                         to='/danya-hanson-writing'
                                         state={{ 
@@ -358,6 +373,7 @@ const ArchivalThinking = (props) => {
                                     <p className="no-top-padding">Would other/newer ways to archive, change the way work was made?</p>
                                     <div className="flex">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand pumpkin-txt"
                                             to='/meeting-two-notes'
                                             state={{ 
@@ -377,6 +393,7 @@ const ArchivalThinking = (props) => {
                                     <p className="transcription-details no-top-padding"><em>…there's something about the immediacy of [social media's] dispersal of information...</em></p>
                                     <div className="flex flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
                                         to='/seattle'
                                         state={{ 
@@ -394,6 +411,7 @@ const ArchivalThinking = (props) => {
                         <p className="no-bottom-padding"><b>Judy Hussie-Taylor, NYC: </b></p>
                         <p className="no-top-padding">Intersection between what are we doing, what are we saving, what are we collecting, what are we not doing—always at play in our work at least on the curatorial side. We’re making interventions, we’re making choices. What we all feel every day: whatever it is we value is under attack, in so many ways. A war on certain kinds of value systems. Maybe this is different than how/what we archive but these choices point to what we value.</p>
                         <Link 
+                            onClick={setPosition}
                             className="small-bttn pumpkin sand-txt"
                             to='/meeting-one-transcript'
                             state={{ 
@@ -410,6 +428,7 @@ const ArchivalThinking = (props) => {
                             <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p> 
                             <p className="no-top-padding">What’s the nature of what we’re archiving? What are the layers important to us? Then the curator and teacher of dance history in me zoomed out further: What are the politics of inclusion? Who and what might be missing? … Who do we want to be in conversation with, now and 100 years from now?</p>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn sand pumpkin-txt"
                                 to='/meeting-two-notes'
                                 state={{ 
@@ -423,6 +442,7 @@ const ArchivalThinking = (props) => {
                             <p className="no-bottom-padding"><b>Bonnie Brooks:</b></p> 
                             <p className="no-top-padding">…over time these platforms have become largely digital…</p>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn sand pumpkin-txt"
                                 to='/bonnie-brooks-writing'
                                 state={{ 
@@ -441,6 +461,7 @@ const ArchivalThinking = (props) => {
                                 <p className="transcription-details no-top-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
                                 <div className="flex flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
                                         to='/seattle'
                                         state={{ 
@@ -460,6 +481,7 @@ const ArchivalThinking = (props) => {
                                 <p className="transcription-details no-top-padding">There are different ways that we choose what to keep.</p>
                                 <div className="flex flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
                                         to='/seattle'
                                         state={{ 

@@ -46,6 +46,11 @@ import MeetingTwoNotes from "./Transcripts/MeetingTwoNotes";
 import MeetingThreeNotes from "./Transcripts/MeetingThreeNotes";
 import MeetingFourNotes from "./Transcripts/MeetingFourNotes";
 import MeetingFiveNotes from "./Transcripts/MeetingFiveNotes";
+import ImogenSmithPresentationNotes from "./Transcripts/ImogenSmithPresentationTranscript";
+import GeselMasonPresentation from "./Transcripts/GeselMasonPresentation";
+import CoriOlinghousePresentation from "./Transcripts/CoriOlinghousePresentation";
+import ImogenSmithPresentation from "./Videos/ImogenSmithPresentation";
+import BebeMillerPresentationNotes from "./Transcripts/BebeMillerPresentationTranscript copy";
 
 // === BIOGRAPHIES ===
 import MarjiColeBio from "./Biographies/MarjiCole";
@@ -98,12 +103,11 @@ import FailspaceBio from "./Biographies/Failspace";
 import ChicagoFunders from "./Videos/ChicagoFunders";
 import Columbus from "./Videos/Columbus";
 import Seattle from "./Videos/Seattle"
+import SeattlePart2 from "./Videos/SeattlePart2"
 import MeetingThreeSmallGroupTwo from "./Videos/MeethingThreeSmallGroupTwo";
 import MeetingThreeSmallGroupThree from "./Videos/MeetingThreeSmallGroupThree";
 import MeetingThreeSmallGroupConclusion from "./Videos/MeetingThreeSmallGroupConclusion";
 import ScrollToTop from "./ScrollToTop";
-import GeselMasonPresentation from "./Transcripts/GeselMasonPresentation";
-import CoriOlinghousePresentation from "./Transcripts/CoriOlinghousePresentation";
 
 function App() {
 
@@ -322,13 +326,18 @@ return (
                   <Route path="/meeting-five-notes" element={<MeetingFiveNotes />} />
                   <Route path="/gesel-mason-presentation" element={<GeselMasonPresentation />} />
                   <Route path="/cori-olinghouse-presentation" element={<CoriOlinghousePresentation />} />
+                  <Route path="/imogen-smith-presentation-notes" element={<ImogenSmithPresentationNotes />} />
+                  <Route path="/gesel-mason-presentation-notes" element={<GeselMasonPresentation />} />
+                  <Route path="/bebe-miller-presentation-notes" element={<BebeMillerPresentationNotes />} />
               {/* Videos */}
                   <Route path="/seattle" element={<Seattle />} />
+                  <Route path="/seattle-part-two" element={<SeattlePart2 />} />
                   <Route path="/meeting-three-small-group-two" element={<MeetingThreeSmallGroupTwo />} />
                   <Route path="/meeting-three-small-group-three" element={<MeetingThreeSmallGroupThree />} />
                   <Route path="/meeting-three-small-group-conclusion" element={<MeetingThreeSmallGroupConclusion />} />
                   <Route path="/chicago" element={<ChicagoFunders />} />
                   <Route path="columbus" element={<Columbus />} />
+                  <Route path="imogen-smith-presentation" element={<ImogenSmithPresentation />} />
               {/* MISC */}   
                   <Route path="/resources-mentioned" element={<ResourcesMentioned />} />
           </Routes>

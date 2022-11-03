@@ -31,8 +31,7 @@ const GeselMasonPresentation = (props) => {
             </div>
             <section className="flex column al-center">
                 <div className="essay-width">
-                    <h2>Sunday, January 19, 10am-1pm</h2>
-                    <p><b>Presentation: No Boundaries (Gesel Mason)</b></p>
+                    <p><b>Presentation 2: No Boundaries</b></p>
                     <ul>
                         <li className="bullets">Legacy, representation</li>
                         <li className="bullets">Where and how the black dancing body appears and disappears in digital space</li>

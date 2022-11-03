@@ -1,11 +1,11 @@
 // ====== COMPONENTS ======
 import { useLocation } from "react-router-dom";
 
-const Seattle = (props) => {
+const SeattlePart2 = (props) => {
 
     const location = useLocation()
     let background = 'var(--sand)';
-    let startTime = 'https://player.vimeo.com/video/738669816?h=3e11a58d51'
+    let startTime = 'https://player.vimeo.com/video/743215982?h=c2e961b63c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
     let textColor = 'black';
     let videoColor = 'var(--mint-green)';
 
@@ -44,4 +44,4 @@ const Seattle = (props) => {
   );
 }
 
-export default Seattle;
+export default SeattlePart2;

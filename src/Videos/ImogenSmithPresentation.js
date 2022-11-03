@@ -1,11 +1,11 @@
 // ====== COMPONENTS ======
 import { useLocation } from "react-router-dom";
 
-const Seattle = (props) => {
+const ImogenSmithPresentation = (props) => {
 
     const location = useLocation()
     let background = 'var(--sand)';
-    let startTime = 'https://player.vimeo.com/video/738669816?h=3e11a58d51'
+    let startTime = 'https://player.vimeo.com/video/762399223?h=a6c96c14f6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
     let textColor = 'black';
     let videoColor = 'var(--mint-green)';
 
@@ -31,11 +31,11 @@ const Seattle = (props) => {
             <div className="flex column al-center mobile-width">
                 <div  className="essay-width flex column space-btwn">
                     <div style={{ color: textColor }}>
-                        <p className="transcription"><b>Meeting #2, Part 1:</b></p>
-                        <p className="transcription-details">August 7, 2017
+                        <p className="transcription"><b>Meeting #5:</b></p>
+                        <p className="transcription-details">January 18-19, 2020
                         <br></br>
-                        On the Boards, Seattle, WA</p>
-                        <p className="transcription-details"><b>Participants:</b> Betsey Brock, Alice Gosti, Pat Graney, Dayna Hanson, Angie Hauser, Ishmael Houston-Jones (via Zoom), Lila Hurwitz (via Zoom), Raja Feather Kelly, Tonya Lockyer, Bebe Miller</p>                
+                        Ann Hamilton and Michael Mercil's Studio, Columbus, OH</p>
+                        <p className="transcription-details"><b>Presenter:</b> Imogen Smith</p>                
                     </div>
                 </div>
             </div>
@@ -44,4 +44,4 @@ const Seattle = (props) => {
   );
 }
 
-export default Seattle;
+export default ImogenSmithPresentation;

@@ -31,7 +31,7 @@ const CoriOlinghousePresentation = (props) => {
             </div>
             <section className="flex column al-center">
                 <div className="essay-width">
-                    <p><b>Presentation 3: Cori Olinghouse</b></p>
+                    <p><b>Presentation 3:</b></p>
                     <ul>
                         <li className="bullets">Interdisciplinary practitioner and artist</li>
                         <li className="bullets">The Portal: in development, currently without website</li>
