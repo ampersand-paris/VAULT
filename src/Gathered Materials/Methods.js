@@ -9,12 +9,12 @@ const Methods = (props) => {
     const setPosition = () => {
         const container = document.getElementById('methods-position')
         const position = container.scrollLeft
-        window.localStorage.setItem('methods', position)
+        window.sessionStorage.setItem('methods', position)
         console.log('link', position)
     }
 
     useEffect(() => {
-        const position = JSON.parse(window.localStorage.getItem('methods'))
+        const position = JSON.parse(window.sessionStorage.getItem('methods'))
         setScrollPosition(position)
         console.log('useeffect', position)
     }, [])

@@ -11,12 +11,12 @@ const ArchivalThinking = (props) => {
     const setPosition = () => {
         const container = document.getElementById('arc-think')
         const position = container.scrollLeft
-        window.localStorage.setItem('position', position)
+        window.sessionStorage.setItem('position', position)
         console.log('link', position)
     }
 
     useEffect(() => {
-        const position = JSON.parse(window.localStorage.getItem('position'))
+        const position = JSON.parse(window.sessionStorage.getItem('position'))
         setScrollPosition(position)
         console.log('useeffect', position)
       
