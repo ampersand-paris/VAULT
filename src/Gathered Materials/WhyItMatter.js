@@ -1,6 +1,28 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
+import { useEffect, useState } from "react";
 
 const WhyItMatters = (props) => {
+    
+    const [scrollPosition, setScrollPosition] = useState(0)    
+    const [loading, setLoading] = useState(false)
+
+    const setPosition = () => {
+        const container = document.getElementById('why-position')
+        const position = container.scrollLeft
+        window.localStorage.setItem('why', position)
+        console.log('link', position)
+    }
+
+    useEffect(() => {
+        const position = JSON.parse(window.localStorage.getItem('why'))
+        setScrollPosition(position)
+        console.log('useeffect', position)
+    }, [])
+
+    useEffect(() => {
+        const xPosition = document.getElementById('why-position')
+        xPosition.scrollLeft = scrollPosition
+    }, [scrollPosition])
 
     return (
     <>
@@ -66,7 +88,7 @@ const WhyItMatters = (props) => {
             `
             }
         </style>
-        <div className="container cobalt">
+        <div className="container cobalt" id="why-position">
             <div className="w-container-length one-hundred-vh flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding sand-txt">
@@ -88,6 +110,7 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow, :</b></p>
                                 <p className="no-top-padding"><em>Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</em></p>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn jc-center sand cobalt-txt"
                                     to='/meeting-three-small-group-two'
                                     state={{ 
@@ -103,6 +126,7 @@ const WhyItMatters = (props) => {
                             <p className="no-padding">Which brings up the “who,” who do you want to reach? During [Danspace Project’s] Lost & Found organizing meetings, we all felt such urgency. For me that platform was about that 17-year-old who found their way to one event and thought, “Oh, there’s a community of like minds?” I was at the Walker [Art Center], a mini-convening, showing Eiko’s work and Ishmael’s Lost & Found, someone asked about audiences and I said “this 17-year-old…” Olga Visu said at the White House [in 2015 when Ralph Lemon received the Medal of the Arts from President Obama], Ralph had never met Philip Glass. Glass said “I was at the Walker in the 70’s and there were only five people in the room, and I thought I’d never be invited back. And Ralph said “I was a 17-year-old in that room.” So, it got me thinking about audience on the seventh generation level.</p>
                             <div className="flex flex-end top-margin-10px">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn jc-center cobalt sand-txt"
                                     to='/meeting-one-transcript'
                                     state={{ 
@@ -123,6 +147,7 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding"><b>Dana Whitco, Jacob’s Pillow:</b></p> 
                                 <p className="no-top-padding"><em>I do think there's something very radical about the idea of the performance being the documentation of the thing.</em></p>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn jc-center sand cobalt-txt"
                                     to='/meeting-three-small-group-two'
                                     state={{ 
@@ -143,6 +168,7 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding"><b>Imogen Smith:</b></p>
                                 <p className="no-padding">...artists often lack access to documentation they need to remount works…</p>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn jc-center sand cobalt-txt top-margin-10px"
                                     to='/imogen-smith-writing'
                                     state={{ 
@@ -159,6 +185,7 @@ const WhyItMatters = (props) => {
                     <div className="w-thirty flex column mobile-jc-center space-around">
                         <div className="relative h-200px flex column flex-end">
                             <Link 
+                                onClick={setPosition}
                                 className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
                                 to='/ann-carlson-writing'
                                 state={{ 
@@ -177,6 +204,7 @@ const WhyItMatters = (props) => {
                             <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p> 
                             <p className="no-padding"><em>What's the criticality behind what my offering is? With that comes a kind of cultural diplomacy, or ambassadorship.</em></p>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn jc-center sand cobalt-txt top-margin-10px"
                                 to='/meeting-three-small-group-two'
                                 state={{ 
@@ -200,6 +228,7 @@ const WhyItMatters = (props) => {
                                 <li className="bullets">Real and imagined concerns around ownership, intellectual property, copyright, permission, and transmission</li>
                             </ul>
                             <Link 
+                                onClick={setPosition}
                                 className="small-bttn jc-center sand cobalt-txt top-margin-10px"
                                 to='/gesel-mason-presentation'
                                 state={{ 
@@ -214,7 +243,8 @@ const WhyItMatters = (props) => {
                     <div className="w-thirty flex column al-center space-btwn stnd-padding">
                         <div className="w-eighty flex column mobile-top-20px">
                             <div className="flex sand-gradient-50">
-                                <Link 
+                                <Link
+                                    onClick={setPosition} 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
                                     to='/erin-kilmurray-writing'
                                     state={{ 
@@ -232,6 +262,7 @@ const WhyItMatters = (props) => {
                         <div className="w-eighty flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
                                     to='/alex-springer-writing'
                                     state={{ 
@@ -253,6 +284,7 @@ const WhyItMatters = (props) => {
                                     <h2 className="no-padding">Cori Olinghouse, Columbus:</h2>
                                     <p className="no-top-padding">Different forms promote different modes of reception… Embodied practice gets to speak across body-document divide.</p>
                                     <Link 
+                                        onClick={setPosition}
                                         className="small-bttn top-margin-10px cobalt sand-txt sand-border"
                                         to='/cori-olinghouse-presentation'
                                         state={{ 
@@ -275,6 +307,7 @@ const WhyItMatters = (props) => {
                             </div>
                             <div className="flex column jc-center mobile-al-center">                       
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt"
                                     to='/meeting-two-notes'
                                     state={{ 
@@ -289,6 +322,7 @@ const WhyItMatters = (props) => {
                             <div className="w-fifty flex column mobile-top-20px">
                                 <div className="relative h-200px  flex column flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
                                         to='/meeting-three-small-group-two'
                                         state={{ 
@@ -306,6 +340,7 @@ const WhyItMatters = (props) => {
                             <div className="w-fifty flex column mobile-top-20px">
                                 <div className="relative h-200px flex column al-flex-end flex-end">
                                     <Link 
+                                        onClick={setPosition}
                                         className="absolute top-30px small-bttn right-margin-10px cobalt sand-txt sand-border"
                                         to='/meeting-three-small-group-two'
                                         state={{ 
@@ -326,6 +361,7 @@ const WhyItMatters = (props) => {
                                 <div className="flex column  mobile-top-20px">
                                     <div className="relative h-150px  flex column flex-end">
                                         <Link 
+                                            onClick={setPosition}
                                             className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -343,6 +379,7 @@ const WhyItMatters = (props) => {
                                 <div className="flex column mobile-top-20px">
                                     <div className="relative h-150px flex column flex-end">
                                         <Link 
+                                            onClick={setPosition}
                                             className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -372,6 +409,7 @@ const WhyItMatters = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
                                     to='/russell-lepley-writing'
                                     state={{ 
@@ -389,6 +427,7 @@ const WhyItMatters = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
                                     to='/mara-frazier-writing'
                                     state={{ 
@@ -406,6 +445,7 @@ const WhyItMatters = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
                                     to='/jonathan-meyer-writing'
                                     state={{ 
@@ -423,6 +463,7 @@ const WhyItMatters = (props) => {
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
                                     to='/claudia-la-rocco-writing'
                                     state={{ 
@@ -443,6 +484,7 @@ const WhyItMatters = (props) => {
                             <div className="flex space-btwn">
                                 <h2 className="no-padding"><b>Ishmael Houston-Jones:</b></h2>
                                 <Link 
+                                    onClick={setPosition}
                                     className="small-bttn cobalt sand-txt"
                                     to='/columbus'
                                     state={{ 
@@ -468,6 +510,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>What does a fieldwide funding strategy look like?</em></p>
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -482,6 +525,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>Digital archive...where the form has a relationship to embodied practices…</em></p>
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -496,6 +540,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>...Anti-racist methods of dissemination, whether online or in digital space…</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -510,6 +555,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>How might an archive be thought of as...dimensional?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -524,6 +570,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>How can we incentivise archival behavior broadly?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -538,6 +585,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>How can we prevent experimental and obscure performance practices from erasure…?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -552,6 +600,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>Is there a better way to name an archive?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
@@ -566,6 +615,7 @@ const WhyItMatters = (props) => {
                                     <p className="transcription-details"><em>What is the relationship between archiving and stewardship?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
+                                            onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
                                             to='/meeting-three-small-group-two'
                                             state={{ 
