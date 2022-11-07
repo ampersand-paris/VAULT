@@ -367,7 +367,7 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
-                                                startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=12m11s" }}
+                                                startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=30m55s" }}
                                             >Video
                                         </Link>
                                         <div className="h-100px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
@@ -475,7 +475,7 @@ const WhyItMatters = (props) => {
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
                                 <p className="no-bottom-padding side-padding"><b>Claudia La Rocco:</b></p>
-                                <p className="no-top-padding side-padding">I try to assume nothing about “audience".</p>
+                                <p className="no-top-padding side-padding">I try to assume nothing about “audience."</p>
                             </div>
                         </div>
                     </div>
@@ -486,7 +486,7 @@ const WhyItMatters = (props) => {
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn cobalt sand-txt"
-                                    to='/columbus'
+                                    to='/ishmael-houston-jones-writing'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
@@ -506,6 +506,21 @@ const WhyItMatters = (props) => {
                         <h2 className="no-padding"><b>Columbus Questions:</b></h2>
                         <div className="flex column stnd-padding sand-border">
                             <div className="h-one-hundred flex column space-btwn">
+                                <div className="flex mobile-column space-btwn sand-border-left-thin">                    
+                                    <p className="transcription-details"><em>How can we incentivize archival behavior broadly?</em></p>                                
+                                    <div className="flex flex-end al-center only-top-padding">
+                                        <Link 
+                                            onClick={setPosition}
+                                            className="small-bttn sand cobalt-txt mobile-bottom-10px"
+                                            to='/meeting-three-small-group-two'
+                                            state={{ 
+                                                background: "var(--sand)",
+                                                textColor: "var(--cobalt)",
+                                                startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=0m49s" }}
+                                            >Video
+                                        </Link>
+                                    </div>
+                                </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
                                     <p className="transcription-details"><em>What does a fieldwide funding strategy look like?</em></p>
                                     <div className="flex flex-end al-center only-top-padding">
@@ -567,21 +582,6 @@ const WhyItMatters = (props) => {
                                     </div>
                                 </div>
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    
-                                    <p className="transcription-details"><em>How can we incentivise archival behavior broadly?</em></p>                                
-                                    <div className="flex flex-end al-center only-top-padding">
-                                        <Link 
-                                            onClick={setPosition}
-                                            className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
-                                            state={{ 
-                                                background: "var(--sand)",
-                                                textColor: "var(--cobalt)",
-                                                startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=0m49s" }}
-                                            >Video
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className="flex mobile-column space-btwn sand-border-left-thin">                    
                                     <p className="transcription-details"><em>How can we prevent experimental and obscure performance practices from erasure…?</em></p>                                
                                     <div className="flex flex-end al-center only-top-padding">
                                         <Link 
@@ -591,7 +591,7 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
-                                                startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t5m56s" }}
+                                                startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=5m56s" }}
                                             >Video
                                         </Link>
                                     </div>

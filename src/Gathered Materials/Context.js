@@ -275,13 +275,13 @@ const Context = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--evergreen)",
-                                            startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=5m0s"
+                                            startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=4m56s"
                                             }}
                                         >Video
                                     </Link>
                                 </div>
                                 <div className="w-forty flex">
-                                    <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=5m0s" frameborder="0"></iframe>
+                                    <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=4m56s" frameborder="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +318,7 @@ const Context = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn sand evergreen-txt"
-                                        to='/cori-orlinghouse-writing'
+                                        to='/cori-olinghouse-writing'
                                         state={{ 
                                             background: "var(--evergreen)",
                                             textColor: "var(--sand)",
@@ -329,7 +329,7 @@ const Context = (props) => {
                             </div>
                             <div className="z-index-10 w-forty al-flex-end flex column jc-center">
                                 <div className="evergreen sand-txt double-padding txt-al-right">
-                                    <p className="no-bottom-padding no-top-padding"><b>Columbus, Ni’Ja Whitson:</b></p>
+                                    <p className="no-bottom-padding no-top-padding"><b>Ni’Ja Whitson, Columbus:</b></p>
                                     <p className="no-top-padding">How much agency does a performer have since it’s not their work and not their archive?</p>
                                     <Link 
                                         onClick={setPosition}
