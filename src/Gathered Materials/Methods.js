@@ -202,7 +202,7 @@ const Methods = (props) => {
                             </div>
                         </div>
                         <div className="h-sixty flex column al-flex-end flex-end mobile-top-20px txt-al-right">
-                            <p className="no-bottom-padding"><b>Angie Hauser</b></p> 
+                            <p className="no-bottom-padding"><b>Angie Hauser, Jacob's Pillow:</b></p> 
                             <p className="no-top-padding"><em>…whatever direction I might go in, [in order to] participate in a conversation around archiving, and to build process around archives, it would be to align [archiving] with how dance is actually made</em></p>
                             <Link 
                                 onClick={setPosition}
@@ -286,7 +286,7 @@ const Methods = (props) => {
                     <div className="flex column w-eighty">
                         <div className="h-thirty-three flex mobile-column sand double-padding">
                             <div className="w-eighty flex column jc-center">
-                                <p className="no-bottom-padding"><b>Bebe Miller:</b></p>
+                                <p className="no-bottom-padding"><b>Bebe Miller, Seattle:</b></p>
                                 <p className="no-top-padding">As Michael Morris said, you’re always dancing with your ancestors, you’re never alone. ...Darrell is extraordinary because he embraces that, brings out something about the whole Vault project for me… —the sense of the form and what the form is for, which has a lot to do with how we then document it and receive it.</p>
                                 <Link 
                                     onClick={setPosition}
@@ -542,7 +542,7 @@ const Methods = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",
-                                                startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=27m32s" }}
+                                                startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=21m14s" }}
                                             >Video
                                         </Link>                                    
                                     </div>
@@ -557,7 +557,7 @@ const Methods = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",
-                                                startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=21m14s" }}
+                                                startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=27m32s" }}
                                             >Video
                                         </Link>                                    
                                     </div>

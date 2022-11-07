@@ -273,7 +273,7 @@ const ArchivalThinking = (props) => {
                                 <div className="w-forty stnd-padding">
                                     <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=16m45s" frameborder="0"></iframe>
                                     <div className="sand pumpkin-txt stnd-padding border-radius">
-                                        <p className="transcription-details no-padding"><b>Ginger Farley</b></p>
+                                        <p className="transcription-details no-padding"><b>Ginger Farley, Chicago:</b></p>
                                         <p className="transcription-details no-top-padding"><em>Is there a way to enlist [funders] in learning from this process…</em></p>
                                         <div className="flex flex-end">
                                             <Link 
@@ -347,7 +347,7 @@ const ArchivalThinking = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt sand-border"
-                                        to='/danya-hanson-writing'
+                                        to='/dayna-hanson-writing'
                                         state={{ 
                                             background: "var(--pumpkin)",
                                             textColor: "var(--sand)",
@@ -389,7 +389,7 @@ const ArchivalThinking = (props) => {
                             <div className="w-forty-seven w-forty-seven-split">
                                 <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=16m45s&showinfo=0&controls=0" frameborder="0"></iframe>
                                 <div className="stnd-padding border-radius sand pumpkin-txt">
-                                    <p className="transcription-details no-bottom-padding"><b>Bebe Miller:</b></p>
+                                    <p className="transcription-details no-bottom-padding"><b>Bebe Miller, Seattle:</b></p>
                                     <p className="transcription-details no-top-padding"><em>…there's something about the immediacy of [social media's] dispersal of information...</em></p>
                                     <div className="flex flex-end">
                                     <Link 
@@ -455,7 +455,7 @@ const ArchivalThinking = (props) => {
                     </div>
                     <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
                         <div className="w-forty w-forty-seven-split">
-                            <iframe  width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=19m40s" frameborder="0"></iframe>
+                            <iframe  width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=19m40s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Jaamil Olawale Kosoko, Jacob's Pillow:</b></p>
                                 <p className="transcription-details no-top-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
@@ -463,11 +463,11 @@ const ArchivalThinking = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/seattle'
+                                        to='/meeting-three-small-group-two'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
-                                            startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=19m40s"
+                                            startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=19m40s"
                                             }}
                                         >Video
                                     </Link>
