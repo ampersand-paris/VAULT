@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import { useEffect, useState } from "react";
+import { HashLink as Hash } from 'react-router-hash-link'
 
 const WhyItMatters = (props) => {
     
@@ -167,7 +168,7 @@ const WhyItMatters = (props) => {
                             <div className="w-forty cobalt sand-txt stnd-padding">
                                 <p className="no-padding"><b>Imogen Smith:</b></p>
                                 <p className="no-padding">...artists often lack access to documentation they need to remount works…</p>
-                                <Link 
+                                <Link //no need for hash
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand cobalt-txt top-margin-10px"
                                     to='/imogen-smith-writing'
@@ -184,16 +185,16 @@ const WhyItMatters = (props) => {
                 <div className="panel-1800 flex space-btwn mobile-column mobile-side-padding top-mobile-sand-border">
                     <div className="w-thirty flex column mobile-jc-center space-around">
                         <div className="relative h-200px flex column flex-end">
-                            <Link 
+                            <Hash 
                                 onClick={setPosition}
                                 className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                to='/ann-carlson-writing'
+                                to='/ann-carlson-writing#excerpt-two'
                                 state={{ 
                                     background: "var(--cobalt)",
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }} 
                                 >Writing
-                            </Link>
+                            </Hash>
                             <div className="h-150px w-ninety flex column jc-center stnd-padding sand-txt sand-border">
                                 <p className="no-padding"><b>Ann Carlson:</b></p>
                                 <p className="no-padding">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
@@ -243,16 +244,16 @@ const WhyItMatters = (props) => {
                     <div className="w-thirty flex column al-center space-btwn stnd-padding">
                         <div className="w-eighty flex column mobile-top-20px">
                             <div className="flex sand-gradient-50">
-                                <Link
+                                <Hash
                                     onClick={setPosition} 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/erin-kilmurray-writing'
+                                    to='/erin-kilmurray-writing#excerpt-two'
                                     state={{ 
                                         background: "var(--cobalt)",
                                         textColor: "var(--sand)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="stnd-padding sand cobalt-txt">
                                 <p className="no-padding txt-al-center"><b>Erin Kilmurray:</b></p>
@@ -261,16 +262,16 @@ const WhyItMatters = (props) => {
                         </div>
                         <div className="w-eighty flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/alex-springer-writing'
+                                    to='/alex-springer-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--cobalt)",
                                         textColor: "var(--sand)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="stnd-padding sand cobalt-txt">
                                 <p className="no-padding txt-al-center"><b>Alex Springer:</b></p>
@@ -408,16 +409,16 @@ const WhyItMatters = (props) => {
                     <div className="w-twenty-five flex column space-around sand sand-border">
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/russell-lepley-writing'
+                                    to='/russell-lepley-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
                                 <p className="no-bottom-padding side-padding"><b>Russell Lepley:</b></p>
@@ -426,16 +427,16 @@ const WhyItMatters = (props) => {
                         </div>
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/mara-frazier-writing'
+                                    to='/mara-frazier-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
                                 <p className="no-bottom-padding side-padding"><b>Mara Frazier:</b></p>
@@ -444,16 +445,16 @@ const WhyItMatters = (props) => {
                         </div>
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/jonathan-meyer-writing'
+                                    to='/jonathan-meyer-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
                                 <p className="no-bottom-padding side-padding"><b>Jonathan Meyer:</b></p>
@@ -462,16 +463,16 @@ const WhyItMatters = (props) => {
                         </div>
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/claudia-la-rocco-writing'
+                                    to='/claudia-la-rocco-writing#excerpt-two'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-one-hundred cobalt sand-txt">
                                 <p className="no-bottom-padding side-padding"><b>Claudia La Rocco:</b></p>
@@ -483,7 +484,7 @@ const WhyItMatters = (props) => {
                         <div className="h-fifty sand cobalt-txt double-padding">
                             <div className="flex space-btwn">
                                 <h2 className="no-padding"><b>Ishmael Houston-Jones:</b></h2>
-                                <Link 
+                                <Link  // no need for hash
                                     onClick={setPosition}
                                     className="small-bttn cobalt sand-txt"
                                     to='/ishmael-houston-jones-writing'
