@@ -138,15 +138,15 @@ const ArchivalThinking = (props) => {
                             <div className="z-index-10 relative w-fifty sand stnd-padding">
                                 <h3 className="no-bottom-padding pumpkin-txt">Ishmael Houston-Jones:</h3> 
                                 <p className="no-top-padding pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
-                                <Link 
+                                <Hash 
                                     className="small-bttn pumpkin sand-txt"
-                                    to='/ishmael-houston-jones-writing'
+                                    to='/ishmael-houston-jones-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--pumpkin)",
                                         textColor: "var(--sand)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <img src="/Images/Pictures/Ishmael.svg" className="ishmael mobile-width"/>
                         </div>
@@ -257,17 +257,17 @@ const ArchivalThinking = (props) => {
                                             <p className="transcription-details side-padding no-padding">There is often anxiety around documentation.</p>
                                         </div>
                                         <div className="flex jc-center sand-gradient-50-down w-one-hundred">
-                                            <Link 
+                                            <Hash 
                                                 onClick={setPosition}
                                                 className="small-bttn pumpkin sand-txt sand-border"
-                                                to='/claudia-la-rocco-writing'
+                                                to='/claudia-la-rocco-writing#excerpt-one'
                                                 state={{ 
                                                     background: "var(--pumpkin)",
                                                     textColor: "var(--sand)",
                                                     slash: "/Images/CreamSlash.svg"                                                    
                                                 }}
                                                 >Writing
-                                            </Link>
+                                            </Hash>
                                         </div>
                                     </div>
                                 </div>
@@ -345,17 +345,17 @@ const ArchivalThinking = (props) => {
                             </div>
                             <div className="flex column">
                                 <div className="flex jc-center sand-gradient-50 w-one-hundred">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt sand-border"
-                                        to='/dayna-hanson-writing'
+                                        to='/dayna-hanson-writing#excerpt-one'
                                         state={{ 
                                             background: "var(--pumpkin)",
                                             textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg"                                                    
                                         }}
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                                 <div className="sand pumpkin-txt w-one-hundred">
                                     <p className="no-bottom-padding side-padding"><b>Dayna Hanson:</b></p>
@@ -442,16 +442,16 @@ const ArchivalThinking = (props) => {
                         <div className="stnd-padding sand-txt no-mobile-border">
                             <p className="no-bottom-padding"><b>Bonnie Brooks:</b></p> 
                             <p className="no-top-padding">…over time these platforms have become largely digital…</p>
-                            <Link 
+                            <Hash 
                                 onClick={setPosition}
                                 className="small-bttn sand pumpkin-txt"
-                                to='/bonnie-brooks-writing'
+                                to='/bonnie-brooks-writing#excerpt-one'
                                 state={{ 
                                     background: "var(--pumpkin)",
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }}
                                 >Writing
-                            </Link>
+                            </Hash>
                         </div>
                     </div>
                     <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">

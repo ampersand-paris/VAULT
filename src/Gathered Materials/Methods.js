@@ -372,7 +372,7 @@ const Methods = (props) => {
                                 <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
-                                    to='/bonnie-brooks-writing#excerpt-one'
+                                    to='/bonnie-brooks-writing#excerpt-two'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
@@ -408,7 +408,7 @@ const Methods = (props) => {
                                 <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
-                                    to='/dayna-hanson-writing#excerpt-one'
+                                    to='/dayna-hanson-writing#excerpt-two'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",

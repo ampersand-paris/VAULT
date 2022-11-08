@@ -466,7 +466,7 @@ const WhyItMatters = (props) => {
                                 <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/claudia-la-rocco-writing#excerpt-one'
+                                    to='/claudia-la-rocco-writing#excerpt-two'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
