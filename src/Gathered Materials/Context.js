@@ -131,16 +131,16 @@ const Context = (props) => {
                         <div className="relative mobile-flex mobile-column mobile-al-center mobile-top-100px stnd-padding sand evergreen-txt txt-al-center">
                             <p className="no-bottom-padding"><b>Margi Cole:</b></p>    
                             <p className="no-top-padding">Create a valid space to move away from product-driven work.</p>
-                            <Link 
+                            <Hash 
                                 onClick={setPosition}
                                 className="absolute mobile-relative left-negative-100px top-10px small-bttn evergreen sand-txt sand-border"
-                                to='/marji-cole-writing'
+                                to='/marji-cole-writing#excerpt-one'
                                 state={{ 
                                     background: "var(--evergreen)",
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }}
                                 >Writing
-                            </Link>
+                            </Hash>
                         </div>
                     </div>
                 </div>
@@ -165,16 +165,16 @@ const Context = (props) => {
                             </div>
                             <div className="w-fifty flex column al-flex-end mobile-top-100px">
                                 <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn left-margin-10px evergreen sand-txt sand-border"
-                                        to='/jsun-howard-writing'
+                                        to='/jsun-howard-writing#excerpt-two'
                                         state={{ 
                                             background: "var(--evergreen)",
                                             textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg" }}
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                                 <div className="w-seventy-five w-one-hundred sand evergreen-txt">
                                     <p className="no-bottom-padding side-padding"><b>J’Sun Howard:</b></p>
@@ -188,7 +188,7 @@ const Context = (props) => {
                             <div>
                                 <p className="no-bottom-padding"><b>Dayna Hanson:</b></p> 
                                 <p className="no-top-padding">Over time, I’ve noticed that documentation has become more of an aesthetic pursuit for me, as the lines between the original work and its archival document have increasingly blurred.</p>
-                                <Link 
+                                <Link // no need for hash 
                                     onClick={setPosition}
                                     className="small-bttn sand evergreen-txt sand-border"
                                     to='/danya-hanson-writing'
@@ -292,16 +292,16 @@ const Context = (props) => {
                             <img className="display-none absolute left w-ninety" src="/Images/Pictures/Reggie.svg"/>
                             <div className="relative w-seventy flex column">
                                 <div className="flex sand-gradient-50 w-one-hundred">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn left-margin-10px evergreen sand-txt sand-border"
-                                        to='/jane-jerardi-writing'
+                                        to='/jane-jerardi-writing#excerpt-two'
                                         state={{ 
                                             background: "var(--evergreen)",
                                             textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg" }}
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                                 <div className="w-one-hundred sand">
                                     <p className="no-bottom-padding side-padding"><b>Jane Jerardi:</b></p>
@@ -316,16 +316,16 @@ const Context = (props) => {
                                     <p className="no-top-padding">I often take up each project as a hybrid archival-curatorial intervention, built with a particular context and audience in mind, in connection to the needs and interests of the artist and the communities the work inhabits.</p>
                                 </div>
                                 <div className="double-padding">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn sand evergreen-txt"
-                                        to='/cori-olinghouse-writing'
+                                        to='/cori-olinghouse-writing#excerpt-one'
                                         state={{ 
                                             background: "var(--evergreen)",
                                             textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg" }}
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                             </div>
                             <div className="z-index-10 w-forty al-flex-end flex column jc-center">
@@ -353,16 +353,16 @@ const Context = (props) => {
                         <p className="no-bottom-padding"><b>Tonya Lockyer:</b></p>
                         <p className="no-top-padding">Yes, archives need to collect all this important stuff. But archives also need to tell good stories. Or, another way of putting it: archives are never objective. Just as a researcher’s race, gender or class influences their interpretation of an archive; how the archive is constructed, located and monitored influences the researcher. If you are creating an archive to resist disappearance and erasure, it helps to have strategies for manipulating the system.</p>
                         <div className="relative h-fifty">
-                            <Link 
+                            <Hash 
                                 onClick={setPosition}
                                 className="absolute left-margin-10px top-10px small-bttn evergreen sand-txt"
-                                to='/tonya-lockyer-writing'
+                                to='/tonya-lockyer-writing#excerpt-two'
                                 state={{ 
                                     background: "var(--evergreen)",
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }}
                                 >Writing
-                            </Link>
+                            </Hash>
                             <img className="" src="/Images/Pictures/Reggie.svg"/>
                         </div>
                     </div>

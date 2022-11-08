@@ -39,7 +39,7 @@ const JSunHowardEssay = (props) => {
                     <p><b>What are some changes imaginable regarding company/independent artist strategies, audiences, funding and presenting structures?</b></p>
                     <ul >
                         <li className="bullets">funding with multi-level, mutl-year of support</li>
-                        <li className="bullets">more incubation residencies with full support of emerging artists or artists who aren’t nationally recognized</li>
+                        <li className="bullets"><a id="excerpt-two"></a>more incubation residencies with full support of emerging artists or artists who aren’t nationally recognized</li>
                         <li className="bullets">companies providing commissions to emerging artists</li>
                         <li className="bullets">Chicago specific: more funding for dance, specfically for Black artists, Black queer/cis gendered dancemakers</li>
                         <li className="bullets">GRUNT Network</li>
