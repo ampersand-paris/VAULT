@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
 import audio from "../Audio/Context.mp3"
 import { useEffect, useState } from 'react'
+import { HashLink as Hash } from 'react-router-hash-link'
 
 const Context = (props) => {
 

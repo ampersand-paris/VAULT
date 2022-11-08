@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import { useEffect, useState } from "react";
+import { HashLink as Hash } from 'react-router-hash-link'
 
 const Methods = (props) => {
 
@@ -107,16 +108,16 @@ const Methods = (props) => {
                     <div className="w-twenty-five flex column space-around">
                         <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
-                                    to='/diana-muhammad-writing'
+                                    to='/diana-muhammad-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="sand w-one-hundred">
                                 <p className="no-bottom-padding side-padding"><b>Diana Muhammed:</b></p>
@@ -125,16 +126,16 @@ const Methods = (props) => {
                         </div>
                         <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
-                                    to='/tonya-lockyer-writing'
+                                    to='/tonya-lockyer-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="sand w-one-hundred">
                                 <p className="no-bottom-padding side-padding"><b>Tonya Lockyer:</b></p>
@@ -143,16 +144,16 @@ const Methods = (props) => {
                         </div>
                         <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
-                                    to='/jane-jerardi-writing'
+                                    to='/jane-jerardi-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="sand w-one-hundred">
                                 <p className="no-bottom-padding side-padding"><b>Jane Jerardi:</b></p>
@@ -185,16 +186,16 @@ const Methods = (props) => {
                     <div className="w-twenty-five flex column space-around stnd-padding">
                         <div className="flex column al-flex-end">
                             <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
-                                    to='/jsun-howard-writing'
+                                    to='/jsun-howard-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }}
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-seventy-five sand w-one-hundred">
                                 <p className="no-bottom-padding side-padding"><b>J’Sun Howard:</b></p>
@@ -225,16 +226,16 @@ const Methods = (props) => {
                             <div className="w-forty flex column space-around">
                                 <div className="flex column">
                                     <div className="flex sand-gradient-50 w-one-hundred stnd-padding">
-                                        <Link 
+                                        <Hash 
                                             onClick={setPosition}
                                             className="small-bttn left-margin-10px black sand-txt sand-border"
-                                            to='/lauren-slone-writing'
+                                            to='/lauren-slone-writing#excerpt-one'
                                             state={{ 
                                                 background: "var(--preserved-lemon)",
                                                 textColor: "black",
                                                 slash: "/Images/Slash.svg" }}
                                             >Writing
-                                        </Link>
+                                        </Hash>
                                     </div>
                                     <div className="w-one-hundred sand stnd-padding">
                                         <p className="no-bottom-padding"><b>Lauren Slone</b></p>
@@ -243,16 +244,16 @@ const Methods = (props) => {
                                 </div>
                                 <div className="flex column mobile-top-20px">
                                     <div className="flex sand-gradient-50 w-one-hundred stnd-padding">
-                                        <Link 
+                                        <Hash 
                                             onClick={setPosition}
                                             className="small-bttn left-margin-10px black sand-txt sand-border"
-                                            to='/erin-kilmurray-writing'
+                                            to='/erin-kilmurray-writing#excerpt-one'
                                             state={{ 
                                                 background: "var(--preserved-lemon)",
                                                     textColor: "black",
                                                     slash: "/Images/Slash.svg" }} 
                                             >Writing
-                                        </Link>
+                                        </Hash>
                                     </div>
                                     <div className="w-one-hundred sand stnd-padding">
                                         <p className="no-bottom-padding"><b>Erin Kilmurray</b></p>
@@ -269,16 +270,16 @@ const Methods = (props) => {
                                 <p className="no-bottom-padding"><b>Ishmael Houston-Jones:</b></p>
                             </div>
                             <p className="no-top-padding">The process of my practice seems so fragile and elusive to the idea of archive. My choreography is (almost) never set in the tradition of Modern Dance or Ballet. Therefore, in those infrequent times when I have revived work that was created earlier with a different cast, the new cast is recreating the old work anew. In reality, this is true of the revival of any dance work but this seems much more unambiguous when that work is improvised. Which is “the piece?” What defines a choreography that has no set movement? What are the archival tools available to capture this work? The scattered notes I made in random notebooks hidden away in random drawers and boxes? VHS video tape? Digital transfers? Reviews, previews, and interviews in print or on blogs? Memory?</p>
-                            <Link 
+                            <Hash 
                                 onClick={setPosition}
                                 className="small-bttn jc-center sand black-txt"
-                                to='/ishmael-houston-jones-writing'
+                                to='/ishmael-houston-jones-writing#excerpt-one'
                                 state={{ 
                                     background: "var(--preserved-lemon)",
                                     textColor: "black",
                                     slash: "/Images/Slash.svg" }} 
                                 >Writing
-                            </Link>
+                            </Hash>
                         </div>
                     </div>
                 </div>
@@ -306,7 +307,7 @@ const Methods = (props) => {
                         <div className="h-thirty-three flex al-center mobile-column space-btwn only-top-padding">
                             <div className="w-thirty flex column mobile-top-20px">
                                 <div className="flex sand-gradient-50 w-one-hundred">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn left-margin-10px black sand-txt sand-border"
                                         to='/ishmael-houston-jones-writing'
@@ -315,7 +316,7 @@ const Methods = (props) => {
                                             textColor: "black",
                                             slash: "/Images/Slash.svg" }} 
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                                 <div className="w-one-hundred sand">
                                     <p className="no-bottom-padding side-padding"><b>Ishmael Houston-Jones:</b></p>
@@ -324,16 +325,16 @@ const Methods = (props) => {
                             </div>
                             <div className="w-thirty flex column mobile-top-20px">
                                 <div className="flex sand-gradient-50 w-one-hundred">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn left-margin-10px black sand-txt sand-border"
-                                        to='/darrell-jones-writing'
+                                        to='/darrell-jones-writing#excerpt-one'
                                         state={{ 
                                             background: "var(--preserved-lemon)",
                                             textColor: "black",
                                             slash: "/Images/Slash.svg" }} 
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                                 <div className="w-one-hundred sand">
                                     <p className="no-bottom-padding side-padding"><b>Darrell Jones:</b></p>
@@ -368,16 +369,16 @@ const Methods = (props) => {
                     <div className="w-twenty-five flex column space-around sand sand-border">
                         <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
-                                    to='/bonnie-brooks-writing'
+                                    to='/bonnie-brooks-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }} 
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-one-hundred preserved-lemon">
                                 <p className="no-bottom-padding side-padding"><b>Bonnie Brooks:</b></p>
@@ -386,16 +387,16 @@ const Methods = (props) => {
                         </div>
                         <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
-                                    to='/jonathan-meyer-writing'
+                                    to='/jonathan-meyer-writing#excerpt-two'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }} 
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-one-hundred preserved-lemon">
                                 <p className="no-bottom-padding side-padding"><b>Jonathan Meyer:</b></p>
@@ -404,16 +405,16 @@ const Methods = (props) => {
                         </div>
                         <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
-                                    to='/dayna-hanson-writing'
+                                    to='/dayna-hanson-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }} 
                                     >Writing
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="w-one-hundred preserved-lemon">
                                 <p className="no-bottom-padding side-padding"><b>Dayna Hanson:</b></p>
@@ -449,16 +450,16 @@ const Methods = (props) => {
                                     <p className="no-top-padding side-padding">…the archive that seems to be the most compelling, complex, and rich is the one that is my thinking body.</p>
                                 </div>
                                 <div className="flex sand-gradient-50-down w-one-hundred">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
-                                        to='/angie-hauser-writing'
+                                        to='/angie-hauser-writing#excerpt-one'
                                         state={{ 
                                             background: "var(--preserved-lemon)",
                                             textColor: "black",
                                             slash: "/Images/Slash.svg" }} 
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                             </div>
                         </div>
@@ -470,38 +471,38 @@ const Methods = (props) => {
                             <div className="stnd-padding flex mobile-column space-btwn sand al-center">
                                 <p className="transcription-details no-bottom-padding"><b>Mara Frazier:</b> I would like artists to feel more welcomed into archives…</p>
                                 <div className="mobile-flex mobile-flex-end">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn black-border black sand-txt"
-                                        to='/mara-frazier-writing'
+                                        to='/mara-frazier-writing#excerpt-two'
                                         state={{ 
                                             background: "var(--preserved-lemon)",
                                             textColor: "black",
                                             slash: "/Images/Slash.svg" }} 
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                             </div>
                             <div className="stnd-padding flex mobile-column space-btwn sand al-center">
                                 <p className="w-seventy-five transcription-details no-top-padding mobile-top-20px"><b>Ann Carlson:</b> I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
                                 <div className="mobile-flex mobile-flex-end">
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn black-border black sand-txt"
-                                        to='/ann-carlson-writing'
+                                        to='/ann-carlson-writing#excerpt-one'
                                         state={{ 
                                             background: "var(--preserved-lemon)",
                                             textColor: "black",
                                             slash: "/Images/Slash.svg" }} 
                                         >Writing
-                                    </Link>
+                                    </Hash>
                                 </div>
                             </div>
                         </div>
                         <div className="stnd-padding black-border-bottom no-mobile-border">
                             <p className="transcription-details no-bottom-padding"><b>Russell Lepley:</b></p> 
                             <p className="transcription-details no-top-padding">I am an early career dance-maker and have documentation of my complete works publicly available on streaming platforms YouTube and Vimeo… Attention to how my work is documented affects how institutions perceive my product which influences my future work directly… My work becomes more thoughtfully layered and more concise without those pressures.</p>
-                            <Link 
+                            <Link // Hash not needed
                                 onClick={setPosition}
                                 className="small-bttn black-border black-txt"
                                 to='/russell-lepley-writing'

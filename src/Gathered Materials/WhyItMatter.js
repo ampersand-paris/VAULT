@@ -188,7 +188,7 @@ const WhyItMatters = (props) => {
                             <Hash 
                                 onClick={setPosition}
                                 className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                to='/ann-carlson-writing#excerpt-one'
+                                to='/ann-carlson-writing#excerpt-two'
                                 state={{ 
                                     background: "var(--cobalt)",
                                     textColor: "var(--sand)",
@@ -247,7 +247,7 @@ const WhyItMatters = (props) => {
                                 <Hash
                                     onClick={setPosition} 
                                     className="small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                    to='/erin-kilmurray-writing#excerpt-one'
+                                    to='/erin-kilmurray-writing#excerpt-two'
                                     state={{ 
                                         background: "var(--cobalt)",
                                         textColor: "var(--sand)",
