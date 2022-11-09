@@ -104,7 +104,7 @@ const MeetingTwoNotes = (props) => {
                     </ul>
                     <p><b>TL:</b> yes, artist-driven archive, but people on the outside might know more of what to include</p>
                     <ul>
-                        <li className="bullets">Stories really capture what happened in Russia for her, not recordings</li>
+                        <li className="bullets"><a id="excerpt-one"></a>Stories really capture what happened in Russia for her, not recordings</li>
                     </ul>
                     <p><b>IHJ:</b></p>
                     <ul>
@@ -179,7 +179,7 @@ const MeetingTwoNotes = (props) => {
                     <p><b>Bebe:</b> showed Dance Fort</p>
                     <p><b>AH:</b> As you’re trying to “fix” something, time is moving on</p>
                     <p><b>AH:</b> it took her making her own durational performance before she really experienced durational performance</p>
-                    <p><b>RFK:</b> would other/news ways to archive, change the way work was made?</p>
+                    <p><b>RFK:</b> would <a id="excerpt-two"></a>other/newer ways to archive, change the way work was made?</p>
                     <p><b>Bebe:</b> every moment is framed, how does that affect moment?</p>
                     <p><b>AH:</b> have gotten used to documenting and how that changes moment; we record ourselves a lot</p>
                     <p><b>RFK:</b> need an outside person to archive even beyond the videographers who are always there, since they’ve become part of the process, too</p>

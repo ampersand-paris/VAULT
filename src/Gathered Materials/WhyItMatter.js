@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import { useEffect, useState } from "react";
-import { HashLink as Hash } from 'react-router-hash-link'
+import { HashLink as Hash } from 'react-router-hash-link';
+import audio from "../Audio/WhyItMatters.mp3";
+import ReactAudioPlayer from "react-audio-player";
 
 const WhyItMatters = (props) => {
     
@@ -48,7 +50,7 @@ const WhyItMatters = (props) => {
                     font-weight: 400;
                     font-style: normal;
                     background-color: rgba(255, 255, 255, 0);
-                    color: var(--evergreen);
+                    color: var(--cobalt);
                 }
                 
                 audio::-webkit-media-controls-time-remaining-display {
@@ -56,7 +58,7 @@ const WhyItMatters = (props) => {
                     font-weight: 400;
                     font-style: normal;
                     background-color: rgba(255, 255, 255, 0);
-                    color: var(--evergreen);
+                    color: var(--cobalt);
                 }
                 
                 audio::-webkit-media-controls-timeline {
@@ -96,7 +98,13 @@ const WhyItMatters = (props) => {
                         <div className="why-it-matters-margin">
                             <p className="">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
-                        <p className="transcription-details corporate"><b>Why it matters. Why the perspective of originating artists matters, is at the heart of all of the Vault convenings. The relevance of an artist driven archive depends on the performers and collaborators it serves, the audience it informs, as well as the legacy it may preserve. The discoveries made through artists' creative processes reveal a point of view that may not be captured in any other archival method.</b></p>
+                        <div className="flex column">
+                            <ReactAudioPlayer
+                                src={audio}
+                                controls 
+                            />
+                            <p className="transcription-details corporate"><b>Why it matters. Why the perspective of originating artists matters, is at the heart of all of the Vault convenings. The relevance of an artist driven archive depends on the performers and collaborators it serves, the audience it informs, as well as the legacy it may preserve. The discoveries made through artists' creative processes reveal a point of view that may not be captured in any other archival method.</b></p>
+                        </div>
                     </div>
                 </div>
                 <div className="why-it-matters-panel-1 panel-1400 flex double-padding mobile-column mobile-side-padding">
@@ -499,7 +507,7 @@ const WhyItMatters = (props) => {
                             <p className="transcription-details">So, do I want just anyone to have access to all of my work? Now? When I’m no longer here? I keep thinking that there is no parallel in writing. One writes a book and anyone can read it if they buy it or it is available in a library or online. Recorded music is much the same? There is a handful of exceptionally good writers writing on the subject of experimental dance. Is there some reason that there aren’t more efficient methods of archiving and disseminating our work to a greater public other than oblivious reviews or by YouTube and Vimeo?</p>
                         </div>
                         <div className="h-fifty overflow-hidden">
-                            <img src="/Images/Pictures/Jaamil.svg" className="w-one-hundred"/>    
+                            <img src="/Images/Pictures/Ishmael.svg" className="w-one-hundred"/>    
                         </div>
                     </div>
                     <div className="w-forty flex column flex-end mobile-column stnd-padding sand-txt">
