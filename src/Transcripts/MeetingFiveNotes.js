@@ -494,7 +494,7 @@ const MeetingFiveNotes = (props) => {
                             <li className="bullets">All of it still requires particular framing</li>
                         </ul>
                     </ul>
-                    <p><a href="https://www.guggenheim.org/conservation/the-variable-media-initiative">Variable Media Project</a> (through Guggenheim) and associated publication (CO)</p>
+                    <p><a href="https://www.guggenheim.org/conservation/the-variable-media-initiative" target="_blank">Variable Media Project</a> (through Guggenheim) and associated publication (CO)</p>
                     <ul>
                         <li className="bullets">Time-based media project from early 2000s that took up case studies of artist practices, artists, conservationists, curators, etc. in museum context</li>
                         <li className="bullets">Looked at installation work that had the problem of objects (material, medium-specific ex.: candy required, but what happens when the candy is no longer available)</li>
