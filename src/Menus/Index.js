@@ -189,6 +189,11 @@ const Index = (props) => {
                         <Link to="/columbus"><li>Columbus Meeting</li></Link>
                         <Link to="/imogen-smith-presentation"><li>Imogen Smith Presentation</li></Link>
                     </ul>
+                    <h3 className="index-location-first">More Resources</h3>
+                    <ul className="index-list">
+                        <Link to="/failspace"><li>FAILSPACE Design Services</li></Link>
+                        <Link to="/resources-mentioned"><li>Resources Mentioned</li></Link>
+                    </ul>
                 </div>  
                 <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle" id="triangle-index-close"/>
                 <div className="flex flex-end">

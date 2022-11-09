@@ -18,7 +18,7 @@ const DarrellJonesBio = (props) => {
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
                 <div className="essay-width ">
-                    <p className="no-top-padding"><a href="https://mancc.org/artists/darrell-jones/">Darrell Jones</a> has performed in the United States and abroad with a variety of choreographers and dance companies such as Urban Bush Women, Ronald K. Brown and Min Tanaka. He continues to have long-term collaborative relationships with Bebe Miller Company and Ralph Lemon. Darrell is presently a tenured faculty member at The Dance Center of Columbia College in Chicago where he teaches classes in physical practice, performance and improvisational techniques.</p>
+                    <p className="no-top-padding"><a href="https://mancc.org/artists/darrell-jones/" target="_blank">Darrell Jones</a> has performed in the United States and abroad with a variety of choreographers and dance companies such as Urban Bush Women, Ronald K. Brown and Min Tanaka. He continues to have long-term collaborative relationships with Bebe Miller Company and Ralph Lemon. Darrell is presently a tenured faculty member at The Dance Center of Columbia College in Chicago where he teaches classes in physical practice, performance and improvisational techniques.</p>
                 </div>
             </section>
         </div>

@@ -75,6 +75,7 @@ function Home() {
         <section className="home-section-padding flex column al-center mint-green top-black-border">
           <div className="home-text-width">
             <p>Vault was made possible in part by support from the Doris Duke Charitable Foundation and the National Endowment for the Arts. We're grateful for the support of our meeting hosts (Ann Hamilton and Michael Mercil; Dance Center of Columbia College Chicago; Jacob's Pillow; On the Boards; Wexner Center for the Arts). Our thanks to the 40+ Vault participants across the country for their collective and full-hearted voice in our regional meetings. Huge thanks to Lila Hurwitz/Doolittle+Bird for project management; Shannon Drake for website materials wrangling; Benjamin Van Buren for initial website. And a shout-out to Lane Czaplinski for picking up what Bebe was putting down.</p>
+            <p className='txt-al-center'>Vault was designed and developed by <a href="www.failspacenyc.com/design-services" target="_blank">FAILSPACE Design Services</a>.</p>
           </div>
         </section>
     </>

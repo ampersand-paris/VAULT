@@ -52,7 +52,7 @@ const ImogenSmithPresentationNotes = (props) => {
                         </ul>
                         <li className="bullets">Practical aspect (i.e. getting things to a point where they can be archived</li>
                         <ul>
-                            <li className="bullets"><a href="https://www.danceusa.org/archiving-preservation-artists-legacy-toolkit">Artist’s Legacy Toolkit</a>: suite of practical tools and guides and information about archiving</li>
+                            <li className="bullets"><a href="https://www.danceusa.org/archiving-preservation-artists-legacy-toolkit" target="_blank">Artist’s Legacy Toolkit</a>: suite of practical tools and guides and information about archiving</li>
                             <li className="bullets">How can we help independent artists? Support, funding, resources for this work tend to go to biggest, wealthiest companies. Looking to provide solutions that do not assume a great deal of money and time; resources for people at all career stages</li>
                             <li className="bullets">Archive consultants</li>
                         </ul>

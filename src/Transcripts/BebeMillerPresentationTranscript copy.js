@@ -68,7 +68,7 @@ const BebeMillerPresentationNotes = (props) => {
                             </ul>
                             <li className="bullets">Difference between the live performance and Dance Fort = desire to communicate how BM saw AH and DJ</li>
                         </ul>
-                        <li className="bullets"><a href="http://motionbank.org/">Motion Bank</a> experience</li>
+                        <li className="bullets"><a href="http://motionbank.org/" target="_blank">Motion Bank</a> experience</li>
                         <ul>
                             <li className="bullets">Identifying motion-oriented score</li>
                             <li className="bullets">The fact that “Risky Weight” could be a choreographic tool was unknown until it was seen on video</li>
@@ -81,7 +81,7 @@ const BebeMillerPresentationNotes = (props) => {
                                 </ul>
                             </ul>
                         </ul>
-                        <li className="bullets">Started <em><a href="https://bebemillercompany.org/projects/in-a-rhythm-e-book/">How Dancing is Built</a></em> to show chronology</li>
+                        <li className="bullets">Started <em><a href="https://bebemillercompany.org/projects/in-a-rhythm-e-book/" target="_blank">How Dancing is Built</a></em> to show chronology</li>
                         <ul>
                             <li className="bullets">Satisfaction of retrospective construction</li>
                             <li className="bullets">Embrace of subjective retelling rather than objective look-at-the-process</li>
