@@ -416,7 +416,7 @@ const MeetingFiveNotes = (props) => {
                             </ul>
                             <li className="bullets">Artists who transition over the course of touring/traveling works and are documented at various stages of transition</li>
                             <ul>
-                                <li className="bullets">How much agency as a performer do they have since it’s not their work and not their archive?</li>
+                                <li className="bullets"><a id="excerpt-one"></a>How much agency as a performer do they have since it’s not their work and not their archive?</li>
                             </ul>
                         </ul>
                     </ul>

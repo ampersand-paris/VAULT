@@ -171,16 +171,16 @@ const ArchivalThinking = (props) => {
                     <div className="h-fifty stnd-padding sand-txt">
                         <p className="no-bottom-padding"><b>Bebe Miller, NYC:</b></p> 
                         <p className="no-top-padding sand-border-right no-mobile-border">There’s now a very different horizontal platform in the idea of archiving... The immediacy of the archive now—broadcast it, be done with it, let it be absorbed into the artistic mindset of the culture—even at the beginning of conceiving of the idea/event/artwork. In that difference between the vertical and horizontal, on a fascial/body level, is there a difference in the work we make, do we need to support both axes or yet a new direction?</p>
-                        <Link 
+                        <Hash 
                             onClick={setPosition}
                             className="small-bttn sand pumpkin-txt"
-                            to='/meeting-one-transcript'
+                            to='/meeting-one-transcript#excerpt-one'
                             state={{ 
                                 background: "var(--pumpkin)",
                                 textColor: "var(--sand)",
                                 slash: "/Images/CreamSlash.svg" }}
                             >Meeting Notes
-                        </Link>
+                        </Hash>
                     </div>
                 </div>
                 <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
@@ -188,16 +188,16 @@ const ArchivalThinking = (props) => {
                         <div className="stnd-padding sand-txt sand-border-bottom no-mobile-border">
                             <p className="no-bottom-padding"><b>Ann Carlson, NYC:</b></p> 
                             <p className="no-top-padding">The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying ‘the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
-                            <Link 
+                            <Hash 
                                 onClick={setPosition}
                                 className="small-bttn sand pumpkin-txt"
-                                to='/meeting-one-transcript'
+                                to='/meeting-one-transcript#excerpt-three'
                                 state={{ 
                                     background: "var(--pumpkin)",
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }}
                                 >Meeting Notes
-                            </Link>
+                            </Hash>
                         </div>
                     </div>
                     <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
@@ -325,17 +325,17 @@ const ArchivalThinking = (props) => {
                                 <div className="w-forty-seven stnd-padding sand-txt sand-border">
                                     <p className="no-bottom-padding"><b>Bebe Miller, Seattle:</b></p> 
                                     <p className="no-top-padding">Did we grow into this archiving of process? 30 years ago we only documented performance even though all that process was there. We have learned to love it and want to share that. When we stop wanting to do that, share that ephemeral aspect of what we love about process? What else is there? Our attention to process is a kind of thing.</p>
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn sand pumpkin-txt"
-                                        to='/meeting-two-notes'
+                                        to='/meeting-two-notes#excerpt-three'
                                         state={{ 
                                             background: "var(--pumpkin)",
                                             textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg"                                                    
                                         }}
                                         >Meeting Notes
-                                    </Link>
+                                    </Hash>
                                 </div>
                             </div>
                         </div>
@@ -373,17 +373,17 @@ const ArchivalThinking = (props) => {
                                     <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
                                     <p className="no-top-padding">Would other/newer ways to archive, change the way work was made?</p>
                                     <div className="flex">
-                                        <Link 
+                                        <Hash 
                                             onClick={setPosition}
                                             className="small-bttn sand pumpkin-txt"
-                                            to='/meeting-two-notes'
+                                            to='/meeting-two-notes#excerpt-one'
                                             state={{ 
                                                 background: "var(--pumpkin)",
                                                 textColor: "var(--sand)",
                                                 slash: "/Images/CreamSlash.svg"                                                    
                                             }}
                                             >Meeting notes
-                                        </Link>
+                                        </Hash>
                                     </div>
                                 </div>
                             </div>
@@ -411,16 +411,16 @@ const ArchivalThinking = (props) => {
                     <div className="h-fifty flex column jc-center sand pumpkin-txt stnd-padding">
                         <p className="no-bottom-padding"><b>Judy Hussie-Taylor, NYC: </b></p>
                         <p className="no-top-padding">Intersection between what are we doing, what are we saving, what are we collecting, what are we not doing—always at play in our work at least on the curatorial side. We’re making interventions, we’re making choices. What we all feel every day: whatever it is we value is under attack, in so many ways. A war on certain kinds of value systems. Maybe this is different than how/what we archive but these choices point to what we value.</p>
-                        <Link 
+                        <Hash 
                             onClick={setPosition}
                             className="small-bttn pumpkin sand-txt"
-                            to='/meeting-one-transcript'
+                            to='/meeting-one-transcript#excerpt-two'
                             state={{ 
                                 background: "var(--pumpkin)",
                                 textColor: "var(--sand)",
                                 slash: "/Images/CreamSlash.svg"                                                    }}
                             >Meeting notes
-                        </Link>
+                        </Hash>
                     </div>        
                 </div>
                 <div className="panel-900 flex column-reverse mobile-side-padding top-mobile-sand-border">

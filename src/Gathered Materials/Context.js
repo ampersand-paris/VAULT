@@ -117,16 +117,16 @@ const Context = (props) => {
                         <div>
                             <p className="no-bottom-padding"><b>Tonya Lockyer, Seattle:</b></p>    
                             <p className="no-top-padding">Stories really capture what happened. In Russia, in 1998 there was a conversation about CI. Two people began to dance together, but for one of them it was only about concrete shapes—moving from one to the next. They didn’t realize it was a moving form. They had only seen the photographs, not recordings.</p>
-                            <Link 
+                            <Hash 
                                 onClick={setPosition}
                                 className="small-bttn sand evergreen-txt sand-border"
-                                to='/meeting-two-notes'
+                                to='/meeting-two-notes#excerpt-one'
                                 state={{ 
                                     background: "var(--evergreen)",
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }}
                                 >Meeting Notes
-                            </Link>
+                            </Hash>
                         </div>
                         <div className="relative mobile-flex mobile-column mobile-al-center mobile-top-100px stnd-padding sand evergreen-txt txt-al-center">
                             <p className="no-bottom-padding"><b>Margi Cole:</b></p>    
@@ -332,16 +332,16 @@ const Context = (props) => {
                                 <div className="evergreen sand-txt double-padding txt-al-right">
                                     <p className="no-bottom-padding no-top-padding"><b>Ni’Ja Whitson, Columbus:</b></p>
                                     <p className="no-top-padding">How much agency does a performer have since it’s not their work and not their archive?</p>
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn sand-border sand-txt evergreen"
-                                        to='/meeting-five-notes'
+                                        to='/meeting-five-notes#excerpt-one'
                                         state={{ 
                                             background: "var(--evergreen)",
                                             textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg" }}
                                         >Meeting Notes
-                                    </Link>
+                                    </Hash>
                                 </div>
                             </div>
                         </div>
@@ -372,7 +372,7 @@ const Context = (props) => {
                                 <div className="stnd-padding sand evergreen-txt al-center">
                                     <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
                                     <p className="no-top-padding">I keep trying to think about what like what's my personal relationship with the idea or story, like what is archive? And when I heard when I heard you say this like I those words I was like if he knows the words that we would use when we describe like how we make performance. You know like can we can we get? All of our you know, year two year, four year process into this hour into this 50 minutes. How can we get all of this exploration of movement into this one movement so that it represents this thing?</p>
-                                    <Link 
+                                    <Hash 
                                         onClick={setPosition}
                                         className="small-bttn evergreen sand-txt"
                                         to='/meeting-two-notes'
@@ -381,7 +381,7 @@ const Context = (props) => {
                                             textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg" }}
                                         >Meeting Notes
-                                    </Link>
+                                    </Hash>
                                 </div>
                                 
                             </div>

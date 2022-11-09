@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import { useEffect, useState } from "react";
 import { HashLink as Hash } from 'react-router-hash-link'
+import audio from "../Audio/Methods.mp3"
+import ReactAudioPlayer from "react-audio-player";
 
 const Methods = (props) => {
 
@@ -49,7 +51,7 @@ const Methods = (props) => {
                     font-weight: 400;
                     font-style: normal;
                     background-color: rgba(255, 255, 255, 0);
-                    color: var(--evergreen);
+                    color: black;
                 }
                 
                 audio::-webkit-media-controls-time-remaining-display {
@@ -57,7 +59,7 @@ const Methods = (props) => {
                     font-weight: 400;
                     font-style: normal;
                     background-color: rgba(255, 255, 255, 0);
-                    color: var(--evergreen);
+                    color: black;
                 }
                 
                 audio::-webkit-media-controls-timeline {
@@ -97,7 +99,13 @@ const Methods = (props) => {
                         <div className="methods-margin">
                             <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
-                        <p className="transcription-details corporate"><b>Methods. Is it digital or analog? Widely available online and through social media, or is it protected in some way? Is there a generational or historical perspective to consider? Is the work improvised or set? In the journey from initial concept to production, are all aspects of the process considered? You'll find a range of practices and concerns addressed in this section.</b></p>
+                        <div className="flex column">
+                            <ReactAudioPlayer
+                                src={audio}
+                                controls 
+                            />
+                            <p className="transcription-details corporate"><b>Methods. Is it digital or analog? Widely available online and through social media, or is it protected in some way? Is there a generational or historical perspective to consider? Is the work improvised or set? In the journey from initial concept to production, are all aspects of the process considered? You'll find a range of practices and concerns addressed in this section.</b></p>
+                        </div>
                     </div>
                 </div>
                 <div className="methods-panel-1 panel-1400 flex double-padding mobile-column mobile-side-padding">
@@ -287,18 +295,18 @@ const Methods = (props) => {
                     <div className="flex column w-eighty">
                         <div className="h-thirty-three flex mobile-column sand double-padding">
                             <div className="w-eighty flex column jc-center">
-                                <p className="no-bottom-padding"><b>Bebe Miller, Seattle:</b></p>
-                                <p className="no-top-padding">As Michael Morris said, you’re always dancing with your ancestors, you’re never alone. ...Darrell is extraordinary because he embraces that, brings out something about the whole Vault project for me… —the sense of the form and what the form is for, which has a lot to do with how we then document it and receive it.</p>
-                                <Link 
+                                <p className="no-bottom-padding"><b>Bebe Miller, NYC:</b></p>
+                                <p className="no-top-padding">As said by Michael Morris, you’re always dancing with your ancestors, you’re never alone. ...Darrell is extraordinary because he embraces that, brings out something about the whole Vault project for me… —the sense of the form and what the form is for, which has a lot to do with how we then document it and receive it.</p>
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn preserved-lemon black-txt sand-border"
-                                    to='/meeting-one-transcript'
+                                    to='/meeting-one-transcript#excerpt-five'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
                                         slash: "/Images/Slash.svg" }} 
                                     >Meeting Notes
-                                </Link>
+                                </Hash>
                             </div>
                             <div className="flex column jc-center mobile-al-center">                       
                                 
@@ -347,7 +355,7 @@ const Methods = (props) => {
                                 <div className="w-eighty">
                                     <p className="no-bottom-padding"><b>Angie Hauser, Jacob's Pillow:</b></p>
                                     <p className="no-top-padding">The methodology of archiving [is] determined by the ephemera of the technology that’s available to you. Now, in a situation where we have so much information [... the] joy of finding archival contact sheets, etc. [and] seeing everything else that wasn’t selected, [can be lost.]</p>
-                                    <Link 
+                                    <Link // not in meeting notes
                                         onClick={setPosition}
                                         className="small-bttn sand black-txt sand-border"
                                         to='/meeting-three-notes'
