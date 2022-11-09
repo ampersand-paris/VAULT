@@ -300,7 +300,7 @@ const Methods = (props) => {
                                 <Hash 
                                     onClick={setPosition}
                                     className="small-bttn preserved-lemon black-txt sand-border"
-                                    to='/meeting-one-transcript#excerpt-four'
+                                    to='/meeting-one-transcript#excerpt-five'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",

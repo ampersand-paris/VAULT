@@ -328,7 +328,7 @@ const ArchivalThinking = (props) => {
                                     <Hash 
                                         onClick={setPosition}
                                         className="small-bttn sand pumpkin-txt"
-                                        to='/meeting-two-notes#excerpt-two'
+                                        to='/meeting-two-notes#excerpt-three'
                                         state={{ 
                                             background: "var(--pumpkin)",
                                             textColor: "var(--sand)",

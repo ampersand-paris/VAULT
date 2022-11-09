@@ -134,16 +134,16 @@ const WhyItMatters = (props) => {
                             <p className="no-padding"><b>Judy Hussie-Taylor, NYC:</b></p>
                             <p className="no-padding">Which brings up the “who,” who do you want to reach? During [Danspace Project’s] Lost & Found organizing meetings, we all felt such urgency. For me that platform was about that 17-year-old who found their way to one event and thought, “Oh, there’s a community of like minds?” I was at the Walker [Art Center], a mini-convening, showing Eiko’s work and Ishmael’s Lost & Found, someone asked about audiences and I said “this 17-year-old…” Olga Visu said at the White House [in 2015 when Ralph Lemon received the Medal of the Arts from President Obama], Ralph had never met Philip Glass. Glass said “I was at the Walker in the 70’s and there were only five people in the room, and I thought I’d never be invited back. And Ralph said “I was a 17-year-old in that room.” So, it got me thinking about audience on the seventh generation level.</p>
                             <div className="flex flex-end top-margin-10px">
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn jc-center cobalt sand-txt"
-                                    to='/meeting-one-transcript'
+                                    to='/meeting-one-transcript#excerpt-four'
                                     state={{ 
                                         background: "var(--cobalt)",
                                         textColor: "var(--sand)",
                                         slash: "/Images/CreamSlash.svg" }} 
                                     >Meeting Notes
-                                </Link>
+                                </Hash>
                             </div>
                         </div>
                     </div>
@@ -315,16 +315,16 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding">Is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom? …Who is the audience, does the institution On the Boards get to decide? Are we beholden to the artists or to future generations, or ourself, or all of the above?</p>
                             </div>
                             <div className="flex column jc-center mobile-al-center">                       
-                                <Link 
+                                <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px cobalt sand-txt"
-                                    to='/meeting-two-notes'
+                                    to='/meeting-two-notes#excerpt-two'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
                                         slash: "/Images/CreamSlash.svg" }}
                                     >Meeting Notes
-                                </Link>
+                                </Hash>
                             </div>
                         </div>
                         <div className="flex mobile-column space-around">

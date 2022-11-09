@@ -136,7 +136,7 @@ const MeetingTwoNotes = (props) => {
                         <li className="bullets">Are we looking at how we make? Or that we make? Or something else?</li>
                     </ul>
                     <p><b>Pat:</b> communicating process is as important than the actual thing that’s seen</p>
-                    <p><b>BB:</b> is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom?</p>
+                    <p><b>BB:</b> <a id="excerpt-two"></a>is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom?</p>
                     <p><b>AH:</b> difference between traditional archiving and archival projects</p>
                     <ul>
                         <li className="bullets">Often talk about archive in relationship to one person; but it’s a super-collaborative activity</li>
@@ -179,7 +179,7 @@ const MeetingTwoNotes = (props) => {
                     <p><b>Bebe:</b> showed Dance Fort</p>
                     <p><b>AH:</b> As you’re trying to “fix” something, time is moving on</p>
                     <p><b>AH:</b> it took her making her own durational performance before she really experienced durational performance</p>
-                    <p><b>RFK:</b> would <a id="excerpt-two"></a>other/newer ways to archive, change the way work was made?</p>
+                    <p><b>RFK:</b> would <a id="excerpt-three"></a>other/newer ways to archive, change the way work was made?</p>
                     <p><b>Bebe:</b> every moment is framed, how does that affect moment?</p>
                     <p><b>AH:</b> have gotten used to documenting and how that changes moment; we record ourselves a lot</p>
                     <p><b>RFK:</b> need an outside person to archive even beyond the videographers who are always there, since they’ve become part of the process, too</p>
