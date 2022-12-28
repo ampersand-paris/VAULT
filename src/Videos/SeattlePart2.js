@@ -19,7 +19,7 @@ const SeattlePart2 = (props) => {
     
     return (
     <>
-        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh mobile-flex mobile-column mobile-al-center">
+        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh min-height-one-hundred-vh mobile-flex mobile-column mobile-al-center">
             <div className="flex flex-end top-padding sand">
                 <div style={{ backgroundColor: videoColor }} className="video-title-width flex column flex-end sand-gradient">
                     <h2  style={{ color: textColor }}className="transcription txt-al-center">VIDEO</h2>
@@ -31,7 +31,7 @@ const SeattlePart2 = (props) => {
             <div className="flex column al-center mobile-width">
                 <div  className="essay-width flex column space-btwn">
                     <div style={{ color: textColor }}>
-                        <p className="transcription"><b>Meeting #2, Part 1:</b></p>
+                        <p className="transcription"><b>Meeting #2, Part 2:</b></p>
                         <p className="transcription-details">August 7, 2017
                         <br></br>
                         On the Boards, Seattle, WA</p>

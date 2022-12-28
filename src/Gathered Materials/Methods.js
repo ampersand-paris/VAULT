@@ -128,8 +128,8 @@ const Methods = (props) => {
                                 </Hash>
                             </div>
                             <div className="sand w-one-hundred">
-                                <p className="no-bottom-padding side-padding"><b>Diana Muhammed:</b></p>
-                                <p className="no-top-padding side-padding">This availability [of video] provides easy access for study and reflection of a work.</p>
+                                <p className="no-bottom-padding side-padding"><b>Cori Olinghouse:</b></p>
+                                <p className="no-top-padding side-padding">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
                             </div>
                         </div>
                         <div className="flex column mobile-top-20px">
@@ -170,12 +170,12 @@ const Methods = (props) => {
                         </div>
                     </div>
                     <div className="w-sixty flex column flex-end double-padding">
-                        <h2 className="sand-txt txt-al-right"><b>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</b></h2>
+                        <h2 className="sand-txt txt-al-right"><b>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</b></h2>
                         <div className="sand-border flex mobile-column double-padding">
                             <div className="flex column w-seventy-five">
-                                <img src="/Images/Pictures/Reggie.svg" className="" />
-                                <p className="no-bottom-padding "><b>Cori Olinghouse:</b></p>
-                                <p className="no-top-padding ">In my process, I use haptic forms of note taking that allow a fluid movement between creating and reflecting.</p>
+                                <img src="/Images/Pictures/DianaMuhammed.JPG" className="" />
+                                <p className="no-bottom-padding "><b>Diana Muhammed:</b></p>
+                                <p className="no-top-padding ">This availability [of video] provides easy access for study and reflection of a work.</p>
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand black-txt"
@@ -246,8 +246,8 @@ const Methods = (props) => {
                                         </Hash>
                                     </div>
                                     <div className="w-one-hundred sand stnd-padding">
-                                        <p className="no-bottom-padding"><b>Lauren Slone</b></p>
-                                        <p className="no-top-padding">…I also get into strange conversations with myself about “proving” to friends that I’m doing something.</p>
+                                        <p className="no-bottom-padding side-padding"><b>Jonathan Meyer:</b></p>
+                                        <p className="no-top-padding side-padding">The onus is so often on artists rather than on the institutions that mean to support them.</p>
                                     </div>
                                 </div>
                                 <div className="flex column mobile-top-20px">
@@ -264,30 +264,34 @@ const Methods = (props) => {
                                         </Hash>
                                     </div>
                                     <div className="w-one-hundred sand stnd-padding">
-                                        <p className="no-bottom-padding"><b>Erin Kilmurray</b></p>
-                                        <p className="no-top-padding">…peer/follower review + feedback + championing has been the active ingredient in pushing [my work] forward.</p>
+                                        <p className="no-bottom-padding side-padding"><b>Erin Kilmurray:</b></p>
+                                        <p className="no-top-padding side-padding">…peer/follower review + feedback + championing has been the active ingredient in pushing [my work] forward.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-sixty flex column jc-center mobile-top-20px">
-                                <img src="/Images/Pictures/Reggie.svg" className="side-padding" />
+                            <div className="w-sixty flex column mobile-top-20px">
+                                <img src="/Images/Pictures/JonathanMeyer.JPG" className="side-padding" />
                             </div>
                         </div>
                         <div className="h-fifty w-eighty flex column jc-center stnd-padding">
-                            <div className="flex mobile-column-reverse space-btwn baseline mobile-top-20px">
-                                <p className="no-bottom-padding"><b>Ishmael Houston-Jones:</b></p>
+                            <div className="sand">
+                                <div className="sand flex mobile-column-reverse space-btwn baseline mobile-top-20px">
+                                    <p className="no-bottom-padding side-padding"><b>Ishmael Houston-Jones:</b></p>
+                                </div>
+                                <p className="sand no-top-padding side-padding">The process of my practice seems so fragile and elusive to the idea of archive. My choreography is (almost) never set in the tradition of Modern Dance or Ballet. Therefore, in those infrequent times when I have revived work that was created earlier with a different cast, the new cast is recreating the old work anew. In reality, this is true of the revival of any dance work but this seems much more unambiguous when that work is improvised. Which is “the piece?” What defines a choreography that has no set movement? What are the archival tools available to capture this work? The scattered notes I made in random notebooks hidden away in random drawers and boxes? VHS video tape? Digital transfers? Reviews, previews, and interviews in print or on blogs? Memory?</p>
                             </div>
-                            <p className="no-top-padding">The process of my practice seems so fragile and elusive to the idea of archive. My choreography is (almost) never set in the tradition of Modern Dance or Ballet. Therefore, in those infrequent times when I have revived work that was created earlier with a different cast, the new cast is recreating the old work anew. In reality, this is true of the revival of any dance work but this seems much more unambiguous when that work is improvised. Which is “the piece?” What defines a choreography that has no set movement? What are the archival tools available to capture this work? The scattered notes I made in random notebooks hidden away in random drawers and boxes? VHS video tape? Digital transfers? Reviews, previews, and interviews in print or on blogs? Memory?</p>
-                            <Hash 
-                                onClick={setPosition}
-                                className="small-bttn jc-center sand black-txt"
-                                to='/ishmael-houston-jones-writing#excerpt-one'
-                                state={{ 
-                                    background: "var(--preserved-lemon)",
-                                    textColor: "black",
-                                    slash: "/Images/Slash.svg" }} 
-                                >Writing
-                            </Hash>
+                            <div className="flex sand-gradient-50-down w-one-hundred">
+                                <Hash 
+                                    onClick={setPosition}
+                                    className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
+                                    to='/ishmael-houston-jones-writing#excerpt-one'
+                                    state={{ 
+                                        background: "var(--preserved-lemon)",
+                                        textColor: "black",
+                                        slash: "/Images/Slash.svg" }} 
+                                    >Writing
+                                </Hash>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -407,8 +411,8 @@ const Methods = (props) => {
                                 </Hash>
                             </div>
                             <div className="w-one-hundred preserved-lemon">
-                                <p className="no-bottom-padding side-padding"><b>Jonathan Meyer:</b></p>
-                                <p className="no-top-padding side-padding">The onus is so often on artists rather than on the institutions that mean to support them.</p>
+                                <p className="no-bottom-padding side-padding"><b>Lauren Slone:</b></p>
+                                <p className="no-top-padding side-padding">…I also get into strange conversations with myself about “proving” to friends that I’m doing something.</p>
                             </div>
                         </div>
                         <div className="flex column mobile-top-20px">
@@ -451,7 +455,7 @@ const Methods = (props) => {
                             </div>
                         </div>
                         <div className="flex mobile-column space-btwn">
-                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                             <div className="flex column">
                                 <div className="sand">
                                     <p className="no-bottom-padding side-padding"><b>Angie Hauser:</b></p>
@@ -476,9 +480,9 @@ const Methods = (props) => {
                 <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
                     <div className="vault-padding flex column mobile-top-20px">
                         <div className="h-forty flex column">
-                            <div className="stnd-padding flex mobile-column space-btwn sand al-center">
-                                <p className="transcription-details no-bottom-padding"><b>Mara Frazier:</b> I would like artists to feel more welcomed into archives…</p>
-                                <div className="mobile-flex mobile-flex-end">
+                            <div className="stnd-padding flex mobile-column space-btwn sand al-center mobile-al-end">
+                                <p className="transcription-details no-bottom-padding side-padding"><b>Mara Frazier:</b> I would like artists to feel more welcomed into archives…</p>
+                                <div className="mobile-flex mobile-top-20px">
                                     <Hash 
                                         onClick={setPosition}
                                         className="small-bttn black-border black sand-txt"
@@ -491,8 +495,8 @@ const Methods = (props) => {
                                     </Hash>
                                 </div>
                             </div>
-                            <div className="stnd-padding flex mobile-column space-btwn sand al-center">
-                                <p className="w-seventy-five transcription-details no-top-padding mobile-top-20px"><b>Ann Carlson:</b> I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
+                            <div className="stnd-padding flex mobile-column space-btwn sand al-center mobile-al-end">
+                                <p className="w-seventy-five transcription-details no-top-padding mobile-top-20px side-padding"><b>Ann Carlson:</b> I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
                                 <div className="mobile-flex mobile-flex-end">
                                     <Hash 
                                         onClick={setPosition}
@@ -573,8 +577,8 @@ const Methods = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex column space-btwn sand-gradient-50">
-                           <iframe width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=21m14s" frameborder="0"></iframe>
+                        <div className="flex column sand space-btwn">
+                            <iframe width="100%" height="40%" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=21m14s" frameborder="0"></iframe>    
                             <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
                     </div>

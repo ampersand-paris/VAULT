@@ -191,7 +191,7 @@ const Context = (props) => {
                                 <Link // no need for hash 
                                     onClick={setPosition}
                                     className="small-bttn sand evergreen-txt sand-border"
-                                    to='/danya-hanson-writing'
+                                    to='/dayna-hanson-writing'
                                     state={{ 
                                         background: "var(--evergreen)",
                                         textColor: "var(--sand)",
@@ -224,8 +224,9 @@ const Context = (props) => {
                 </div>
                 <div className="panel-1800 flex mobile-column mobile-side-padding top-mobile-sand-border">
                     <div className="w-forty-seven flex mobile-column stnd-padding">
-                        <div className="flex column space-btwn sand-border double-padding">
-                            <div className="flex mobile-column jc-center stnd-padding">
+                        <div className="flex column space-around sand-border double-padding">
+                            {/* Deleted completely  12.21.22 */}
+                            {/* <div className="flex mobile-column jc-center stnd-padding">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding"><b>Pat Graney, Seattle:</b></p>
                                     <p className="no-top-padding"><em>What do we want people to learn and know about...</em></p>
@@ -244,8 +245,8 @@ const Context = (props) => {
                                 <div className="w-forty">
                                     <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s" frameborder="0"></iframe>
                                 </div>
-                            </div>
-                            <div className="flex mobile-column jc-center stnd-padding">
+                            </div> */}
+                            <div className="flex mobile-column jc-center">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding"><b>Angie Hauser, Seattle:</b></p>
                                     <p className="no-top-padding"><em>[I'm thinking] about archiving in the scale of history, [in] that includes multiple generations beyond the people that are living now.</em></p>
@@ -261,11 +262,11 @@ const Context = (props) => {
                                         >Video
                                     </Link>
                                 </div>
-                                <div className="w-forty flex">
+                                <div className="w-fifty flex">
                                     <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s" frameborder="0"></iframe>
                                 </div>
                             </div>
-                            <div className="flex mobile-column jc-center stnd-padding">
+                            <div className="flex mobile-column jc-center">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding no-top-padding"><b>Ishmael Houston-Jones, Jacob’s Pillow:</b></p>
                                     <p className="no-top-padding"><em>I think there is something about the accidentalness of what gets left, and what gets found, and what remains.</em></p>
@@ -281,7 +282,7 @@ const Context = (props) => {
                                         >Video
                                     </Link>
                                 </div>
-                                <div className="w-forty flex">
+                                <div className="w-fifty flex">
                                     <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=4m56s" frameborder="0"></iframe>
                                 </div>
                             </div>
@@ -289,7 +290,6 @@ const Context = (props) => {
                     </div>
                     <div className="w-forty-seven relative flex column stnd-padding">
                         <div className="relative h-fifty w-seventy flex flex-end evergreen-txt">
-                            <img className="display-none absolute left w-ninety" src="/Images/Pictures/Reggie.svg"/>
                             <div className="relative w-seventy flex column">
                                 <div className="flex sand-gradient-50 w-one-hundred">
                                     <Hash 
@@ -329,7 +329,7 @@ const Context = (props) => {
                                 </div>
                             </div>
                             <div className="z-index-10 w-forty al-flex-end flex column jc-center">
-                                <div className="evergreen sand-txt double-padding txt-al-right">
+                                <div className="evergreen sand-border sand-txt double-padding txt-al-right">
                                     <p className="no-bottom-padding no-top-padding"><b>Ni’Ja Whitson, Columbus:</b></p>
                                     <p className="no-top-padding">How much agency does a performer have since it’s not their work and not their archive?</p>
                                     <Hash 
@@ -350,24 +350,23 @@ const Context = (props) => {
                 </div>
                 <div className="panel-1800 flex mobile-column mobile-side-padding">
                     <div className="w-forty flex column sand-txt">
-                        <p className="no-bottom-padding"><b>Tonya Lockyer:</b></p>
-                        <p className="no-top-padding">Yes, archives need to collect all this important stuff. But archives also need to tell good stories. Or, another way of putting it: archives are never objective. Just as a researcher’s race, gender or class influences their interpretation of an archive; how the archive is constructed, located and monitored influences the researcher. If you are creating an archive to resist disappearance and erasure, it helps to have strategies for manipulating the system.</p>
-                        <div className="relative h-fifty">
-                            <Hash 
-                                onClick={setPosition}
-                                className="absolute left-margin-10px top-10px small-bttn evergreen sand-txt"
-                                to='/tonya-lockyer-writing#excerpt-two'
-                                state={{ 
-                                    background: "var(--evergreen)",
-                                    textColor: "var(--sand)",
-                                    slash: "/Images/CreamSlash.svg" }}
-                                >Writing
-                            </Hash>
-                            <img className="" src="/Images/Pictures/Reggie.svg"/>
+                        <div className="h-fifty flex column jc-center ">
+                            <div className="sand-border stnd-padding">
+                                <p className="no-bottom-padding"><b>Tonya Lockyer:</b></p>
+                                <p className="no-top-padding">Yes, archives need to collect all this important stuff. But archives also need to tell good stories. Or, another way of putting it: archives are never objective. Just as a researcher’s race, gender or class influences their interpretation of an archive; how the archive is constructed, located and monitored influences the researcher. If you are creating an archive to resist disappearance and erasure, it helps to have strategies for manipulating the system.</p>
+                                <Hash 
+                                    onClick={setPosition}
+                                    className="small-bttn evergreen sand-txt sand-border"
+                                    to='/tonya-lockyer-writing#excerpt-two'
+                                    state={{ 
+                                        background: "var(--evergreen)",
+                                        textColor: "var(--sand)",
+                                        slash: "/Images/CreamSlash.svg" }}
+                                    >Writing
+                                </Hash>
+                            </div>
                         </div>
-                    </div>
-                    <div className="w-sixty flex column space-btwn">
-                        <div className="vault-padding flex column">
+                        <div className="h-fifty">
                             <div className="flex column">
                                 <div className="stnd-padding sand evergreen-txt al-center">
                                     <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
@@ -377,23 +376,23 @@ const Context = (props) => {
                                         className="small-bttn evergreen sand-txt"
                                         to='/meeting-two-notes'
                                         state={{ 
-                                            background: "var(--evergreen)",
-                                            textColor: "var(--sand)",
+                                            background: "var(--evergreen)",                                                textColor: "var(--sand)",
                                             slash: "/Images/CreamSlash.svg" }}
                                         >Meeting Notes
                                     </Hash>
                                 </div>
-                                
                             </div>
                         </div>
-                        <div className="h-sixty flex space-around stnd-padding">
+                    </div>
+                    <div className="w-sixty flex column space-btwn side-padding">
+                        <div className="h-one-hundred flex space-around">
                             <div className="w-fifty flex column stnd-padding sand-border sand-txt">
                                 <h2 className="no-padding"><b>Jacob’s Pillow</b> &#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h2>
                                 <div className="h-one-hundred flex column space-btwn">
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding mobile-top-10px"><b>Dana Whitco:</b></p>
+                                        <p className="no-padding mobile-top-10px"><b>Dana Whitco:</b></p>
                                         <div className="flex mobile-column space-btwn no-top-padding">
-                                            <p className="w-sixty transcription-details no-padding "><em>[When you mentioned] creating for yourself or maintaining for yourself a mode of hyper-contextuality, I wondered whether that is a resistance to some forces that you feel in the world?</em></p>
+                                            <p className="w-sixty no-padding "><em>[When you mentioned] creating for yourself or maintaining for yourself a mode of hyper-contextuality, I wondered whether that is a resistance to some forces that you feel in the world?</em></p>
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
@@ -408,9 +407,9 @@ const Context = (props) => {
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding mobile-top-10px"><b> Reggie Wilson:</b></p>
+                                        <p className="no-padding mobile-top-10px"><b> Reggie Wilson:</b></p>
                                         <div className="flex mobile-column space-btwn no-top-padding">
-                                            <p className="w-sixty transcription-details no-padding"><em>Is this for our own dramaturgy? Is this for another choreographers dramaturgy? Is this for historians?</em></p>
+                                            <p className="w-sixty no-padding"><em>Is this for our own dramaturgy? Is this for another choreographers dramaturgy? Is this for historians?</em></p>
                                             <div className="flex flex-end">
                                             <Link 
                                                 onClick={setPosition}
@@ -427,9 +426,9 @@ const Context = (props) => {
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding mobile-top-10px"><b>Angie Hauser:</b></p>
+                                        <p className="no-padding mobile-top-10px"><b>Angie Hauser:</b></p>
                                         <div className="flex mobile-column space-btwn no-top-padding">
-                                            <p className="w-sixty transcription-details no-padding"><em>I think the moment of improvisation is a certain kind of archive, maybe in quotes or italics or something that it is the archive of the practice.</em></p>
+                                            <p className="w-sixty no-padding"><em>I think the moment of improvisation is a certain kind of archive, maybe in quotes or italics or something that it is the archive of the practice.</em></p>
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
@@ -444,9 +443,9 @@ const Context = (props) => {
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding mobile-top-10px"><b>Rachel Boggia:</b></p>
+                                        <p className="no-padding mobile-top-10px"><b>Rachel Boggia:</b></p>
                                         <div className="flex mobile-column space-btwn no-top-padding">
-                                            <p className="w-sixty transcription-details no-padding"><em>A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</em></p>
+                                            <p className="w-sixty no-padding"><em>A lot of non-proscenium oriented dances [...] are really underprivileged by video documentation.</em></p>
                                             <div className="flex flex-end">
                                             <Link 
                                                 onClick={setPosition}
@@ -463,9 +462,9 @@ const Context = (props) => {
                                         </div>
                                     </div>
                                     <div className="flex column space-btwn">
-                                        <p className="transcription-details no-padding mobile-top-10px"><b>Jaamil Olawale Kosoko:</b></p>
+                                        <p className="no-padding mobile-top-10px"><b>Jaamil Olawale Kosoko:</b></p>
                                         <div className="flex mobile-column space-btwn no-top-padding">
-                                            <p className="w-sixty transcription-details no-padding"><em>I feel like this hyper-contextuality is a part of me defending my own perspective.</em></p>
+                                            <p className="w-sixty no-padding"><em>I feel like this hyper-contextuality is a part of me defending my own perspective.</em></p>
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"

@@ -17,7 +17,7 @@ const MaraFrazierBio = (props) => {
                 </div>
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
-                <div className="essay-width ">
+                <div className="bio-width ">
                     <p className="no-top-padding"><a href="https://library.osu.edu/people/frazier.88" target="_blank">Mara Frazier</a> is Curator of Dance and Assistant Professor at the Lawrence and Lee Theatre Research Institute, Thompson Library Special Collections, Ohio State University Libraries. She works with students, faculty, staff, and community members to build, preserve, and share archives of dance and movement, and she regularly restages dance works from the Labanotation score. Mara is also a faculty member teaching children and adults at Flux+Flow Dance Center.</p>
                 </div>
             </section>

@@ -37,6 +37,7 @@ const Index = (props) => {
                         <Link to="/ishmael-houston-jones-writing"><li>Houston-Jones, Ishmael: Writing</li></Link>
                         <Link to="/judy-hussie-taylor-bio"><li>Hussie-Taylor, Judy: Bio</li></Link>
                         <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-writing"><li>Miller, Bebe: Writing</li></Link>
                         <Link to="/jaamil-olawale-kosoko-bio"><li>Olawale Kosoko, Jaamil: Bio</li></Link>
                     </ul>
                     <p className="index-sub-title">New York City Transcription:</p>
@@ -63,6 +64,7 @@ const Index = (props) => {
                         <Link to="/tonya-lockyer-bio"><li>Lockyer, Tonya: Bio</li></Link>
                         <Link to="/tonya-lockyer-writing"><li>Lockyer, Tonya: Writing</li></Link>
                         <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-writing"><li>Miller, Bebe: Writing</li></Link>
                     </ul>
                     <p className="index-sub-title">Seattle Meeting Notes:</p>
                     <ul className="index-list">
@@ -89,6 +91,7 @@ const Index = (props) => {
                         <Link to="/jaamil-olawale-kosoko-bio"><li>Olawale Kosoko, Jaamil: Bio</li></Link>
                         <Link to="/sarah-lass-bio"><li>Lass, Sarah: Bio</li></Link>
                         <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-writing"><li>Miller, Bebe: Writing</li></Link>
                         <Link to="/lauren-ree-slone-bio"><li>Slone, Lauren: Bio</li></Link> 
                         <Link to="/lauren-slone-writing"><li>Slone, Lauren: Writing</li></Link>
                         <Link to="/dana-whitco-bio"><li>Whitco, Dana: Bio</li></Link>
@@ -97,12 +100,14 @@ const Index = (props) => {
                     <p className="index-sub-title">Jacob's Pillow Meeting Notes:</p>
                     <ul className="index-list">
                         <Link to="/meeting-three-notes"><li>Meeting #3</li></Link>
+                        <Link to="/bebe-miller-presentation-notes"><li>Bebe Miller Presentation Notes</li></Link>
                     </ul>
                     <p className="index-sub-title">Jacob's Pillow Videos:</p>
                     <ul className="index-list">
                         <Link to="/meeting-three-small-group-two"><li>Meeting #3 Small Group 2</li></Link>
                         <Link to="/meeting-three-small-group-three"><li>Meeting #3 Small Group 3</li></Link>
                         <Link to="/meeting-three-small-group-conclusion"><li>Meeting #3 Conclusion</li></Link>
+                        <Link to="/bebe-miller-presentation"><li>Bebe Miller Presentation</li></Link>
                     </ul>
                     <h3 className="index-location-first">Meeting #4</h3>
                     <h4 className="index-location-first">Dance Center Columbia College</h4>
@@ -131,8 +136,9 @@ const Index = (props) => {
                         <Link to="/jonathan-meyer-bio"><li>Meyer, Jonathan: Bio</li></Link>
                         <Link to="/jonathan-meyer-writing"><li>Meyer, Jonathan: Writing</li></Link>
                         <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-writing"><li>Miller, Bebe: Writing</li></Link>
                         <Link to="/diana-muhammad-bio"><li>Muhammad, Diana: Bio</li></Link>
-                        <Link to="/diana-muhammad-bio"><li>Muhammad, Diana: Writing</li></Link>
+                        <Link to="/diana-muhammad-writing"><li>Muhammad, Diana: Writing</li></Link>
                     </ul>
                     <p className="index-sub-title">Chicago Meeting Notes:</p>
                     <ul className="index-list">
@@ -140,7 +146,11 @@ const Index = (props) => {
                     </ul>
                     <p className="index-sub-title">Chicago Videos:</p>
                     <ul className="index-list">
-                        <Link to="/chicago"><li>Chicago Meeting</li></Link>
+                        <Link to="/chicago-intro"><li>Meeting #4 Intro</li></Link>
+                        <Link to="/chicago-conversations"><li>Meeting #4 Conversations</li></Link>
+                        <Link to="/chicago-funders"><li>Meeting #4 Funders</li></Link>
+                        <Link to="/chicago-values"><li>Meeting #4 Values</li></Link>
+                        <Link to="/chicago-reports"><li>Meeting #4 Reports</li></Link>
                     </ul>
                     <h3 className="index-location-first">Meeting #5</h3>
                     <h4 className="index-location-first">Ann Hamilton & Michael Mercil’s Studio</h4>
@@ -167,6 +177,7 @@ const Index = (props) => {
                         <Link to="/russell-lepley-writing"><li>Lepley, Russell: Writing</li></Link>
                         <Link to="/gesel-mason-bio"><li>Mason, Gesel: Bio</li></Link>
                         <Link to="/bebe-miller-bio"><li>Miller, Bebe: Bio</li></Link>
+                        <Link to="/bebe-miller-writing"><li>Miller, Bebe: Writing</li></Link>
                         <Link to="/cori-olinghouse-bio"><li>Olinghouse, Cori: Bio</li></Link>
                         <Link to="/cori-olinghouse-writing"><li>Olinghouse, Cori: Writing</li></Link>
                         <Link to="/imogen-smith-bio"><li>Smith, Imogen: Bio</li></Link>
@@ -180,14 +191,15 @@ const Index = (props) => {
                     <ul className="index-list">
                         <Link to="/meeting-five-notes"><li>Meeting #5</li></Link>
                         <Link to="/imogen-smith-presentation-notes"><li>Imogen Smith Presentation Notes</li></Link>
-                        <Link to="/gesel-mason-presentation-notes"><li>Bebe Miller Presentation Notes</li></Link>
+                        <Link to="/cori-olinghouse-presentation-notes"><li>Cori Olinghouse Presentation Notes</li></Link>
                         <Link to="/gesel-mason-presentation-notes"><li>Gesel Mason Presentation Notes</li></Link>
-                        <Link to="/gesel-mason-presentation-notes"><li>Cori Olinghouse Presentation Notes</li></Link>
                     </ul>
                     <p className="index-sub-title">Columbus Videos:</p>
                     <ul className="index-list">
                         <Link to="/columbus"><li>Columbus Meeting</li></Link>
                         <Link to="/imogen-smith-presentation"><li>Imogen Smith Presentation</li></Link>
+                        <Link to="/cori-olinghouse-presentation"><li>Cori Olinghouse Presentation</li></Link>
+                        <Link to="/gesel-mason-presentation"><li>Gesel Mason Presentation</li></Link>
                     </ul>
                     <h3 className="index-location-first">More Resources</h3>
                     <ul className="index-list">

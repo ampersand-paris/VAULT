@@ -17,7 +17,7 @@ const DianaMuhammadBio = (props) => {
                 </div>
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
-                <div className="essay-width ">
+                <div className="bio-width ">
                     <p className="no-top-padding">Diana Muhammad is a Chicago dance artist working within contemporary dance, theater, and nightlife. She is a Links Hall Fellow (2022), a Lab Artist/Chicago Dancemakers Forum (2020-2021), and recognized as 50 Leaders (Newcity). Her work has been supported by The Dance Center of Columbia College, Thalia Hall, University of Chicago, Lucky Plush Productions, Pivot Arts, The Cambrian’s, ArtJLab (Detroit), art-theater Kobe (Japan), GWPF (S. Korea) among others. She has choreographed for countless underground spaces, independent artists, parties, concerts, music videos. Erin is the director of The Fly Honey Show—a performance project elevating women and queer experiences.</p>
                 </div>
             </section>

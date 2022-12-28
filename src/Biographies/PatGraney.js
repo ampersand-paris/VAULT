@@ -17,7 +17,7 @@ const PatGraneyBio = (props) => {
                 </div>
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
-                <div className="essay-width ">
+                <div className="bio-width ">
                     <p className="no-top-padding">Seattle-based choreographer <a href="https://www.patgraney.org/" target="_blank">Pat Graney</a> has received Choreography Fellowships from the National Endowment for the Arts, as well as from Artist Trust, the Washington State Arts Commission, the NEA International Program, National Corporate Fund for Dance and the John Simon Guggenheim Memorial Foundation. In 2008, Graney was awarded both the Alpert Award and a US Artists Award in Dance. In 2011, Graney was the recipient of the Arts Innovator Award from Artist Trust and the Dale Chihuly Foundation, and in 2013 was honored as one of 20 Americans to receive the Doris Duke Performing Artist Award. The Company premiered Girl Gods in 2015, which won two “Bessies” (New York Dance and Performance Awards) in 2016.</p>
                 </div>
             </section>

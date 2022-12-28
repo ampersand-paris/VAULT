@@ -18,7 +18,7 @@ const ChicagoFunders = (props) => {
 
     return (
     <>    
-        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh mobile-flex mobile-column mobile-al-center">
+        <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh min-height-one-hundred-vh mobile-flex mobile-column mobile-al-center">
             <div className="flex flex-end top-padding ">
                 <div style={{ backgroundColor: videoColor }} className="video-title-width flex column flex-end sand-gradient">
                     <h2 style={{ color: textColor }} className="transcription txt-al-center">VIDEO</h2>
