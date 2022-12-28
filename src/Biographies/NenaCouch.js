@@ -17,7 +17,7 @@ const NenaCouchBio = (props) => {
                 </div>
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
-                <div className="essay-width ">
+                <div className="bio-width ">
                     <p className="no-top-padding"><a href="https://library.osu.edu/people/couch.1" target="_blank">Nena Couch</a> is Head of Area Studies and Special Collections, The Ohio State University Libraries. She leads efforts that advance the development and use of rare books, manuscripts, primary sources, and international language, literature, and culture collections, connecting resources to students, faculty, researchers, and the community. Her research is in the performing arts with special interest in 16th–18th century Spanish dance, and Czech theatre scenography. She currently serves on the Board of Directors of the Bebe Miller Company.</p>
                 </div>
             </section>

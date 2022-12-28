@@ -1,6 +1,6 @@
 // ====== REACT ELEMENTS ======
 import ReactAudioPlayer from "react-audio-player";
-import audio from "./Audio/Introduction.mp3"
+import audio from "./Audio/Introduction.wav"
 
 // ====== COMPONENTS ======
 
@@ -50,26 +50,25 @@ function Home() {
           <img className="home-slash" src="/Images/BlackOutlineSlash.png" />
         </div>
         <section className="home-section-padding flex column al-center mint-green top-black-border">
+          <h2 className="intro-arrow">&#x2193;</h2>
           <div className="home-text-width">
             <p>Hello! And welcome to Vault. This project, organized by Bebe Miller Company, started with questions we had about dance artists, their creative practice, and the value of artist-driven archives. So, we decided to ask.</p>
-            <p>Starting in the spring of 2017, in a café in New York City, we began a series of convenings of dance artists, presenters, curators, scholars and other interested folks to ask questions and to share our experiences in documenting, and sharing, in one form or another, the creative process. Over the next three years we met with 80+ people in dance communities in Seattle (August 2017), at Jacob’s Pillow (May 2018), in Chicago (November 2019) and Columbus, Ohio (February 2020). We found that the basic question of what matters, and what matters to whom, seemed to be the guiding principle in all of our discussions about artist-driven archives.</p>
+            <p>Starting in the spring of 2017, in a café in New York City, we began a series of convenings of dance artists, presenters, and other interested folks to ask questions and to share our experiences in documenting, and sharing, the creative process. Over the next three years we met with over 80 people in dance communities in Seattle, at Jacob’s Pillow, in Chicago and Columbus, Ohio. We found that the basic question of what matters, and what matters to whom, seemed to be the guiding principle in all of our discussions.</p>
+            <p>What we’ve gathered here is an archive built from those meetings. You’ll find videos of conversations, presentations, and other materials gathered from the attendees. Rather than presenting our findings chronologically, we’ve organized them according to the main thematic areas that emerged. Those are accessed by the menu button on the left side of the home page. On the right side you’ll find a selected index that will give you other points of entry.</p>
             <p>Other questions soon surfaced:</p>
             <ul>
               <li className="bullets">How might such a gathering aid in sharing goals and methodologies of creative process and dissemination, as well as documentation?</li>
               <li className="bullets">Is this just an archival issue or does our inquiry address the responsiveness and inclusivity of all aspects of live performance?</li>
               <li className="bullets">Are we working under a premise of equal access, and if so, under what assumptions?</li>
-              <li className="bullets">What activities would be most feasible (artists interviewing other artists; each participant submitting a one-page introduction to their immediate concern; etc.)?</li>
               <li className="bullets">How do we realize the potential for intergenerational artistic and strategic mentorship, as part of the overall Vault project?</li>
+              <li className="bullets">How do we contend with the third-person archive alongside the artist-driven one?</li>
+              <li className="bullets">How do we reveal the thinking, the system, the kinesthetic feel of the work in its documentation?</li>
+              <li className="bullets">What can our expertise and practice in “co-presence” (everyone together, at one time, in one room) bring to the digital format?</li>
             </ul>
-            <p>Subsequent gatherings further honed the needs and concerns that Vault addresses:</p>
-            <ul>
-              <li className="bullets">How do we contend with the third-person archive alongside the artist-driven archive?</li>
-              <li className="bullets">How do we reveal the thinking, the system, the mind, the kinesthetic feel of the work in its documentation?</li>
-              <li className="bullets">What can our expertise and practice in “co-presence” (everyone together, at one time, in one room) bring to the digital? What is unique about co-presence? What is unique about the digital?</li>
-            </ul>
-            <p>What we’ve gathered here is another archive of sorts. You’ll find videos of conversations, presentations, written texts and other materials gathered from the attendees. Rather than presenting our findings chronologically, we’ve organized the materials according to the main thematic areas that emerged. You’ll also find a selected index that may give you other points of entry for your review. We invite you to take a tour through the four themes: Archival Thinking, Context, Methods, and Why It Matters; browse through written materials and notes cross-referenced with convening videos; and explore a selected index of points of interest. However you experience it, we trust that the journey you take through the materials will be at your own pace, and led by your own interest.</p>
-            <p>Thanks for coming. Enjoy!</p>
+            <p>We invite you to take a tour through the four themes: Archival Thinking, Context, Methods, and Why It Matters. You can browse through written materials and notes cross-referenced with convening videos; and you can explore an index of selected points of interest. However you experience it, we trust that the journey you take through the Vault Project will be at your own pace, and led by your own interest.</p>
+            <p>Enjoy!</p>
             <p className="transcription-details"><em>The Vault Project gatherings began in April 2017 and concluded in January 2020, just weeks before the global shutdown due to the COVID-19 pandemic. So much of our thinking and practice of artmaking changed dramatically. Which means that so much of what we consider to be vital to our field, whether practiced alone, virtually, within arm’s reach, with or without an audience, in our homes as well as in our studios, also changed. We have changed, and still we remain committed to our practice. We hope Vault serves as an invitation to continue the conversation and add to our incredible body of shared knowledge and experience. Our field is built on community and it deserves our attention.</em></p>
+            <p className="transcription-details"><em>Thanks for coming.</em></p>
           </div>
         </section>
         <section className="home-section-padding flex column al-center mint-green top-black-border">

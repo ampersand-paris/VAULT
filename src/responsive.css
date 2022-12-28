@@ -115,6 +115,10 @@
     .mobile-flex-end {
       justify-content: flex-end;
     }
+
+    .mobile-al-end {
+      align-items: flex-end;
+    }
     
     .mobile-al-center {
       align-items: center;
@@ -131,6 +135,7 @@
     .mobile-column-reverse {
       flex-direction: column-reverse ;
     }
+
     /* ====== PADDING ====== */
     
     .mobile-padding {
@@ -140,6 +145,10 @@
     .mobile-side-padding {
       padding-left: 12vW;
       padding-right: 12vW;
+    }
+
+    .side-padding {
+      padding: 0vH 2vW;
     }
     
     /* ====== MARGIN ====== */
@@ -295,6 +304,11 @@
     /* ====== VIDEO ====== */
     
     iframe {
+      height: 42vW;
+      width: 75vW;
+    }
+
+    .iframe {
       height: 42vW;
       width: 75vW;
     }

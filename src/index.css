@@ -10,22 +10,27 @@ body {
 
 @keyframes closeRightMenu {
   from {right: 0px;}
-  to {right: -300px;}
+  to {right: -400px;}
 }
 
 @keyframes openRightMenu {
-  from {right: -300px;}
+  from {right: -400px;}
   to {right: 0px;}
 }
 
 @keyframes openLeftMenu {
-  from {left: -300px;}
+  from {left: -400px;}
   to {left: 0px;}
 }
 
 @keyframes closeLeftMenu {
   from {left: 0px;}
-  to {left: -300px;}
+  to {left: -400px;}
+}
+
+@keyframes introArrow {
+  from {opacity: 0%;}
+  to {opacity: 100%}
 }
 
 .open-right-menu {
@@ -60,6 +65,11 @@ body {
   animation: triangleDisappear 1s forwards;
 }
 
+.intro-arrow {
+  animation: introArrow 2s forwards;
+  animation-delay: 3s;
+  opacity: 0%;
+}
 /* === CLOSED MENUS === */
 
 @keyframes closeIndexMenuClosed {
@@ -231,6 +241,10 @@ li {
   height: calc(100vH - 16px);
 }
 
+.min-height-one-hundred-vh {
+  min-height: 100vH;
+}
+
 .ninety-vh {
   height: 90vH;
 }
@@ -291,6 +305,10 @@ li {
 
 .w-thirty {
   width: 30%;
+}
+
+.w-twenty {
+  width: 20%;
 }
 
 .w-twenty-five {
@@ -799,7 +817,7 @@ li {
 }
 
 .home-section-padding {
-  padding-top: 10vH;
+  padding-top: 0vH;
   padding-bottom: 5vH;
 }
 
@@ -825,6 +843,14 @@ li {
 
 /* ====== BIORGRAPHY ====== */
 
+.bio-slash {
+  height: 300px;
+}
+
+.bio-width {
+  width: 30vW;
+}
+
 /* ====== ESSAY ====== */
 
 .essay-heading {
@@ -839,6 +865,7 @@ li {
 
 .essay-title-height {
   height: 300px;
+  width: 20vW;
 }
 
 .essay-width {
@@ -869,7 +896,7 @@ li {
 
 .video {
   padding: 2vH;
-  width: 69vW;
+  width: 74vW;
 }
 
 .video-title-width {

@@ -208,25 +208,27 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
                             </div>
                         </div>
-                        <iframe width="80%" height="35%" className="" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=8m53s" frameborder="0"></iframe>
-                        <div className="stnd-padding sand-txt">
-                            <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p> 
-                            <p className="no-padding"><em>What's the criticality behind what my offering is? With that comes a kind of cultural diplomacy, or ambassadorship.</em></p>
-                            <Link 
-                                onClick={setPosition}
-                                className="small-bttn jc-center sand cobalt-txt top-margin-10px"
-                                to='/meeting-three-small-group-two'
-                                state={{ 
-                                    background: "var(--sand)",
-                                    textColor: "var(--cobalt)",
-                                    startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=8m53s" }}
-                                >Video
-                            </Link>
+                        <div className="flex column flex-end w-one-hundred h-fifty mobile-top-20px">
+                            <iframe width="100%" height="100%" className="" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=8m53s" frameborder="0"></iframe>
+                            <div className="stnd-padding sand-txt">
+                                <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p> 
+                                <p className="no-padding"><em>What's the criticality behind what my offering is? With that comes a kind of cultural diplomacy, or ambassadorship.</em></p>
+                                <Link 
+                                    onClick={setPosition}
+                                    className="small-bttn jc-center sand cobalt-txt top-margin-10px"
+                                    to='/meeting-three-small-group-two'
+                                    state={{ 
+                                        background: "var(--sand)",
+                                        textColor: "var(--cobalt)",
+                                        startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=8m53s" }}
+                                    >Video
+                                </Link>
+                            </div>
                         </div>
                     </div>
                     <div className="relative w-forty flex column flex-end sand-txt">
                         <div className="relative flex jc-center h-fifty overflow-hidden mobile-top-20px">
-                            <img src="/Images/Pictures/WhyItMattersImg3.png" className="h-one-hundred mobile-76vW"/>
+                            <img src="/Images/Pictures/GeselPresentation.png" className="h-one-hundred mobile-76vW"/>
                             <p className="absolute bottom-10px left-10px double-padding sand cobalt-txt"><b>NO BOUNDARIES: Gesel Mason</b></p> 
                         </div>
                         <div className="h-fifty flex column z-index-11 no-top-padding">
@@ -236,16 +238,30 @@ const WhyItMatters = (props) => {
                                 <li className="bullets">Who gets to tell what stories?</li>
                                 <li className="bullets">Real and imagined concerns around ownership, intellectual property, copyright, permission, and transmission</li>
                             </ul>
+                            <div className="flex top-margin-10px">                            
+                            <div className="sand-border-right ">
+                                <Link 
+                                    onClick={setPosition}
+                                    className="small-bttn jc-center sand cobalt-txt right-margin-10px"
+                                    to='/gesel-mason-presentation'
+                                    state={{ 
+                                        background: "var(--sand)",
+                                        textColor: "var(--cobalt)",
+                                        slash: "/Images/CreamSlash.svg" }}
+                                    >Video
+                                </Link>
+                            </div>
                             <Link 
                                 onClick={setPosition}
-                                className="small-bttn jc-center sand cobalt-txt top-margin-10px"
-                                to='/gesel-mason-presentation'
+                                className="small-bttn jc-center sand cobalt-txt left-margin-10px"
+                                to='/gesel-mason-presentation-notes'
                                 state={{ 
                                     background: "var(--sand)",
                                     textColor: "var(--cobalt)",
                                     slash: "/Images/CreamSlash.svg" }}
-                                >Presentation
+                                >Notes 
                             </Link>
+                            </div>
                         </div>
                         
                     </div>
@@ -292,16 +308,30 @@ const WhyItMatters = (props) => {
                                     <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                                     <h2 className="no-padding">Cori Olinghouse, Columbus:</h2>
                                     <p className="no-top-padding">Different forms promote different modes of reception… Embodied practice gets to speak across body-document divide.</p>
-                                    <Link 
-                                        onClick={setPosition}
-                                        className="small-bttn top-margin-10px cobalt sand-txt sand-border"
-                                        to='/cori-olinghouse-presentation'
-                                        state={{ 
-                                            background: "var(--sand)",
-                                            textColor: "var(--cobalt)",
-                                            slash: "/Images/CreamSlash.svg" }}
-                                        >Presentation
-                                    </Link>
+                                    <div className="flex top-margin-10px">
+                                        <div className="sand-border-right">
+                                            <Link 
+                                                onClick={setPosition}
+                                                className="small-bttn cobalt sand-txt sand-border right-margin-10px"
+                                                to='/cori-olinghouse-presentation'
+                                                state={{ 
+                                                    background: "var(--sand)",
+                                                    textColor: "var(--cobalt)",
+                                                    slash: "/Images/CreamSlash.svg" }}
+                                                >Video
+                                            </Link>
+                                        </div>
+                                        <Link 
+                                            onClick={setPosition}
+                                            className="small-bttn cobalt sand-txt sand-border left-margin-10px"
+                                            to='/cori-olinghouse-presentation-notes'
+                                            state={{ 
+                                                background: "var(--sand)",
+                                                textColor: "var(--cobalt)",
+                                                slash: "/Images/CreamSlash.svg" }}
+                                            >Notes
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -337,7 +367,7 @@ const WhyItMatters = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--cobalt)",
-                                            startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m18s" }}
+                                            startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m38s" }}
                                         >Video
                                     </Link>
                                     <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
@@ -512,7 +542,7 @@ const WhyItMatters = (props) => {
                     </div>
                     <div className="w-forty flex column flex-end mobile-column stnd-padding sand-txt">
                         <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                        <h2 className="no-padding"><b>Columbus Questions:</b></h2>
+                        <h2 className="no-padding"><b>Columbus Post-It Wall of Questions:</b></h2>
                         <div className="flex column stnd-padding sand-border">
                             <div className="h-one-hundred flex column space-btwn">
                                 <div className="flex mobile-column space-btwn sand-border-left-thin">                    

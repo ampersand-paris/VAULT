@@ -136,7 +136,8 @@ const MeetingTwoNotes = (props) => {
                         <li className="bullets">Are we looking at how we make? Or that we make? Or something else?</li>
                     </ul>
                     <p><b>Pat:</b> communicating process is as important than the actual thing that’s seen</p>
-                    <p><b>BB:</b> <a id="excerpt-two"></a>is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom?</p>
+                    <p><b>Bebe:</b> <a id="excerpt-two"></a>is it artists’ or institutions’ responsibility to archive? What gets archived, and for whom?</p>
+                    <p>Did we grow into this archiving of process? 30 years ago we only documented performance even though all that process was there. We have learned to love it and want to share that. When we stop wanting to do that, share that ephemeral aspect of what we love about process? What else is there? Our attention to process is a kind of thing.</p>
                     <p><b>AH:</b> difference between traditional archiving and archival projects</p>
                     <ul>
                         <li className="bullets">Often talk about archive in relationship to one person; but it’s a super-collaborative activity</li>

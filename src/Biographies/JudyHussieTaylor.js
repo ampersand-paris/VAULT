@@ -17,7 +17,7 @@ const JudyHussieTaylorBio = (props) => {
                 </div>
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
-                <div className="essay-width ">
+                <div className="bio-width ">
                     <p className="no-top-padding">Since taking the helm at Danspace Project in 2008, <a href="https://danspaceproject.org/" target="_blank">Judy Hussie-Taylor</a> (Executive Director and Chief Curator) has developed a critically-acclaimed series, the PLATFORMS, featuring new contexts for performing arts presenting. She is on the Advisory Committee for the Institute for Curatorial Practice in Performance, a program of Center for the Arts, Wesleyan University, co-founded in partnership with Danspace Project. She received the first “Bessie” Award ever given for dance curation in 2016 and was conferred a Chevalier D’Ordre des Arts et des Lettres by the French Government in 2014.</p>
                 </div>
             </section>

@@ -280,7 +280,7 @@ const ArchivalThinking = (props) => {
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn pumpkin sand-txt"
-                                                to='/chicago'
+                                                to='/chicago-funders'
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--pumpkin)",
@@ -296,7 +296,7 @@ const ArchivalThinking = (props) => {
                         <div className="w-twenty-five stnd-padding">
                             <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=16m45s" frameborder="0"></iframe>
                             <div className="sand pumpkin-txt border-radius stnd-padding">
-                                <p className="no-padding transcription-details"><b>Jaamil Olawale Kosoko</b></p> 
+                                <p className="no-padding transcription-details"><b>Jaamil Olawale Kosoko, Jacob's Pillow:</b></p> 
                                 <p className="no-top-padding transcription-details"><em>...as the archivist, as the curator, as the maker, I'm just showing you my ways in which I'm maneuvering through certain materials.</em></p>
                                 <div className="flex flex-end">
                                     <Link 
@@ -388,7 +388,7 @@ const ArchivalThinking = (props) => {
                                 </div>
                             </div>
                             <div className="w-forty-seven w-forty-seven-split">
-                                <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=16m45s&showinfo=0&controls=0" frameborder="0"></iframe>
+                                <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=13m40s" frameborder="0"></iframe>
                                 <div className="stnd-padding border-radius sand pumpkin-txt">
                                     <p className="transcription-details no-bottom-padding"><b>Bebe Miller, Seattle:</b></p>
                                     <p className="transcription-details no-top-padding"><em>…there's something about the immediacy of [social media's] dispersal of information...</em></p>
@@ -428,7 +428,8 @@ const ArchivalThinking = (props) => {
                         <div className="stnd-padding sand-txt no-mobile-border sand-border-bottom">
                             <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p> 
                             <p className="no-top-padding">What’s the nature of what we’re archiving? What are the layers important to us? Then the curator and teacher of dance history in me zoomed out further: What are the politics of inclusion? Who and what might be missing? … Who do we want to be in conversation with, now and 100 years from now?</p>
-                            <Link 
+                            {/* Sourc of quot cannot be found. */}
+                            {/* <Link 
                                 onClick={setPosition}
                                 className="small-bttn sand pumpkin-txt"
                                 to='/meeting-two-notes'
@@ -437,7 +438,7 @@ const ArchivalThinking = (props) => {
                                     textColor: "var(--sand)",
                                     slash: "/Images/CreamSlash.svg" }}
                                 >Meeting Notes
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className="stnd-padding sand-txt no-mobile-border">
                             <p className="no-bottom-padding"><b>Bonnie Brooks:</b></p> 
