@@ -285,8 +285,13 @@ li {
   width: 75%;
 }
 
+/* the exemptions are for the moments when we do not need the calc to account for the menus */
 
 .w-sixty {
+  width: 60%;
+}
+
+.w-sixty-exempt {
   width: 60%;
 }
 
@@ -294,12 +299,19 @@ li {
   width: 50%;
 }
 
-.
+.w-fifty-exempt {
+  width: 50%;
+}
+
  {
   width: 47%;
 }
 
 .w-forty {
+  width: 40%;
+}
+
+.w-forty-exempt {
   width: 40%;
 }
 
@@ -312,6 +324,10 @@ li {
 }
 
 .w-twenty-five {
+  width: 25%;
+}
+
+.w-twenty-five-exempt {
   width: 25%;
 }
 
@@ -420,6 +436,10 @@ li {
 
 .left-margin-10px {
   margin-left: 10px;
+}
+
+.left-margin-20px-desktop-only {
+  margin-left: 20px;
 }
 
 .right-margin-10px {

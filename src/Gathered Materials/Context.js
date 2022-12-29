@@ -199,8 +199,8 @@ const Context = (props) => {
                                     >Writing
                                 </Link>
                             </div>
-                            <div className="w-fifty flex column jc-center">
-                                <img className="display-none small-slash" src="/Images/CreamSlash.svg" />
+                            <div className="display-none w-fifty flex column jc-center">
+                                <img className="small-slash" src="/Images/CreamSlash.svg" />
                             </div>
                         </div>
                         <div className="top-100px double-padding sand-border sand-txt">
@@ -288,7 +288,7 @@ const Context = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-forty-seven relative flex column stnd-padding">
+                    <div className="w-forty-seven relative flex column stnd-padding  mobile-jc-center">
                         <div className="relative h-fifty w-seventy flex flex-end evergreen-txt">
                             <div className="relative w-seventy flex column">
                                 <div className="flex sand-gradient-50 w-one-hundred">
@@ -310,7 +310,7 @@ const Context = (props) => {
                             </div>
                         </div>
                         <div className="w-one-hundred h-fifty flex  mobile-column-reverse mobile-top-20px space-btwn">
-                            <div className="w-fifty h-one-hundred flex column flex-end">
+                            <div className="w-fifty-exempt h-one-hundred flex column flex-end">
                                 <div className="sand evergreen-txt double-padding">
                                     <p className="no-bottom-padding no-top-padding"><b>Cori Olinghouse:</b></p>
                                     <p className="no-top-padding">I often take up each project as a hybrid archival-curatorial intervention, built with a particular context and audience in mind, in connection to the needs and interests of the artist and the communities the work inhabits.</p>
@@ -328,7 +328,7 @@ const Context = (props) => {
                                     </Hash>
                                 </div>
                             </div>
-                            <div className="z-index-10 w-forty al-flex-end flex column jc-center">
+                            <div className="z-index-10 w-forty-exempt al-flex-end flex column jc-center">
                                 <div className="evergreen sand-border sand-txt double-padding txt-al-right">
                                     <p className="no-bottom-padding no-top-padding"><b>Ni’Ja Whitson, Columbus:</b></p>
                                     <p className="no-top-padding">How much agency does a performer have since it’s not their work and not their archive?</p>
@@ -348,8 +348,8 @@ const Context = (props) => {
                         <img src="/Images/CreamOutlineSlash.svg" className="display-none absolute large-slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-1800 flex mobile-column mobile-side-padding">
-                    <div className="w-forty flex column sand-txt">
+                <div className="panel-1800 flex mobile-column mobile-side-padding mobile-jc-center">
+                    <div className="w-forty-exempt flex column sand-txt">
                         <div className="h-fifty flex column jc-center ">
                             <div className="sand-border stnd-padding">
                                 <p className="no-bottom-padding"><b>Tonya Lockyer:</b></p>
@@ -384,7 +384,7 @@ const Context = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-sixty flex column space-btwn side-padding">
+                    <div className="w-sixty-exempt flex column space-btwn left-margin-20px-desktop-only">
                         <div className="h-one-hundred flex space-around">
                             <div className="w-fifty flex column stnd-padding sand-border sand-txt">
                                 <h2 className="no-padding"><b>Jacob’s Pillow</b> &#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h2>
