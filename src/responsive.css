@@ -56,6 +56,10 @@
       width: calc(100% - 2vW);
     }
     
+    .w-fifty-exempt {
+      width: 100%;
+    }
+
     .mobile-w-forty-seven-border-adjust {
       width: calc(100% - 2vW + 4px) !important;
     }
@@ -70,6 +74,10 @@
     
     .w-forty {
       width: calc(100% - 2vW);
+    }
+
+    .w-forty-exempt {
+      width: 100%;
     }
     
     .w-thirty {
@@ -92,10 +100,18 @@
       width: calc(100% - 2vW);
     }
     
+    .w-sixty-exempt {
+      width: 100%;
+    }
+
     .w-twenty-five {
       width: calc(100% - 2vW);
     }
     
+    .w-twenty-five-exempt {
+      width: 100%;
+    }
+
     /* ====== POSITION ====== */
     
     .mobile-relative {
@@ -169,6 +185,9 @@
       margin-bottom: 10px;
     }
     
+    .left-margin-20px-desktop-only {
+      margin-left: 0px;
+    }
     
     /* ====== MENUS ====== */
     
@@ -209,6 +228,10 @@
       width: 100vW;
     }
     
+    .ar-container-length {
+      width: 100vW;
+    }
+
     .container-length {
       width: 100vW;
     }
@@ -234,7 +257,7 @@
     .why-it-matters-img-2 {
       position: relative;
       display: block;
-      width: 76vW;
+      width: 74vW;
       height: auto;
     }
     

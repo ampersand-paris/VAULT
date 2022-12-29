@@ -112,8 +112,8 @@ const Methods = (props) => {
                     <h1 className="preserved-lemon-txt intro-title">METHODS</h1>
                     <img src="/Images/LemonSlash.svg" className="m-slash display-none"/>    
                 </div>
-                <div className="panel-1400 flex mobile-column space-around mobile-side-padding">
-                    <div className="w-twenty-five flex column space-around">
+                <div className="panel-1400 flex mobile-column mobile-jc-center space-around mobile-side-padding">
+                    <div className="w-twenty-five-exempt flex column space-around">
                         <div className="flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <Hash 
@@ -169,7 +169,7 @@ const Methods = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-sixty flex column flex-end double-padding">
+                    <div className="w-sixty flex column flex-end stnd-padding">
                         <h2 className="sand-txt txt-al-right"><b>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</b></h2>
                         <div className="sand-border flex mobile-column double-padding">
                             <div className="flex column w-seventy-five">
@@ -192,7 +192,7 @@ const Methods = (props) => {
                 </div>
                 <div className="panel-1800 flex mobile-column mobile-side-padding top-mobile-sand-border">
                     <div className="w-twenty-five flex column space-around stnd-padding">
-                        <div className="flex column al-flex-end">
+                        <div className="flex column al-flex-end mobile-al-center">
                             <div className="w-seventy-five flex sand-gradient-50 w-one-hundred">
                                 <Hash 
                                     onClick={setPosition}
@@ -269,7 +269,7 @@ const Methods = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-sixty flex column mobile-top-20px">
+                            <div className="w-sixty-exempt flex column mobile-top-20px">
                                 <img src="/Images/Pictures/JonathanMeyer.JPG" className="side-padding" />
                             </div>
                         </div>
@@ -295,7 +295,7 @@ const Methods = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1200 flex mobile-column mobile-side-padding">
+                <div className="panel-1200 flex mobile-column mobile-al-center mobile-side-padding">
                     <div className="flex column w-eighty">
                         <div className="h-thirty-three flex mobile-column sand double-padding">
                             <div className="w-eighty flex column jc-center">
@@ -377,8 +377,8 @@ const Methods = (props) => {
                         <img src="/Images/CreamOutlineSlash.svg" className="slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-1400 flex mobile-column space-around mobile-side-padding">
-                    <div className="w-twenty-five flex column space-around sand sand-border">
+                <div className="panel-1400 flex mobile-column mobile-al-center space-around mobile-side-padding">
+                    <div className="w-twenty-five flex column space-around sand sand-border mobile-top-10px">
                         <div className="flex column mobile-top-20px">
                             <div className="flex black-gradient-50 w-one-hundred">
                                 <Hash 
@@ -577,9 +577,8 @@ const Methods = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex column sand space-btwn">
-                            <iframe width="100%" height="40%" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=21m14s" frameborder="0"></iframe>    
-                            <p className="txt-al-right">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                        <div className="w-twenty-five-exempt flex sand">
+                            <p className="txt-al-center">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                         </div>
                     </div>
                 </div>

@@ -111,7 +111,7 @@ const WhyItMatters = (props) => {
                     <h1 className="cobalt-txt intro-title">WHY IT MATTERS</h1>
                     <img src="/Images/CobaltSlash.svg" className="w-slash display-none"/>    
                 </div>
-                <div className="panel-1800 flex mobile-column mobile-jc-center space-around stnd-padding mobile-side-padding">
+                <div className="panel-1800 flex mobile-column mobile-al-center space-around stnd-padding mobile-side-padding">
                     <div className="w-forty flex column flex-end">
                         <div className="flex mobile-column stnd-padding sand-txt">
                         <iframe width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=3m10s" frameborder="0"></iframe>
@@ -190,9 +190,9 @@ const WhyItMatters = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1800 flex space-btwn mobile-column mobile-side-padding top-mobile-sand-border">
+                <div className="panel-1800 flex space-btwn mobile-column mobile-al-center mobile-side-padding top-mobile-sand-border">
                     <div className="w-thirty flex column mobile-jc-center space-around">
-                        <div className="relative h-200px flex column flex-end">
+                        <div className="relative h-200px flex column flex-end mobile-al-center">
                             <Hash 
                                 onClick={setPosition}
                                 className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
@@ -302,7 +302,7 @@ const WhyItMatters = (props) => {
                                 <p className="no-top-padding txt-al-center">We lose the radical “now” of live performance when we hyper-edit content…</p>
                             </div>
                         </div>
-                        <div className="flex column space-btwn stnd-padding">
+                        <div className="w-fifty flex column space-btwn stnd-padding">
                             <div className="flex column mobile-top-20px">
                                 <div className="w-one-hundred sand-txt">
                                     <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
@@ -358,8 +358,8 @@ const WhyItMatters = (props) => {
                             </div>
                         </div>
                         <div className="flex mobile-column space-around">
-                            <div className="w-fifty flex column mobile-top-20px">
-                                <div className="relative h-200px  flex column flex-end">
+                            <div className="w-fifty-exempt mobile-al-center flex column mobile-top-20px">
+                                <div className="relative h-200px  flex column flex-end mobile-al-center">
                                     <Link 
                                         onClick={setPosition}
                                         className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
@@ -370,14 +370,14 @@ const WhyItMatters = (props) => {
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m38s" }}
                                         >Video
                                     </Link>
-                                    <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
-                                        <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
+                                    <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border mobile-top-10px">
+                                        <p className="no-bottom-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
                                         <p className="no-top-padding txt-al-center"><em>…to participate in a conversation around archiving and to build process around archives—to align [archives] with how dance is actually made.</em></p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-fifty flex column mobile-top-20px">
-                                <div className="relative h-200px flex column al-flex-end flex-end">
+                            <div className="w-fifty-exempt flex column mobile-top-20px">
+                                <div className="relative h-200px flex column al-flex-end flex-end mobile-al-center">
                                     <Link 
                                         onClick={setPosition}
                                         className="absolute top-30px small-bttn right-margin-10px cobalt sand-txt sand-border"
@@ -389,16 +389,16 @@ const WhyItMatters = (props) => {
                                         >Video
                                     </Link>
                                     <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
-                                        <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p>
+                                        <p className="no-padding txt-al-center"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p>
                                         <p className="no-top-padding txt-al-center"><em>…So how do you go about overcoming harsh review, especially if it's completely inaccurate?</em></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="h-fifty flex mobile-column space-around">
-                            <div className="w-fifty flex column space-around">
+                            <div className="w-fifty-exempt flex column mobile-al-center space-around">
                                 <div className="flex column  mobile-top-20px">
-                                    <div className="relative h-150px  flex column flex-end">
+                                    <div className="relative h-150px  flex column flex-end mobile-al-center">
                                         <Link 
                                             onClick={setPosition}
                                             className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
@@ -410,13 +410,13 @@ const WhyItMatters = (props) => {
                                             >Video
                                         </Link>
                                         <div className="h-100px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
-                                            <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
+                                            <p className="no-bottom-padding txt-al-center"><b>Angie Hauser, Jacob’s Pillow:</b></p>
                                             <p className="no-padding txt-al-center"><em>…but you just can't hold on to all of it, so it's changing the methodology absolutely.</em></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="flex column mobile-top-20px">
-                                    <div className="relative h-150px flex column flex-end">
+                                    <div className="relative h-150px flex column flex-end mobile-al-center">
                                         <Link 
                                             onClick={setPosition}
                                             className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
@@ -428,13 +428,13 @@ const WhyItMatters = (props) => {
                                             >Video
                                         </Link>
                                         <div className="h-100px w-ninety flex column jc-center al-center stnd-padding sand-txt sand-border">
-                                            <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
+                                            <p className="no-bottom-padding txt-al-center"><b>Angie Hauser, Jacob’s Pillow:</b></p>
                                             <p className="no-padding txt-al-center"><em>Do you even think about archive at this point in your dance making?</em></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-fifty flex column overflow-hidden">
+                            <div className="w-fifty-exempt flex column overflow-hidden">
                                 <img src="/Images/Pictures/WhyItMattersImg2.png"  className="w-one-hundred stnd-padding"/>
                             </div>
                         </div>
@@ -443,7 +443,7 @@ const WhyItMatters = (props) => {
                         <img src="/Images/CreamOutlineSlash.svg" className="slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-1800 flex mobile-column space-around mobile-side-padding">
+                <div className="panel-1800 flex mobile-column mobile-al-center space-around mobile-side-padding">
                     <div className="w-twenty-five flex column space-around sand sand-border">
                         <div className="flex column mobile-top-20px">
                             <div className="flex cobalt-gradient-50 w-one-hundred">

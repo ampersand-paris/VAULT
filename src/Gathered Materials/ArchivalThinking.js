@@ -367,7 +367,7 @@ const ArchivalThinking = (props) => {
                     </div>
                 </div>
                 <div className="panel-700 flex column mobile-side-padding">
-                    <div className="h-fifty flex space-btwn stnd-padding">
+                    <div className="h-fifty flex mobile-column space-btwn stnd-padding">
                         <div className="w-forty-seven w-forty-seven-split">
                                 <div className="sand-txt">
                                     <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
@@ -387,7 +387,7 @@ const ArchivalThinking = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-forty-seven w-forty-seven-split">
+                            <div className="w-forty-seven w-forty-seven-split mobile-top-10px">
                                 <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=13m40s" frameborder="0"></iframe>
                                 <div className="stnd-padding border-radius sand pumpkin-txt">
                                     <p className="transcription-details no-bottom-padding"><b>Bebe Miller, Seattle:</b></p>
