@@ -68,7 +68,7 @@ const WhyItMatters = (props) => {
 
                 /* width */
                 .container::-webkit-scrollbar {
-                width: 25px !important;
+                width: 25px;
 
                 }
 
@@ -116,12 +116,12 @@ const WhyItMatters = (props) => {
                         <div className="flex mobile-column stnd-padding sand-txt">
                         <iframe width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=3m10s" frameborder="0"></iframe>
                             <div className="stnd-padding">
-                                <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow, :</b></p>
+                                <p className="no-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
                                 <p className="no-top-padding"><em>Some of my favorite art has happened in the room with other art makers in a rehearsal, in a process situation. And that perhaps a performance is an archive of that…</em></p>
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand cobalt-txt"
-                                    to='/meeting-three-small-group-two'
+                                    to='/meeting-three-conversation-one'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
@@ -158,10 +158,11 @@ const WhyItMatters = (props) => {
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand cobalt-txt"
-                                    to='/meeting-three-small-group-two'
+                                    to='/meeting-three-conversation-one'
                                     state={{ 
                                         background: "var(--sand)",
-                                        textColor: "var(--cobalt)",
+                                        textColor: "black",
+                                        videoColor: "var(--cobalt)",
                                         startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=4m15s" }}
                                     >Video
                                 </Link>
@@ -216,7 +217,7 @@ const WhyItMatters = (props) => {
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand cobalt-txt top-margin-10px"
-                                    to='/meeting-three-small-group-two'
+                                    to='/meeting-three-conversation-one'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
@@ -227,9 +228,9 @@ const WhyItMatters = (props) => {
                         </div>
                     </div>
                     <div className="relative w-forty flex column flex-end sand-txt">
-                        <div className="relative flex jc-center h-fifty overflow-hidden mobile-top-20px">
+                        <div className="relative flex jc-center h-seventy overflow-hidden mobile-top-20px">
                             <img src="/Images/Pictures/GeselPresentation.png" className="h-one-hundred mobile-76vW"/>
-                            <p className="absolute bottom-10px left-10px double-padding sand cobalt-txt"><b>NO BOUNDARIES: Gesel Mason</b></p> 
+                            <p className="absolute bottom-10px left-10px double-padding sand cobalt-txt"><b>Presentation: NO BOUNDARIES—Gesel Mason</b></p> 
                         </div>
                         <div className="h-fifty flex column z-index-11 no-top-padding">
                             <ul className="no-top-padding">
@@ -247,7 +248,7 @@ const WhyItMatters = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
-                                        slash: "/Images/CreamSlash.svg" }}
+                                        startTime: "https://player.vimeo.com/video/783391235?h=e03a3b92db" }}
                                     >Video
                                 </Link>
                             </div>
@@ -263,7 +264,39 @@ const WhyItMatters = (props) => {
                             </Link>
                             </div>
                         </div>
-                        
+                        <div className="w-one-hundred flex column space-btwn stnd-padding">
+                            <div className="flex column txt-al-right mobile-top-20px">
+                                <div className="w-one-hundred sand-txt">
+                                    <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                                    <h2 className="no-padding">Presentation: Cori Olinghouse</h2>
+                                    <p className="no-top-padding">Different forms promote different modes of reception… Embodied practice gets to speak across body-document divide.</p>
+                                    <div className="flex flex-end top-margin-10px">
+                                        <div className="sand-border-right">
+                                            <Link 
+                                                onClick={setPosition}
+                                                className="small-bttn cobalt sand-txt sand-border right-margin-10px"
+                                                to='/cori-olinghouse-presentation'
+                                                state={{ 
+                                                    background: "var(--sand)",
+                                                    textColor: "var(--cobalt)",
+                                                    startTime: "https://player.vimeo.com/video/778223077?h=623e1db6fa" }}
+                                                >Video
+                                            </Link>
+                                        </div>
+                                        <Link 
+                                            onClick={setPosition}
+                                            className="small-bttn cobalt sand-txt sand-border left-margin-10px"
+                                            to='/cori-olinghouse-presentation-notes'
+                                            state={{ 
+                                                background: "var(--sand)",
+                                                textColor: "var(--cobalt)",
+                                                slash: "/Images/CreamSlash.svg" }}
+                                            >Notes
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="w-thirty flex column al-center space-btwn stnd-padding">
                         <div className="w-eighty flex column mobile-top-20px">
@@ -284,6 +317,7 @@ const WhyItMatters = (props) => {
                                 <p className="no-top-padding txt-al-center">My own dance-making has bloomed to me over time, due to the wide availability of artists’ work beyond my own city limits.</p>
                             </div>
                         </div>
+                        <img src="/Images/Pictures/GroupPhoto.JPG"  className="w-eighty stnd-padding"/>
                         <div className="w-eighty flex column mobile-top-20px">
                             <div className="flex sand-gradient-50 w-one-hundred">
                                 <Hash 
@@ -300,39 +334,6 @@ const WhyItMatters = (props) => {
                             <div className="stnd-padding sand cobalt-txt">
                                 <p className="no-padding txt-al-center"><b>Alex Springer:</b></p>
                                 <p className="no-top-padding txt-al-center">We lose the radical “now” of live performance when we hyper-edit content…</p>
-                            </div>
-                        </div>
-                        <div className="w-fifty flex column space-btwn stnd-padding">
-                            <div className="flex column mobile-top-20px">
-                                <div className="w-one-hundred sand-txt">
-                                    <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
-                                    <h2 className="no-padding">Cori Olinghouse, Columbus:</h2>
-                                    <p className="no-top-padding">Different forms promote different modes of reception… Embodied practice gets to speak across body-document divide.</p>
-                                    <div className="flex top-margin-10px">
-                                        <div className="sand-border-right">
-                                            <Link 
-                                                onClick={setPosition}
-                                                className="small-bttn cobalt sand-txt sand-border right-margin-10px"
-                                                to='/cori-olinghouse-presentation'
-                                                state={{ 
-                                                    background: "var(--sand)",
-                                                    textColor: "var(--cobalt)",
-                                                    slash: "/Images/CreamSlash.svg" }}
-                                                >Video
-                                            </Link>
-                                        </div>
-                                        <Link 
-                                            onClick={setPosition}
-                                            className="small-bttn cobalt sand-txt sand-border left-margin-10px"
-                                            to='/cori-olinghouse-presentation-notes'
-                                            state={{ 
-                                                background: "var(--sand)",
-                                                textColor: "var(--cobalt)",
-                                                slash: "/Images/CreamSlash.svg" }}
-                                            >Notes
-                                        </Link>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -363,7 +364,7 @@ const WhyItMatters = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                        to='/meeting-three-small-group-two'
+                                        to='/meeting-three-conversation-one'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--cobalt)",
@@ -371,7 +372,7 @@ const WhyItMatters = (props) => {
                                         >Video
                                     </Link>
                                     <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border mobile-top-10px">
-                                        <p className="no-bottom-padding"><b>Angie Hauser, Jacob’s Pillow:</b></p>
+                                        <p className="no-bottom-padding txt-al-center"><b>Angie Hauser, Jacob’s Pillow:</b></p>
                                         <p className="no-top-padding txt-al-center"><em>…to participate in a conversation around archiving and to build process around archives—to align [archives] with how dance is actually made.</em></p>
                                     </div>
                                 </div>
@@ -381,7 +382,7 @@ const WhyItMatters = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="absolute top-30px small-bttn right-margin-10px cobalt sand-txt sand-border"
-                                        to='/meeting-three-small-group-two'
+                                        to='/meeting-three-conversation-one'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--cobalt)",
@@ -402,7 +403,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -420,7 +421,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -435,7 +436,7 @@ const WhyItMatters = (props) => {
                                 </div>
                             </div>
                             <div className="w-fifty-exempt flex column overflow-hidden">
-                                <img src="/Images/Pictures/WhyItMattersImg2.png"  className="w-one-hundred stnd-padding"/>
+                                <img src="/Images/Pictures/Bonfire.png"  className="w-one-hundred stnd-padding"/>
                             </div>
                         </div>
                     </div>
@@ -551,7 +552,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -566,7 +567,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -581,7 +582,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -596,7 +597,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -611,7 +612,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -626,7 +627,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -641,7 +642,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
@@ -656,7 +657,7 @@ const WhyItMatters = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn sand cobalt-txt mobile-bottom-10px"
-                                            to='/meeting-three-small-group-two'
+                                            to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",

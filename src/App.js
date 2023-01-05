@@ -107,8 +107,10 @@ import ChicagoConversations from "./Videos/ChicagoConversations"
 import ChicagoValues from "./Videos/ChicagoValues"
 import ChicagoReports from "./Videos/ChicagoReports"
 import Columbus from "./Videos/Columbus";
+import ColumbusLunch from "./Videos/ColumbusLunch";
 import Seattle from "./Videos/Seattle"
 import SeattlePart2 from "./Videos/SeattlePart2"
+import MeetingThreeIntroductions from "./Videos/MeethingThreeIntros";
 import MeetingThreeSmallGroupTwo from "./Videos/MeethingThreeSmallGroupTwo";
 import MeetingThreeSmallGroupThree from "./Videos/MeetingThreeSmallGroupThree";
 import MeetingThreeSmallGroupConclusion from "./Videos/MeetingThreeSmallGroupConclusion";
@@ -340,14 +342,17 @@ return (
               {/* Videos */}
                   <Route path="/seattle" element={<Seattle />} />
                   <Route path="/seattle-part-two" element={<SeattlePart2 />} />
-                  <Route path="/meeting-three-small-group-two" element={<MeetingThreeSmallGroupTwo />} />
-                  <Route path="/meeting-three-small-group-three" element={<MeetingThreeSmallGroupThree />} />
-                  <Route path="/meeting-three-small-group-conclusion" element={<MeetingThreeSmallGroupConclusion />} />
+                  <Route path="/meeting-three-introductions" element={<MeetingThreeIntroductions />} />
+                  <Route path="/meeting-three-conversation-one" element={<MeetingThreeSmallGroupTwo />} />
+                  <Route path="/meeting-three-conversation-two" element={<MeetingThreeSmallGroupThree />} />
+                  <Route path="/meeting-three-conclusion" element={<MeetingThreeSmallGroupConclusion />} />
                   <Route path="/chicago-funders" element={<ChicagoFunders />} />
                   <Route path="/chicago-intro" element={<ChicagoIntro />} />
                   <Route path="/chicago-conversations" element={<ChicagoConversations />} />
                   <Route path="/chicago-values" element={<ChicagoValues />} />
                   <Route path="/chicago-reports" element={<ChicagoReports />} />
+                  <Route path="columbus" element={<Columbus />} />
+                  <Route path="columbus-lunch-conversation" element={<ColumbusLunch />} />               
                   <Route path="columbus" element={<Columbus />} />
                   <Route path="imogen-smith-presentation" element={<ImogenSmithPresentation />} />
                   <Route path="bebe-miller-presentation" element={<BebeMillerPresentation />} />

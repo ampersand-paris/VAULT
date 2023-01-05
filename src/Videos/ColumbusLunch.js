@@ -1,11 +1,11 @@
 // ====== COMPONENTS ======
 import { useLocation } from "react-router-dom";
 
-const Columbus = (props) => {
+const ColumbusLunch = (props) => {
 
     const location = useLocation()
     let background = 'var(--sand)';
-    let startTime = 'https://player.vimeo.com/video/747370875?h=8ab58f63bf'
+    let startTime = 'https://player.vimeo.com/video/785131916?h=f4706110e1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
     let textColor = 'black';
     let videoColor = 'var(--mint-green)';
 
@@ -30,10 +30,11 @@ const Columbus = (props) => {
             <div className="flex column al-center mobile-width">
                 <div className="essay-width flex column space-btwn">
                     <div style={{ color: textColor }}>
-                        <p className="transcription"><b>Questions, Meeting #5:</b></p>
+                        <p className="transcription"><b>Lunch Conversation, Meeting #5:</b></p>
                         <p className="transcription-details">January 18-19, 2020
                         <br></br>
                         Ann Hamilton and Michael Mercil's Studio, Columbus, OH</p>
+                        <p className="transcription-details"><b>Conversation:</b> Imogen Smith; Mara Frazier; Gesel Mason; Angie Hauser; Alex Springer</p>                
                         <p className="transcription-details"><b>Participants:</b> Ann Carlson; Nena Couch; Lane Czaplinski; Mara Frazier; Melanie George;Angie Hauser; Lila Hurwitz (remote); Darrell Jones; Claudia LaRocco; Sarah Lass; Russell Lepley; Gesel Mason; Bebe Miller; Cori Olinghouse; Imogen Smith; Alex Springer; Dana Whitco; Ni'Ja Whitson</p>                
                     </div>
                 </div>
@@ -43,4 +44,4 @@ const Columbus = (props) => {
   );
 }
 
-export default Columbus;
+export default ColumbusLunch;

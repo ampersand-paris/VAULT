@@ -31,11 +31,12 @@ const MeetingThreeSmallGroupThree = (props) => {
             <div className="flex column al-center mobile-width">
                 <div className="essay-width flex column space-btwn">
                     <div style={{ color: textColor }}>
-                        <p className="transcription"><b>Small Group Conversation, Meeting #3, Jacob’s Pillow:</b></p>
+                        <p className="transcription"><b>Conversation #2, Meeting #3:</b></p>
                         <p className="transcription-details">May 6–7, 2018
                         <br></br>
                         Jacob’s Pillow, Becket, MA</p>
-                        <p className="transcription-details"><b>Participants:</b> Rachel Boggia (RB); Nena Couch (NC); Ishmael Houston Jones (IHJ); Sarah Lass (SL),  documenter (notes); Ellen Maynard (EM), documenter (video); Bebe Miller (BM); Lauren Slone (LS); Dana Whitco (DW); Reggie Wilson (RW)</p>                
+                        <p className="transcription-details"><b>Conversation:</b> Rachel Boggia, Ishmael Houston-Jones and Nena Couch</p>                
+                        <p className="transcription-details"><b>Meeting Participants:</b> Rachel Boggia; mayfield brooks; Nena Couch; Angie Hauser; Ishmael Houston-Jones; Jaamil Olawale Kosoko; Sarah Lass; Bebe Miller; Lauren Slone; Dana Whitco; Reggie Wilson</p>                
                     </div>
                 </div>
             </div>

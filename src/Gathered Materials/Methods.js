@@ -69,7 +69,7 @@ const Methods = (props) => {
 
                 /* width */
                 .container::-webkit-scrollbar {
-                width: 25px !important;
+                width: 25px;
 
                 }
 
@@ -119,7 +119,7 @@ const Methods = (props) => {
                                 <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px black sand-txt sand-border"
-                                    to='/diana-muhammad-writing#excerpt-one'
+                                    to='/cori-olinghouse-writing'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
@@ -179,7 +179,7 @@ const Methods = (props) => {
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand black-txt"
-                                    to='/cori-olinghouse-writing'
+                                    to='/diana-muhammed-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
@@ -216,7 +216,7 @@ const Methods = (props) => {
                             <Link 
                                 onClick={setPosition}
                                 className="small-bttn jc-center sand black-txt"
-                                to='/meeting-three-small-group-two'
+                                to='/meeting-three-conversation-one'
                                 state={{ 
                                     background: "var(--sand)",
                                     textColor: "black",
@@ -225,7 +225,7 @@ const Methods = (props) => {
                                 >VIDEO
                             </Link>
                             <div>
-                                <iframe width="100%" height="100%" className="w-one-hundred txt-al-right only-top-padding" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0" frameborder="0"></iframe>
+                                <iframe width="100%" height="100%" className="w-one-hundred txt-al-right only-top-padding" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m40s" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
@@ -237,7 +237,7 @@ const Methods = (props) => {
                                         <Hash 
                                             onClick={setPosition}
                                             className="small-bttn left-margin-10px black sand-txt sand-border"
-                                            to='/lauren-slone-writing#excerpt-one'
+                                            to='/jonathan-meyer-writing#excerpt-two'
                                             state={{ 
                                                 background: "var(--preserved-lemon)",
                                                 textColor: "black",
@@ -402,7 +402,7 @@ const Methods = (props) => {
                                 <Hash 
                                     onClick={setPosition}
                                     className="small-bttn left-margin-10px preserved-lemon black-txt sand-border"
-                                    to='/jonathan-meyer-writing#excerpt-two'
+                                    to='/lauren-slone-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",
@@ -440,7 +440,7 @@ const Methods = (props) => {
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand black-txt"
-                                    to='/meeting-three-small-group-two'
+                                    to='/meeting-three-conversation-one'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "black",
@@ -477,11 +477,11 @@ const Methods = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
-                    <div className="vault-padding flex column mobile-top-20px">
-                        <div className="h-forty flex column">
-                            <div className="stnd-padding flex mobile-column space-btwn sand al-center mobile-al-end">
-                                <p className="transcription-details no-bottom-padding side-padding"><b>Mara Frazier:</b> I would like artists to feel more welcomed into archives…</p>
+                <div className="panel-900 flex column space-btwn mobile-side-padding top-mobile-sand-border">
+                    <div className="h-fifty vault-padding flex column mobile-top-20px">
+                        <div className="flex column">
+                            <div className="stnd-padding flex mobile-column space-btwn sand al-center mobile-al-start">
+                                <p className="no-bottom-padding"><b>Mara Frazier:</b> I would like artists to feel more welcomed into archives…</p>
                                 <div className="mobile-flex mobile-top-20px">
                                     <Hash 
                                         onClick={setPosition}
@@ -495,8 +495,8 @@ const Methods = (props) => {
                                     </Hash>
                                 </div>
                             </div>
-                            <div className="stnd-padding flex mobile-column space-btwn sand al-center mobile-al-end">
-                                <p className="w-seventy-five transcription-details no-top-padding mobile-top-20px side-padding"><b>Ann Carlson:</b> I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
+                            <div className="stnd-padding flex mobile-column space-btwn sand al-center mobile-al-start">
+                                <p className="w-seventy-five no-top-padding mobile-top-20px"><b>Ann Carlson:</b> I admit I have on-going resentment about the conflation of live performance and the mediated copy.</p>
                                 <div className="mobile-flex mobile-flex-end">
                                     <Hash 
                                         onClick={setPosition}
@@ -511,9 +511,11 @@ const Methods = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="stnd-padding black-border-bottom no-mobile-border">
-                            <p className="transcription-details no-bottom-padding"><b>Russell Lepley:</b></p> 
-                            <p className="transcription-details no-top-padding">I am an early career dance-maker and have documentation of my complete works publicly available on streaming platforms YouTube and Vimeo… Attention to how my work is documented affects how institutions perceive my product which influences my future work directly… My work becomes more thoughtfully layered and more concise without those pressures.</p>
+                        <div className="flex space-btwn al-center mobile-column mobile-al-start stnd-padding side-padding black-border-bottom no-mobile-border">
+                            <div class="w-seventy-five flex column">
+                                <p className="transcription-details no-bottom-padding"><b>Russell Lepley:</b></p> 
+                                <p className="transcription-details no-top-padding">I am an early career dance-maker and have documentation of my complete works publicly available on streaming platforms YouTube and Vimeo… Attention to how my work is documented affects how institutions perceive my product which influences my future work directly… My work becomes more thoughtfully layered and more concise without those pressures.</p>
+                            </div>
                             <Link // Hash not needed
                                 onClick={setPosition}
                                 className="small-bttn black-border black-txt"
@@ -526,7 +528,7 @@ const Methods = (props) => {
                             </Link>
                         </div>
                     </div>
-                    <div className="h-sixty flex mobile-column space-around stnd-padding">
+                    <div className="h-fifty flex mobile-column space-around stnd-padding">
                         <div className="flex column stnd-padding black-border">
                             <p className="no-padding"><b>Rachel Boggia, Jacob’s Pillow:</b></p>
                             <div className="h-one-hundred flex column space-btwn">
@@ -536,7 +538,7 @@ const Methods = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn black sand-txt"
-                                            to='/meeting-three-small-group-three'
+                                            to='/meeting-three-conversation-two'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",
@@ -551,7 +553,7 @@ const Methods = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn black sand-txt"
-                                            to='/meeting-three-small-group-three'
+                                            to='/meeting-three-conversation-two'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",
@@ -566,7 +568,7 @@ const Methods = (props) => {
                                         <Link 
                                             onClick={setPosition}
                                             className="small-bttn black sand-txt"
-                                            to='/meeting-three-small-group-three'
+                                            to='/meeting-three-conversation-two'
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",

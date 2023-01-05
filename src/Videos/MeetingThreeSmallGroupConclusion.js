@@ -30,7 +30,7 @@ const MeetingThreeSmallGroupConclusion = (props) => {
             <div className="flex column al-center mobile-width">
                 <div className="essay-width flex column space-btwn">
                     <div  style={{ color: textColor }}>
-                        <p className="transcription"><b>Opening Introductions, Meeting #3, Jacob’s Pillow:</b></p>
+                        <p className="transcription"><b>Conclusion, Meeting #3:</b></p>
                         <p className="transcription-details">May 6–7, 2018
                         <br></br>
                         Jacob’s Pillow, Becket, MA</p>

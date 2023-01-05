@@ -4,7 +4,7 @@ const BonnieBrooksBio = (props) => {
 
     return (
     <>
-        <div className="one-hundred-vh flex jc-center mobile-al-center mobile-column top-padding mint-green">
+        <div className="essay-padding one-hundred-vh flex mobile-al-center mobile-column top-padding mint-green">
             <div className="vault-padding mobile-flex mobile-jc-center mobile-width">
                 <div className="flex space-btwn essay-title-height">
                     <div>
@@ -17,9 +17,7 @@ const BonnieBrooksBio = (props) => {
                 </div>
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
-                <div className="bio-width ">
-                    <p className="no-top-padding">Bonnie Brooks is associate professor emerita in Dance at Columbia College Chicago. Her work as a dance administrator, curator and writer includes service at the National Endowment for the Arts, David Gordon/Pick Up Company, Minnesota Dance Alliance, and Dance/USA. After several years' service as a visiting professor in the World Arts and Cultures Department at UCLA, she chaired the Dance Department at Columbia College Chicago for 12 years and directed, for three years, the department's Dance Presenting Series. Now retired from academia, she continues to think and write about dance from her outpost on Tryon Farm in northwest Indiana.</p>
-                </div>
+                <p className="no-top-padding">Bonnie Brooks is associate professor emerita in Dance at Columbia College Chicago. Her work as a dance administrator, curator and writer includes service at the National Endowment for the Arts, David Gordon/Pick Up Company, Minnesota Dance Alliance, and Dance/USA. After several years' service as a visiting professor in the World Arts and Cultures Department at UCLA, she chaired the Dance Department at Columbia College Chicago for 12 years and directed, for three years, the department's Dance Presenting Series. Now retired from academia, she continues to think and write about dance from her outpost on Tryon Farm in northwest Indiana.</p>
             </section>
         </div>
     </>

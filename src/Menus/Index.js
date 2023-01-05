@@ -72,8 +72,8 @@ const Index = (props) => {
                     </ul>
                     <p className="index-sub-title">Seattle Video:</p>
                     <ul className="index-list">
-                        <Link to="/seattle"><li>Seattle Meeting Part 1</li></Link>
-                        <Link to="/seattle-part-two"><li>Seattle Meeting Part 2</li></Link>
+                        <Link to="/seattle"><li>Meeting #2 Part 1</li></Link>
+                        <Link to="/seattle-part-two"><li>Meeting #2 Part 2</li></Link>
                     </ul>
                     <h3 className="index-location">Meeting #3</h3>
                     <h4 className="index-location-first">Jacob's Pillow</h4>
@@ -104,9 +104,10 @@ const Index = (props) => {
                     </ul>
                     <p className="index-sub-title">Jacob's Pillow Videos:</p>
                     <ul className="index-list">
-                        <Link to="/meeting-three-small-group-two"><li>Meeting #3 Small Group 2</li></Link>
-                        <Link to="/meeting-three-small-group-three"><li>Meeting #3 Small Group 3</li></Link>
-                        <Link to="/meeting-three-small-group-conclusion"><li>Meeting #3 Conclusion</li></Link>
+                        <Link to="/meeting-three-introductions"><li>Meeting #3 Introductions</li></Link>
+                        <Link to="/meeting-three-conversation-one"><li>Meeting #3 Conversation #1</li></Link>
+                        <Link to="/meeting-three-conversation-two"><li>Meeting #3 Conversation #2</li></Link>
+                        <Link to="/meeting-three-conclusion"><li>Meeting #3 Conclusion</li></Link>
                         <Link to="/bebe-miller-presentation"><li>Bebe Miller Presentation</li></Link>
                     </ul>
                     <h3 className="index-location-first">Meeting #4</h3>
@@ -196,10 +197,11 @@ const Index = (props) => {
                     </ul>
                     <p className="index-sub-title">Columbus Videos:</p>
                     <ul className="index-list">
-                        <Link to="/columbus"><li>Columbus Meeting</li></Link>
+                        <Link to="/columbus"><li>Meeting #5 Questions</li></Link>
+                        <Link to="/columbus-lunch-conversation"><li>Meeting #5 Lunch Conversation</li></Link>
                         <Link to="/imogen-smith-presentation"><li>Imogen Smith Presentation</li></Link>
-                        <Link to="/cori-olinghouse-presentation"><li>Cori Olinghouse Presentation</li></Link>
                         <Link to="/gesel-mason-presentation"><li>Gesel Mason Presentation</li></Link>
+                        <Link to="/cori-olinghouse-presentation"><li>Cori Olinghouse Presentation</li></Link>
                     </ul>
                     <h3 className="index-location-first">More Resources</h3>
                     <ul className="index-list">
