@@ -15,7 +15,7 @@ const EllenChenowethEssay = (props) => {
     } 
     return (
     <>
-        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex jc-center mobile-column mint-green">
+        <div style={{ backgroundColor: background, color: textColor }} className="essay-padding top-padding flex jc-center mobile-column mint-green">
             <div className="vault-padding mobile-jc-center mobile-flex">
                 <div className="relative essay-title-height mobile-width  flex  space-btwn ">
                     <div>
