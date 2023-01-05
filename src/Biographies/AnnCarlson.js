@@ -4,15 +4,13 @@ const AnnCarlsonBio = (props) => {
 
     return (
     <>
-        <div className="one-hundred-vh flex jc-center mobile-al-center mobile-column top-padding mint-green">
-            <div className="vault-padding mobile-flex mobile-jc-center mobile-width">
-                <div className="flex essay-title-height">
-                    <div>
-                        <h2 className="subtitle">BIOGRAPHY</h2>
-                        <h2 className="subtitle neuzit">Ann Carlson</h2>
-                    </div>
-                    <img className="bio-slash" src="/Images/Slash.svg" />
+        <div className="one-hundred-vh essay-padding flex jc-center mobile-al-center mobile-column top-padding mint-green">
+            <div className="essay-title-height flex vault-padding mobile-flex mobile-jc-center mobile-width">
+                <div>
+                    <h2 className="subtitle">BIOGRAPHY</h2>
+                    <h2 className="subtitle neuzit">Ann Carlson</h2>
                 </div>
+                <img className="bio-slash" src="/Images/Slash.svg" />
             </div>
             <section className="flex column al-center no-top-padding mobile-padding">
                 <div className="bio-width">

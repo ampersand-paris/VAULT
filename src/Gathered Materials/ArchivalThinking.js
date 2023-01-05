@@ -70,7 +70,7 @@ const ArchivalThinking = (props) => {
 
                 /* width */
                 .container::-webkit-scrollbar {
-                width: 25px !important;
+                width: 25px;
                 }
 
                 /* Track */
@@ -123,7 +123,7 @@ const ArchivalThinking = (props) => {
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn pumpkin sand-txt"
-                                    to='/meeting-three-small-group-two'
+                                    to='/meeting-three-conversation-one'
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--pumpkin)",
@@ -137,7 +137,7 @@ const ArchivalThinking = (props) => {
                         <div className="h-fifty relative mobile-flex mobile-column bottom-100px mobile-top-100px">
                             <div className="z-index-10 relative w-fifty sand stnd-padding">
                                 <h3 className="no-bottom-padding pumpkin-txt">Ishmael Houston-Jones:</h3> 
-                                <p className="no-top-padding pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive</p>
+                                <p className="no-top-padding pumpkin-txt">The process of my practice seems so fragile and elusive to the idea of archive.</p>
                                 <Hash 
                                     className="small-bttn pumpkin sand-txt"
                                     to='/ishmael-houston-jones-writing#excerpt-one'
@@ -187,7 +187,7 @@ const ArchivalThinking = (props) => {
                     <div className="h-fifty vault-padding ">
                         <div className="stnd-padding sand-txt sand-border-bottom no-mobile-border">
                             <p className="no-bottom-padding"><b>Ann Carlson, NYC:</b></p> 
-                            <p className="no-top-padding">The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying ‘the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
+                            <p className="no-top-padding">The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying "the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
                             <Hash 
                                 onClick={setPosition}
                                 className="small-bttn sand pumpkin-txt"
@@ -204,13 +204,13 @@ const ArchivalThinking = (props) => {
                         <div className="w-forty w-forty-seven-split">
                             <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738666979?h=de936851e2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=3m40s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
-                                <p className="transcription-details no-bottom-padding"><b>Reggie Wilson, Seattle:</b></p>
+                                <p className="transcription-details no-bottom-padding"><b>Reggie Wilson, Jacob's Pillow:</b></p>
                                 <p className="transcription-details no-top-padding"><em>Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</em></p>
                                 <div className="flex flex-end">
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/meeting-three-small-group-conclusion'
+                                        to='/meeting-three-conclusion'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
@@ -230,7 +230,7 @@ const ArchivalThinking = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/meeting-three-small-group-two'
+                                        to='/meeting-three-conversation-one'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
@@ -272,7 +272,7 @@ const ArchivalThinking = (props) => {
                                     </div>
                                 </div>
                                 <div className="w-forty stnd-padding">
-                                    <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=16m45s" frameborder="0"></iframe>
+                                    <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738669235?h=b3498dfda6" frameborder="0"></iframe>
                                     <div className="sand pumpkin-txt stnd-padding border-radius">
                                         <p className="transcription-details no-padding"><b>Ginger Farley, Chicago:</b></p>
                                         <p className="transcription-details no-top-padding"><em>Is there a way to enlist [funders] in learning from this process…</em></p>
@@ -302,7 +302,7 @@ const ArchivalThinking = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/meeting-three-small-group-two'
+                                        to='/meeting-three-conversation-one'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
@@ -341,7 +341,7 @@ const ArchivalThinking = (props) => {
                         </div>
                         <div className="w-forty flex column space-btwn al-center double-padding w-one-hundred">
                             <div className="flex flex-end mobile-jc-center w-one-hundred stnd-padding">
-                                <img className="w-forty" src="/Images/Pictures/Jaamil.svg" />
+                                <img className="w-fifty" src="/Images/Pictures/Jaamil.svg" />
                             </div>
                             <div className="flex column">
                                 <div className="flex jc-center sand-gradient-50 w-one-hundred">
@@ -361,7 +361,7 @@ const ArchivalThinking = (props) => {
                                     <p className="no-bottom-padding side-padding"><b>Dayna Hanson:</b></p>
                                     <p className="no-top-padding side-padding">…documentation has become more of an aesthetic pursuit…</p>
                                 </div>
-                                <h3 className="vault-padding sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h3>
+                                <h3 className="vault-padding sand-txt no-padding">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h3>
                             </div>
                         </div>
                     </div>
@@ -460,12 +460,12 @@ const ArchivalThinking = (props) => {
                             <iframe  width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=19m40s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Jaamil Olawale Kosoko, Jacob's Pillow:</b></p>
-                                <p className="transcription-details no-top-padding">Is this for our own dramaturgy? Is this for another choreographer’s dramaturgy? Is this for historians?</p>
+                                <p className="transcription-details no-top-padding">I'm archiving this as a performative proposal and speech and transmission and community-building and mirroring improvisation...</p>
                                 <div className="flex flex-end">
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn pumpkin sand-txt"
-                                        to='/meeting-three-small-group-two'
+                                        to='/meeting-three-conversation-one'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
@@ -480,7 +480,7 @@ const ArchivalThinking = (props) => {
                             <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=0m33s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Nena Couch, Jacob's Pillow:</b></p>
-                                <p className="transcription-details no-top-padding">There are different ways that we choose what to keep.</p>
+                                <p className="transcription-details no-top-padding"><em>There are different ways that we choose what to keep.</em></p>
                                 <div className="flex flex-end">
                                     <Link 
                                         onClick={setPosition}

@@ -30,11 +30,11 @@ const ChicagoFunders = (props) => {
             <div className="flex column al-center mobile-width">
                 <div className="essay-width flex column space-btwn">
                     <div style={{ color: textColor }}>
-                        <p className="transcription"><b>Small Group Conversation, Meeting #3, Jacob’s Pillow:</b></p>
-                        <p className="transcription-details">May 6–7, 2018
+                        <p className="transcription"><b>Funders, Meeting #4:</b></p>
+                        <p className="transcription-details">November 16, 2019
                         <br></br>
-                        Jacob’s Pillow, Becket, MA</p>
-                        <p className="transcription-details"><b>Participants:</b> Rachel Boggia (RB); Nena Couch (NC); Ishmael Houston Jones (IHJ); Sarah Lass (SL),  documenter (notes); Ellen Maynard (EM), documenter (video); Bebe Miller (BM); Lauren Slone (LS); Dana Whitco (DW); Reggie Wilson (RW)</p>                
+                        Dance Center of Columbia College Chicago</p>
+                        <p className="transcription-details"><b>Participants:</b> Julia Antonick, Bonnie Brooks, Ellen Chenoweth, Margi Cole, Jenai Cutcher, Ginger Farley, J'sun Howard, Lila Hurwitz, Jane Jerardi, Darrell Jones, Erin Kilmurray, Jonathan Meyer, Bebe Miller, Diana Muhammad</p>                
                     </div>
                 </div>
             </div>

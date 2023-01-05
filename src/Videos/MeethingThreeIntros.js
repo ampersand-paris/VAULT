@@ -1,11 +1,11 @@
 // ====== COMPONENTS ======
 import { useLocation } from "react-router-dom";
 
-const MeetingThreeSmallGroupTwo = (props) => {
+const MeetingThreeIntroductions = (props) => {
 
     const location = useLocation()
     let background = 'var(--sand)';
-    let startTime = 'https://player.vimeo.com/video/738663854?h=83cfee6ba0'
+    let startTime = 'https://player.vimeo.com/video/725765160?h=c74693ef14&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed'
     let textColor = 'black';
     let videoColor = 'var(--mint-green)';
 
@@ -30,12 +30,11 @@ const MeetingThreeSmallGroupTwo = (props) => {
             <div className="flex column al-center mobile-width">
                 <div className="essay-width flex column space-btwn">
                     <div style={{ color: textColor }}>
-                        <p className="transcription"><b>Conversation #1, Meeting #3:</b></p>
+                        <p className="transcription"><b>Introductions, Meeting #3:</b></p>
                         <p className="transcription-details">May 6–7, 2018
                         <br></br>
                         Jacob’s Pillow, Becket, MA</p>
-                        <p className="transcription-details"><b>Conversation:</b> Dana Whitco, Angie Hauser and Jaamil Olawale Kosoko</p>                
-                        <p className="transcription-details"><b>Meeting Participants:</b> Rachel Boggia; mayfield brooks; Nena Couch; Angie Hauser; Ishmael Houston-Jones; Jaamil Olawale Kosoko; Sarah Lass; Bebe Miller; Lauren Slone; Dana Whitco; Reggie Wilson</p>                
+                        <p className="transcription-details"><b>Participants:</b> Rachel Boggia; mayfield brooks; Nena Couch; Angie Hauser; Ishmael Houston-Jones; Jaamil Olawale Kosoko; Sarah Lass; Bebe Miller; Lauren Slone; Dana Whitco; Reggie Wilson</p>                
                     </div>
                 </div>
             </div>
@@ -44,4 +43,4 @@ const MeetingThreeSmallGroupTwo = (props) => {
   );
 }
 
-export default MeetingThreeSmallGroupTwo;
+export default MeetingThreeIntroductions;

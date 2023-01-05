@@ -70,7 +70,7 @@ const Context = (props) => {
 
                 /* width */
                 .container::-webkit-scrollbar {
-                width: 25px !important;
+                width: 25px;
 
                 }
 
@@ -273,7 +273,7 @@ const Context = (props) => {
                                     <Link 
                                         onClick={setPosition}
                                         className="small-bttn sand evergreen-txt"
-                                        to='/meeting-three-small-group-three'
+                                        to='/meeting-three-conversation-two'
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--evergreen)",
@@ -396,7 +396,7 @@ const Context = (props) => {
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
-                                                to='/meeting-three-small-group-two'
+                                                to='/meeting-three-conversation-one'
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
@@ -414,7 +414,7 @@ const Context = (props) => {
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
-                                                to='/meeting-three-small-group-conclusion'
+                                                to='/meeting-three-conclusion'
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
@@ -432,7 +432,7 @@ const Context = (props) => {
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
-                                                to='/meeting-three-small-group-two'
+                                                to='/meeting-three-conversation-one'
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
@@ -450,7 +450,7 @@ const Context = (props) => {
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
-                                                to='/meeting-three-small-group-three'
+                                                to='/meeting-three-conversation-two'
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
@@ -468,7 +468,7 @@ const Context = (props) => {
                                             <Link 
                                                 onClick={setPosition}
                                                 className="small-bttn sand evergreen-txt mobile-top-10px"
-                                                to='/meeting-three-small-group-two'
+                                                to='/meeting-three-conversation-one'
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
@@ -481,7 +481,7 @@ const Context = (props) => {
                                 </div>
                             </div>
                             <div className="display-none w-fifty flex column al-flex-end">
-                                <iframe  width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0" frameborder="0"></iframe>
+                                <iframe  width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/778224113?h=c6f6d6dc05" frameborder="0"></iframe>
                                 <p className="txt-al-right sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                             </div>
                         </div>           
