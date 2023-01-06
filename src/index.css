@@ -962,6 +962,7 @@ li {
 .container {
   overflow-x: scroll;
   width: 100vW;
+  padding-bottom: none;
 }
 
 .intro-panel-width {

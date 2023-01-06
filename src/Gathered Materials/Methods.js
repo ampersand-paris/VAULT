@@ -174,12 +174,12 @@ const Methods = (props) => {
                         <div className="sand-border flex mobile-column double-padding">
                             <div className="flex column w-seventy-five">
                                 <img src="/Images/Pictures/DianaMuhammed.JPG" className="" />
-                                <p className="no-bottom-padding "><b>Diana Muhammed:</b></p>
+                                <p className="no-bottom-padding "><b>Diana Muhammad:</b></p>
                                 <p className="no-top-padding ">This availability [of video] provides easy access for study and reflection of a work.</p>
                                 <Link 
                                     onClick={setPosition}
                                     className="small-bttn jc-center sand black-txt"
-                                    to='/diana-muhammed-writing#excerpt-one'
+                                    to='/diana-muhammad-writing#excerpt-one'
                                     state={{ 
                                         background: "var(--preserved-lemon)",
                                         textColor: "black",

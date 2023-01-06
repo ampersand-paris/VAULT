@@ -154,7 +154,7 @@ const ArchivalThinking = (props) => {
                         </div>
                     </div>     
                 </div>
-                <div className="panel-700 flex column mobile-side-padding">
+                <div className="panel-700 flex column mobile-al-center mobile-side-padding">
                     <div className="h-fifty stnd-padding sand pumpkin-txt">
                         <p className="no-bottom-padding"><b>Dayna Hanson, Seattle:</b></p>
                         <p className="no-top-padding"><em>[We] think about media as being inherently archival, and inherently lasting; and we work in live forms that are inherently ephemeral. So [...] there's something rich and unexpected to me about these digital forms like Snapchat or like Instagram Live that expire so quickly [...] That's somehow good, maybe. Maybe it's placing a [value] judgment.</em></p>
@@ -172,7 +172,7 @@ const ArchivalThinking = (props) => {
                             >Video
                         </Link>
                     </div>
-                    <div className="h-fifty stnd-padding sand-txt">
+                    <div className="h-fifty h-fifty-mobile-100 stnd-padding sand-txt">
                         <p className="no-bottom-padding"><b>Bebe Miller, NYC:</b></p> 
                         <p className="no-top-padding sand-border-right no-mobile-border">There’s now a very different horizontal platform in the idea of archiving... The immediacy of the archive now—broadcast it, be done with it, let it be absorbed into the artistic mindset of the culture—even at the beginning of conceiving of the idea/event/artwork. In that difference between the vertical and horizontal, on a fascial/body level, is there a difference in the work we make, do we need to support both axes or yet a new direction?</p>
                         <Hash 
@@ -187,8 +187,8 @@ const ArchivalThinking = (props) => {
                         </Hash>
                     </div>
                 </div>
-                <div className="panel-900 flex column mobile-side-padding top-mobile-sand-border">
-                    <div className="h-fifty vault-padding ">
+                <div className="panel-900 flex column mobile-al-center mobile-side-padding top-mobile-sand-border">
+                    <div className="h-fifty h-fifty-mobile-100 vault-padding ">
                         <div className="stnd-padding sand-txt sand-border-bottom no-mobile-border">
                             <p className="no-bottom-padding"><b>Ann Carlson, NYC:</b></p> 
                             <p className="no-top-padding">The search for the right word [...] is interesting. “Archiving is really not quite right….” What I hear in the search for the word, and also in the fascia, is value; trapping, mapping understanding value. You’re also immediately saying "the lifetime of this effort that I’m putting out in the world, what is its resonance?” I love the looking for the word that is the thing, the embodied connection…what is fascia? It changes, responds differently between body and bone, it’s self-supporting… Something about the word resonant, resonant meaning perhaps – what we are, what we do… I love the reach for the word. The horizontal and vertical thing, it’s the present-moment awareness that the song will keep going.</p>
@@ -204,7 +204,7 @@ const ArchivalThinking = (props) => {
                             </Hash>
                         </div>
                     </div>
-                    <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
+                    <div className="h-fifty h-fifty-mobile-100 flex mobile-column mobile-al-center space-btwn stnd-padding sand-txt">
                         <div className="w-forty w-forty-seven-split">
                             <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738666979?h=de936851e2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=3m40s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
@@ -227,7 +227,7 @@ const ArchivalThinking = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-forty w-forty-seven-split">
+                        <div className="w-forty w-forty-seven-split mobile-top-10px">
                             <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=20m33s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-bottom-padding"><b>Dana Whitco, Jacob's Pillow:</b></p>
@@ -251,7 +251,7 @@ const ArchivalThinking = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="panel-1400 flex column mobile-side-padding">
+                <div className="panel-1400 flex column mobile-al-center mobile-side-padding">
                     <div className="h-fifty flex mobile-column">
                         <div className="w-seventy sand-border-right">
                             <div className="flex space-btwn mobile-column">
@@ -326,9 +326,9 @@ const ArchivalThinking = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="h-fifty flex mobile-column">
+                    <div className="h-fifty h-fifty-mobile-100 flex mobile-column mobile-al-center">
                         <div className="w-sixty">
-                            <div className="flex h-one-hundred mobile-column">
+                            <div className="flex h-one-hundred mobile-column mobile-al-center">
                                 <div className="bebe-seattle w-forty-seven mobile-w-forty-seven-border-adjust stnd-padding">
                                     <div className="flex flex-end mobile-h-250px">
                     
@@ -379,7 +379,7 @@ const ArchivalThinking = (props) => {
                     </div>
                 </div>
                 <div className="panel-700 flex column mobile-side-padding">
-                    <div className="h-fifty flex mobile-column space-btwn stnd-padding">
+                    <div className="h-fifty flex mobile-column mobile-al-center space-btwn stnd-padding">
                         <div className="w-forty-seven w-forty-seven-split">
                                 <div className="sand-txt">
                                     <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
@@ -400,7 +400,7 @@ const ArchivalThinking = (props) => {
                                 </div>
                             </div>
                             <div className="w-forty-seven w-forty-seven-split mobile-top-10px">
-                                <iframe width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=13m40s" frameborder="0"></iframe>
+                                <iframe width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=13m40s" frameborder="0"></iframe>
                                 <div className="stnd-padding border-radius sand pumpkin-txt">
                                     <p className="transcription-details no-bottom-padding"><b>Bebe Miller, Seattle:</b></p>
                                     <p className="transcription-details no-top-padding"><em>…there's something about the immediacy of [social media's] dispersal of information...</em></p>
@@ -422,7 +422,7 @@ const ArchivalThinking = (props) => {
                                 </div>
                             </div>
                         </div>
-                    <div className="h-fifty flex column jc-center sand pumpkin-txt stnd-padding">
+                    <div className="h-fifty h-fifty-mobile-100 flex column jc-center sand pumpkin-txt stnd-padding mobile-top-10px">
                         <p className="no-bottom-padding"><b>Judy Hussie-Taylor, NYC: </b></p>
                         <p className="no-top-padding">Intersection between what are we doing, what are we saving, what are we collecting, what are we not doing—always at play in our work at least on the curatorial side. We’re making interventions, we’re making choices. What we all feel every day: whatever it is we value is under attack, in so many ways. A war on certain kinds of value systems. Maybe this is different than how/what we archive but these choices point to what we value.</p>
                         <Hash 
@@ -437,8 +437,8 @@ const ArchivalThinking = (props) => {
                         </Hash>
                     </div>        
                 </div>
-                <div className="panel-900 flex column-reverse mobile-side-padding top-mobile-sand-border">
-                    <div className="h-fifty vault-padding ">
+                <div className="panel-900 flex column-reverse mobile-al-center mobile-side-padding top-mobile-sand-border mobile-top-10px">
+                    <div className="h-fifty h-fifty-mobile-100 vault-padding ">
                         <div className="stnd-padding sand-txt no-mobile-border sand-border-bottom">
                             <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p> 
                             <p className="no-top-padding">What’s the nature of what we’re archiving? What are the layers important to us? Then the curator and teacher of dance history in me zoomed out further: What are the politics of inclusion? Who and what might be missing? … Who do we want to be in conversation with, now and 100 years from now?</p>
@@ -469,12 +469,12 @@ const ArchivalThinking = (props) => {
                             </Hash>
                         </div>
                     </div>
-                    <div className="h-fifty flex mobile-column space-btwn stnd-padding sand-txt">
+                    <div className="h-fifty h-fifty-mobile-100 flex mobile-column mobile-al-center space-btwn stnd-padding sand-txt">
                         <div className="w-forty w-forty-seven-split">
-                            <iframe  width="100%" height="56%" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=19m40s" frameborder="0"></iframe>
+                            <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=19m40s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Jaamil Olawale Kosoko, Jacob's Pillow:</b></p>
-                                <p className="transcription-details no-top-padding">I'm archiving this as a performative proposal and speech and transmission and community-building and mirroring improvisation...</p>
+                                <p className="transcription-details no-top-padding"><em>I'm archiving this as a performative proposal and speech and transmission and community-building and mirroring improvisation...</em></p>
                                 <div className="flex flex-end">
                                     <Link 
                                         onClick={setPosition}
@@ -492,7 +492,7 @@ const ArchivalThinking = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-forty w-forty-seven-split">
+                        <div className="w-forty w-forty-seven-split mobile-top-10px">
                             <iframe  width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738670370?h=ec662ab400#t=0m33s" frameborder="0"></iframe>
                             <div className="stnd-padding border-radius sand pumpkin-txt">
                                 <p className="transcription-details no-padding"><b>Nena Couch, Jacob's Pillow:</b></p>

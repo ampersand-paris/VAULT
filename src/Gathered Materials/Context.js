@@ -110,11 +110,11 @@ const Context = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="context-panel-1 panel-1400 flex space-btwn double-padding mobile-column mobile-side-padding">
+                <div className="context-panel-1 panel-1400 flex space-btwn double-padding mobile-column mobile-al-center mobile-side-padding">
                     <h1 className="evergreen-txt intro-title">CONTEXT</h1>
                     <img src="/Images/GreenSlash.svg" className="c-slash display-none"/>
                     <div className="w-twenty-five sand-txt flex column space-btwn">
-                        <div>
+                        <div className="side-padding">
                             <p className="no-bottom-padding"><b>Tonya Lockyer, Seattle:</b></p>    
                             <p className="no-top-padding">Stories really capture what happened. In Russia, in 1998 there was a conversation about CI. Two people began to dance together, but for one of them it was only about concrete shapes—moving from one to the next. They didn’t realize it was a moving form. They had only seen the photographs, not recordings.</p>
                             <Hash 
@@ -128,7 +128,7 @@ const Context = (props) => {
                                 >Meeting Notes
                             </Hash>
                         </div>
-                        <div className="relative mobile-flex mobile-column mobile-al-center mobile-top-100px stnd-padding sand evergreen-txt txt-al-center">
+                        <div className="relative mobile-flex mobile-column mobile-top-100px stnd-padding sand evergreen-txt txt-al-center">
                             <p className="no-bottom-padding"><b>Margi Cole:</b></p>    
                             <p className="no-top-padding">Create a valid space to move away from product-driven work.</p>
                             <Hash 
@@ -250,7 +250,7 @@ const Context = (props) => {
                                     <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s" frameborder="0"></iframe>
                                 </div>
                             </div> */}
-                            <div className="flex mobile-column jc-center">
+                            <div className="flex mobile-column mobile-al-center jc-center">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding"><b>Angie Hauser, Seattle:</b></p>
                                     <p className="no-top-padding"><em>[I'm thinking] about archiving in the scale of history, [in] that includes multiple generations beyond the people that are living now.</em></p>
@@ -272,7 +272,7 @@ const Context = (props) => {
                                     <iframe  width="100%" height="100%" className="w-one-hundred mobile-top-20px" title="vimeo-player" src="https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s" frameborder="0"></iframe>
                                 </div>
                             </div>
-                            <div className="flex mobile-column jc-center">
+                            <div className="flex mobile-column mobile-al-center jc-center">
                                 <div className="w-fifty sand-txt">
                                     <p className="no-bottom-padding no-top-padding"><b>Ishmael Houston-Jones, Jacob’s Pillow:</b></p>
                                     <p className="no-top-padding"><em>I think there is something about the accidentalness of what gets left, and what gets found, and what remains.</em></p>
@@ -356,7 +356,7 @@ const Context = (props) => {
                         <img src="/Images/CreamOutlineSlash.svg" className="display-none absolute large-slash display-none"/>    
                     </div>
                 </div>
-                <div className="panel-1800 flex mobile-column mobile-side-padding mobile-jc-center">
+                <div className="panel-1800 flex mobile-column moble-al-center mobile-side-padding mobile-jc-center">
                     <div className="w-forty-exempt flex column sand-txt">
                         <div className="h-fifty flex column jc-center ">
                             <div className="sand-border stnd-padding">
@@ -374,7 +374,7 @@ const Context = (props) => {
                                 </Hash>
                             </div>
                         </div>
-                        <div className="h-fifty">
+                        <div className="h-fifty h-fifty-mobile-100">
                             <div className="flex column">
                                 <div className="stnd-padding sand evergreen-txt al-center">
                                     <p className="no-bottom-padding"><b>Raja Feather Kelly, Seattle:</b></p>
@@ -392,8 +392,8 @@ const Context = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-sixty-exempt flex column space-btwn left-margin-20px-desktop-only">
-                        <div className="h-one-hundred flex space-around">
+                    <div className="w-sixty-exempt flex column space-btwn left-margin-20px-desktop-only mobile-top-10px">
+                        <div className="h-one-hundred flex mobile-column mobile-al-center space-around">
                             <div className="w-fifty flex column stnd-padding sand-border sand-txt">
                                 <h2 className="no-padding"><b>Jacob’s Pillow</b> &#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</h2>
                                 <div className="h-one-hundred flex column space-btwn">
@@ -498,8 +498,40 @@ const Context = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="display-none w-fifty flex column al-flex-end">
+                            <div className="w-fifty flex column mobile-al-center sand-txt">
                                 <iframe  width="100%" height="100%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/778224113?h=c6f6d6dc05" frameborder="0"></iframe>
+                                <p className="side-padding no-bottom-padding mobile-top-10px"><b>Presentation: Bebe Miller</b></p>
+                                <p className="side-padding w-sixty no-top-padding">Dance Fort, The Making Room, and other projects sharing the creative process.</p>
+                                    <div className="flex al-center side-padding">
+                                        <div className="sand-border-right">
+                                            <Link 
+                                                onClick={setPosition}
+                                                className="small-bttn sand evergreen-txt right-margin-10px"
+                                                to='/bebe-miller-presentation'
+                                                state={{ 
+                                                    background: "var(--sand)",
+                                                    textColor: "var(--evergreen)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--evergreen)",
+                                                    startTime: "https://player.vimeo.com/video/778224113?h=c6f6d6dc05"
+                                                    }}
+                                                >Video
+                                            </Link>
+                                        </div>
+                                        <Link 
+                                            onClick={setPosition}
+                                            className="small-bttn sand evergreen-txt left-margin-10px"
+                                            to='/bebe-miller-presentation-notes'
+                                            state={{ 
+                                                background: "var(--sand)",
+                                                textColor: "var(--evergreen)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--evergreen)",
+                                                startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=10m57s"
+                                                }}
+                                            >Notes
+                                        </Link>
+                                    </div>
                                 <p className="txt-al-right sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
                             </div>
                         </div>           
