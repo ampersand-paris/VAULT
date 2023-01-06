@@ -127,6 +127,8 @@ const ArchivalThinking = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--pumpkin)",
+                                        videoHeaderColor: "var(--sand)",
+                                        videoColor: "var(--pumpkin)",
                                         startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=3m44s"
                                     }}
                                     >Video
@@ -163,6 +165,8 @@ const ArchivalThinking = (props) => {
                             state={{ 
                                 background: "var(--sand)",
                                 textColor: "var(--pumpkin)",
+                                videoHeaderColor: "var(--sand)",
+                                videoColor: "var(--pumpkin)",
                                 startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=16m45s"
                                 }}
                             >Video
@@ -214,6 +218,8 @@ const ArchivalThinking = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--pumpkin)",
                                             startTime: "https://player.vimeo.com/video/738666979?h=de936851e2#t=3m40s"
                                             }}
                                         >Video
@@ -234,6 +240,8 @@ const ArchivalThinking = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--pumpkin)",
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=20m33s"
                                             }}
                                         >Video
@@ -284,6 +292,8 @@ const ArchivalThinking = (props) => {
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--pumpkin)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--pumpkin)",
                                                     startTime: "https://player.vimeo.com/video/738669235?h=b3498dfda6"
                                                     }}
                                                 >Video
@@ -306,6 +316,8 @@ const ArchivalThinking = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--pumpkin)",
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=16m45s"
                                         }}
                                     >Video
@@ -400,6 +412,8 @@ const ArchivalThinking = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--pumpkin)",
                                             startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=13m40s"
                                         }}
                                         >Video
@@ -469,6 +483,8 @@ const ArchivalThinking = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--pumpkin)",
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=19m40s"
                                             }}
                                         >Video
@@ -489,6 +505,8 @@ const ArchivalThinking = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--pumpkin)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--pumpkin)",
                                             startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=0m33s"
                                             }}
                                         >Video

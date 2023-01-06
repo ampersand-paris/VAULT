@@ -883,9 +883,6 @@ li {
   height: 300px;
 }
 
-.essay-width {
-}
-
 .essay-padding {
   padding-left: 20vW;
   padding-right: 20vW;
@@ -929,6 +926,10 @@ li {
 
 .h-fifty-six {
   height: 56%;
+}
+
+.video-details-width {
+  width: 50vW;
 }
 
 /* ====== RESOURCES MENTIONED ====== */

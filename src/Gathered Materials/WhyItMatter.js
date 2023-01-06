@@ -125,6 +125,8 @@ const WhyItMatters = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
+                                        videoHeaderColor: "var(--sand)",
+                                        videoColor: "var(--cobalt)",
                                         startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=3m10s" }}
                                     >Video
                                 </Link>
@@ -162,6 +164,7 @@ const WhyItMatters = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "black",
+                                        videoHeaderColor: "var(--sand)",
                                         videoColor: "var(--cobalt)",
                                         startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=4m15s" }}
                                     >Video
@@ -221,6 +224,8 @@ const WhyItMatters = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
+                                        videoHeaderColor: "var(--sand)",
+                                        videoColor: "var(--cobalt)",
                                         startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=8m53s" }}
                                     >Video
                                 </Link>
@@ -248,6 +253,8 @@ const WhyItMatters = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--cobalt)",
+                                        videoHeaderColor: "var(--sand)",
+                                        videoColor: "var(--cobalt)",
                                         startTime: "https://player.vimeo.com/video/783391235?h=e03a3b92db" }}
                                     >Video
                                 </Link>
@@ -279,6 +286,8 @@ const WhyItMatters = (props) => {
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--cobalt)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--cobalt)",
                                                     startTime: "https://player.vimeo.com/video/778223077?h=623e1db6fa" }}
                                                 >Video
                                             </Link>
@@ -368,6 +377,8 @@ const WhyItMatters = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--cobalt)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--cobalt)",
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m38s" }}
                                         >Video
                                     </Link>
@@ -386,6 +397,8 @@ const WhyItMatters = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--cobalt)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--cobalt)",
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=12m11s" }}
                                         >Video
                                     </Link>
@@ -407,6 +420,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=30m55s" }}
                                             >Video
                                         </Link>
@@ -425,6 +440,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=16m07s" }}
                                             >Video
                                         </Link>
@@ -556,6 +573,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=0m49s" }}
                                             >Video
                                         </Link>
@@ -571,6 +590,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=2m04s" }}
                                             >Video
                                         </Link>
@@ -586,6 +607,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=2m33s" }}
                                             >Video
                                         </Link>
@@ -601,6 +624,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=4m57s" }}
                                             >Video
                                         </Link>
@@ -616,6 +641,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=3m51s" }}
                                             >Video
                                         </Link>
@@ -631,6 +658,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=5m56s" }}
                                             >Video
                                         </Link>
@@ -646,6 +675,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=6m22s" }}
                                             >Video
                                         </Link>
@@ -661,6 +692,8 @@ const WhyItMatters = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "var(--cobalt)",
+                                                videoHeaderColor: "var(--sand)",
+                                                videoColor: "var(--cobalt)",
                                                 startTime: "https://player.vimeo.com/video/747370875?h=8ab58f63bf#t=5m39s" }}
                                             >Video
                                         </Link>

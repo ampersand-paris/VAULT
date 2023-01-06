@@ -205,15 +205,15 @@
     /* ====== MENUS ====== */
     
     .triangle-size {
-      width: 25px !important;
+      width: 20px !important;
     }
 
     .triangle {
-      width: 25px !important;
+      width: 20px !important;
     }
     
     .width-40px {
-      width: 25px !important;
+      width: 20px !important;
     }
 
     
@@ -330,10 +330,6 @@
     }
     /* ====== WRITING ====== */
     
-    .essay-width {
-      width: 65vW;
-    }
-
     .essay-slash {
       height: 200px;
     }
@@ -352,6 +348,11 @@
     
     .essay-author {
       text-align: left;
+    }
+
+    .essay-padding {
+      padding-left: 18vW;
+      padding-right: 18vW;
     }
     /* ====== VIDEO ====== */
     
@@ -374,6 +375,10 @@
     
     .video-title-width {
       width: 0vW;
+    }
+
+    .video-details-width {
+      width: 65vW;
     }
     
     /* ====== HOMEPAGE ====== */

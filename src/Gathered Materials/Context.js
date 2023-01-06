@@ -158,6 +158,8 @@ const Context = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--evergreen)",
+                                        videoHeaderColor: "var(--sand)",
+                                        videoColor: "var(--evergreen)",
                                         startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=15m12s"
                                         }}
                                     >Video
@@ -214,6 +216,8 @@ const Context = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "var(--evergreen)",
+                                        videoHeaderColor: "var(--sand)",
+                                        videoColor: "var(--evergreen)",
                                         startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=42m35s"
                                         }}
                                     >Video
@@ -257,6 +261,8 @@ const Context = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--evergreen)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--evergreen)",
                                             startTime: "https://player.vimeo.com/video/738669816?h=3e11a58d51#t=22m35s"
                                             }}
                                         >Video
@@ -277,6 +283,8 @@ const Context = (props) => {
                                         state={{ 
                                             background: "var(--sand)",
                                             textColor: "var(--evergreen)",
+                                            videoHeaderColor: "var(--sand)",
+                                            videoColor: "var(--evergreen)",
                                             startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=4m56s"
                                             }}
                                         >Video
@@ -400,6 +408,8 @@ const Context = (props) => {
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--evergreen)",
                                                     startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=6m4s"
                                                     }}
                                                 >Video
@@ -418,6 +428,8 @@ const Context = (props) => {
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--evergreen)",
                                                     startTime: "https://player.vimeo.com/video/738666979?h=de936851e2#t=3m40s"
                                                     }}
                                                 >Video
@@ -436,6 +448,8 @@ const Context = (props) => {
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--evergreen)",
                                                     startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=2m33s"
                                                     }}
                                                 >Video
@@ -454,6 +468,8 @@ const Context = (props) => {
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--evergreen)",
                                                     startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=27m31s"
                                                     }}
                                                 >Video
@@ -472,6 +488,8 @@ const Context = (props) => {
                                                 state={{ 
                                                     background: "var(--sand)",
                                                     textColor: "var(--evergreen)",
+                                                    videoHeaderColor: "var(--sand)",
+                                                    videoColor: "var(--evergreen)",
                                                     startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=10m57s"
                                                     }}
                                                 >Video
