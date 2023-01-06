@@ -220,6 +220,7 @@ const Methods = (props) => {
                                 state={{ 
                                     background: "var(--sand)",
                                     textColor: "black",
+                                    videoColor: "var(--preserved-lemon)",
                                     startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m40s" 
                                 }}
                                 >VIDEO
@@ -444,6 +445,7 @@ const Methods = (props) => {
                                     state={{ 
                                         background: "var(--sand)",
                                         textColor: "black",
+                                        videoColor: "var(--preserved-lemon)",
                                         startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=4m43s" }}
                                     >Video
                                 </Link>
@@ -542,6 +544,7 @@ const Methods = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",
+                                                videoColor: "var(--preserved-lemon)",
                                                 startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=30m51s" }}
                                             >Video
                                         </Link>
@@ -557,6 +560,7 @@ const Methods = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",
+                                                videoColor: "var(--preserved-lemon)",
                                                 startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=21m14s" }}
                                             >Video
                                         </Link>                                    
@@ -572,6 +576,7 @@ const Methods = (props) => {
                                             state={{ 
                                                 background: "var(--sand)",
                                                 textColor: "black",
+                                                videoColor: "var(--preserved-lemon)",
                                                 startTime: "https://player.vimeo.com/video/738670370?h=ec662ab400#t=27m32s" }}
                                             >Video
                                         </Link>                                    

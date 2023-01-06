@@ -8,12 +8,14 @@ const MeetingThreeSmallGroupConclusion = (props) => {
     let startTime = 'https://player.vimeo.com/video/738666979?h=de936851e2'
     let textColor = 'black';
     let videoColor = 'var(--mint-green)';
+    let videoHeaderColor = 'black';
 
     if (location.state) {
         background = location.state.background
         textColor = location.state.textColor
         startTime = location.state.startTime
         videoColor = location.state.videoColor
+        videoHeaderColor = location.state.videoHeaderColor
     } 
 
     return (
@@ -21,14 +23,14 @@ const MeetingThreeSmallGroupConclusion = (props) => {
         <div style={{ backgroundColor: background }} className="mobile-one-hundred-vh min-height-one-hundred-vh mobile-flex mobile-column mobile-al-center">
             <div className="flex flex-end top-padding sand">
                 <div  style={{ backgroundColor: videoColor }} className="video-title-width flex column flex-end sand-gradient">
-                    <h2 style={{ color : textColor }} className="transcription txt-al-center">VIDEO</h2>
+                    <h2 style={{ color : videoHeaderColor }} className="transcription txt-al-center">VIDEO</h2>
                 </div>
                 <div style={{ backgroundColor: videoColor }} className="video">
                     <iframe className="iframe" src={ startTime } title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 </div>
             </div>
             <div className="flex column al-center mobile-width">
-                <div className="essay-width flex column space-btwn">
+                <div className="video-details-width flex column space-btwn">
                     <div  style={{ color: textColor }}>
                         <p className="transcription"><b>Conclusion, Meeting #3:</b></p>
                         <p className="transcription-details">May 6–7, 2018
