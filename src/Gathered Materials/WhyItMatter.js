@@ -92,7 +92,7 @@ const WhyItMatters = (props) => {
             }
         </style>
         <div className="container cobalt" id="why-position">
-            <div className="w-container-length one-hundred-vh flex mobile-column">
+            <div className="w-container-length one-hundred-vh flex mobile-column mobile-al-center">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding sand-txt">
                         <div className="why-it-matters-margin">
@@ -132,7 +132,7 @@ const WhyItMatters = (props) => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="h-fifty stnd-padding sand cobalt-txt">
+                        <div className="h-fifty h-fifty-mobile-100 stnd-padding sand cobalt-txt">
                             <p className="no-padding"><b>Judy Hussie-Taylor, NYC:</b></p>
                             <p className="no-padding">Which brings up the “who,” who do you want to reach? During [Danspace Project’s] Lost & Found organizing meetings, we all felt such urgency. For me that platform was about that 17-year-old who found their way to one event and thought, “Oh, there’s a community of like minds?” I was at the Walker [Art Center], a mini-convening, showing Eiko’s work and Ishmael’s Lost & Found, someone asked about audiences and I said “this 17-year-old…” Olga Visu said at the White House [in 2015 when Ralph Lemon received the Medal of the Arts from President Obama], Ralph had never met Philip Glass. Glass said “I was at the Walker in the 70’s and there were only five people in the room, and I thought I’d never be invited back. And Ralph said “I was a 17-year-old in that room.” So, it got me thinking about audience on the seventh generation level.</p>
                             <div className="flex flex-end top-margin-10px">
@@ -149,8 +149,8 @@ const WhyItMatters = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative w-sixty flex column flex-end sand-txt">
-                        <div className="h-fifty flex mobile-column mobile-top-20px">
+                    <div className="relative w-sixty flex column mobile-al-center flex-end sand-txt">
+                        <div className="h-fifty h-fifty-mobile-100 flex mobile-column mobile-al-center mobile-top-20px">
                             <div className="w-twenty-five"> 
                               <iframe width="100%" height="56%" className="w-one-hundred" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=4m15s" frameborder="0"></iframe>
                             </div>
@@ -212,7 +212,7 @@ const WhyItMatters = (props) => {
                                 <p className="no-padding">I assume that there is a much larger audience/spectatorship for works that are mediated for viewing on a personal computer.</p>
                             </div>
                         </div>
-                        <div className="flex column flex-end w-one-hundred h-fifty mobile-top-20px">
+                        <div className="flex column w-one-hundred h-fifty mobile-top-20px">
                             <iframe width="100%" height="100%" className="" title="vimeo-player" src="https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=8m53s" frameborder="0"></iframe>
                             <div className="stnd-padding sand-txt">
                                 <p className="no-padding"><b>Jaamil Olawale Kosoko, Jacob’s Pillow:</b></p> 
@@ -537,8 +537,8 @@ const WhyItMatters = (props) => {
                         </div>
                     </div>
                     <div className="w-forty flex column jc-center stnd-padding">
-                        <div className="h-fifty sand cobalt-txt double-padding">
-                            <div className="flex space-btwn">
+                        <div className="h-fifty h-fifty-mobile-100 sand cobalt-txt double-padding">
+                            <div className="flex space-btwn mobile-column">
                                 <h2 className="no-padding"><b>Ishmael Houston-Jones:</b></h2>
                                 <Link  // no need for hash
                                     onClick={setPosition}
