@@ -36,11 +36,18 @@
     }
     
     .h-150px {
-      height: 200px;
+      height: 100%;
+      min-height: 200px !important;
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
     }
     
     .h-100px {
-      height: 150px;
+      height: 100%;
+      min-height: 150px !important;
+      margin-top: 15px;
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
     }
     
     .h-fifty-mobile-100 {
@@ -243,14 +250,18 @@
     }
     
     .home-slash {
-      height: 90vH;
+      height: 80vH;
       position: absolute;
       bottom: 0%;
       left: 25%;
     }
     
     .home-height {
-      height: 90vH;
+      height: 80vH;
+    }
+
+    .intro-arrow-container {
+      height: 22vH;
     }
     
     /* ====== GATHERED MATERIALS ====== */
@@ -278,8 +289,8 @@
     }
     
     .why-it-matters-panel-1  {
-      height: 100vH;
       background-position: right;
+      min-height: 500px;
       
     }
     
@@ -302,6 +313,8 @@
     
     .methods-panel-1 {
       height: 100vH;
+      min-height: 500px;
+      background-position: left;
     }
     
     .intro-width {

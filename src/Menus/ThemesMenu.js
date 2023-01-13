@@ -48,7 +48,7 @@ const ThemesMenu = (props) => {
             </div>
             <div style={closedStyles} id="themes-menu-closed" className="theme-condensed-menu relative z-index h-one-hundred flex">
                 <div className="condensed-menu-width flex jc-center al-center mobile-column menu-right-border mint-green">
-                    <div onClick={props.active} className="flex mobile-column cursor">
+                    <div onClick={props.active} className="flex mobile-column mobile-al-center cursor">
                         <h3>M</h3><h3>E</h3><h3>N</h3><h3>U</h3> 
                     </div>       
                 </div>

@@ -196,10 +196,10 @@ const WhyItMatters = (props) => {
                 </div>
                 <div className="panel-1800 flex space-btwn mobile-column mobile-al-center mobile-side-padding top-mobile-sand-border">
                     <div className="w-thirty flex column mobile-jc-center space-around">
-                        <div className="relative h-200px flex column flex-end mobile-al-center">
+                        <div className="relative h-200px flex column mobile-al-center">
                             <Hash 
                                 onClick={setPosition}
-                                className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
+                                className="absolute small-bttn left-margin-10px cobalt sand-txt sand-border"
                                 to='/ann-carlson-writing#excerpt-two'
                                 state={{ 
                                     background: "var(--cobalt)",
@@ -369,10 +369,10 @@ const WhyItMatters = (props) => {
                         </div>
                         <div className="flex mobile-column space-around">
                             <div className="w-fifty-exempt mobile-al-center flex column mobile-top-20px">
-                                <div className="relative h-200px  flex column flex-end mobile-al-center">
+                                <div className="relative h-200px  flex column mobile-al-center">
                                     <Link 
                                         onClick={setPosition}
-                                        className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
+                                        className="absolute small-bttn left-margin-10px cobalt sand-txt sand-border"
                                         to='/meeting-three-conversation-one'
                                         state={{ 
                                             background: "var(--sand)",
@@ -382,17 +382,17 @@ const WhyItMatters = (props) => {
                                             startTime: "https://player.vimeo.com/video/738663854?h=83cfee6ba0#t=13m38s" }}
                                         >Video
                                     </Link>
-                                    <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border mobile-top-10px">
+                                    <div className="h-150px w-ninety flex column jc-center al-center side-padding sand-txt sand-border">
                                         <p className="no-bottom-padding txt-al-center"><b>Angie Hauser, Jacob’s Pillow:</b></p>
                                         <p className="no-top-padding txt-al-center"><em>…to participate in a conversation around archiving and to build process around archives—to align [archives] with how dance is actually made.</em></p>
                                     </div>
                                 </div>
                             </div>
                             <div className="w-fifty-exempt flex column mobile-top-20px">
-                                <div className="relative h-200px flex column al-flex-end flex-end mobile-al-center">
+                                <div className="relative h-200px flex column al-flex-end mobile-al-center">
                                     <Link 
                                         onClick={setPosition}
-                                        className="absolute top-30px small-bttn right-margin-10px cobalt sand-txt sand-border"
+                                        className="absolute small-bttn right-margin-10px cobalt sand-txt sand-border"
                                         to='/meeting-three-conversation-one'
                                         state={{ 
                                             background: "var(--sand)",
@@ -412,10 +412,10 @@ const WhyItMatters = (props) => {
                         <div className="h-fifty flex mobile-column space-around">
                             <div className="w-fifty-exempt flex column mobile-al-center space-around">
                                 <div className="flex column  mobile-top-20px">
-                                    <div className="relative h-150px  flex column flex-end mobile-al-center">
+                                    <div className="relative h-150px  flex column mobile-al-center">
                                         <Link 
                                             onClick={setPosition}
-                                            className="absolute top-30px small-bttn left-margin-10px cobalt sand-txt sand-border"
+                                            className="absolute small-bttn left-margin-10px cobalt sand-txt sand-border"
                                             to='/meeting-three-conversation-one'
                                             state={{ 
                                                 background: "var(--sand)",

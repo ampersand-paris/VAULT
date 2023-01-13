@@ -50,7 +50,9 @@ function Home() {
           <img className="home-slash" src="/Images/BlackOutlineSlash.png" />
         </div>
         <section className="home-section-padding flex column al-center mint-green top-black-border">
-          <h2 className="intro-arrow">&#x2193;</h2>
+          <div className="intro-arrow-container">
+            <h2 className="intro-arrow">&#x2193;</h2>
+          </div>
           <div className="home-text-width">
             <p>Hello! And welcome to Vault. This project, organized by Bebe Miller Company, started with questions we had about dance artists, their creative practice, and the value of artist-driven archives. So, we decided to ask.</p>
             <p>Starting in the spring of 2017, in a café in New York City, we began a series of convenings of dance artists, presenters, and other interested folks to ask questions and to share our experiences in documenting, and sharing, the creative process. Over the next three years we met with over 80 people in dance communities in Seattle, at Jacob’s Pillow, in Chicago and Columbus, Ohio. We found that the basic question of what matters, and what matters to whom, seemed to be the guiding principle in all of our discussions.</p>
