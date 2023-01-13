@@ -864,6 +864,10 @@ li {
   border-top: 2px solid black;
 }
 
+.home-photo {
+  width: 80vW;
+}
+
 /* ====== BIORGRAPHY ====== */
 
 .bio-slash {
