@@ -38,6 +38,7 @@ const BebeMillerPresentation = (props) => {
                         <br></br>
                         Jacob’s Pillow, Becket, MA</p>
                         <p className="transcription-details"><b>Presenter:</b> Bebe Miller</p>                
+                        <p className="transcription-details"><b>Meeting Participants:</b> Rachel Boggia; mayfield brooks; Nena Couch; Angie Hauser; Ishmael Houston-Jones; Jaamil Olawale Kosoko; Sarah Lass; Bebe Miller; Lauren Slone; Dana Whitco; Reggie Wilson</p>
                     </div>
                 </div>
             </div>

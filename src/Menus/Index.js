@@ -192,16 +192,16 @@ const Index = (props) => {
                     <ul className="index-list">
                         <Link to="/meeting-five-notes"><li>Meeting #5</li></Link>
                         <Link to="/imogen-smith-presentation-notes"><li>Imogen Smith Presentation Notes</li></Link>
-                        <Link to="/cori-olinghouse-presentation-notes"><li>Cori Olinghouse Presentation Notes</li></Link>
                         <Link to="/gesel-mason-presentation-notes"><li>Gesel Mason Presentation Notes</li></Link>
+                        <Link to="/cori-olinghouse-presentation-notes"><li>Cori Olinghouse Presentation Notes</li></Link>
                     </ul>
                     <p className="index-sub-title">Columbus Videos:</p>
                     <ul className="index-list">
                         <Link to="/columbus-lunch-conversation"><li>Meeting #5 Lunch Conversation</li></Link>
                         <Link to="/columbus"><li>Meeting #5 Questions</li></Link>
                         <Link to="/imogen-smith-presentation"><li>Imogen Smith Presentation</li></Link>
-                        <Link to="/gesel-mason-presentation"><li>Gesel Mason Presentation</li></Link>
                         <Link to="/cori-olinghouse-presentation"><li>Cori Olinghouse Presentation</li></Link>
+                        <Link to="/gesel-mason-presentation"><li>Gesel Mason Presentation</li></Link>
                     </ul>
                     <h3 className="index-location-first">More Resources</h3>
                     <ul className="index-list">
@@ -220,7 +220,7 @@ const Index = (props) => {
                     <img onClick={props.active} src="/Images/MenuTriangle.svg" className="triangle-size" id="triangle-index-open"/>
                 </div>
                 <div className="condensed-menu-width flex mobile-column jc-center al-center menu-left-border mint-green">
-                    <div onClick={props.active} className="flex mobile-column cursor">
+                    <div onClick={props.active} className="flex mobile-column mobile-al-center cursor">
                         <h3>I</h3><h3>N</h3><h3>D</h3><h3>E</h3><h3>X</h3>  
                     </div>      
                 </div>

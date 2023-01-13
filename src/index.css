@@ -255,14 +255,17 @@ li {
 
 .h-200px {
   height: 200px;
+  margin-top: 15px;
 }
 
 .h-150px {
   height: 150px;
+  margin-top: 15px;
 }
 
 .h-100px {
   height: 100px;
+  margin-top: 15px
 }
 
 .w-one-hundred {

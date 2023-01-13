@@ -36,6 +36,7 @@ const CoriOlinghousePresentation = (props) => {
                         <br></br>
                         Ann Hamilton and Michael Mercil's Studio, Columbus, OH</p>
                         <p className="transcription-details"><b>Presenter:</b> Cori Olinghouse</p>                
+                        <p className="transcription-details"><b>Meeting Participants:</b> Ann Carlson; Nena Couch; Lane Czaplinski; Mara Frazier; Melanie George;Angie Hauser; Lila Hurwitz (remote); Darrell Jones; Claudia LaRocco; Sarah Lass; Russell Lepley; Gesel Mason; Bebe Miller; Cori Olinghouse; Imogen Smith; Alex Springer; Dana Whitco; Ni'Ja Whitson</p>
                     </div>
                 </div>
             </div>
