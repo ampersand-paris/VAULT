@@ -16,9 +16,10 @@ const CoriOlinghousePresentationNotes = (props) => {
 
     return (
     <>
-        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center">
-            <div className="essay-width flex space-btwn">
-                <div className="column">
+        <div style={{ backgroundColor: background, color: textColor }} className="top-padding essay-padding flex column al-center">
+            <div className="w-one-hundred flex">
+                <img className="transcript-slash" src={ slash } />
+                <div className="column w-fifty">
                     <h2 className="transcription">Presentation</h2>
                     <p className="transcription"><b>Vault Meeting #5</b></p>
                     <p className="transcription-details">January 18-19, 2020
@@ -27,10 +28,9 @@ const CoriOlinghousePresentationNotes = (props) => {
                     <p className="transcription-details">Meeting Notes by Alex Springer</p>
                     <p className="transcription-details">Presenter: Cori Olinghouse, Dance Artist</p>
                 </div>
-                <img className="transcript-slash" src={ slash } />
             </div>
             <section className="flex column al-center">
-                <div className="essay-width">
+                <div>
                     <p><b>Presentation 3:</b></p>
                     <ul>
                         <li className="bullets">Interdisciplinary artist. In 2017 developed The Portal, currently working on it, not yet online. Excited to be in a room with so many exciting thoughts about preservation to issues of representation and beyond. Thank you Bebe!</li>

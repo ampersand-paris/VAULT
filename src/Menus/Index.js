@@ -200,8 +200,8 @@ const Index = (props) => {
                         <Link to="/columbus-lunch-conversation"><li>Meeting #5 Lunch Conversation</li></Link>
                         <Link to="/columbus"><li>Meeting #5 Questions</li></Link>
                         <Link to="/imogen-smith-presentation"><li>Imogen Smith Presentation</li></Link>
-                        <Link to="/cori-olinghouse-presentation"><li>Cori Olinghouse Presentation</li></Link>
                         <Link to="/gesel-mason-presentation"><li>Gesel Mason Presentation</li></Link>
+                        <Link to="/cori-olinghouse-presentation"><li>Cori Olinghouse Presentation</li></Link>
                     </ul>
                     <h3 className="index-location-first">More Resources</h3>
                     <ul className="index-list">

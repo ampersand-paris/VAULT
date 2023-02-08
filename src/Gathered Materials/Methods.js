@@ -97,9 +97,10 @@ const Methods = (props) => {
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
                         <div className="methods-margin">
-                            <p className="sand-txt">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                            <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;<span className="display-none corporate"><b>SCROLL RIGHT</b></span></p>
                         </div>
                         <div className="flex column">
+                            <p className="corporate only-bttm-padding"><b>AUDIO INTRO</b></p>
                             <ReactAudioPlayer
                                 src={audio}
                                 controls 

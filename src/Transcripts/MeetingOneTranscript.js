@@ -16,9 +16,10 @@ const MeetingOne = (props) => {
 
     return (
     <>
-        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center">
-            <div className="essay-width flex space-btwn">
-                <div className="column">
+        <div style={{ backgroundColor: background, color: textColor }} className="top-padding essay-padding flex column al-center">
+            <div className="w-one-hundred flex">
+                <img className="transcript-slash" src={ slash } />
+                <div className="column w-fifty">
                     <h2 className="transcription">Transcription</h2>
                     <p className="transcription"><b>Vault Meeting #1</b></p>
                     <p className="transcription-details">March 10, 2017
@@ -26,10 +27,9 @@ const MeetingOne = (props) => {
                     Cafe Orlin, NYC</p>
                     <p className="transcription-details">Participants: Ann Carlson, Ishmael Houston-Jones, Judy Hussie-Taylor, Jaamil Olawale Kosoko, Bebe Miller</p>
                 </div>
-                <img className="transcript-slash" src={ slash } />
             </div>
             <section className="flex column al-center">
-                <div className="essay-width">
+                <div>
                     <p><b>Jaamil:</b> Key points Bebe brought up, some questions. Clearly interest in contemporary, virtual ways in which we document the work, those who are engaged with sexy internet-based ways…how that affects the creative process as a whole. #Negrophobia, very much a kind of living archive with a digital archive embedded in the work—audience members take photos, create a part of the archive as they view the work. I keep various ephemera (programs, etc.) that becomes part of the show…. I can talk about how artist archive ideas went into the actual conception and creative process, allowing that to be a shared process among viewers and spectators.</p>
                     <p>Some questions I have: what would be a successful event? What are the major take-aways? Key questions at the core?</p>
                     <p><b>Bebe:</b> Getting people to show up is as far as I’ve gotten!</p>

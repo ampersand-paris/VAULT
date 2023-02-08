@@ -47,15 +47,15 @@ function Home() {
             src={audio}
             controls 
           />
-          <img className="home-slash" src="/Images/BlackOutlineSlash.png" />
-        </div>
-        <section className="home-section-padding flex column al-center mint-green top-black-border">
           <div className="intro-arrow-container">
             <h2 className="intro-arrow">&#x2193;</h2>
           </div>
-          <img className="home-photo" src="/Images/Pictures/Home.png" />
+          <img className="home-slash" src="/Images/MintGreenOutlineSlash.png" />
+        </div>
+        <section className="home-section-padding flex column al-center mint-green top-black-border">   
           <div className="home-text-width">
-            <p>Hello! And welcome to Vault. This project, organized by Bebe Miller Company, started with questions we had about dance artists, their creative practice, and the value of artist-driven archives. So, we decided to ask.</p>
+            <h2 className="no-padding black-border-bottom">Hello! And welcome to Vault.</h2>
+            <p>This project, organized by Bebe Miller Company, started with questions we had about dance artists, their creative practice, and the value of artist-driven archives. So, we decided to ask.</p>
             <p>Starting in the spring of 2017, in a café in New York City, we began a series of convenings of dance artists, presenters, and other interested folks to ask questions and to share our experiences in documenting, and sharing, the creative process. Over the next three years we met with over 80 people in dance communities in Seattle, at Jacob’s Pillow, in Chicago and Columbus, Ohio. We found that the basic question of what matters, and what matters to whom, seemed to be the guiding principle in all of our discussions.</p>
             <p>What we’ve gathered here is an archive built from those meetings. You’ll find videos of conversations, presentations, and other materials gathered from the attendees. Rather than presenting our findings chronologically, we’ve organized them according to the main thematic areas that emerged. Those are accessed by the menu button on the left side of the home page. On the right side you’ll find a selected index that will give you other points of entry.</p>
             <p>Other questions soon surfaced:</p>
@@ -69,16 +69,21 @@ function Home() {
               <li className="bullets">What can our expertise and practice in “co-presence” (everyone together, at one time, in one room) bring to the digital format?</li>
             </ul>
             <p>We invite you to take a tour through the four themes: Archival Thinking, Context, Methods, and Why It Matters. You can browse through written materials and notes cross-referenced with convening videos; and you can explore an index of selected points of interest. However you experience it, we trust that the journey you take through the Vault Project will be at your own pace, and led by your own interest.</p>
-            <p>Enjoy!</p>
-            <p className="transcription-details"><em>The Vault Project gatherings began in April 2017 and concluded in January 2020, just weeks before the global shutdown due to the COVID-19 pandemic. So much of our thinking and practice of artmaking changed dramatically. Which means that so much of what we consider to be vital to our field, whether practiced alone, virtually, within arm’s reach, with or without an audience, in our homes as well as in our studios, also changed. We have changed, and still we remain committed to our practice. We hope Vault serves as an invitation to continue the conversation and add to our incredible body of shared knowledge and experience. Our field is built on community and it deserves our attention.</em></p>
-            <p className="transcription-details"><em>Thanks for coming.</em></p>
+            <p>Enjoy and thanks for coming!</p>
           </div>
         </section>
         <section className="home-section-padding flex column al-center mint-green top-black-border">
-          <div className="home-text-width">
-            <p>Vault was made possible in part by support from the Doris Duke Charitable Foundation and the National Endowment for the Arts. We're grateful for the support of our meeting hosts (Ann Hamilton and Michael Mercil; Dance Center of Columbia College Chicago; Jacob's Pillow; On the Boards; Wexner Center for the Arts). Our thanks to the 40+ Vault participants across the country for their collective and full-hearted voice in our regional meetings. Huge thanks to Lila Hurwitz/Doolittle+Bird for project management; Shannon Drake for website materials wrangling; Benjamin Van Buren for initial website. And a shout-out to Lane Czaplinski for picking up what Bebe was putting down.</p>
-            <p className='txt-al-center'>Vault was designed and developed by <a href="www.failspacenyc.com/design-services" target="_blank">FAILSPACE Design Services</a>.</p>
+          <div className="home-text-width flex space-btwn mobile-column">
+            <div className="w-forty flex column">
+              <h2 className="no-padding black-border-bottom">A brief note on Covid-19</h2>
+              <p>The Vault Project gatherings began in April 2017 and concluded in January 2020, just weeks before the global shutdown due to the COVID-19 pandemic. So much of our thinking and practice of artmaking changed dramatically. Which means that so much of what we consider to be vital to our field, whether practiced alone, virtually, within arm’s reach, with or without an audience, in our homes as well as in our studios, also changed. We have changed, and still we remain committed to our practice. We hope Vault serves as an invitation to continue the conversation and add to our incredible body of shared knowledge and experience. Our field is built on community and it deserves our attention.</p>
+            </div>
+            <div className="w-forty flex column">
+              <h2 className="no-padding black-border-bottom">Funding Credits</h2>
+              <p>Vault was made possible in part by support from the Doris Duke Charitable Foundation and the National Endowment for the Arts. We're grateful for the support of our meeting hosts (Ann Hamilton and Michael Mercil; Dance Center of Columbia College Chicago; Jacob's Pillow; On the Boards; Wexner Center for the Arts). Our thanks to the 40+ Vault participants across the country for their collective and full-hearted voice in our regional meetings. Huge thanks to Lila Hurwitz/Doolittle+Bird for project management; Shannon Drake for website materials wrangling; Benjamin Van Buren for initial website. And a shout-out to Lane Czaplinski for picking up what Bebe was putting down.</p>
+            </div>
           </div>
+          <p className='home-text-width txt-al-center'>Vault was designed and developed by <a href="www.failspacenyc.com/design-services" target="_blank">FAILSPACE Design Services</a>.</p>
         </section>
     </>
   );

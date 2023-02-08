@@ -96,9 +96,10 @@ const WhyItMatters = (props) => {
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding sand-txt">
                         <div className="why-it-matters-margin">
-                            <p className="">&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                            <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;<span className="display-none corporate"><b>SCROLL RIGHT</b></span></p>
                         </div>
                         <div className="flex column">
+                            <p className="sand-txt corporate no-top-padding"><b>AUDIO INTRO</b></p>
                             <ReactAudioPlayer
                                 src={audio}
                                 controls 
@@ -555,7 +556,7 @@ const WhyItMatters = (props) => {
                             <p className="transcription-details">So, do I want just anyone to have access to all of my work? Now? When I’m no longer here? I keep thinking that there is no parallel in writing. One writes a book and anyone can read it if they buy it or it is available in a library or online. Recorded music is much the same? There is a handful of exceptionally good writers writing on the subject of experimental dance. Is there some reason that there aren’t more efficient methods of archiving and disseminating our work to a greater public other than oblivious reviews or by YouTube and Vimeo?</p>
                         </div>
                         <div className="h-fifty overflow-hidden">
-                            <img src="/Images/Pictures/Ishmael.svg" className="w-one-hundred"/>    
+                            <img src="/Images/Pictures/Ishmael.svg" />    
                         </div>
                     </div>
                     <div className="w-forty flex column flex-end mobile-column stnd-padding sand-txt">

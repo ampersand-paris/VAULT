@@ -16,9 +16,10 @@ const GeselMasonPresentation = (props) => {
 
     return (
     <>
-        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center">
-            <div className="essay-width flex space-btwn">
-                <div className="column">
+        <div style={{ backgroundColor: background, color: textColor }} className="top-padding essay-padding flex column al-center">
+            <div className="w-one-hundred flex">
+                <img className="transcript-slash" src={ slash } />
+                <div className="column w-fifty">
                     <h2 className="transcription">Presentation</h2>
                     <p className="transcription"><b>Vault Meeting #5</b></p>
                     <p className="transcription-details">January 18-19, 2020
@@ -27,10 +28,9 @@ const GeselMasonPresentation = (props) => {
                     <p className="transcription-details">Meeting Notes by Sarah Lass</p>
                     <p className="transcription-details">Presenter: Gesel Mason, Dance Artist</p>
                 </div>
-                <img className="transcript-slash" src={ slash } />
             </div>
             <section className="flex column al-center">
-                <div className="essay-width">
+                <div>
                     <p><b>Presentation 2: No Boundaries</b></p>
                     <ul>
                         <li className="bullets">Legacy, representation</li>
