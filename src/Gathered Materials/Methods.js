@@ -93,11 +93,11 @@ const Methods = (props) => {
             }
         </style>
         <div className="container preserved-lemon" id="methods-position">
-            <div className="m-container-length one-hundred-vh flex mobile-column">
+            <div className="m-container-length h-one-hundred flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
                         <div className="methods-margin">
-                            <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;<span className="display-none corporate"><b>SCROLL RIGHT</b></span></p>
+                            <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;<span className="display-none corporate"><b>SCROLL RIGHT</b></span></p>
                         </div>
                         <div className="flex column">
                             <p className="corporate only-bttm-padding"><b>AUDIO INTRO</b></p>
