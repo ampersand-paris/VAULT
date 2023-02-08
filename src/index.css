@@ -491,7 +491,6 @@ li {
   margin-bottom: 0;
 }
 
-
 .top-padding {
   padding: 15vH 0 5vH 0;
 }
@@ -989,7 +988,7 @@ li {
 }
 
 .intro-panel-width {
-  width: 600px;
+  width: 630px;
 }
 
 .intro-title {
@@ -999,7 +998,7 @@ li {
 }
 
 .intro-width {
-  width: 200px;
+  width: 230px;
 }
 
 .panel-1800 {
@@ -1122,7 +1121,7 @@ li {
 .c-slash {
   position: absolute;
   height: 80vH;
-  left: 50%;
+  left: 45%;
   top: 70px;
 }
 

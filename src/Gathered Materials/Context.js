@@ -99,9 +99,10 @@ const Context = (props) => {
                 <div className="intro-panel-width flex flex-end mobile-jc-center sand-txt">
                     <div className="intro-width flex space-btwn column vault-padding">
                         <div className="context-margin">
-                            <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;</p>
+                            <p>&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;&#x2f;<span className="display-none corporate"><b>SCROLL RIGHT</b></span></p>
                         </div>
                         <div className="flex column">
+                            <p className="sand-txt corporate only-bttm-padding"><b>AUDIO INTRO</b></p>
                             <ReactAudioPlayer
                                 src={audio}
                                 controls 

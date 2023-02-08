@@ -59,7 +59,7 @@ const ResourcesMentioned = (props) => {
                     <ul className="resources-list">
                         <li><a target="_blank" href="http://www.dance-tech.net/">Dance-tech</a></li>
                         <li><a target="_blank" href="http://www.dance-tech.net/profile/MetaAcademyLab">Meta-Academy</a></li>
-                        <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLUwHVm1ByQT8te1H-DnmoAwj3LIeYPOxH">Mondays with Merce, Cunningham Trust</a></li>
+                        <li><a target="_blank" href="https://www.mercecunningham.org/media/media-detail/?title=Mondays+with+Merce">Mondays with Merce, Cunningham Trust</a></li>
                         <li><a target="_blank" href="https://theiterationproject.org/">The Iteration Project</a></li>
                         <li><a target="_blank" href="https://dancecapsules.mercecunningham.org/">Merce Cunningham Dance Capsules, Cunningham Trust</a></li>
                         <li><a target="_blank" href="http://motionbank.org/">Motion Bank</a></li>
