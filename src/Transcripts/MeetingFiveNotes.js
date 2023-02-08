@@ -16,9 +16,10 @@ const MeetingFiveNotes = (props) => {
 
     return (
     <>
-        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center">
-            <div className="essay-width flex space-btwn">
-                <div className="column">
+        <div style={{ backgroundColor: background, color: textColor }} className="flex column al-center top-padding essay-padding">
+            <div className="w-one-hundred flex">
+                <img className="transcript-slash" src={ slash } />
+                <div className="column w-fifty">
                     <h2 className="transcription">Meeting Notes</h2>
                     <p className="transcription"><b>Vault Meeting #5</b></p>
                     <p className="transcription-details">January 18-19, 2020
@@ -27,10 +28,9 @@ const MeetingFiveNotes = (props) => {
                     <p className="transcription-details">Meeting Notes by Sarah Lass</p>
                     <p className="transcription-details">Participants: Ann Carlson, Dance Artist, Nena Couch, Head, Special Collections, Thompson Library, The Ohio State University, Lane Czaplinski, Director of Performing Arts, Wexner Center for the Arts, Mara Frazier, Curator of Dance, University Libraries, The Ohio State University, Melanie George, Dance Artist, Dramaturg, Angie Hauser, Associate Professor of Dance, Smith College, Lila Hurwitz, Artist Manager (Vault Project Manager; remote), Darrell Jones, Associate Professor, Dance Center Columbia College Chicago, Claudia LaRocco, Writer, Sarah Lass, Dance Artist (Documenter), Russell Lepley, Dance Artist, Gesel Mason, Dance Artist, Bebe Miller, Dance Artist (Vault Project Director), Cori Olinghouse, Dance Artist, Archivist, Imogen Smith, Director of Archiving and Preservation, Dance/USA, Alex Springer, Dance Artist (Research Assistant to Angie Hauser), Dana Whitco, Director, Tisch Initiative for Creative Research, Ni'Ja Whitson, Dance Artist, Jay Couch, Videographer, Camille and Jason, Crew, Adam Elliot, Producer and Lane’s associate</p>
                 </div>
-                <img className="transcript-slash" src={ slash } />
             </div>
             <section className="flex column al-center">
-                <div className="essay-width">
+                <div>
                     <p><em>Pre-VAULT Questions</em></p>
                     <ol>
                         <li>How has your dance-making been affected (or not) by the virtual/digital availability of your work, in terms of both process and product?</li>

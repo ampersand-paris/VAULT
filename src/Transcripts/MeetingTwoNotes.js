@@ -16,9 +16,10 @@ const MeetingTwoNotes = (props) => {
 
     return (
     <>
-        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center">
-            <div className="essay-width flex space-btwn">
-                <div className="column">
+        <div style={{ backgroundColor: background, color: textColor }} className="flex column al-center top-padding essay-padding">
+            <div className="w-one-hundred flex">
+                <img className="transcript-slash" src={ slash } />
+                <div className="column w-fifty">
                     <h2 className="transcription">Meeting Notes</h2>
                     <p className="transcription"><b>Vault Meeting #2</b></p>
                     <p className="transcription-details">August 7, 2017
@@ -27,10 +28,9 @@ const MeetingTwoNotes = (props) => {
                     <p className="transcription-details">Meeting Notes by Lila Hurwitz</p>
                     <p className="transcription-details">Participants: Betsey Brock, Alice Gosti, Pat Graney, Dayna Hanson, Angie Hauser, Ishmael Houston-Jones (via Zoom), Lila Hurwitz (via Zoom), Raja Feather Kelly, Tonya Lockyer, Bebe Miller</p>
                 </div>
-                <img className="transcript-slash" src={ slash } />
             </div>
             <section className="flex column al-center">
-                <div className="essay-width">
+                <div>
                     <p>Recording for OtB is an issue; can’t record without artists signing the release (so apropos to this conversation)</p>
                     <ul>
                         <li className="bullets">Shared ownership with OtB, and BMC has final sign-off</li>

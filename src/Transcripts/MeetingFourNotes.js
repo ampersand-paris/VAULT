@@ -16,9 +16,10 @@ const MeetingFourNotes = (props) => {
 
     return (
     <>
-        <div style={{ backgroundColor: background, color: textColor }} className="top-padding flex column al-center sand">
-            <div className="essay-width flex space-btwn">
-                <div className="column">
+        <div style={{ backgroundColor: background, color: textColor }} className="flex column al-center sand top-padding top-padding essay-padding ">
+            <div className="w-one-hundred flex">
+                <img className="transcript-slash" src={ slash } />
+                <div className="column w-fifty">
                     <h2 className="transcription">Meeting Notes</h2>
                     <p className="transcription"><b>Vault Meeting #4</b></p>
                     <p className="transcription-details">November 16, 2019
@@ -27,10 +28,9 @@ const MeetingFourNotes = (props) => {
                     <p className="transcription-details">Meeting Notes by Lila Hurwitz</p>
                     <p className="transcription-details">Participants: Julia Antonick, Bonnie Brooks, Ellen Chenoweth, Margi Cole, Jenai Cutcher, Ginger Farley, J'sun Howard, Lila Hurwitz, Jane Jerardi, Darrell Jones, Erin Kilmurray, Jonathan Meyer, Bebe Miller, Diana Muhammad</p>
                 </div>
-                <img className="transcript-slash" src={ slash } />
             </div>
             <section className="flex column al-center">
-                <div className="essay-width">
+                <div>
                     <p><b>Diana:</b></p>
                     <ul>
                         <li className="bullets">Who owns Vault?</li>

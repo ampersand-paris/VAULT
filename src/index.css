@@ -68,6 +68,7 @@ body {
 .intro-arrow {
   animation: introArrow 2s forwards;
   animation-delay: 3s;
+  color: var(--mint-green);
   opacity: 0%;
 }
 /* === CLOSED MENUS === */
@@ -172,11 +173,12 @@ li {
   font-weight: 400;
   font-style: normal;
   list-style: none;
+  margin-left: 20px;
 }
 
 .bullets {
   list-style: circle;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .numbers {
@@ -565,6 +567,10 @@ li {
   background-color: var(--mint-green);
 }
 
+.mint-green-txt {
+  color: var(--sand);
+}
+
 .preserved-lemon {
   background-color: var(--preserved-lemon);
 }
@@ -837,6 +843,11 @@ li {
 
 .home-height {
   height: 90vH;
+  background-image: url('/public/Images/Pictures/Home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
 }
 
 .home-section-padding {
@@ -852,11 +863,15 @@ li {
 }
 
 .home-text {
+  color: var(--mint-green);
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: .5px;
   font-size: 18em;
-  margin: 0;
+  margin: 30px;
 }
 
 .home-text-width {
+  padding-top: 10vH;
   width: 60vW;
 }
 
@@ -909,6 +924,7 @@ li {
 
 .transcript-slash {
   height: 300px;
+  margin-right: 10px;
 }
 
 .transcription {
