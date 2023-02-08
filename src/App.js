@@ -10,6 +10,8 @@ import Home from "./Home";
 import Index from "./Menus/Index";
 import ThemesMenu from "./Menus/ThemesMenu";
 import ResourcesMentioned from "./ResourcesMentioned";
+import ScrollToTop from "./ScrollToTop";
+import appHeight from "./appHeight";
 
 // === THEMES ===
 import ArchivalThinking from "./Gathered Materials/ArchivalThinking";
@@ -114,7 +116,6 @@ import MeetingThreeIntroductions from "./Videos/MeethingThreeIntros";
 import MeetingThreeSmallGroupTwo from "./Videos/MeethingThreeSmallGroupTwo";
 import MeetingThreeSmallGroupThree from "./Videos/MeetingThreeSmallGroupThree";
 import MeetingThreeSmallGroupConclusion from "./Videos/MeetingThreeSmallGroupConclusion";
-import ScrollToTop from "./ScrollToTop";
 import BebeMillerPresentation from "./Videos/BebeMillerPresentation"
 import CoriOlinghousePresentation from "./Videos/CoriOlinghousePresentation"
 import GeselMasonPresentation from "./Videos/GeselMasonPresentation"
