@@ -92,7 +92,7 @@ const WhyItMatters = (props) => {
             }
         </style>
         <div className="container cobalt" id="why-position">
-            <div className="w-container-length one-hundred-vh flex mobile-column mobile-al-center">
+            <div className="w-container-length h-one-hundred flex mobile-column mobile-al-center">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding sand-txt">
                         <div className="why-it-matters-margin">
