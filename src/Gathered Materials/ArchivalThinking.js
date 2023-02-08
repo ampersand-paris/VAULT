@@ -94,7 +94,7 @@ const ArchivalThinking = (props) => {
             }
         </style>
         <div className="container pumpkin" id="arc-think">
-            <div className="ar-container-length one-hundred-vh flex mobile-column">
+            <div className="ar-container-length h-one-hundred flex mobile-column">
                 <div className="intro-panel-width flex flex-end mobile-jc-center">
                     <div className="intro-width flex space-btwn column vault-padding">
                         <div>

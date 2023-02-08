@@ -529,6 +529,7 @@ li {
   --mint-green: #d7f0dd;
   --preserved-lemon: #CCCC21;
   --pumpkin: #E26E40;
+  --app-height: 100%;
 }
 
 .black {
@@ -985,6 +986,7 @@ li {
   overflow-x: scroll;
   width: 100vW;
   padding-bottom: none;
+  height: var(--app-height)
 }
 
 .intro-panel-width {
