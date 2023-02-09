@@ -29,16 +29,18 @@ const MeetingTwoNotes = (props) => {
                     <p className="transcription-details">Participants: Betsey Brock, Alice Gosti, Pat Graney, Dayna Hanson, Angie Hauser, Ishmael Houston-Jones (via Zoom), Lila Hurwitz (via Zoom), Raja Feather Kelly, Tonya Lockyer, Bebe Miller</p>
                 </div>
             </div>
-            <section className="flex column al-center">
+            <section className="flex column al-center transcription-details">
                 <div>
-                    <p>Recording for OtB is an issue; can’t record without artists signing the release (so apropos to this conversation)</p>
-                    <ul>
-                        <li className="bullets">Shared ownership with OtB, and BMC has final sign-off</li>
-                        <li className="bullets">Verbal understanding: BMC is watching out for everyone and may share this and will make sure everyone’s okay with it</li>
-                        <li className="bullets">Does BMC own this?</li>
-                        <li className="bullets">OtB will revise the release agreement</li>
-                        <li className="bullets">Maybe OtB.TV can include this conversation in their bookshelves</li>
-                    </ul>
+                    <div className="black-border-bottom bottom-padding">
+                        <p>Recording for OtB is an issue; can’t record without artists signing the release (so apropos to this conversation)</p>
+                        <ul>
+                            <li className="bullets transcription-details">Shared ownership with OtB, and BMC has final sign-off</li>
+                            <li className="bullets">Verbal understanding: BMC is watching out for everyone and may share this and will make sure everyone’s okay with it</li>
+                            <li className="bullets">Does BMC own this?</li>
+                            <li className="bullets">OtB will revise the release agreement</li>
+                            <li className="bullets">Maybe OtB.TV can include this conversation in their bookshelves</li>
+                        </ul>
+                    </div>
                     <p><b>Bebe:</b></p>
                     <ul>
                         <li className="bullets">Already feel the performance of the conversation; we’re really talking with each other about our field</li>
@@ -109,8 +111,8 @@ const MeetingTwoNotes = (props) => {
                     <p><b>IHJ:</b></p>
                     <ul>
                         <li className="bullets">Jennifer Monson remembering a piece in a way that didn’t happen (her washing John Berndt’s back, or vice-versa)</li>
+                        <li className="bullets">The Washcloth Gap</li>
                     </ul> 
-                    <p><b>The Washcloth Gap</b></p>
                     <p><b>RFK:</b> empathy</p>
                     <ul>
                         <li className="bullets">Liz Oakley’s (sp?) documentary</li>
@@ -129,7 +131,7 @@ const MeetingTwoNotes = (props) => {
                         <li className="bullets">Documentary film: there’s a co-author; we know it’s not subjective</li>
                     </ul>
                     <br></br>
-                    <p><b>BREAK</b></p>
+                    <p className="black-border-bottom"><b>BREAK</b></p>
                     <br></br>
                     <p><b>Bebe:</b> archive and process—is this really an issue?</p>
                     <ul>
@@ -205,7 +207,7 @@ const MeetingTwoNotes = (props) => {
                     <ul>
                         <li className="bullets">Maryanna Charlton (sp?)</li>
                     </ul>
-                    <p><b>Next question: about how it’s showing up in the work</b></p>
+                    <p>Next question: about how it’s showing up in the work</p>
                 </div>
             </section>
         </div>

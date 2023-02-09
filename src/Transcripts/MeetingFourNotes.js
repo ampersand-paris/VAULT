@@ -51,8 +51,8 @@ const MeetingFourNotes = (props) => {
                     <p><b>Bebe:</b> The idea of audience then is involved</p>
                     <p><b>Jonathan:</b></p>
                     <ul>
-                        <li className="bulllets">Prejudice against digital; but rely on it for grant-writing, etc.</li>
-                        <li className="bulllets">Hasn’t investigated possibilities of digital engagement for audiences</li>
+                        <li className="bullets">Prejudice against digital; but rely on it for grant-writing, etc.</li>
+                        <li className="bullets">Hasn’t investigated possibilities of digital engagement for audiences</li>
                     </ul>
                     <p><b>Julia:</b></p>
                     <ul>
@@ -72,7 +72,6 @@ const MeetingFourNotes = (props) => {
                         <li className="bullets">“Remembering” a body word; any memory is already different between people; which pieces of memory did people take with them?</li>
                         <li className="bullets">Memory is an act of creation</li>
                         <li className="bullets">Various recording devices: human body with mind in it; digital technologies are cool but human memory is especially</li>
-                        <li className="bullets"></li>
                     </ul>
                     <p><b>Diana:</b></p>
                     <ul>
@@ -225,14 +224,14 @@ const MeetingFourNotes = (props) => {
                     <ul>
                         <li className="bullets">Studied with particular teacher; now can see archived videos</li>
                     </ul> 
-                    <p><em>Small groups of 4–5 people; use four questions as jumping-off point:</em></p>
+                    <p><b>Small groups of 4–5 people; use four questions as jumping-off point:</b></p>
                     <ol>
-                        <li>What strategies and experiences can you share related to digital or analog archiving and your current practice?</li>
-                        <li>How has (your) dance making been affected (or not) by the virtual/digital availability of your work?</li>
-                        <li>What do you assume (in the best sense of the word) about audience and your practice?</li>
-                        <li>What are some changes imaginable regarding company/independent artist strategies, audiences, funding and presenting structures?</li>
+                        <li className="decimal"><b>What strategies and experiences can you share related to digital or analog archiving and your current practice?</b></li>
+                        <li className="decimal"><b>How has (your) dance making been affected (or not) by the virtual/digital availability of your work?</b></li>
+                        <li className="decimal"><b>What do you assume (in the best sense of the word) about audience and your practice?</b></li>
+                        <li className="decimal"><b>What are some changes imaginable regarding company/independent artist strategies, audiences, funding and presenting structures?</b></li>
                     </ol>
-                    <p><em>How would you want this info disseminated? What would be helpful? Sent to whom?</em></p>
+                    <p><b>How would you want this info disseminated? What would be helpful? Sent to whom?</b></p>
                     <p><b>Bonnie:</b></p>
                     <ul>
                         <li className="bullets">Radical archiving; expanding canon of what’s considered archival work</li>
@@ -289,33 +288,33 @@ const MeetingFourNotes = (props) => {
                         <li className="bullets">Chicago Vault convening theme: generational factors; contact with audience</li>
                         <li className="bullets">Any follow-up? Send us email</li>
                     </ul>
-                    <p><b>Small group summaries:</b></p>
-                    <p><b>Erin:</b></p>
+                    <p className="black-border-bottom-thin"><b>Small group summaries:</b></p>
                     <ul>
-                        <li className="bullets">Lack of hub in Chicago for practice/presentation/conversation outside of learning institutions (like Gibney)</li>
-                        <li className="bullets">Archiving as immortality; does that need to be solved? Do we try to change dance’s emphemerality?</li>
-                        <li className="bullets">De-growth: compost back into sphere instead of more more more</li>
+                        <li className="bullets"><b>Erin:</b></li>
+                        <ul>
+                            <li className="dashes">Lack of hub in Chicago for practice/presentation/conversation outside of learning institutions (like Gibney)</li>
+                            <li className="dashes">Archiving as immortality; does that need to be solved? Do we try to change dance’s emphemerality?</li>
+                            <li className="dashes">De-growth: compost back into sphere instead of more more more</li>
+                        </ul>
+                        <li className="bullets"><b>Darrell:</b></li>
+                        <ul>
+                            <li className="dashes">Customization (Bonnie’s word) of types of archival products depending on artist</li>
+                            <li className="dashes">What is blue sky vision of Vault? (Jawole talked about that) (Bebe: rub of creative practice between analog and digital; what happens in the room when you’re making, knowing these two things are available? Needs second meeting of each group; and then what and then what…)</li>
+                        </ul>
+                        <li className="bullets"><b>Diana:</b></li>
+                        <ul>
+                            <li className="dashes">Jonathan: analog allows for risk and discomfort; digital offers information</li>
+                            <li className="dashes">Diana: generational piece, how story is told, everyone receives different experience</li>
+                            <li className="dashes">Jane: difference between work and document of work; everything has potential to grow into new work</li>
+                            <li className="dashes">Jenai: what translation looks like; collecting history, improv</li>
+                        </ul>
+                        <li className="bullets"><b>Bonnie:</b></li> 
+                        <ul>
+                            <li className="dashes">“Integrity” is at heart of the project; beyond their legacy, available resources, etc., all has to come back to integrity of how they wanna work and what DNA they leave behind.</li>
+                            <li className="dashes">“The curation of the documentation is the archive”</li>
+                            <li className="dashes">Hindsight is leading the viewer to follow where the artist chooses to go (it’s after the fact)</li>
+                        </ul>
                     </ul>
-                    <p><b>Darrell:</b></p>
-                    <ul>
-                        <li className="bullets">Customization (Bonnie’s word) of types of archival products depending on artist</li>
-                        <li className="bullets">What is blue sky vision of Vault? (Jawole talked about that) (Bebe: rub of creative practice between analog and digital; what happens in the room when you’re making, knowing these two things are available? Needs second meeting of each group; and then what and then what…)</li>
-                    </ul>
-                    <p><b>Diana:</b></p>
-                    <ul>
-                        <li className="bullets">Jonathan: analog allows for risk and discomfort; digital offers information</li>
-                        <li className="bullets">Diana: generational piece, how story is told, everyone receives different experience</li>
-                        <li className="bullets">Jane: difference between work and document of work; everything has potential to grow into new work</li>
-                        <li className="bullets">Jenai: what translation looks like; collecting history, improv</li>
-                    </ul>
-                    <p><b>Bebe:</b></p>
-                    <ul>
-                        <li className="bullets"></li>
-                        <li className="bullets"></li>
-                    </ul>
-                    <p><b>Bonnie:</b> “Integrity” is at heart of the project; beyond their legacy, available resources, etc., all has to come back to integrity of how they wanna work and what DNA they leave behind.</p>
-                    <p>“The curation of the documentation is the archive”</p>
-                    <p>Hindsight is leading the viewer to follow where the artist chooses to go (it’s after the fact)</p>
                 </div>
             </section>
         </div>

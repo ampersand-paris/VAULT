@@ -31,15 +31,15 @@ const MeetingThreeNotes = (props) => {
             </div>
             <section className="flex column al-center">
                 <div>
+                    <p className="no-bottom-padding"><b>Weekend Outline</b></p>
+                    <p className="no-bottom-padding"><b>Sunday, May 6:</b> opening meeting/discussion, artist-artist interviews, evening work sharing, bonfire</p>
+                    <p className="no-top-padding"><b>Monday, May 7:</b> continuing discussion, Jacob’s Pillow Archive tour with Norton Owen, closing thoughts</p>
+                    <h2 className="black-border-bottom">Sunday, May 6</h2>
+                    <h2><b>Opening Meeting (1:30-3:45pm)</b></h2>
+                    <p className="no-bottom-padding"><b>In attendance:</b></p>
+                    <p className="no-top-padding transcription-details">Rachel Boggia (RB), mayfield brooks (mb), Nena Couch (NC), Angie Hauser (AH), Ishmael Houston Jones (IHJ), Jaamil Olawale Kosoko (JOK), Sarah Lass (SL), documenter (notes), Ellen Maynard (EM), documenter (video), Bebe Miller (BM), Lauren Sloane (LS), and Dana Whitco (DW)</p>
                     <p className="no-bottom-padding"><b>Summary of Events</b></p>
-                    <p className="no-bottom-padding no-top-padding">Sunday, May 6: opening meeting/discussion, artist-artist interviews, evening work sharing, bonfire</p>
-                    <p className="no-top-padding">Monday, May 7: continuing discussion, Jacob’s Pillow Archive tour with Norton Owen, closing thoughts</p>
-                    <h2>Sunday, May 6</h2>
-                    <p><b>Opening Meeting (1:30-3:45pm)</b></p>
-                    <p><b>In attendance:</b></p>
-                    <p >Rachel Boggia (RB), mayfield brooks (mb), Nena Couch (NC), Angie Hauser (AH), Ishmael Houston Jones (IHJ), Jaamil Olawale Kosoko (JOK), Sarah Lass (SL), documenter (notes), Ellen Maynard (EM), documenter (video), Bebe Miller (BM), Lauren Sloane (LS), and Dana Whitco (DW)</p>
-                    <p><b>Summary of Events</b></p>
-                    <p className="transcription-details">Participants introduce themselves; BM shares current thoughts on VAULT and this particular coming together; participants respond to homework questions and offer initial thoughts and interests in the ideation, practice, and artifact of archive; participants identify questions for artist-artist interviews</p>
+                    <p className="no-top-padding transcription-details">Participants introduce themselves; BM shares current thoughts on VAULT and this particular coming together; participants respond to homework questions and offer initial thoughts and interests in the ideation, practice, and artifact of archive; participants identify questions for artist-artist interviews</p>
                     <p><b>Central Points of Discussion</b></p>
                     <p>BM introduction</p>
                     <ul>
@@ -68,12 +68,12 @@ const MeetingThreeNotes = (props) => {
                         <li className="bullets">Are there possibilities for hybrid presenting structures? How can presenters support archival work? (LS)</li>
                         <li className="bullets">Recognizing a move away from single-person, single-perspective curator/presenter (LS)</li>
                     </ul>
-                    <p>Conclude by identifying central themes and discussion categories to take into artist-artist interviews: third-person versus artist-driven archive; kinesthetic sense and archive; conversation between co-presence and digital; how do we choose what we hold onto; gaps in archiving and archives; legibility and archive; to whom does it matter</p>
-                    <p><b>Artist-Artist Interviews (4-6:30pm)</b></p>
-                    <p><b>In attendance:</b></p>
-                    <p className="transcription-details">Rachel Boggia (RB), mayfield brooks (mb), Nena Couch (NC), Angie Hauser (AH), Ishmael Houston Jones (IHJ). Jaamil Olawale Kosoko (JOK), Sarah Lass, documenter (notes) (SL), Ellen Maynard, documenter (video) (EM), Bebe Miller (BM), Lauren Sloane (LS), Dana Whitco (DW), and Reggie Wilson (RW)</p>
-                    <p><b>Summary of Events</b></p>     
-                    <p className="transcription-details">Determining the form the interviews will take (two artists with one witness); example/demonstration with BM and LS interviewing and mb witnessing; split into two groups with four floaters; regroup, download, and thoughts on moving forward</p>
+                    <p className="bottom-padding black-border-bottom-thin">Conclude by identifying central themes and discussion categories to take into artist-artist interviews: third-person versus artist-driven archive; kinesthetic sense and archive; conversation between co-presence and digital; how do we choose what we hold onto; gaps in archiving and archives; legibility and archive; to whom does it matter</p>
+                    <h2><b>Artist-Artist Interviews (4-6:30pm)</b></h2>
+                    <p className="no-bottom-padding"><b>In attendance:</b></p>
+                    <p className="transcription-details no-top-padding">Rachel Boggia (RB), mayfield brooks (mb), Nena Couch (NC), Angie Hauser (AH), Ishmael Houston Jones (IHJ). Jaamil Olawale Kosoko (JOK), Sarah Lass, documenter (notes) (SL), Ellen Maynard, documenter (video) (EM), Bebe Miller (BM), Lauren Sloane (LS), Dana Whitco (DW), and Reggie Wilson (RW)</p>
+                    <p className="no-bottom-padding"><b>Summary of Events</b></p>     
+                    <p className="transcription-details no-top-padding">Determining the form the interviews will take (two artists with one witness); example/demonstration with BM and LS interviewing and mb witnessing; split into two groups with four floaters; regroup, download, and thoughts on moving forward</p>
                     <p><b>Central Points of Discussion</b></p>
                     <p>BM, LS, mb demonstration</p>
                     <ul>
@@ -89,38 +89,38 @@ const MeetingThreeNotes = (props) => {
                         <li className="bullets">Floaters: BM, mb, LS, RW</li>
                     </ul>
                     <p>NC and IHJ interview with RB as witness</p>
-                    <ul>
+                    <ul className="bottom-padding black-border-bottom-thin">
                         <li className="bullets">Speaking to question of how we choose what to archive</li>
                         <ul>
-                            <li className="bullets">Differences between static and growing collections (NC)</li>
-                            <li className="bullets">What are the materials of the archive? What best documents it and what are its meaningful pieces (NC)</li>
-                            <li className="bullets">What do I keep, what is important, and who chooses this; non-strategic and accidental archiving (IHJ)</li>
-                            <li className="bullets">Disagreement as creative force—how to capture “the organ of disagreement” (RB)</li>
-                            <li className="bullets">How to represent multiple voices within documentation of work; cacophony of voices versus concision in the archive (RB)</li>
-                            <li className="bullets">Recognizing implicit bias; what is the role of the archivist? (RB)</li>
+                            <li className="dashes">Differences between static and growing collections (NC)</li>
+                            <li className="dashes">What are the materials of the archive? What best documents it and what are its meaningful pieces (NC)</li>
+                            <li className="dashes">What do I keep, what is important, and who chooses this; non-strategic and accidental archiving (IHJ)</li>
+                            <li className="dashes">Disagreement as creative force—how to capture “the organ of disagreement” (RB)</li>
+                            <li className="dashes">How to represent multiple voices within documentation of work; cacophony of voices versus concision in the archive (RB)</li>
+                            <li className="dashes">Recognizing implicit bias; what is the role of the archivist? (RB)</li>
                         </ul>
                         <li className="bullets">Speaking to question of how to document work that is not easily documented/does not fit easily fit into archival processes</li>
                         <ul>
-                            <li className="bullets">Is there a method of archiving improvisational work that actually addresses what is being addressed in the work? (IHJ)</li>
-                            <li className="bullets">What can the archive do for something like improvisation? (NC)</li>
-                            <li className="bullets">Identifying the gap that results from institutional policies that determine archival priorities and practices (NC and IHJ)</li>
+                            <li className="dashes">Is there a method of archiving improvisational work that actually addresses what is being addressed in the work? (IHJ)</li>
+                            <li className="dashes">What can the archive do for something like improvisation? (NC)</li>
+                            <li className="dashes">Identifying the gap that results from institutional policies that determine archival priorities and practices (NC and IHJ)</li>
                             <ul>
                                 <li className="bullets">Importance of addressing privilege in institutions and how to more freely disseminate procedures of archiving (RB)</li>
                             </ul>
-                            <li className="bullets">Under-privileging of non-proscenium works (RB)</li>
-                            <li className="bullets">Other points: augmented reality in exhibitions, 3D film technology, “directionality” of archive (collecting or pushing out) </li>
+                            <li className="dashes">Under-privileging of non-proscenium works (RB)</li>
+                            <li className="dashes">Other points: augmented reality in exhibitions, 3D film technology, “directionality” of archive (collecting or pushing out) </li>
                         </ul>
                         <li className="bullets">Regroup and thoughts to take forward</li>
                         <ul>
-                            <li className="bullets">Difference between documentation and preservation (RW)</li>
-                            <li className="bullets">What are the choices archivists are making and what are the guidelines for that?</li>
-                            <li className="bullets">Who is the archive for?</li>
-                            <li className="bullets">Interest in “the noun of it” (archive) and the idea of archive as “a way of encounter” (BM)</li>
+                            <li className="dashes">Difference between documentation and preservation (RW)</li>
+                            <li className="dashes">What are the choices archivists are making and what are the guidelines for that?</li>
+                            <li className="dashes">Who is the archive for?</li>
+                            <li className="dashes">Interest in “the noun of it” (archive) and the idea of archive as “a way of encounter” (BM)</li>
                         </ul>
                     </ul>
-                    <p><b>Work Sharing (8-9:30pm)</b></p>
-                    <p><b>Summary of Events</b></p>
-                    <p className="transcription-details">BM discusses work with/ideation around archive with online examples; Gwen Seemel TED Talk viewing; questions around ownership, transference, and bodily archive</p>
+                    <h2><b>Work Sharing (8-9:30pm)</b></h2>
+                    <p className="no-bottom-padding"><b>Summary of Events</b></p>
+                    <p className="transcription-details no-top-padding">BM discusses work with/ideation around archive with online examples; Gwen Seemel TED Talk viewing; questions around ownership, transference, and bodily archive</p>
                     <p><b>Central Points of Discussion</b></p>
                     <p>BM discusses A History and Motion Bank</p>
                     <ul>
@@ -141,11 +141,11 @@ const MeetingThreeNotes = (props) => {
                     </ul>
                     <p>Bringing in non-improvisation-based work that engages with cultural forms (RW)</p>
                     <p>Questions of ownership, archiving, and access (RW)</p>
-                    <p>How to go about conveying/transferring creative process (mb)</p>
-                    <h2>Monday, May 7</h2>
-                    <p><b>Breakfast Meeting (9:30-11:15am)</b></p>
-                    <p><b>Summary of Events</b></p>
-                    <p className="transcription-details">BM lays out topics for initial conversation culled from Sunday’s discussions and the agenda for the day; Zoom call with Pamela Tatge; group discussion</p>
+                    <p className="bottom-padding black-border-bottom-thin">How to go about conveying/transferring creative process (mb)</p>
+                    <h2 className="black-border-bottom">Monday, May 7</h2>
+                    <h2><b>Breakfast Meeting (9:30-11:15am)</b></h2>
+                    <p className="no-bottom-padding"><b>Summary of Events</b></p>
+                    <p className="transcription-details no-top-padding">BM lays out topics for initial conversation culled from Sunday’s discussions and the agenda for the day; Zoom call with Pamela Tatge; group discussion</p>
                     <p><b>Central Points of Discussion</b></p>
                     <p>“Activist archive”</p>
                     <ul>
@@ -166,26 +166,30 @@ const MeetingThreeNotes = (props) => {
                     </ul>
                     <p>New ecology between artist and audience that the archive can engage with (BM)</p>
                     <p>Institutional determination of importance versus artist determination of importance as not always aligned and crucial to address (LS)</p>
-                    <p>“Meta Academy: Embodied Online Co-Creativity” and the possibilities for the internet as a “wilderness” space (RB)</p>
-                    <p><b>Jacob’s Pillow Archive Tour (11:15-12:30)</b></p>
-                    <p><b>Summary of Events</b></p>
-                    <p className="transcription-details">Discussion with Norton Owen about Pillow’s approach to archiving; tour of Pillow’s Dance Interactive</p>
+                    <p className="bottom-padding black-border-bottom-thin">“Meta Academy: Embodied Online Co-Creativity” and the possibilities for the internet as a “wilderness” space (RB)</p>
+                    <h2><b>Jacob’s Pillow Archive Tour (11:15-12:30)</b></h2>
+                    <p className="no-bottom-padding"><b>Summary of Events</b></p>
+                    <p className="transcription-details no-top-padding">Discussion with Norton Owen about Pillow’s approach to archiving; tour of Pillow’s Dance Interactive</p>
                     <p><b>Central Points of Discussion</b></p>
-                    <p>Who is coming/engaging informs the archive’s configuration</p>
-                    <p>How can archives facilitate discovery?</p>
-                    <p>Dual activity of preservation and engagement</p>
-                    <p>Important of creating opportunities for information to be meaningful (not just about having it and making it available)</p>
-                    <p><b>Closing Discussion (1:30-2pm)</b></p>
-                    <p><b>Summary of Events</b></p>
-                    <p className="transcription-details">Closing thoughts with eye towards what might be next</p>
+                    <ul className="bottom-padding black-border-bottom-thin">
+                        <li className="bullets">Who is coming/engaging informs the archive’s configuration</li>
+                        <li className="bullets">How can archives facilitate discovery?</li>
+                        <li className="bullets">Dual activity of preservation and engagement</li>
+                        <li className="bullets">Important of creating opportunities for information to be meaningful (not just about having it and making it available)</li>
+                    </ul>
+                    <h2><b>Closing Discussion (1:30-2pm)</b></h2>
+                    <p className="no-bottom-padding"><b>Summary of Events</b></p>
+                    <p className="transcription-details no-top-padding">Closing thoughts with eye towards what might be next</p>
                     <p><b>Central Points of Discussion</b></p>
-                    <p>Importance of our sensing field and our trading of/in process (BM)</p>
-                    <p>Possibility of artist-initiated repository</p>
-                    <p>Relationship between documentarian and the work/the artist (EM)</p>
-                    <p>Possibilities for archiving from the “front end” (AH)</p>
-                    <p>Involvement of funders in gatherings as crucial (LS)</p>
-                    <p>Funding for creative documentation projects?</p>
-                    <p>Individual, dancer documentation</p>
+                    <ul>
+                        <li className="bullets">Importance of our sensing field and our trading of/in process (BM)</li>
+                        <li className="bullets">Possibility of artist-initiated repository</li>
+                        <li className="bullets">Relationship between documentarian and the work/the artist (EM)</li>
+                        <li className="bullets">Possibilities for archiving from the “front end” (AH)</li>
+                        <li className="bullets">Involvement of funders in gatherings as crucial (LS)</li>
+                        <li className="bullets">Funding for creative documentation projects?</li>
+                        <li className="bullets">Individual, dancer documentation</li>
+                    </ul>
                 </div>
             </section>
         </div>
