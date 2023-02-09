@@ -31,7 +31,7 @@ const CoriOlinghousePresentationNotes = (props) => {
             </div>
             <section className="flex column al-center">
                 <div>
-                    <p><b>Presentation 3:</b></p>
+                    <h2 className="black-border-bottom"><b>Presentation 3:</b></h2>
                     <ul>
                         <li className="bullets">Interdisciplinary artist. In 2017 developed The Portal, currently working on it, not yet online. Excited to be in a room with so many exciting thoughts about preservation to issues of representation and beyond. Thank you Bebe!</li>
                     </ul>

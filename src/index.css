@@ -181,6 +181,16 @@ li {
   padding-top: 5px;
 }
 
+.dashes {
+  list-style: square;
+  padding-top: 5px;
+}
+
+.decimal {
+  list-style: decimal;
+  padding-top: 5px;
+}
+
 .numbers {
   list-style: decimal;
   padding-top: 10px;
@@ -491,6 +501,11 @@ li {
   margin-bottom: 0;
 }
 
+.bottom-padding {
+  padding-bottom: 20px;
+}
+
+
 .top-padding {
   padding: 15vH 0 5vH 0;
 }
@@ -677,6 +692,11 @@ li {
 .black-border-bottom {
   border-bottom: 5px solid black;
 }
+
+.black-border-bottom-thin {
+  border-bottom: 2px solid black;
+}
+
 
 .black-border-u-shape {
   border-left: 2px solid black;
